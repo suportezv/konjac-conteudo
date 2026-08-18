@@ -10,7 +10,15 @@ HYPERFRAMES="$TOOLS_DIR/heygen-com/hyperframes"
 
 echo "== 1/5 ffmpeg =="
 if ! command -v ffmpeg >/dev/null; then
-  apt-get update -qq && apt-get install -y -qq ffmpeg fonts-liberation
+  # Cloud: proxy bloqueia apt (403); fallback para build estático BtbN via HTTPS.
+  if ! (apt-get update -qq && apt-get install -y -qq ffmpeg fonts-liberation); then
+    echo "apt bloqueado; baixando build estático BtbN"
+    curl -sL -o "$TOOLS_DIR/ffmpeg.tar.xz" \
+      "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz"
+    tar xf "$TOOLS_DIR/ffmpeg.tar.xz" -C "$TOOLS_DIR" && rm "$TOOLS_DIR/ffmpeg.tar.xz"
+    ln -sf "$TOOLS_DIR"/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg /usr/local/bin/ffmpeg
+    ln -sf "$TOOLS_DIR"/ffmpeg-master-latest-linux64-gpl/bin/ffprobe /usr/local/bin/ffprobe
+  fi
 fi
 ffmpeg -version | head -1
 
@@ -21,8 +29,13 @@ fi
 if git -C "$VIDEO_USE" apply --check "$REPO_ROOT/patches/video-use-is-portrait-source.patch" 2>/dev/null; then
   git -C "$VIDEO_USE" apply "$REPO_ROOT/patches/video-use-is-portrait-source.patch"
   echo "patch is_portrait_source aplicado"
+elif grep -q 'if f\]' "$VIDEO_USE/helpers/render.py" 2>/dev/null; then
+  echo "patch is_portrait_source: já aplicado"
+elif (cd "$VIDEO_USE" && patch -p1 --forward < "$REPO_ROOT/patches/video-use-is-portrait-source.patch"); then
+  # git apply falha quando o upstream desloca linhas; patch -p1 tolera offset.
+  echo "patch is_portrait_source aplicado (via patch -p1, com offset)"
 else
-  echo "patch is_portrait_source: já aplicado ou não aplicável (verifique manualmente)"
+  echo "patch is_portrait_source: não aplicável (verifique manualmente)"
 fi
 (cd "$VIDEO_USE" && uv sync) || (cd "$VIDEO_USE" && pip install -e .)
 mkdir -p ~/.claude/skills
@@ -32,7 +45,16 @@ echo "== 3/5 hyperframes + media-use =="
 if [ ! -d "$HYPERFRAMES/.git" ]; then
   GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/heygen-com/hyperframes "$HYPERFRAMES"
 fi
-npx --yes hyperframes skills update
+# No cloud o proxy pode barrar o manifest do GitHub e o comando falhar; os
+# symlinks abaixo cobrem o registro, então falha aqui não aborta o setup.
+npx --yes hyperframes skills update || echo "hyperframes skills update falhou (proxy/offline); registrando por symlink"
+mkdir -p ~/.claude/skills
+if [ -d "$HYPERFRAMES/skills" ] && ! ls ~/.claude/skills | grep -q hyperframes; then
+  for d in "$HYPERFRAMES"/skills/*/; do
+    ln -sfn "$d" ~/.claude/skills/"$(basename "$d")"
+  done
+  echo "skills do hyperframes registradas por symlink"
+fi
 
 echo "== 4/5 Python (PIL para overlays, numpy para batidas) =="
 python3 -c 'import PIL' 2>/dev/null || pip3 install pillow
