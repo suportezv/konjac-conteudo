@@ -1,0 +1,70 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 900,
+      "h": 620
+    },
+    {
+      "file": "Paleta.dc.html",
+      "x": 960,
+      "y": 0,
+      "w": 760,
+      "h": 900
+    },
+    {
+      "file": "Tipografia.dc.html",
+      "x": 1780,
+      "y": 0,
+      "w": 760,
+      "h": 900
+    },
+    {
+      "file": "LinhaBox.dc.html",
+      "x": 0,
+      "y": 960,
+      "w": 1180,
+      "h": 640
+    },
+    {
+      "file": "Claims.dc.html",
+      "x": 1240,
+      "y": 960,
+      "w": 760,
+      "h": 640
+    },
+    {
+      "file": "Narrativa.dc.html",
+      "x": 2060,
+      "y": 960,
+      "w": 760,
+      "h": 640
+    },
+    {
+      "file": "Pilares.dc.html",
+      "x": 0,
+      "y": 1660,
+      "w": 900,
+      "h": 660
+    },
+    {
+      "file": "Conversao.dc.html",
+      "x": 960,
+      "y": 1660,
+      "w": 760,
+      "h": 660
+    },
+    {
+      "file": "VozEdicao.dc.html",
+      "x": 1780,
+      "y": 1660,
+      "w": 900,
+      "h": 660
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
