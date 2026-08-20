@@ -36,9 +36,14 @@ Regra de edição: acento de lettering roxo `#812779` por padrão; em vídeo ded
 
 ### Tipografia e grafismos
 
-- Logo: lettering script manuscrito branco sobre blob orgânico roxo com onda menta. Não recriar o lettering; usar o arquivo (`logotipo-konjac-massa-mf.png` / vetor PDF nesta pasta).
-- Embalagem: sans condensada bold caps para claims, script para acentos ("Penne", "Noodles" em serif humanista bold).
+- Logo: lettering script manuscrito branco sobre blob orgânico roxo com onda menta. Texto 100% vetorizado (sem fonte embutida no PDF/AI); não recriar o lettering, usar o arquivo (`logotipo-konjac-massa-mf.png` / vetor PDF nesta pasta).
+- **Site (verificado em 2026-08-20, loja Shopify): fonte única `Inter`** (body 400 em 14px, headings 700; pesos carregados 400/500/600/700 do CDN da Shopify). Usar Inter para textos utilitários e caption cards quando quiser consistência com o site.
+- Embalagem: sans condensada bold caps para claims, script para acentos ("Penne", "Noodles" em serif humanista bold). Arquivos de fonte da embalagem não fornecidos.
 - Estúdio (lettering de vídeo): Helvetica Neue Condensed Black (Mac) / Liberation Sans Bold (Linux), caps branco com sombra dura, acento na cor definida acima. Grafismo de apoio recorrente da marca: raios/sparkles ao redor do "9" (usável como código visual do claim de 9 calorias).
+
+### Cores no site (verificado em 2026-08-20)
+
+Tema Shopify com neutros `#232323` (texto) sobre branco; acentos de marca aplicados por seção: roxo do site **`#7f2595`** (variações `#9a1f7e`, `#aa4f86`, `#861b6e`), menta `#8cdbd7`, **laranja de oferta `#fc9b30`** (destaques promocionais e preço). O roxo master do logo (`#812779`) continua canônico para o estúdio; o site usa variantes um pouco mais violetas. Posicionamento no og:description do site: "marca brasileira de alimentos funcionais: baixa caloria, zero carboidratos, fibras solúveis e linha proteica".
 
 ## 3. Produto e claims (verdade da embalagem; citar sempre exato)
 
