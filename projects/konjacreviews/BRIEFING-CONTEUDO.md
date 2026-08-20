@@ -1,0 +1,2034 @@
+# Konjac Reviews · briefing de conteúdo
+
+Conteúdo completo da página, item a item. **115 vídeos únicos**, 103 minutos de depoimento (1.73 horas), duração média de 54 segundos.
+
+## Como este briefing foi produzido
+
+Todos os 129 arquivos da pasta "Prova Social" do Drive foram baixados e assistidos. 120 tiveram o áudio transcrito integralmente (ElevenLabs Scribe, português). Os 9 sem narração (7 com trilha apenas e 2 sem faixa de áudio) foram analisados quadro a quadro, pela imagem e pelas legendas queimadas; esses estão marcados com `fonte: visual`. A comparação das transcrições revelou 14 arquivos duplicados, listados em cada item, restando **115 vídeos únicos** para a página.
+
+## Regras aplicadas em cada review
+
+- Adaptação fiel ao que a pessoa diz no vídeo. Nada foi inventado.
+- Primeira pessoa, porque é o depoimento dela, não a marca falando.
+- Sem travessão, sem nota em estrelas, sem nome de criador (autorização pendente).
+- Cupons de desconto citados nos vídeos foram omitidos, porque são individuais e podem expirar.
+- Claims mantidos como a pessoa fala. Quando alguém cita um número diferente do rótulo (por exemplo dezoito calorias no pacote de duzentas gramas, ou treze e meia calorias), o texto preserva a fala dela e a página exibe o claim oficial da marca no bloco de produto.
+
+## Campos de cada item
+
+`id` é o identificador do arquivo no Drive (também o nome do poster e do vídeo em produção). `titulo` é o `<h3>` do card. `review` é o texto visível abaixo do vídeo. `transcricao` alimenta o elemento colapsável e o campo `transcript` do VideoObject.
+
+---
+
+### 1. A comida preferida dela virou almoço de dieta
+
+- **id**: `1yOH6Xwg-2kbPniGbK-KX-H7ckD9Pjzoi`
+- **arquivo**: `85795.mov`
+- **duração**: 190s
+- **tags**: molho branco, dieta, sabor
+- **corte citado**: Fettuccine
+
+**Review (texto da página):**
+
+> Meu prato favorito é massa ao molho branco e achei que segunda-feira de dieta significava abrir mão dele. Fizemos um fettuccine ao molho branco usando o shirataki da Konjac, que é zero carboidrato, zero sódio, rico em fibras e tem nove calorias por cem gramas. Comi minha comida preferida sem extrapolar caloria e sabendo que posso repetir amanhã.
+
+<details><summary>Transcrição</summary>
+
+Hoje a gente vai gravar um quiz das irmãs. Simplesmente, vinte e um anos vivendo juntas, fazendo tudo juntas, criadas como uma pessoa só. Então vamos lá, se ela não me conhecer, gente, o negócio aqui é pouca vergonha. Pra quem não sabe, a gente tem um ano e onze dias de diferença, então assim, vamo lá. Ó, vai ser assim a regra: vai ser uma pergunta, primeiro a gente responde sobre mim, depois sobre ela, a gente conta um, dois, três e vai falar junto. É. Então vamos lá, vamos começar pela cor. Cor preferida. Vai. Qual é a minha cor preferida? Um, dois, três e... Azul. Azul. Ó! [risos] Eu jurei que eu ia errar, eu achei que era preto. Eu jurei que cê ia falar preto. Eu amo usar preto, mas assim, de cor, de pra tudo, eu prefiro azul. Tá. Agora é sua. Agora é a minha. A minha é muito fácil. Um, dois, três e... Rosa. Rosa. É, era fácil, sempre óbvio. Quando a gente era criança, tudo meu era azul, tudo da Lara era rosa. É, isso é verdade. Hã... Agora eu vou te fazer- Qual que era a segunda? Qual que era a segunda que a gente falou? Ah, o hobby preferido. O hobby. A gente só combina as perguntas, mas não sabe as respostas. É. Mas vamos lá, vamos começar pelo meu. Qual o meu hobby preferido? Um, dois, três e... Treinar. Um, dois, três e... Treinar. Ó, claro, né gente, todos os dias da minha vida. E eu odeio, gente. E ela não gosta. Eu vou- Quem é do time que odeia treinar, comenta aí, pelo amor de Deus. Agora o hobby preferido dela é, é óbvio, qualquer pessoa sabe responder. Um, dois, três e... Assistir série. Um, dois, três e... Assistir série. Gente, essa menina passa vinte e quatro horas por dia assistindo, ela faz todas as atividades do dia assistindo série. Em minha defesa, eu faço minhas atividades do dia assistindo série. Eu coloco minha série, vou ouvindo e vou fazendo minhas atividades. Eu não paro a minha vida pra assistir série. Ela não, ela não sossega enquanto ela não assistir uma série completa. Isso é verdade. Porque ela assiste uma série em dois dias, eu fico assim: "Quê?" Terceira pergunta, vamo lá. Comida favorita. Não sei se ela vai acertar. Vamo lá. Três, dois, um e... Japa. Pizza. Gente, japa. Faz um ano que ela come japa, gente, ela nem gostava de japa antes. Eu amo. Minha refeição livre favorita é japa, pra mim vale cada caloria. Uhum. Mas ó, em minha defesa, em minha defesa, quem faz dieta, tipo, a refeição livre vai depender muito do dia, então assim, eu gosto muito de pizza também, então foi parcial a resposta dela. Eu, eu acertei sim, metade. Parcial. Hoje, hoje em dia é japa. Agora eu quero ver se ela vai acertar a minha comida preferida. Muito fácil, muito fácil a comida preferida dela, até não pode falar disso. Tá. Um, dois, três e... Massa ao molho branco. Um, dois, três e... Massa ao molho branco. Gente, essa menina coloca queijo em absolutamente tudo na vida dela. Gente, eu amo massa ao molho branco. Inclusive, Gabi, já tá na hora do meu almoço. Por favor, vamos fazer. Ai, gente do céu, que que ela vai fazer? Ela não sabe fazer nada salgado, gente, essa cara tudo sou eu. Gente, o problema é que hoje é segunda-feira, a Nutri tá do meu lado, cês acham que ela deixa eu comer massa ao molho branco? Dieta, ninguém entende que tem que fazer dieta? Ah, não, mas hoje é segunda-feira, me deu uma vontade de comer massa ao molho branco. Já sei. O quê? Vamo fazer um fettuccine ao molho branco no padrão? [risos] Sim! [estalo de dedos] Bora. E claro que o padrão da Nutri tem que ser algo que eu consiga encaixar na dieta baixo em calorias, rico em fibras e com certeza o shirataki da Konjac é a melhor opção. O shirataki da Konjac é zero carboidratos, zero sódio, rico em fibras e com apenas nove calorias na porção de cem gramas. E o melhor, superprático, já vem pronto pra consumo. Você só precisa lavar, colocar no molho de sua preferência, a receita do molho branco light tá aqui na descrição, e acrescentar uma proteína. Tá pronto o seu almoço. Padrão dieta da Nutri. Tinha, querida, sua comida preferida dentro da dieta, sem extrapolar nas calorias, que você pode comer todo dia, tá? Cê tá brincando que eu posso comer isso aqui todos os dias. Essa massa da Konjac é maravilhosa, tem só nove calorias na porção, ou seja, tudo isso aí que você vai comer, tem só nove calorias, mais um pouquinho das calorias do molho e proteína do frango. Claro que a gente não pode deixar de lado. Eu não acredito nisso. Eu tô no céu! Nossa! Assim é fácil manter a dieta todos os dias. Eu preciso comer isso todos os dias. É muito bom. Então chega de sofrer na hora de fazer dieta, né? E pra melhorar, vocês têm o cupom GABINUTRI# no site da Konjac. Beijos. Eu amei isso daqui, vai salvar minha dieta.
+
+</details>
+
+### 2. Molho de ricota com salmão e a massa quase não conta caloria
+
+- **id**: `1yPffZ89e9Q_HoVbrE127FTC0Qot2U_an`
+- **arquivo**: `17.mp4`
+- **duração**: 140s
+- **tags**: receita, molho branco, baixa caloria
+
+**Review (texto da página):**
+
+> Queria uma receita de verão que fosse baixa em caloria sem virar comida triste. Usei o konjac, que é basicamente fibra, tem nove calorias e não tem carboidrato, com creme de ricota light, parmesão, salmão e raspas de limão siciliano. Parece molho branco pesado e não é, ficou saboroso do jeito que eu gosto.
+
+<details><summary>Transcrição</summary>
+
+Receitinha pro nosso projeto verão perfeita, baixíssima em caloria e o segredo dela é o konjac massa. Divas, isso daqui é feito basicamente de fibras, ele tem apenas nove calorias e pasmem, não tem carboidrato. Vem ver a receita que a gente vai mostrar os ingredientes pra vocês. A gente vai fazer um molhinho mais fit com ricota, essa é light, queijo parmesão ralado, manteiga, como proteína, é, salmão. A gente vai colocar limão siciliano pra ficar com aquele toque especial. Então vamo pra receita. Vou temperar o nosso salmão com sal, pimenta e páprica e vamos colocar na airfryer. Primeiro passo pra preparar, abrir a embalagem, vai colocar num escorredor e lavar ele. Eu e a Fê gostamos com bastante gosto de manteiga, então a gente vai colocar quantidade generosa, mas cê pode pôr menos se quiser. E a dica pro nosso molho é usar creme de ricota light, que é baixíssimo em caloria, e vou pôr o pote inteiro. Temperar com sal, pimenta, pinga o parmesão. Gente, tá parecendo muito molho branco e é só ricota e manteiga. A gente vai deixar fervendo ali um pouquinho enquanto a gente raspa o limão pra pegar essa casquinha pra deixar super saborosa. É de colocar nossa massa e agora a gente vai misturar bem pro molho incorporar. Limão, um pouquinho do suco também, a gente raspou e agora colocar um pouquinho do suco. Divas, etapa final, ele tá fervendo aqui faz uns cinco minutos. A gente ajustou temperos, colocou páprica, mais pimenta e mais sal e mais parmesão e ele tá super cremoso, olha aqui. Nosso salmão ficou pronto e agora olhem a cremosidade, que delícia. Esse foi o resultado da nossa receitinha, tá com um cheiro super gostoso e mega cremoso. E fizemos uma receitinha bem gostosa, mas você ainda pode adaptar ela e deixar menos calórica ainda, diluindo mais o creme de ricota com água. Mas a gente tá louca pra provar e essa é uma opção de jantar muito legal porque ela é low carb e perfeita. Hora do veredito, a Fê vai provar cem por cento sincera. Muito bom, tá? Nota dez de dez. Muito top. Hora da verdade, a gente vai provar juntas. Estou curiosa. Gente, o molho ficou muito gostoso e a massa engana muito bem. Eu tava com um pouco de receio da textura, mas ela é maravilhosa, engana muito bem e essa receitinha ficou dez de dez. Façam aí. Beijos.
+
+</details>
+
+### 3. Um quilo que rende dez porções e fica pronto em dois minutos
+
+- **id**: `1tRhm0noO5BsEvzlvb0X8vwPu-jXqv7La`
+- **arquivo**: `4455454.mp4`
+- **duração**: 129s
+- **tags**: preparo, rendimento, molho de tomate
+
+**Review (texto da página):**
+
+> Testei o shirataki da Konjac na embalagem nova de um quilo, que rende até dez porções. São nove calorias por cem gramas, sem glúten, sem açúcar, sem gordura e fonte de fibras. Descartei a água, lavei por quinze segundos e estava pronta, então fiz um molho de tomate assado com creme de ricota e manjericão que combinou perfeitamente.
+
+<details><summary>Transcrição</summary>
+
+Vem que hoje eu vou te ajudar a preparar o shirataki da Konjac Massa. Vamos começar com o nosso molho. Cortei o tomate sweet e levei pra assadeira, temperado com sal de parrilla e bastante azeite. Os-- coloquei na airfryer por cerca de dez minutos a duzentos graus. Enquanto isso nós vamos preparar a nossa massa da Konjac Massa, que é supersimples. Além de ter apenas nove calorias por cem gramas, agora na embalagem de um quilo, não contém glúten, açúcar, gordura e além de ser fonte de fibras. Pronta em apenas dois minutos, esse pacote de um quilo rende até dez porções. Além de ajudar a controlar o consumo de-- calórico diário. Olha que maravilha. Ela-- abra essa embalagem, nós vamos dispensar essa água que vem nela e é só lavar por cerca de quinze segundos e tá pronta. Nossa, muito fácil. Vou deixar escorrendo e vou voltar pro nosso molho. Com meu tomate já assado, eu vou colocar duas colheres de sopa bem cheia de creme de ricota, bastante manjericão fresco, é, cebola, queijo parmesão ralado, azeite e sal. Depois eu vou usar o mixer ou bater no liquidificador, o que for melhor pra você. Já deixo reservado. Com a frigideira aquecida, eu vou usar a nossa pastinha do método ACS e deixar bem fritinho. Depois eu volto com o meu molho. Gente, cês não têm noção do cheiro que esse molho está. Perfeito com a Konjac Massa. Coloco a massa, que já deixei escorrendo, e vou agregar todo o sabor à massa da Konjac Massa. Quanto maior o tempo de contato com o molho, mais saborosa fica a massa. E olha que legal, o cozimento prolongado não altera a textura da Konjac Massa. Perfeita. Finalizei com manjericão fresco, um pouquinho de queijo parmesão ralado e pimenta do reino. Deixei tampando pra agregar todo o sabor. Olha a textura, só com Konjac Massa
+
+</details>
+
+### 4. Prato inteiro de camarão com cento e trinta calorias
+
+- **id**: `10Gnug-2vv5CzLNwKFUtIC1TAVCLc_wm1`
+- **arquivo**: `10.MOV`
+- **duração**: 128s
+- **tags**: camarão, formato arroz, densidade calórica
+- **corte citado**: Arroz
+
+**Review (texto da página):**
+
+> Montei um prato completo de camarão com molho de tomate e o total ficou em cento e trinta calorias. O segredo foi usar a massa de fibra da Konjac no formato arroz, que praticamente não soma caloria porque fibra não é digerida como carboidrato. Consegui volume de verdade no prato sem estourar o meu dia.
+
+<details><summary>Transcrição</summary>
+
+Se eu te falar que esse prato inteiro tem apenas cento e trinta calorias, você acredita? Em uma frigideira eu dei quatro borrifadas de azeite só pra dar aquela untada e vim com cento e trinta gramas de camarão já limpo. O camarão é pouquíssimo calórico, mas ele também não é muito proteico. Em cem gramas de camarão cru, tem apenas quarenta e sete calorias e dez gramas de proteína. O segredo é deixar em fogo alto pra não acumular muita água, então já passei pra trás e fui fazendo a segunda parte desse prato. Vem com um pouquinho de cebola pra refogar com bem pouquinho azeite, tá? O azeite faz toda diferença pra quem tá em processo de emagrecimento. Por isso é tão importante ter esse dosador, ajuda muito. Vocês sabem que o camarão é super rápido, né? Então quando aquela água secou, eu já fui virar tudinho e já desliguei a frigideira. Acrescentei tomate pra refogar junto e dar um gostinho a mais e pra completar ainda vim com passata de tomate, mas o molho também daria certo. Acrescentei um pouquinho de água pra esse molho ficar mais líquido e incorporar tudo melhor. Agora, o segredo pra um prato baixo em calorias tá nisso aqui: massa alimentícia de fibra da Konjac, que eu utilizei essa que é tipo arroz. Nesse pacote inteiro tem simplesmente dezoito calorias, ou seja, nada. Gabi, mas como assim tem apenas dezoito calorias? Pra quem não conhece, Konjac massa é uma fibra e fibra não tem calorias, até porque é um produto feito à base da planta Konjac. No rótulo vem as instruções de preparo e uma delas é você lavar muito bem em água corrente. E como é um produto que já vem pronto, basta você acrescentar no seu molho, dá uma mexidinha, uma esquentadinha por aproximadamente três minutinhos e já tá pronto. Nessa hora é muito bom você acertar o alho, temperinho, tempera a gosto do jeito que você quiser, porque sinceramente não tem gosto de absolutamente nada. O gosto que vai pegar é literalmente do molho que você tá preparando. Eu acrescentei vinte gramas de creme de ricota light e vim com uma parte dos camarões pra finalizar ele na frigideira. Konjac é uma ótima opção pra aqueles dias que você sabe que vai exagerar em outro horário. Você consegue manter a sua saciedade com um prato volumoso sem acrescentar muitas calorias, economizando pra aquele momento que você vai dar uma deslizadinha. Eu finalizei com oito gramas de queijo parmesão porque eu não sou boba nem nada e olha a perfeição disso aqui. Sério, tô com água na boca só de narrar esse vídeo. Lembrando que vocês têm cupom GABINUTRI hashtag no site oficial da Konjac e não esquece de me seguir aqui se você gostou da receitinha. Beijos.
+
+</details>
+
+### 5. A troca que uso de duas a três vezes por semana
+
+- **id**: `1KVPcZzhkTMMfK5pbcYeomsiSS9Mt3EaW`
+- **arquivo**: `4e5af9ab-8096-44f6-bd0a-b0454c4d6225.mp4`
+- **duração**: 127s
+- **tags**: estratégia, jantar, saciedade
+
+**Review (texto da página):**
+
+> Oriento substituir o carboidrato de uma refeição por uma opção menos calórica algumas vezes na semana, e a konjac entra bem nesse lugar. É uma massa de fibra com nove calorias por cem gramas, então dá para montar um jantar especial sem peso. Funciona porque aumenta o volume do prato e a saciedade, e não porque corta comida.
+
+<details><summary>Transcrição</summary>
+
+Talvez tu não esteja satisfeita só com uma dieta de emagrecimento pro final do ano, então eu vou te ajudar a dar uma acelerada neste processo com duas dicas, uma pra te fazer todos os dias e uma pra te fazer de duas a três vezes por semana. Todos os dias, tu vai misturar vegetais nos teus carboidratos. Então no teu arroz, na tua batata, se tu for comer massa, tu vai misturar vegetais. Então vai ser um arroz colorido, por exemplo, com cenoura, ou vai ser uma batata refogada com cenoura também, com brócolis, com abobrinha. Então tu vai aumentar o volume do teu prato, tu vai colocar mais fibras que vai te ajudar na saciedade e tu vai diminuir significativamente as tuas calorias, além de ser muito saudável. Tem outra coisa que tu vai fazer de duas a três vezes por semana, que é substituir o carboidrato de alguma refeição por alguma opção menos calórica ou zero calorias. E a gente considera zero calorias, por exemplo, vegetais. Então tu pode substituir o carboidrato do jantar, por exemplo, por um purê de moranga ou simplesmente por um prato de refogado ou um creme de vegetais, uma salada. Claro que isso não vai te saciar sozinho, então tu vai ter que ter uma fonte de proteína. E se tu quiser dar um up nesse jantar e fazer uma coisa especial, tu vai fazer isso aqui: konjac massas. É uma massa de fibra, ela basicamente não tem calorias, é nove calorias por cem gramas. Nesse caso, tu faz um molho de tomate, porque molho de tomate, tomate é vegetais, também zero calorias. Ela vem pronta pra comer, é só dar uma lavada, esquentar com o molho que tu quiser. E assim, apesar de eu ter uma caixa grande de espaguete, tu pode pegar esses pacotinhos e provar todos os sabores e ver o que que tu prefere antes de comprar essa caixa grandona. Mas eu tenho certeza que uma massa sem caloria, sem sódio, sem carboidrato, vai te ajudar nesse final de ano a dar uma reduzida nas calorias, sem sentir tanto, porque daí tu não vai estar diminuindo o volume do teu prato, e sim, aumentando. Isso serve também pros dias que tu tá com muita fome e a quantidade da dieta parece muito pouco. Tu pode fazer uma konjac pra complementar, porque isso aqui é zero calorias, se tu quiser comer o tempo todo, tá tudo certo. Só não recomendo fazer isso todos os dias, porque isso pode sim aumentar tua fome se tu baixar demais essas calorias. E daí pode ficar insustentável até o final do ano. E se tu quiser facilitar tua vida comendo konjac, vai no site e compra com o meu cupom DANIELABOEIRA hashtag, eu tenho certeza que isso vai ajudar. Me segue pra mais dicas de emagrecimento.
+
+</details>
+
+### 6. Serve para quem está começando a dieta e para quem já vive nela
+
+- **id**: `1r_hJscT7OPzcAwF8MONQ2dDqdtVY07x1`
+- **arquivo**: `dfudsuh839.mp4`
+- **duração**: 124s
+- **tags**: camarão, primeira vez, sabor
+
+**Review (texto da página):**
+
+> Faço dieta há bastante tempo e a massa konjac virou uma das minhas opções favoritas. São nove calorias por cem gramas, com fibra, sem sódio, sem lactose, sem açúcar e sem carboidrato. Fiz com camarão e molho, experimentei na hora e ficou muito gostoso, do tipo que a gente come sem peso na consciência.
+
+<details><summary>Transcrição</summary>
+
+[música alegre] Tchuss, tchuss! Eu tenho uma ótima opção pra quem vai começar a dieta e quem já faz dieta há bastante tempo, igual a mim. Gente, essa opção aqui vocês vão amar. Vou apresentar pra vocês a massa konjac, que sim, detalhe muito importante, vem cá: só tem nove calorias. Temos duas coisas muito importantes sobre a konjac, que além de várias massas, né, que eles trabalham, temos nove calorias por cem gramas e quatro gramas de fibra. Isso é perfeito pra quem tá começando a dieta ou pra quem já faz dieta igual a mim. Gente, não contém sódio, não contém lactose, não contém açúcar e não contém carboidrato. Tem coisa melhor? Você pode se deliciar com essas delícias aqui e ficar dentro da dieta. Eu vou fazer com vocês. Vem comigo pra você ver como vai ficar uma delícia. [música alegre] Ó, eu até tentei fazer igual a foto, ó. Talvez ficou parecido? Talvez, eu não sei. Qual é a nota que cês vão me dar pra essa delícia aqui que eu fiz com camarão? Gente, vamo experimentar? Eu não experimentei ainda. Não experimentei. [música alegre] Hmm. Ficou muito gostoso. Sabe que você vai comer sem peso na consciência, porque você sabe que cê tá comendo muito bem. Olha, gente, muito bom. Muito bom, eu fiz o molho, camarãozinho. Olha que delícia! [música alegre]
+
+</details>
+
+### 7. Bolonhesa tradicional feita com shirataki
+
+- **id**: `1MiDwMkHsRv9Nu5D8cuhmKtT1ZYsyf19R`
+- **arquivo**: `fubfu8h38.mov`
+- **duração**: 118s
+- **tags**: bolonhesa, preparo, volume
+
+**Review (texto da página):**
+
+> Estava doida para testar o shirataki da Konjac e fiz o espaguete à bolonhesa de sempre. O preparo é lavar por quinze segundos e adicionar ao molho, e quanto mais tempo em contato com os ingredientes, mais saborosa a massa fica. Como ela não é fonte de carboidrato, o prato ganha volume e ainda sobra espaço para outro carboidrato na refeição, se você quiser.
+
+<details><summary>Transcrição</summary>
+
+Gente, chegou aqui em casa um negócio que eu tava simplesmente doida pra testar. O nome disso aqui é Shirataki, da Konjac Massa, e é tipo uma massa, só que ela é feita de fibra, ou seja, ela é alta em fibras e baixa em calorias. Cada porção tem, tipo, nove calorias, ou seja, esse pacote todo tem dezoito calorias. E tem vários tipos, essa aqui é fettuccine, é pappardelle, noodle, tem espaguete. E a gente vai testar. Bora fazer o tradicional espaguete à bolonhesa, só que com shirataki. Pra fazer, a gente só precisa lavar a massa por quinze segundos em água corrente, e aí depois adicionar ela no molho e esquentar pelo tempo desejado. E quanto maior o tempo de contato com os ingredientes, mais saborosa fica a massa. Isso aqui é bem importante pra deixar ela gostosa. Enfim, bora fazer. [música alegre] [água corrente] E uma coisa interessante é que esse produto ele não é fonte de carboidrato, então a massa que tu vai comer não é tua fonte de carboidrato. Isso aqui vai dar volume pra tua refeição. Então tranquilamente tu pode adicionar alguma fonte de carboidrato a essa refeição. Então pra galera que quer emagrecer e gosta de fazer refeições mais volumosas, isso aqui vale muito a pena. Ó, carne moída pronta. Na correria, eu uso tomate pelado mesmo. Eu boto uma lata dessas aqui e eu completo com mais ou menos metade dessa mesma lata de água. Vou fechar e deixar cozinhando mais um pouco. Ó, ela vem nesse saquinho. Botei metade daquele molho aqui nessa frigideira e vou passar a massa toda pra cá. Vou mexer um pouco pra incorporar e vou deixar ela cozinhando um pouquinho junto com esse molho. E um queijinho por cima e bora provar isso aqui. A cara tá boa. Sensacional! Nossa! Muito bom. O segredo com certeza tava em fazer um bom molho, porque a massa é que nem uma massa tradicional, ela é bem coringa, então quem adiciona o sabor é tu. [música alegre]
+
+</details>
+
+### 8. Provei sem tempero nenhum para testar de verdade
+
+- **id**: `1MPxKLWiCTFP9Is92uSbGe1ARWf2FSW1C`
+- **arquivo**: `5.mp4`
+- **duração**: 107s
+- **tags**: sabor neutro, teste, molho
+
+**Review (texto da página):**
+
+> Se é para testar, testo direito, então provei o shirataki puro antes de qualquer molho e confirmei que ele não tem gosto de nada. É exatamente por isso que o molho decide o prato, e o meu levou cebola, tomate, extrato e carne desfiada. O pratão inteiro ficou com menos de duzentas e vinte calorias e o sabor veio todo do molho caprichado.
+
+<details><summary>Transcrição</summary>
+
+E se eu te dissesse que esse pratão tem menos de duzentos e vinte calorias? E hoje nós vamos testar juntos o shirataki da Konjac Massas, que era algo que eu tinha muita curiosidade. Pra começar, o shirataki, ele é produzido a partir da fibra de uma planta, fazendo com que ele tenha uma baixa densidade calórica. E é uma massa muito consumida na culinária asiática. Só que por ter uma baixa densidade calórica, ele pode, sim, se tornar um aliado no processo de emagrecimento. E hoje eu vou falar um pouquinho mais sobre isso com vocês. Antes de qualquer coisa, se é pra testar, a gente vai testar direito. Eu provei ele sem tempero nenhum e já notei que ele não tem gosto de nada. Então o molho que realmente vai dar sabor. Eu vou deixar as quantidades especificadas ali na legenda, mas eu grelhei bem a cebola, coloquei um tomate, adicionei uma pitadinha de sal, mexi. Então eu já entrei com extrato de tomate e um pouco de água. Deixei esse molho incorporar um pouco, então... Coloquei uma carne desfiada que eu fiz essa semana que ficou simplesmente perfeita. Eu já deixei porcionada no freezer. Mais um pouquinho de água e vocês não têm noção do que ficou esse molho. Absolutamente tudo que a gente colocasse com ele ficaria bom. E o segredo, assim como eu falei pra vocês, é caprichar muito no molho. Porque por ser uma massa neutra, se você fizer um molho xoxoca penga, a massa vai ficar xoxoca penga também. Então eu já entrei com a massa e deixei ela incorporar muito esse sabor. E então vamos ter uma refeição com alto volume e uma baixa densidade calórica. Então dentro da realidade, dos objetivos e individualidade de cada um, o shirataki pode, sim, se tornar um aliado no processo de emagrecimento. E por mais que ele seja uma proposta que não contenha carboidratos, eu não estou falando que você não pode comer carboidrato ou que você não pode comer o macarrão normal. Inclusive, uma estratégia que eu acho muito interessante e que eu serei adepta, é complementar o macarrão normal com o shirataki, fazendo com que a gente tenha uma refeição mais volumosa e que nos traga mais saciedade. Agora vamos às considerações finais. Confesso que eu sempre tive muita curiosidade de provar. E eu simplesmente amei. Agora eu me pergunto por que que eu não tinha provado isso antes. Porque tudo aquilo que tenha baixa densidade calórica é bem-vindo por aqui
+
+</details>
+
+### 9. Yakisoba fit com frango e legumes
+
+- **id**: `1htlWi54VtywN5os9mi-oJ-cCcPg6UmKO`
+- **arquivo**: `07ebfc22-ddce-4e9e-8352-bf51225972af.mp4`
+- **duração**: 98s
+- **tags**: yakisoba, frango, legumes
+
+**Review (texto da página):**
+
+> Achava que dieta era prato pequeno e sem sabor, e esse yakisoba provou o contrário. Usei a massa da Konjac, feita de uma fibra chamada glucomanano, com nove calorias em cem gramas, zero carboidrato, açúcar, sódio e gordura, e sem glúten. Refoguei frango, cenoura, repolho e brócolis com shoyu light e o prato ficou enorme.
+
+<details><summary>Transcrição</summary>
+
+Amiga, se você tá em processo de emagrecimento e acha que a sua dieta tem que ser sem sabor e pouco volume, você tá enganada. Até porque escolhendo os ingredientes certos, você pode comer isso tudo aqui sem sair da dieta. E ó, o ingrediente principal desse prato tem apenas nove calorias. Bora comigo aprender como fazer? E para o prato de hoje, o escolhido foi o yakisoba fit. Vamos começar refogando um pouquinho de alho e cebola. Depois vou acrescentar peito de frango em cubos e refogar com tempero a gosto. Aqui eu usei lemon pepper, sal e um pouquinho de chimichurri. Depois de bem refogado e dourado, você vai acrescentar os vegetais. E aqui eu estou usando um pouquinho de cenoura ralada, repolho e brócolis. Misture bem todos os ingredientes e acrescente duzentos ml de água. E para dar um pouquinho mais de sabor, estou acrescentando também o molho shoyu light. Agora é só tampar e deixar os vegetais refogando em fogo baixo. E para essa receita eu estou utilizando essa massa da marca Konjac. A massa é feita através de uma fibra chamada glucomanan, tendo apenas nove calorias em cem gramas. Ela é perfeita pra quem busca uma alimentação saudável e baixa em calorias, pois ela é zero carbo, zero açúcar, zero sódio, zero gordura e sem glúten. Essa massa é superfácil de preparar, até porque ela vem praticamente pronta. Basta apenas lavar a massa em água corrente por quinze segundos e prontinho. Isso facilita demais na rotina, né? Agora basta incluir a massa junto com os outros ingredientes e deixar a massa cozinhando por alguns minutinhos para pegar mais sabor do molho. Prontinho! E assim fica o nosso prato. Rico em fibras, baixíssimo em calorias. E o melhor, com aquele volume que vai dar muita saciedade. Lá no site da Konjac você encontra dez tipos de massas perfeitas para fazer várias receitas de sua preferência. E você tá esperando o quê pra garantir a sua? Ah, e aproveita e já usa o nosso cupom de desconto. Beijos!
+
+</details>
+
+### 10. O que uso entre uma festa e outra no fim de ano
+
+- **id**: `1ZRq54DfUEv30YyGHK5Y7-YhmoPj7hqHK`
+- **arquivo**: `528c4fc5-844e-444b-b181-ed2e2600f313.mp4`
+- **duração**: 88s
+- **tags**: fim de ano, estratégia, saciedade
+
+**Review (texto da página):**
+
+> Nas festas eu não fujo, eu contenho danos com decisões estratégicas, e nos dias entre uma e outra escolho refeições leves e saciantes. As massas da Konjac ajudam muito nessa fase porque quase não têm caloria, são ricas em fibra e seguram bem a fome. É simples, estratégico e não exige terrorismo nem abrir mão de participar.
+
+<details><summary>Transcrição</summary>
+
+Final de ano chegou e junto com ele aquele combo: confraternizações, comida, bebida, sobremesa, panetone, tudo no mesmo dia, né? Mas olha, você não precisa escolher entre aproveitar ou manter sua rotina saudável. O segredo não é fugir das festas, é conter danos com pequenas decisões estratégicas. Então anota aí: almoçar ou fazer todas as suas refeições da dieta bem antes das festas pra não chegar lá morrendo de fome, manter proteína e fibra nas refeições do dia, hidratar-se bem, porque a gente sabe que beber pouca água aumenta a sua fome, e equilibrar os dias mais pesados com refeições mais leves nos intervalos. Eu mesma faço isso e oriento meus pacientes a fazerem também. Nos dias entre uma festa e outra, eu escolho refeições bem leves, com bastante saciedade, pra ajudar a equilibrar o jogo sem aquela sensação de peso e exagero. E uma coisa que ajuda muito nessa fase e que eu gosto de usar e abusar, são as massas da Konjac Massas. Pra quem não sabe, tem apenas nove calorias em cem gramas. As massas da Konjac quase não têm caloria, é rica em fibra, supersaciante e ajuda demais a manter a rotina entre as festas, sem culpa, sem terrorismo e sem deixar de participar. Simples e estratégico. Lembrando que comprando pelo site você ainda consegue desconto usando o meu cupom que tá aqui na legenda. Aproveita que ainda dá tempo e faz a sua. [som de embalagem plástica]
+
+</details>
+
+### 11. Levei para a praia e fiz camarão ao molho branco
+
+- **id**: `1jf1UFWxGU4TuFJNC5f5ubKvAeWbVbZcx`
+- **arquivo**: `IMG_4100.mov`
+- **duração**: 87s
+- **tags**: camarão, molho branco, férias
+
+**Review (texto da página):**
+
+> Estava de férias na praia e quis um prato leve que combinasse com o mar, então fiz camarão temperado com alho, lemon pepper e limão. A massa Konjac é rica em fibras, tem nove calorias por porção, não tem carboidrato nem sódio e é zero lactose. Ficou cremosa, com raspas de limão no final, e sem aquele peso depois.
+
+<details><summary>Transcrição</summary>
+
+Você não imagina o que eu fiz com essa massa aqui na praia. Leve, cremosa e cheia de sabor, então espere pra ver até o final. Mas antes de eu explicar, deixa eu mostrar esse kit que eu usei aqui, a massa Konjac. Zero carbo, super leve, perfeita pra quem quer comer bem sem peso depois. Eu temperei o camarão com alho, lemon pepper, páprica, limão e sal. E como eu tô na praia, de férias, nada combina mais com o mar do que um camarãozinho, né? E olha só porque a Konjac Massa é diferente. Ela é riquíssima em fibras e tem apenas nove calorias por porção. Não tem carboidrato, não tem sódio e zero lactose. Ou seja, uma opção leve e que dá a sensação de saciedade, sem glúten e perfeita pra quem busca um estilo de vida mais saudável. E agora vamos continuar com essa receita. Com um fio de azeite você consegue fritar o camarão. A massa ela já vem pronta, é só você passar em água corrente e prontíssima. E o molho branco eu usei creme de leite e requeijão sem lactose. E você pode finalizar com um pouco mais de tempero. Eu usei a pimenta preta. E olha como esse creme fica gostoso, leve e muito saboroso. Coloquei o molho depois, já que ele tava bem quentinho e separei alguns camarões para a finalização do prato. E o melhor, coloquei raspa de limão pra deixar aquele toque de frescor e muito sabor no seu prato. Aquela raspinha que dá aquele toque cítrico especial. Gente, ficou simplesmente sensacional. E pra vocês que amaram essa receita, o meu cupom tá aqui. Ele garante um desconto muito especial. Aproveita e me marca quando fizer aí também, viu?
+
+</details>
+
+### 12. A hora da verdade com meu marido na cozinha
+
+- **id**: `10jdJdDcQ263d0SKkDnThoQrKJeehE_MD`
+- **arquivo**: `638f9fb5-e17f-49a3-b273-baafcbf65bf2.mp4`
+- **duração**: 85s
+- **tags**: teste, aprovação, bolonhesa
+- **duplicatas na pasta**: `16.mp4`
+
+**Review (texto da página):**
+
+> Duvidei que uma massa com nove calorias por cem gramas pudesse ser gostosa, então fiz um molho de carne bem temperado e provamos juntos. Aprovado por mim e pelo meu marido, e o melhor foi perceber que posso comer o dobro do que costumo comer de macarrão. Sem carboidrato, sem glúten, sem gordura, sem açúcar e sem sódio, é fonte de fibra.
+
+<details><summary>Transcrição</summary>
+
+Dá pra acreditar que em cem gramas dessa massa tem apenas nove calorias? Sem carboidrato, sem glúten, sem gordura, sem açúcar, sem sódio, fonte de fibra e nove calorias em cem gramas. Se isso aqui for gostoso, hoje é o dia mais feliz da minha vida, tá? Pelo que eu entendi, a massa já vem pronta, então a gente só precisa preparar um molhinho. Não vou inventar muito, vou fazer o básico que a gente sempre faz. Começar refogando cebola e alho. Aí agora eu já vou colocar a carne aqui pra ir refogando junto com essas coisinhas, porque eu acho que fica mais saboroso. O pimentão, de tempero seco, sal, páprica defumada. Aí eu gosto de deixar a carne pegar um pouquinho no fundo da panela, porque dá upzinho, fica mais gostoso. A passata, pode ser molho de tomate também, fica uma delícia. Um pouquinho de água. Aí pra finalizar, temperinho verde, porque eu sou baiana, né? Se não tiver, não, não funciona. Chegou a hora da nossa estrela brilhar, tá? Lavei a massa por quinze segundos e agora ela entra no molho. Olha aqui. Ó, hora da verdade, hein? Deixa eu ver também. [rufar de tambores] É bom! [risos] É bom? Uhum. Cara, só o fato de eu poder comer o dobro do que eu como geralmente de macarrão. O dobro? Uhum, só tem nove calorias em cem gramas. Aprovado. Eu fiz pro meu maridinho também. Aprovado, meu amor? Muito, muito bom.
+
+</details>
+
+### 13. Para quem ama pratão e está em emagrecimento
+
+- **id**: `1kjx_hjQXBIqBKTQIJ3d0bz8UWi7WCUY2`
+- **arquivo**: `76ef929d-1abd-43a3-acf8-68e899a7adbe.mp4`
+- **duração**: 83s
+- **tags**: volume, densidade calórica, carne moída
+
+**Review (texto da página):**
+
+> Uma das maiores queixas de quem emagrece é ter que reduzir a quantidade, e eu também sou de pratão. Trabalho com alimentos de baixa densidade calórica e alto volume, e a konjac massa entra como estrela: fibra solúvel, praticamente zero carboidrato, sem glúten e nove calorias em cem gramas. Escorri a água e montei um prato enorme com carne moída, tomate, abobrinha e rúcula.
+
+<details><summary>Transcrição</summary>
+
+Uma das maiores queixas de quem está no processo de emagrecimento é ter que conter as quantidades de comida, principalmente aquelas pessoas que amam um pratão bem servido. Super entendo, porque eu também sou dessas. Então presta atenção nesse vídeo que eu vou te mostrar como eu faço um pratão enorme, supersaporoso, com ingredientes estratégicos e que parece calórico, mas não é. Quem me acompanha sabe que aqui a gente não trabalha com radicalismo. A gente usa estratégia, alimento de baixa densidade calórica, alto volume, fibras, pra você comer muito mais, com muito menos calorias. Pra isso daqui eu vou usar tomate, abobrinha e rúcula, que vão acrescentar praticamente zero calorias a essa receita. E a nossa proteína vai ser cento e vinte gramas de carne moída, que estava guardada, congelada, em formato de hambúrguer. Eu descongelei, despedacei novamente pra ficar mais fácil aqui na receita. Depois de misturar tudo e temperar do jeitinho que eu gosto, acrescentei cinquenta gramas de passata de tomate pra deixar o nosso molho ainda mais molhadinho, sabe? Fica uma delícia! Mas a nossa estrela de hoje é a nossa konjac massa. Feita de fibra solúvel, o que faz dela superleve, praticamente zero carboidrato, zero gordura, sem glúten, baixíssimo em calorias. Cem gramas dessa massinha a gente tem nove calorias. Dá pra acreditar? Além de ser muito prático, basicamente escorri a água e coloquei no molho. Agora olha o tamanho desse prato. Isso daqui ficou com menos de duzentas calorias, mais de vinte gramas de proteína e rico em fibras. Enche os olhos, sacia e não pesa na sua dieta. Finalizei com queijinho. Agora só falta você me seguir pra aprender a comer mais com menos culpa. Nosso cupom tá na legenda. Beiju!
+
+</details>
+
+### 14. Diabetes tipo 1 há treze anos e sem impacto na glicemia
+
+- **id**: `1YXotdfn1OrjdCk44s1cObQSuiAru_KRF`
+- **arquivo**: `00999057-7023-4c8e-b083-a791bcc3b608.mp4`
+- **duração**: 83s
+- **tags**: diabetes, glicemia, sabor
+
+**Review (texto da página):**
+
+> Convivo com diabetes tipo 1 há treze anos e sempre precisei adaptar minhas escolhas, ainda mais no fim do ano. As massas da Konjac entraram como alternativa inteligente: zero carboidrato, zero sódio, nove calorias e ricas em fibra. Achei que ficaria sem gosto e me surpreendi, porque como o cozimento é no próprio molho ela fica saborosa, e para mim é prazeroso e sem impacto na glicemia.
+
+<details><summary>Transcrição</summary>
+
+Se você ama comer, mas não ama contar carboidrato, calorias, nem arrependimentos, esse vídeo é pra você. Oizinhos, eu sou a Risa e eu tenho diabetes tipo um, há treze anos. Final do ano tá chegando, as festas começam, o consumo aumenta, e aí a gente já imagina aquele desastre na glicemia e na balança. Como diabética, eu sempre precisei adaptar as minhas escolhas, ainda mais essa época do ano. Aprendi que não é sobre cortar tudo, mas encontrar alternativas inteligentes que façam sentido, sem perder o prazer de comer bem. Porque vamos ser sinceros, abrir mão de comer coisa gostosa é a parte mais sofrida. As massas da Konjac entraram na minha vida como aquela alternativa inteligente. Zero carbo, zero sódio, só nove calorias e rica em fibras, porque ela é feita de fibras. Já sei o que vocês pensam: será que é bom mesmo? Não fica sem gosto? Olha, eu me surpreendi, porque como o cozimento dela é no próprio molho, fica muito saboroso. Ela já vem pré-cozida e em três minutos já fica pronta. Fiz um dos meus pratos preferidos pra vocês verem, é um molho branco com mion. A receita tá na legenda. Para quem tem vida corrida e está de dieta, isso aqui funciona como aquele coringa da alimentação leve. É prazeroso e sem impacto na glicemia. E tem bônus: ele é ótimo até na ressaca. Ajuda a reduzir aquele inchaço desconfortável, sabe? É só usar meu cupom que dá dez por cento em pacotes avulsos. Me conta depois o que achou.
+
+</details>
+
+### 15. Duzentas e setenta calorias em um almoço de emagrecimento
+
+- **id**: `1gpHmdZlEvohM1Hf875uCn38ZvwxUwhyl`
+- **arquivo**: `ffdsfdfsdfsdfsdfs.mp4`
+- **duração**: 81s
+- **tags**: densidade calórica, almoço, saciedade
+
+**Review (texto da página):**
+
+> Consigo montar um prato desse tamanho porque entendo de densidade calórica, e o almoço inteiro deu duzentas e setenta calorias. Vegetais, batata cozida, frango e a estrela, que é o shirataki da Konjac, uma massa que basicamente não tem caloria porque é feita de fibra. Nem coube tudo que eu poderia comer no prato.
+
+<details><summary>Transcrição</summary>
+
+Isso aqui é o meu almoço em emagrecimento. Esse prato tem duzentos e setenta calorias e eu só consigo fazer um prato desse tamanho porque eu entendo sobre densidade calórica. Pegar alimentos que são pouco calóricos e por isso tu consegue comer uma quantidade grande e vai te deixar bastante satisfeito. Então a gente sempre começa pelos vegetais. Um pratão de vegetais, hoje ele até tá singelo, tá? Não tem tanto. Cenoura, brócolis, repolho. E os vegetais a gente nem contabiliza porque eles são muito pouco calóricos e são muito importantes pro nosso emagrecimento. E daí a gente tem, o que na minha opinião, é o melhor carboidrato pra comer em emagrecimento, que é batata inglesa cozida, porque a gente come uma quantidade muito grande. Aqui eu tenho duzentos e quarenta gramas de batata cozida. E frango, uma carne magra, então a gente também consegue comer uma quantidade maior. Aqui a gente tem cem gramas. E a estrela do prato, que é esse tantão de massa aqui, que nem coube tudo que eu poderia comer. Essa massa não é uma massa de trigo, é a shirataki da Konjac Massas, que basicamente não tem calorias. Pra vocês terem uma ideia, tem menos calorias que brócolis. O que não significa que vocês não vão comer brócolis e outros vegetais, porque eles têm outro papel na tua saúde. Mas pra quem tá querendo se sentir bastante satisfeito, essa massa que é feita basicamente de fibras, vai te ajudar muito a dar volume pro teu prato e te deixar saciado por bastante tempo, justamente por causa das fibras. E lembrando que molho vermelho feito só de tomate e de cebola é basicamente salada, então pode comer também com tranquilidade. [som de talher]
+
+</details>
+
+### 16. Chegou em casa e virou almoço com carne moída
+
+- **id**: `16TM81u1Nd2tTtoQH9T0quiODaUTZPtuf`
+- **arquivo**: `2d03af6d-9af0-419e-a0c1-2368182aadd2.mp4`
+- **duração**: 74s
+- **tags**: praticidade, carne moída, preparo
+
+**Review (texto da página):**
+
+> Recebi a Konjac Massa em casa e preparei no mesmo dia com carne moída de patinho. A massa já vem pré-pronta, então é abrir o saquinho, descartar a água de conservação e lavar antes de misturar. Zero carboidrato, zero sódio, rica em fibra e com nove calorias, ela deixou o almoço prático, rápido e fácil.
+
+<details><summary>Transcrição</summary>
+
+Olha o que eu recebi aqui em casa da Konjac Massa, gente. Essa maravilha aqui só tem nove calorias, ela é zero carboidrato, zero sódio, rico em fibra e vamo preparar que meio que nem só de mar e sol se vive, né? Vamos. A Konjac Massa ela já vem pré-pronta, você pode implementar ela com aquilo que você quiser. Aqui eu já tava fazendo uma carne moída de patinho, que foi a minha proteína escolhida pro dia, mas olha o tanto que vem, gente. Você pode implementar isso e testar várias receitas. Pré-pronta, a gente só vai mesmo precisar implementar essa massa, né? Pra gente conseguir acrescentar nossas proteínas, pra bater a meta do dia. Então vamos lá, meninas. Você vai abrir o saquinho, ó, tirar a aguinha que vem dentro, a água de conservação. Colocar em outro recipiente pra poder lavar [som de água corrente] . Senão o macarrão vai tudo embora. A Konjac Massa já lavada, você vem com ela e ó... [som de talher] [música aparecendo] E está pronto pra comer, ó. Prático, rápido, fácil e pronto pra comer [som de trânsito].
+
+</details>
+
+### 17. O risone novo virou meu almoço de dois minutos
+
+- **id**: `12P1IFf-sEVuLBRhrBDu6YD8D3NqS8PKm`
+- **arquivo**: `IMG_6719.mov`
+- **duração**: 71s
+- **tags**: risoni, praticidade, almoço
+- **corte citado**: Risoni
+
+**Review (texto da página):**
+
+> Descobri o lançamento da Konjac no formato risone e ele encaixou direto na minha dieta. É zero carboidrato, zero sódio, sem glúten, rico em fibras e tem apenas nove calorias. Fiz um molho de tomate e cebola com um ovo como proteína, e em dois minutinhos estava pronto.
+
+<details><summary>Transcrição</summary>
+
+Nossa, Dafne, você vai comer de novo? Claro, tô com fome. Isso aqui super encaixa na minha dieta. Mas o que é isso aí que cê tá comendo? Esse aqui é o novo lançamento da Konjac Massa, tipo risone. Ele é zero carboidrato, zero sódio, zero glúten e tem apenas nove calorias. E detalhe: é rico em fibras. Ah, e demora muito pra fazer? Menina, é super rápido. Você faz um molho bem gostoso, coloca ele, em dois minutinho, aqui ó, já tá pronto. E no meu aqui, eu coloquei tomate, cebola, coloquei uns temperinhos e pra acompanhar de proteína, eu coloquei um ovo. Ficou uma delícia. Nossa, que da hora! Cê pega um copo de água pra mim, por favor? Claro. [música de ação] Hum, obrigada, hein? Hum. Eu vou pra minha casa ali, tá bom? Hum, tá bom. [música cômica]
+
+</details>
+
+### 18. Cabelo de anjo agora em tamanho família
+
+- **id**: `1UrJNndaNvahDTU6J45cGBvYDdZxvS6RH`
+- **arquivo**: `726517532.mp4`
+- **duração**: 70s
+- **tags**: cabelo de anjo, tamanho família, frango
+- **corte citado**: Cabelo de Anjo
+
+**Review (texto da página):**
+
+> Amo massa e o shirataki Cabelo de Anjo da Konjac agora tem a versão de um quilo, que é ótima para quem consome sempre. Feito à base de fibra, tem baixíssimo carboidrato, não tem glúten nem açúcar e são nove calorias a cada cem gramas. Fiz um molho de requeijão light com extrato de tomate e frango desfiado, deixei três minutos no fogo baixo e o pratão nem parecia baixo em calorias.
+
+<details><summary>Transcrição</summary>
+
+Se você ama massa assim como eu e quer uma opção fácil, rápido e saudável, precisa conhecer o shirataki da Konjac Cabelo de Anjo, que agora também conta com a versão tamanho família de um quilo. Feito à base de fibra, ele tem baixíssimo carboidrato, não tem glúten, não tem açúcar e tem apenas nove calorias a cada cem gramas de massa. E o preparo dela é superfácil e prático. É só lavar a sua massa em água corrente, preparar o molho da sua preferência. No meu caso, eu fiz um molho supergostoso com requeijão light e extrato de tomate. Como fonte de proteína, eu usei frango desfiado e depois é só acrescentar a sua massa pra ela incorporar bem a sua proteína e o seu tempero. Depois eu deixei uns três minutinhos essa massa no fogo baixo, só pra dar uma encorpada melhor no sabor. E você não tá entendendo. Olha esse pratão que ficou. Juro, nem parece que é baixo em calorias isso aí. Prático, fácil, saboroso, perfeito pra quem quer uma alimentação saudável e não abre mão de uma massa, assim como eu. E você, já garantiu o seu shirataki da Konjac Cabelo de Anjo?
+
+</details>
+
+### 19. Quatro ingredientes e um molho leve de iogurte
+
+- **id**: `1qSh8Wb9IQFS82U5iNZK4zYPSUOq2Gvan`
+- **arquivo**: `3dc2629b-13d0-42ad-80f3-1a6999c6919a.mp4`
+- **duração**: 69s
+- **tags**: receita, molho leve, praticidade
+
+**Review (texto da página):**
+
+> Fiz uma receita com apenas quatro ingredientes: alho, cebola, alho poró e bacon, mais a massa Konjac. Para deixar o molho leve usei iogurte natural e uma colher de requeijão light, e a massa entra só passando em água corrente. Cada porção tem nove calorias, é sem glúten e sem lactose, e a receita ficou prática e muito gostosa.
+
+<details><summary>Transcrição</summary>
+
+Você acredita que essa massa tem apenas nove calorias? E você precisa de somente quatro ingredientes pra começar essa receita. Vai precisar de alho, cebola, alho poró, bacon e massa Konjac, que é o seu aliado perfeito para todos os dias. E lembrando, cada porção tem apenas nove calorias. É a massa sem glúten, sem lactose, que encaixa perfeitamente na sua dieta. Com um fio de azeite, você vai fritar o bacon, o alho e a cebola e o alho poró. Os meus temperos favoritos são lemon pepper, páprica e açafrão. Deixam aquele gostinho delicioso. E depois que tudo fritar bem, pro molho ficar bem leve, eu coloquei iogurte natural. Deixei com que eles incorporassem bem, ferver e coloquei uma colher de requeijão light pra deixar ele um pouco mais cremoso. Mexe tudo e deixa ferver por aproximadamente dois minutos. E agora chegou a parte principal. A massa Konjac ela já é pronta, você precisa apenas passar em água corrente e misturar com o molho que você preparou. E depois que tiver tudo misturado, deixe ferver mais um pouquinho e finalizei com orégano. Olha que delícia! E essa é uma receita super prática, rápido e muito gostosa pra você colocar no seu dia a dia. Então não perca tempo, aproveite agora mesmo o meu cupom e garanta o seu kit Konjac. [som de sino]
+
+</details>
+
+### 20. Molho branco caprichado é o que faz o prato
+
+- **id**: `1qAGWoq4p_nFvfANSkBARIA1dcYuV5_qI`
+- **arquivo**: `49bf7c65-89b3-4265-b606-6f041ba83cd2.mp4`
+- **duração**: 69s
+- **tags**: molho branco, sabor neutro, formatos
+
+**Review (texto da página):**
+
+> Essa massa não tem gosto de nada, então o molho precisa ser bem caprichado, e eu fiz um branco com manteiga, cebola, alho, leite desnatado e requeijão light. Zero carboidrato, zero sódio, muita fibra e apenas nove calorias, e ainda tem vários formatos, até arroz e lasanha. Misturei no molho e deixei alguns minutos no fogo para pegar o gosto.
+
+<details><summary>Transcrição</summary>
+
+Dá pra acreditar que esse tanto de macarrão tem apenas nove calorias? Zero carboidrato, zero sódio e muita fibra. Se você ama massa, vive de dieta ou quer reduzir as calorias, esse produto é pra você. Hoje no meu almoço usei konjac massa e o mais legal é que você consegue comprar uma porção ou você pode comprar uma caixa que vem vários, assim como eu compro. Ele já vem pronto, você só precisa passar na água corrente e fazer um molho bem temperado. Não tem gosto de nada, então o molho precisa ser bem caprichado e eu fiz logo um molho branco. Um pouquinho de manteiga, cebola, alho, uma colher de amido, leite desnatado e mexe até engrossar. E taca tempero nesse molho, não tenha dó. E finaliza o molho com uma colher de requeijão light, mais tempero. Agora pra fazer ele pegar o gosto, mistura no molho e deixa no fogo lá por alguns minutinhos. Pra refeição ficar completa a gente prepara uma carne também. Não, a gente não vai usar farinha pra empanar, vamos usar aquelas bolachinhas toasties, sabe? Leva pra assar por uns vinte minutinhos e tá pronto. Quem disse que essa massa tem apenas nove calorias? E o frango empanado que não tem farinha? Zero carboidrato, zero sódio, muita fibra e apenas nove calorias. Tem vários formatos, até arroz e lasanha. Fiz um molho vermelho também, mas fica pra outro vídeo. Isso aqui é praticidade e a gente gosta, ainda mais nós com a rotina corrida, cai igual luva. Ficou curiosa e quer testar? Usa o nosso cupom e garante dez por cento de desconto nos pacotes avulsos.
+
+</details>
+
+### 21. Quanto mais tempo no molho, mais gostosa fica
+
+- **id**: `1owsGsxc45HT6Ri1pl_IaBxsa6fa39WAO`
+- **arquivo**: `4ac746d4-76fe-4714-a4e9-7ec0f3b8f744.mp4`
+- **duração**: 69s
+- **tags**: dica de preparo, molho de tomate, saciedade
+- **corte citado**: Espaguete
+
+**Review (texto da página):**
+
+> Fiz um molho caseiro de tomate com cebola, queijo e requeijão light e deixei a massa descansando nele por uns dez minutos. Esse é o segredo: quanto mais tempo no molho, mais sabor a massa pega. O preparo não tem mistério, é tirar do pacote, lavar em água corrente e misturar, e o que ela acrescenta é volume e saciedade.
+
+<details><summary>Transcrição</summary>
+
+Massinha que, na verdade, é um tipo de fibra com nove calorias? [efeito sonoro] Então, hoje eu vou ensinar vocês a fazerem uma receita com espaguete da konjac. [efeito sonoro] Deem uma olhada nessa lista de ingredientes e tabela nutricional. Bizarra, né? Pra fazer, não tem mistério, é só tu tirar a massa do pacotinho, lavar em água corrente e misturar com o molho de sua preferência. Eu escolhi refogar a cebola com tomatinhos e fazer uma espécie de molho caseiro de tomate. Porém, com alguns frufrus de ingredientes que normalmente temos em casa. Depois de deixar reduzir o tomate com a cebola e um pouquinho de água, vai adicionando os temperos da tua preferência. Eu coloquei sal, páprica e pimenta do reino. E os frufrus em questão são: uma fatia de queijo e uma colher de requeijão light. Eu poderia ter deixado reduzir mais o meu molho, mas ficou bom igual. E aqui tá o segredo: quanto mais tu deixar a massa no molho, mais ela pega o gostinho. Misturei e deixei mais ou menos uns dez minutinhos descansando ali no molho, enquanto o preparo da carne, que foi a proteína que eu escolhi pra comer junto, já tava sendo finalizado. Depois adicionei a carne e tcharam, tá pronto pra comer. Ficou uma delícia! E a prevalência do sabor é realmente do molho ou do acompanhamento que tu decide colocar junto, porém adicionando mais volume e saciedade.
+
+</details>
+
+### 22. Uma panela só, com molho cremoso de tomate e rúcula
+
+- **id**: `1zRJigI_WouFP2uxR0VY_BGn4EBRsEzDG`
+- **arquivo**: `20.mp4`
+- **duração**: 68s
+- **tags**: diabetes, receita, uma panela
+- **corte citado**: Espaguete
+- **duplicatas na pasta**: `a9628621-2565-4efa-b7ee-f999498ecd1d.mp4`, `23.mp4`
+
+**Review (texto da página):**
+
+> Preparei um espaguete de fibra solúvel da Konjac em uma única panela, com molho cremoso de tomate e rúcula, raspas de limão, linhaça e parmesão. Além de zero carboidrato, açúcar e gordura, é uma boa escolha para quem tem diabetes ou quer emagrecer sem abrir mão de saciedade. Virou receita para dias corridos sem sair do foco.
+
+<details><summary>Transcrição</summary>
+
+Imagina comer um prato delicioso feito em uma única panela e descobrir que a estrela da receita tem apenas nove calorias por porção? Isso mesmo, nove calorias. Hoje eu preparo o meu konjac massas, um espaguete feito de fibra solúvel, que além de ser zero carboidratos, zero açúcar e zero gordura, é uma ótima escolha para quem tem diabetes ou simplesmente para aquelas pessoas que buscam emagrecer sem abrir mão de saúde e saciedade. A minha receita completa de konjac com molho cremoso de tomate e rúcula, eu deixei completinha aqui na legenda. Acrescentei raspas de limão, que deixa saboroso e que dá um toque de frescor, e ainda completei com linhaça e parmesão para aumentar a cremosidade. Uma combinação carregada de nutrientes e antioxidantes que trabalham a favor da sua saúde, da sua digestão e daquela sensação de estar satisfeito sem exagerar, sabe? Salva essa receita que ela pode se tornar a queridinha da tua família, te ajudando nos dias corridos, e o melhor, sem sair do foco.
+
+</details>
+
+### 23. Fase de cutting com volume no prato
+
+- **id**: `1Nj_ifgibAqPM1yi7kaZib93dQlg_YxHH`
+- **arquivo**: `IMG_7732.mp4`
+- **duração**: 67s
+- **tags**: cutting, volume, temperos
+
+**Review (texto da página):**
+
+> Em fase de preparação e cutting, o que faz diferença é ter volume no prato com quase nenhuma caloria, e é isso que a konjac entrega. Preparei com tomate, frango e temperos, e a vantagem é que ela absorve muito bem o tempero, então quanto mais tempo cozinhando, melhor a textura e o sabor. Como a massa quase não soma caloria, dá para abusar da criatividade nos temperos e até no queijo.
+
+<details><summary>Transcrição</summary>
+
+E se eu te dissesse que existe uma massa com menos de quinze calorias e que vai te ajudar muito na sua fase de cutting? É isso que eu vou te mostrar nesse vídeo. Essa aqui é a konjac, ela é feita basicamente de fibras e entrega um volume enorme no prato, com quase nenhuma caloria. Pra quem tá em fase de preparação ou cutting ou fase de emagrecimento, isso faz muita diferença, porque te traz muita saciedade com quase nenhuma caloria. Essa eu preparei com tomate, frango, páprica, tempero de queijo, pimenta preta, sal, mas isso depende completamente da criatividade de cada um. A vantagem é que essa massa absorve muito bem o tempero, então quanto mais tempo você deixar ela no forno cozinhando, melhor vai ser o sabor e a textura que ela vai adquirir. Uma dica legal é que como a massa já quase não tem calorias, você pode abusar da sua criatividade nos temperos. Então eu gosto de colocar queijo, pesto de manjericão, já que você já não vai ter essas calorias provenientes da massa. Eu usei essa estratégia na minha última preparação e com certeza eu vou utilizar nas próximas também. E pra quem tá em dieta pra competir ou quer emagrecer, isso aqui ajuda demais. Se quiser testar essa opção na sua própria dieta, lá no site tem cupom Montini pra vocês, senhores. E depois só me conta como foi sua experiência. Tamo junto!
+
+</details>
+
+### 24. Yakisoba pronto em menos de um minuto de explicação
+
+- **id**: `1iQs6zfvH-KdKyAH5MSkwdISFhvW1oGti`
+- **arquivo**: `IMG_3739.mov`
+- **duração**: 67s
+- **tags**: yakisoba, receita, praticidade
+- **corte citado**: Espaguete
+
+**Review (texto da página):**
+
+> Ensinei um yakisoba com brócolis, cenoura, cebolinha e cubos de patinho, engrossando o caldo com shoyu e maisena. A massa konjac já vem pronta, então é lavar e acrescentar ao molho para que ele fique bem aderido. Ficou extremamente gostoso, saudável e com baixíssima caloria.
+
+<details><summary>Transcrição</summary>
+
+Macarrão espaguete, que na verdade é um tipo de fibra com apenas nove calorias. Isso mesmo, hoje eu vou te ensinar a fazer uma receita de yakisoba com esse ingrediente, que é sensacional e com baixíssima caloria. Você vai refogar em uma frigideira brócolis e cenoura, vai utilizar uma cebolinha picada com cubos de patinho, vai mexer, vai deixar dourar, vai temperar do jeito que você gosta, vai acrescentar um copo de água com uma colher cheia de sopa de Maizena, vai colocar shoyu a gosto, vai continuar mexendo, vai refogar bem esse caldo até ele ficar bem grossinho. Depois você vai pegar a sua massa konjac, vai lavar, vai olhar o modo de preparo, que, na verdade, ela já vem pronta, vai só acrescentar no molho da sua preferência, vai misturar bem pra que o molho fique bem aderido nela e em menos de um minuto eu já te ensinei a fazer uma receita de yakisoba que fica extremamente gostosa, saudável e com baixíssima caloria. E eu já te convido a conhecer a Massa Konjac. Se tu ainda não conhece, tu vai te apaixonar. [som de sino]
+
+</details>
+
+### 25. Voltar para a dieta depois do campeonato ficou fácil
+
+- **id**: `1-vJkNg5hlRD2dNwD9tHqqsv-60lnPi_Q`
+- **arquivo**: `IMG_3063.mp4`
+- **duração**: 66s
+- **tags**: risoni, volta à dieta, receita
+- **corte citado**: Risoni
+
+**Review (texto da página):**
+
+> Depois do campeonato e das festas eu passei do limite, e voltar para a dieta seria difícil se eu não conhecesse a Konjac Massa. Escolhi o risoni, que lembra grãos de arroz, e fiz um risoni cremoso de omelete com requeijão light. A porção tem nove calorias, a massa absorve o sabor do molho e o preparo é só escorrer, lavar e aquecer.
+
+<details><summary>Transcrição</summary>
+
+Não é novidade o efeito rebote após o campeonato, mas digamos que somado às festas de final de ano, eu passei um pouco do limite. E só não é fácil voltar pra dieta, se você não conhece a Konjac Massa. Até porque com ela você une o melhor dos dois mundos. Quem não gosta de massa? Por aqui eu amo e fica até fácil fazer dieta assim. No caso, a massa que eu escolhi é a risoni, massa italiana que lembra grãos de arroz. E como a massa pega o sabor do molho, eu fiz um risoni cremoso de omelete. Tá, Emily, mas fala aí, por que que é tão fácil fazer dieta com a Konjac? Primeiro de tudo é a praticidade. Você só irá precisar escorrer essa massa e lavar em água corrente e esquentar ela no molho de sua preferência, que será absorvido o sabor. Além da praticidade, a porção tem apenas nove calorias. Então é uma massa que permite você usar e abusar da sua criatividade para os molhos. Pro meu risoni cremoso, eu utilizo dois ovos e vou mexendo eles até meio longe do fogo para não criar os gruminhos. Feito isso, eu acrescento a massa e por último, o toque especial do chef é uma colher de requeijão cremoso light e temperinhos que pode ser de sua preferência. E tá pronto. Simples assim, você já pode desfrutar de uma massa que é zero açúcar, zero lactose, zero glúten e que vai salvar a sua dieta.
+
+</details>
+
+### 26. Dieta livre e nutritiva na época das festas
+
+- **id**: `1SlWK_Wk1Wa4p2nkFJDLANVs2aCH5tZ88`
+- **arquivo**: `0e52ab7a-f1da-4ff1-b4db-9c1df3721d93.mp4`
+- **duração**: 63s
+- **tags**: fim de ano, bolonhesa, praticidade
+- **corte citado**: Espaguete
+
+**Review (texto da página):**
+
+> Fim de ano com foco na dieta e ainda assim me permitindo, e a konjac ajuda a manter isso equilibrado. Lavei em água corrente, fiquei pronta em menos de dois minutos e usei uma carne que já estava feita para montar um molho à bolonhesa. O pratão saiu com apenas nove calorias vindas da massa.
+
+<details><summary>Transcrição</summary>
+
+Fim de ano chegando e a galera focada na dieta. E é claro que em casa não podia ser diferente. Eu me permito nas festas, mas com konjac eu consigo manter uma dieta livre, nutritiva e gente, apenas nove calorias. E pra preparar é muito fácil. É só você lavar em água corrente. E lembrando que ele fica pronto em menos de dois minutos. Você escolhe um molho de sua preferência. Como eu já tinha uma carninha pronta aqui, eu preparei um molho à bolonhesa com alguns ingredientes. É muito fácil de preparar, gente! Eu escolhi a massa de espaguete, mas como vocês podem ver, tem várias opções que você pode escolher. E gente, esse pratão com apenas nove calorias. Escolha konjac pra sua dieta e mantenha sempre o seu shape em dia. [música suave]
+
+</details>
+
+### 27. Depois do treino de corrida bateu vontade de yakisoba
+
+- **id**: `1u7q6MmpmBMniy4HhPE7l3de3zBk3cshQ`
+- **arquivo**: `5242196155.mp4`
+- **duração**: 63s
+- **tags**: yakisoba, pós-treino, textura
+
+**Review (texto da página):**
+
+> Voltei da corrida com desejo de yakisoba e resolvi fazer uma versão mais leve com o shirataki da Konjac, que não tem carboidrato e tem nove calorias. A tabela nutricional parece pegadinha de tão baixa. Adicionei iscas de frango e a textura leve da massa fez toda a diferença no prato final.
+
+<details><summary>Transcrição</summary>
+
+Depois do meu treino de corrida, me deu um desejo absurdo de comer yakisoba. Faz tempo que eu não como, então eu decidi que hoje eu ia fazer. Mas, como sempre, eu quis dar uma adaptada pra deixar mais leve, já que no final de semana eu costumo encher o pé na jaca. Fui no supermercado pegar alguns ingredientes pra fazer o meu yakisoba e eu escolhi a shirataki konjac massas, porque ela simplesmente não tem carboidrato e só tem nove calorias. Gente, sim, nove calorias! Olhem essa tabela nutricional. Parece até pegadinha. E ela já vem pronta, você só precisa lavar por quinze segundos e misturar o molho da sua preferência. Como tem vários tipos de massa, você consegue variar e fazer várias receitas. E aí eu adicionei algumas iscas de frango, porque eu gosto muito de colocar proteína em todas as minhas refeições. E olha isso, gente, o cheiro na panela já tava muito delicioso. E esse foi o resultado final: um yakisoba incrivelmente saboroso e a textura leve da konjac massas fez toda a diferença nesse prato
+
+</details>
+
+### 28. Estudante de nutrição matando a curiosidade
+
+- **id**: `1rPKESwIGUr2hYmmsqbSxW7MPVT5lgHOY`
+- **arquivo**: `5454545.mp4`
+- **duração**: 63s
+- **tags**: primeira vez, camarão, noodles
+- **corte citado**: Noodles
+
+**Review (texto da página):**
+
+> Sou estudante de nutrição e tinha uma curiosidade gigante de testar a massa shirataki, feita da fibra solúvel de uma planta asiática. Cheguei da praia com fome, selei camarões, refoguei legumes e escolhi o formato noodle. É uma ótima opção para quem está em déficit calórico ou em processo de emagrecimento.
+
+<details><summary>Transcrição</summary>
+
+Oi, aqui é a Isa, sou estudante de nutrição e hoje vocês vão me acompanhar matando uma curiosidade gigante que eu tinha: fazer uma receitinha com a massa do tipo shirataki. Ela é feita a partir da fibra solúvel de uma planta asiática. Cheguei da praia morrendo de fome, peguei os legumes que tavam na geladeira, comecei a deixar tudo cortadinho e eu sempre gosto de adicionar bastante legumes nas minhas refeições pra ter mais volume e mais saciedade. Além de ficar muito mais gostoso, né? Como eu tinha acabado de sair da praia, eu achei que um camarão ia sair bem nessa massa. Temperei com o base e pra fazer uma coisa diferente eu resolvi usar essa churrasqueira elétrica, mas se eu tivesse feito na frigideira teria ficado igual. Esperei esquentar e comecei a selar os camarões. Virei de um lado e de outro e deixei pegar uma crosttinha pra ficar com um gostinho gostoso. Depois adicionei o alho, a cebola e os legumes. Depois de selados e cozidos, eu entrei com a massa konjac. Como vocês viram no começo do vídeo, a massa tem vários tipos: fetuccine, espaguete, mas o escolhido foi o noodle. [som de brilhos] A massa konjac é uma ótima opção pra quem tá em déficit calórico ou em processo de emagrecimento. Se você também tem curiosidade de provar a massa konjac, vou deixar meu cupom aí passando. Beijos.
+
+</details>
+
+### 29. Receita rápida com molho de carne e legumes
+
+- **id**: `1YvEpqmnmGhYly2YeoxPWYCFRbXPu4jRT`
+- **arquivo**: `4576352.mp4`
+- **duração**: 62s
+- **tags**: receita rápida, carne, praticidade
+
+**Review (texto da página):**
+
+> Precisava de algo rápido, prático e saudável, então refoguei cebola, alho, carne, molho de tomate e legumes. As massas konjac são zero carboidrato, zero sódio, com nove calorias e ricas em fibras. Lavei por quinze segundos, juntei ao molho e em dois minutos estava pronto.
+
+<details><summary>Transcrição</summary>
+
+Chegou o momento de revolucionar a sua alimentação. Sabe aquele dia que você precisa de uma receita rápida, prática e saudável? Hoje eu vou te mostrar essa receita maravilhosa. Aqui eu começo fazer o molho da carne. Eu gosto de colocar bastante cebola e alho. Dou uma refogada com um pouquinho de azeite e deixo dourar um pouquinho. Coloco a carne e com ela bem refogada, acrescento o molho de tomate e alguns legumes. Agora chegamos na parte mais fácil. As massas konjac são zero carboidratos, zero sódio, com apenas nove calorias e rico em fibras. Fazer dieta nunca foi tão prático e gostoso com o shirataki da Konjac Massas. Lavei por apenas quinze segundos na água corrente e já coloquei junto ao molho da carne e com apenas dois minutos já ficou pronto e delicioso. Espero que vocês tenham gostado dessa receita. Lembrando que o molho pode ser da sua preferência. Vou deixar meu cupom de desconto para os meus seguidores na legenda.
+
+</details>
+
+### 30. Onze e vinte da noite e o jantar saiu sem delivery
+
+- **id**: `1vjwZtwHr2O-ZX18WLAQp6er6Dw3QMkF3`
+- **arquivo**: `7.mp4`
+- **duração**: 60s
+- **tags**: jantar, praticidade, madrugada
+
+**Review (texto da página):**
+
+> Era onze e vinte da noite e a vontade era pedir delivery, mas fiz um jantar de baixa caloria dentro da dieta. O shirataki da Konjac é fibra solúvel, sem glúten, gordura, açúcar e sódio, com nove calorias a cada cem gramas. Quanto mais cozinha, mais gostoso fica, e a praticidade foi o que salvou o horário.
+
+<details><summary>Transcrição</summary>
+
+Não vai pedir delivery, meu amor. 11h20 da noite, eu vou provar pra você que você consegue fazer o seu jantar de baixa caloria dentro da sua dieta. Vou precisar de um shirataki da Konjac Massas, que nada mais é uma fibra solúvel que não contém glúten, gordura, açúcar, sódio e é fonte de fibra e só tem nove calorias a cada cem gramas e esse pacotinho tem duzentas gramas. [som de frigideira] Quanto mais cozinhar, mais gostoso fica. Aqui, pra validar. Nós falamos sobre praticidade, redução de tempo, aí sim a gente tá falando de konjac. [música animada]
+
+</details>
+
+### 31. Massa com tofu, gengibre e chimichurri
+
+- **id**: `1DeX40YXj2zHDDX4NuUic9vhEa36fqHXJ`
+- **arquivo**: `7907b341-5940-4e25-93cf-fe8435a205aa.mp4`
+- **duração**: 60s
+- **tags**: vegetariano, tofu, sabor neutro
+
+**Review (texto da página):**
+
+> Fiz uma versão com tofu como proteína, alho, pimentão, gengibre ralado, cenoura e chimichurri. Como a massa tem sabor neutro, ela absorve todo o tempero que você colocar, então piquei bastante temperinho antes. É uma fibra cem por cento solúvel que ajuda no funcionamento do intestino e na saciedade, e o almoço ficou pronto em poucos minutos.
+
+<details><summary>Transcrição</summary>
+
+Massa com só nove calorias pro processo de emagrecimento. Então bora fazer essa belezinha aí. Vou começar picando bastante temperinho pra colocar na minha massa konjac, porque ela tem um sabor neutro, sabe? Então ela vai absorver o tempero que você colocar. Já piquei meu alho e tô picando aqui os meus pimentõezinhos e tô pensando que eu não acredito que eu vou conseguir comer uma massa de só nove calorias no processo de emagrecimento. Agora nossa estrela, que é a nossa massa de fibra cem por cento solúvel. De proteína, eu vou usar o tofu. Enquanto eu pico aqui o meu tofuzinho, eu já lavei a massa e deixei ela escorrendo. Um fio de azeite pra refogar o alho, o pimentão e o tofu. Depois eu acrescentei um pouquinho de gengibre ralado, de açafrão também, cenoura ralada, coloquei os tomatinhos e um temperinho de chimichurri, chimichurri, não sei como é que fala. Sal e agora a nossa massa que tava lá escorrendo. Misturo bem pra ela poder pegar o tempero, deixo refogando por dois minutinhos e voilà, almoço pronto. As massas konjac são zero carboidrato, uma fibra cem por cento solúvel, que ajuda no funcionamento do intestino, na saciedade. São detox, sem ingrediente inflamatório e perfeitas.
+
+</details>
+
+### 32. Um pratão com menos de cinquenta calorias
+
+- **id**: `1WS5I6tvTf_qaoUfyyPkQsQi6yYSnat3P`
+- **arquivo**: `IMG_1412.mov`
+- **duração**: 59s
+- **tags**: baixa caloria, formatos, molho
+- **duplicatas na pasta**: `26.mp4`
+
+**Review (texto da página):**
+
+> Esse prato inteiro ficou com menos de cinquenta calorias, e metade delas veio do parmesão que coloquei por cima. A konjac massa é feita da fibra glucomanano, tem zero carboidrato, zero sódio e nove calorias a cada cem gramas. Já vem pronta, tem vários formatos, inclusive arroz, e o segredo é caprichar no molho para trazer sabor.
+
+<details><summary>Transcrição</summary>
+
+Já pensou esse pratão de comida com menos de cinquenta calorias na sua dieta? Sendo que metade das calorias é do parmesão que eu acabei de colocar. Eu sei que é difícil de acreditar, mas isso é possível sim, graças à konjac massa. Poucas pessoas conhecem, mas essa massa alimentícia é feita por uma fibra: glucomanan. Zero carboidrato, zero sódio e apenas nove calorias a cada cem gramas. E sem falar da praticidade que é incluir essas massas na sua rotina, porque ela já vem pronta, basta você acrescentar o molho do seu gosto. E além de um outro grande benefício, que é a variedade, porque essa massa tem vários formatos, inclusive tem até arroz. Agora que você sabe dessa informação, imagina você chegando do seu trabalho podendo comer uma massa dessa todos os dias, sem nenhum peso na consciência e ainda alcançando o seu objetivo. E lembre-se de caprichar no molho pra trazer bastante sabor pra essa refeição. E não vá exagerar nas calorias, hein? E eu acabei de te revelar um grande aliado pro seu processo de emagrecimento. Me conta aqui nos comentários: você já conhecia? E pra mais dicas de nutrição, já segue Victor Dalla Rosa Nutri, que eu vou fazer você emagrecer sem sofrer. [som de isqueiro]
+
+</details>
+
+### 33. O que o glucomanano faz pelo seu intestino
+
+- **id**: `1AIzW9WXxq-xVi5gRziKyDGWjwOoX3Qea`
+- **arquivo**: `IMG_0228.mov`
+- **duração**: 59s
+- **tags**: intestino, glucomanano, fibra
+
+**Review (texto da página):**
+
+> O que me interessa nessa massa é a composição: basicamente fibra solúvel, o glucomanano, e água. O glucomanano é uma das fibras que mais alimentam as bactérias boas do intestino, gerando ácidos graxos de cadeia curta que servem de energia para as células intestinais e para outros tecidos. É uma excelente forma de manter a saúde intestinal em dia.
+
+<details><summary>Transcrição</summary>
+
+Chegou mais uma coisinha aqui pra mim, mais um presentinho, essa massa de konjac. Pra quem não conhece, isso aqui é como se fosse um macarrão, parece um espaguete. E a composição é basicamente fibra solúvel, que é o glucomannan, e água. Quando a gente fala em glucomannan, essa é uma das fibras que mais alimentam as bactérias amiguinhas no nosso intestino, né? Eu falo muito de intestino aqui. Então, é uma fonte de ácido graxo de cadeia curta, que no intestino forma outras substâncias, que é a, uma das principais ofertas de-de energia, tanto pras células do intestino, como por exemplo, pras células musculares, pras células do sistema nervoso central, que é a do cérebro, e por aí vai. Ou seja, é uma excelente fonte de alimento pras bactérias amiguinhas do nosso intestino, pra gente manter a nossa saúde intestinal e consequentemente toda a nossa saúde fisiológica em dias, além de inúmeros outros benefícios que eu vou falando pra vocês. [ruído]
+
+</details>
+
+### 34. Camarão com espinafre e molho branco em dez minutos
+
+- **id**: `1MhfV-1rhVWUp6NcSAJcr-NHBWVyM26qs`
+- **arquivo**: `IMG_4427.MOV`
+- **duração**: 59s
+- **tags**: camarão, molho branco, rápido
+
+**Review (texto da página):**
+
+> Meu segredo para me manter na dieta é ter uma opção que resolve rápido, e a Konjac Massa é essa aliada. São nove calorias por porção, sem glúten, zero sódio e boa fonte de fibras, e o preparo é tirar da embalagem e deixar alguns segundos em água corrente. Fiz camarão com tomate cereja e espinafre no molho branco, deixei a massa descansar no molho e ficou pronto em dez minutos.
+
+<details><summary>Transcrição</summary>
+
+Você só tá furando a dieta porque não conhece essa receita ainda. Já falei pra vocês que eu tô muito focada no shape em 2026. Eu decidi vir contar um dos meus segredos pra me manter na dieta. A Konjac Massa é com certeza minha aliada. Apenas nove calorias por porção, sem glúten, zero sódio, além de ser uma ótima fonte de fibras. É só tirar da embalagem e deixar em água corrente por alguns segundos. Dessa vez eu preparei um camarãozinho. Os temperos são esses que estão aparecendo na tela. E aí eu deixei descansando um pouquinho enquanto eu fui fritar o alho e a cebola. Pra fazer o camarão, você não pode deixar muito tempo, senão ele fica borrachudo. Eu aprendi com a moça do YouTube. Acrescentei um tomatinho cereja. Eu coloquei espinafre também no molho branco que a minha nutri passou a receita e deixei a Konjac Massa descansar no molho pra fixar bem. Vem ver esse resultado. Eu te garanto que ficou tão gostoso quanto ficou bonito. Ficou uma delícia e pronto em dez minutos, no máximo. Não tem como você me dizer que não tá comendo bem seguindo essa receita. Ah, e outra dica quando for comer massa, é comer uma saladinha antes pra te ajudar na saciedade. Aqui na legenda vai ter cupom da Konjac Massa pra vocês. Beiju!
+
+</details>
+
+### 35. Lasanha saudável montada em camadas
+
+- **id**: `1SecUAy3UNbTjMBZcnizWO18YImm7-fKC`
+- **arquivo**: `Vídeo de MIT Comunicação.mp4`
+- **duração**: 59s
+- **tags**: lasanha, receita, forno
+
+**Review (texto da página):**
+
+> Queria uma janta gostosa e saudável, então montei uma lasanha com o shirataki da Konjac. Lavei por quinze segundos, refoguei carne moída magra com extrato de tomate, fiz um molho branco com leite e aveia e montei em camadas. Levei quinze minutos ao forno para gratinar e ficou perfeita e muito leve.
+
+<details><summary>Transcrição</summary>
+
+Hoje eu tava superafim de comer uma janta gostosa, mas saudável ao mesmo tempo. Então eu resolvi fazer uma lasanha saudável com a shirataki da Konjac Massas. Ela é zero sódio, zero carboidratos, tem apenas nove calorias em cem gramas, rica em fibras e muito versátil. Comecei lavando ela por quinze segundos em água corrente, refoguei uma carne moída magra com alho e temperei com sal e pimenta e no final adicionei um pouquinho de extrato de tomate. Para o molho branco eu refoguei alho, depois coloquei o leite e a colher de aveia. Mexi até engrossar bem. Depois de tudo pronto, comecei a montar a lasanha em camadas de molho, carne e massa e depois repeti o processo. Finalizei com um pouquinho de queijo parmesão e coloquei para assar e gratinar por quinze minutos a duzentos graus. Prontíssima, ficou perfeita e muito leve. Lembrando que meus seguidores têm dez por cento de desconto em pacotes avulsos no site da Konjac Massas.
+
+</details>
+
+### 36. Textura al dente que não vira massa grudenta
+
+- **id**: `1UXqzTH-AyAWz_rwLF_aU3yvGiHlMv48t`
+- **arquivo**: `Konjac.mov`
+- **duração**: 57s
+- **tags**: textura, glicemia, dica de tempero
+- **corte citado**: Espaguete
+
+**Review (texto da página):**
+
+> Explico sempre que essa massa tem alto poder de saciedade, ajuda na saúde intestinal e no controle da glicemia. O detalhe que mais me agrada é a textura: fica al dente e, mesmo se você deixar mais tempo no fogo, não vira uma massa grudenta nem mole demais. Como ela não tem sabor próprio, meu conselho é temperar mais do que você temperaria uma massa comum.
+
+<details><summary>Transcrição</summary>
+
+Magras, magras, magras. Vem cá, mulher, que eu vou te explicar o porquê que esse espaguete tem esse nome. Ele tem apenas nove calorias em uma porção de cem gramas, ou seja, é baixíssimo em caloria e zero carboidratos. Ele tem um alto poder de saciedade, que ajuda na sua perda de peso, ajuda na sua saúde intestinal, combate constipação e tem ação probiótica. Ajuda no controle da glicemia e na redução do colesterol. Ou seja, além de te deixar magra, ele ajuda na sua saúde. Ah, e é superfácil de preparar. É só você abrir e lavar em água corrente. Ele não tem sabor, então você vai fazer o sabor da sua massa. Hoje eu quis fazer um molhinho vermelho com frango desfiado, mas você pode usar sua criatividade pra fazer o que você quiser. Um molho bolonhesa, um molho branco, um molho quatro queijos. Ele tem uma textura al dente e mesmo se você deixar ele no fogo, ele não vai ficar uma massa grudenta e nem muito mole, vai continuar na mesma textura. Ah, e como ele não tem sabor, eu aconselho você temperar ele a mais do que você temperaria uma massa comum. Me ajuda a comer o meu. Se eu fosse você, eu ia comprar o seu pra ficar magra também. E lembrando que eu tenho dez por cento off. O cupom tá na descrição do vídeo. Magras
+
+</details>
+
+### 37. Voltando para o foco depois de comer tudo no fim de ano
+
+- **id**: `17KSOLm4yQp0tDms5bTSS-YZ0g5gXiD3g`
+- **arquivo**: `KONJAC MASSA.mp4`
+- **duração**: 57s
+- **tags**: volta à dieta, fim de ano, sabor
+
+**Review (texto da página):**
+
+> Comi tudo nas festas e a parte mais difícil seria voltar para a dieta sem abrir mão de comida gostosa. A Konjac Massa resolve isso: zero sódio, zero carboidrato, rica em fibras e com nove calorias. Dá para colocar carne, verdura, legumes e molho e ainda manter a dieta.
+
+<details><summary>Transcrição</summary>
+
+Amiga do céu, confundi o final do ano com o final do mundo. Comi tudo, tudo. Cê também comeu? Fala que não foi só eu. Sério mesmo, amiga, eu comi tanta, tanta sobremesa nesse final de ano, que o máximo de fruta que eu comi foram as cristalizadas do panetone. Não, eu preciso voltar pro foco urgente, porque esse ano eu preciso construir aquele shape que eu prometi lá em 2015. Se não for esse ano, não vai ser nunca mais. E o mais difícil vai ser voltar pra minha dieta, porque eu acostumei tanto a comer coisa gostosa, que que eu vou fazer? Quero nem ver a minha dieta. Mulher, calma, calma. Dá pra seguir dieta e comer coisa gostosa ainda. Cê nunca ouviu falar da Konjac Mata? Ela é tipo assim: zero sódio, zero carboidrato, rica em fibras e tem só nove calorias. Quê? Nove calorias? Jura, amiga, dá pra você fazer um monte de coisa gostosa, tá? Dá pra você colocar carne, verdura, legumes e molho, né, que é uma delícia. E você ainda vai conseguir manter sua dieta, tá? Quer saber? Leva um pra você.
+
+</details>
+
+### 38. Molho de linguiça para deixar pronto e resolver a fome
+
+- **id**: `14DqbzGoitcTkdpwP2_2CMIPrdwn8AnO1`
+- **arquivo**: `3fde4a2c-cfa1-403d-ad86-1951cd0405f1.mp4`
+- **duração**: 56s
+- **tags**: molho de linguiça, meal prep, rápido
+
+**Review (texto da página):**
+
+> Fiz um molho de linguiça com passata, louro e manjericão, reduzindo bem antes de juntar a massa. A konjac é diferente da massa tradicional porque é de fibra, e o preparo é descartar a água, lavar e misturar. Deixo o molho pronto e na hora da fome monto a refeição em menos de cinco minutos.
+
+<details><summary>Transcrição</summary>
+
+Konjac massa com molho de linguiça, vamo preparar? Ideal para quem quer fazer refeições rápidas e com baixas calorias. Pra começar, eu abro a linguiça e tiro a carne da tripa. Passo um spray de azeite na frigideira e coloco a linguiça despedaçada pra fritar. O segredo pra manter constância é saber equilibrar as escolhas. Assim que ela estiver bem douradinha, eu entro com uma xícara de cachaça e vou cortando os temperos e adiciono eles ao molho e entro com a passata de tomate e um pouco de água. Coloco louro, um pouco de manjericão, sal e pimenta do reino e deixo cozinhar até reduzir bem. E chegou a hora de mostrar a estrela do nosso prato, que é a konjac massa, que é diferente da massa tradicional, ela é de fibra e o modo de preparo dela é: você descarta essa águazinha que vem dentro, lava e mistura com o molho que a gente acabou de fazer. Gente, é muito gostoso. Deixe o molho pronto e na hora da fome você monta uma refeição incrível em menos de cinco minutos.
+
+</details>
+
+### 39. Pesto de espinafre com nozes e tomate confit
+
+- **id**: `13Rltqp_4SR8w3zKn5Snpb0A_HkOT30k9`
+- **arquivo**: `ytqwfwytfwy.mp4`
+- **duração**: 56s
+- **tags**: pesto, anti-inflamatório, receita
+
+**Review (texto da página):**
+
+> Montei uma receita anti-inflamatória com pesto de espinafre, nozes, alho, limão e azeite, batido até ficar cremoso. A massa konjac é rica em fibra e baixa em caloria, com nove calorias, então lavo, escorro e adiciono ao molho. Finalizei com tomate confit por cima e a receita ainda ajuda a controlar o apetite.
+
+<details><summary>Transcrição</summary>
+
+Você quer emagrecer comendo bem? Uma receita anti-inflamatória, cetogênica e ainda muito deliciosa. Rico em fibra, baixa caloria nessa massa, são nove calorias. O espinafre e as nozes têm um poder anti-inflamatório que vão ajudar no seu emagrecimento. Coloque o espinafre, as nozes, o alho e o suco de limão e o azeite. Pode ser no mixer ou no liquidificador e bata tudo até virar um pesto bem cremoso. Lave e escorra a sua massa konjac e depois é só adicionar o molho. Pra um toque especial, fazer um tomate confit com tomate, maçã, manjericão, um dentinho de alho, um pouquinho de azeite, colocar no forno e colocar em cima da massa. Essa receita ajuda a controlar o apetite, é anti-inflamatória e ainda super saborosa. Me siga pra mais receitas como essa.
+
+</details>
+
+### 40. Cabelo de anjo com limão siciliano e castanha
+
+- **id**: `1ByQhVDjy6H05AWdn1k2gsepbisv6vF8Y`
+- **arquivo**: `WhatsApp Video 2026-06-08 at 13.38.10.mp4`
+- **duração**: 55s
+- **tags**: cabelo de anjo, molho branco, receita autoral
+- **corte citado**: Cabelo de Anjo
+
+**Review (texto da página):**
+
+> Recebi o desafio de criar uma preparação com a massa de fibra e escolhemos o cabelinho de anjo. Aqueci creme de leite com raspas de limão siciliano, noz-moscada e cebolinha, misturei a massa e deixei alguns minutos para pegar sabor. Finalizei com castanha de caju e pimenta rosa, e ficou um molho branco leve, fresco e diferente.
+
+<details><summary>Transcrição</summary>
+
+Recebi o desafio da Konjac Massas de fazer uma preparação deliciosa com uma dessas massas de fibra de apenas nove calorias. E vocês escolheram o cabelinho de anjo. Vamos lá? Primeiro, lave bem a massa konjac e siga as instruções da embalagem. Em fogo baixo, aqueça o creme de leite. Pode ser creme de aveia também. Acrescente as raspas de limão siciliano, coloquei bastante. Adicione sal e pimenta do reino, uma pitadinha de noz-moscada e a cebolinha fresca. Misture a massa ao molho e deixe-a cozinhar por alguns minutinhos pra pegar bastante o sabor. Finalizei com castanha de caju picada e alguns grãos de pimenta rosa. Pra dar aquele toque final e especial, um raminho de alecrim. Ficou um molho branco diferente, leve, fresh e muito saudável. Perfeito se você quer comer algo gostoso, diferente, sem sair da dieta. Amei a experiência Konjac Massas, já tô ansiosa pra próxima. Beiju!
+
+</details>
+
+### 41. Massa com sardinha pronta em menos de dez minutos
+
+- **id**: `1jygtajK1WHgudGhrcDd8AzUq8goDnw_R`
+- **arquivo**: `bb7e29c0-5cde-4de3-93de-ae385ff71597.mp4`
+- **duração**: 55s
+- **tags**: sardinha, proteína, jantar
+
+**Review (texto da página):**
+
+> Fiz uma receita rica em proteína, ômega 3, cálcio, magnésio e fibras usando sardinha, que pode ser a de lata mesmo. A massa da konjac é zero carboidrato, sem glúten e tem nove calorias, e eu lavo em água corrente antes de juntar ao molho de tomate. O jantar nutritivo ficou pronto em menos de dez minutos.
+
+<details><summary>Transcrição</summary>
+
+Hoje eu quero trazer uma receita muito saudável e perfeita pro emagrecimento. Ela é rica em proteínas, ômega-3, coenzima Q10, cálcio, magnésio e fibras. E o melhor, é zero carboidrato. Nós vamos fazer uma massa com sardinha usando a massa da konjac. E pode fazer com a sardinha em lata mesmo, que continua sendo supernutritivo e prático. Primeiro, você vai lavar sua massa em água corrente por um minuto. Gente, dá pra acreditar que ela é zero carboidrato, sem glúten, com apenas nove calorias? Sim, é verdade. Agora vamos para o molho. Você vai aquecer a frigideira, dourar o alho e colocar a sardinha, depois o molho de tomate. E lembre de escolher uma opção que tenha somente tomate na composição. Adicione a massa e deixe por mais uns dois minutos e tempere a gosto. Prontinho, seu jantar saudável, nutritivo, amigo do emagrecimento, tá pronto em menos de dez minutos.
+
+</details>
+
+### 42. Molho branco com whey para deixar a receita proteica
+
+- **id**: `1aZjPXE0VVpI4avUD39fj7988ZN11bfcc`
+- **arquivo**: `51442.mp4`
+- **duração**: 54s
+- **tags**: molho branco, proteico, low carb
+
+**Review (texto da página):**
+
+> Queria uma massa ao molho branco low carb e proteica com menos de duzentas calorias no total. Usei creme de ricota light, leite desnatado, ervas finas e um pedacinho de gorgonzola, e com o fogo desligado acrescentei uma dose de whey sem sabor. A massa konjac tem nove calorias a cada cem gramas e entra só depois de lavada e escorrida.
+
+<details><summary>Transcrição</summary>
+
+E se eu te contar que essa massa com molho branco é super low carb, proteica e tem menos de duzentas calorias? Já isso a gente vai precisar da massa konjac, que tem nove calorias a cada cem gramas de massa, além de ter zero carboidratos e ser fonte de fibra. E é muito simples de fazer: só lavar em água corrente por uns quinze segundos, deixar escorrer e já pode começar o molho. Pro molho eu usei duas colheres de creme de ricota light, uns cinquenta ml de leite desnatado, sal, temperinhos a gosto, eu coloquei ervas finas que eu acho que combina com o molho branco. Pra dar um toque especial, eu coloquei um pedacinho de queijo gorgonzola. Agora é só misturar bem até ficar bem homogêneo. Quando o molho tiver quase na textura desejada, é só acrescentar o konjac e deixar cozinhar por dois a três minutinhos. Com o fogo desligado, eu acrescentei uma dose de whey protein sem sabor pra deixar essa receita mais proteica. E em menos de dez minutos, você tem uma massa com molho branco super cremoso, com menos de duzentas calorias, seis gramas de carboidrato, proteica e que dá pra encaixar em qualquer dieta.
+
+</details>
+
+### 43. Tem o selo da ANAD e vários cortes diferentes
+
+- **id**: `1Isp5dli4cXZeFIjyqJFnguBkrE6NAASF`
+- **arquivo**: `IMG_6679.mov`
+- **duração**: 54s
+- **tags**: ANAD, cabelo de anjo, saciedade
+- **corte citado**: Cabelo de Anjo
+
+**Review (texto da página):**
+
+> Preparei um molho com bacon, cebola, creme de ricota e noz-moscada, e usei o corte cabelo de anjo. Vale destacar que a Konjac tem o selo de aprovação da ANAD, a Associação Nacional de Atenção ao Diabetes. Por porção são nove calorias, zero carboidrato, zero sódio, é rica em fibras e traz saciedade.
+
+<details><summary>Transcrição</summary>
+
+Esse prato de massa foi feito com um ingrediente muito especial, zero carboidratos e à base de fibras solúveis. Eu comecei preparando o molho com os ingredientes que eu escolhi: bacon, cebola, um creme de ricota, noz-moscada. O molho pode ser feito de acordo com a preferência de cada um. São várias combinações possíveis de ingredientes, mas o que está fazendo a diferença por aqui tem sido o Konjac massa, que por porção possui apenas nove calorias, zero carboidratos, zero sódio, é rico em fibras, tem um preparo muito fácil. Vale ressaltar que Konjac possui o selo de aprovação da ANAD, a Associação Nacional de Atenção ao Diabetes. Konjac massa possui vários cortes diferentes. Nesse caso, eu utilizei o cabelo de anjo, acrescentei ao molho que eu tinha preparado com brócolis, cebolinha e queijo. E dentre tantos benefícios, Konjac também é uma massa que traz saciedade.
+
+</details>
+
+### 44. Não precisa cozinhar, é só passar água
+
+- **id**: `1JfQzhIWcfhFHeKejSxyrqWnQiFJXBbS8`
+- **arquivo**: `25.mp4`
+- **duração**: 54s
+- **tags**: preparo, bolonhesa, praticidade
+- **corte citado**: Espaguete
+- **duplicatas na pasta**: `d30945c7-dfa3-4dde-8fc6-e39591970f70.mp4`
+
+**Review (texto da página):**
+
+> O modo de preparo vem escrito na embalagem e é simples: jogar a massa em um recipiente, passar água e pronto, sem cozinhar. Fiz um molho bolonhesa com carne moída que já estava pronta e a dica é deixar a massa bastante tempo no molho para pegar gosto. É zero carbo, zero açúcar, zero gordura, zero sódio, sem glúten e rica em fibras.
+
+<details><summary>Transcrição</summary>
+
+Dá pra acreditar que essa massa de espaguete tem só nove calorias por porção. É, amigas, é isso mesmo. Tá cada dia mais fácil e gostoso de fazer dieta. É uma massa zero carbo, zero açúcar, zero gordura, zero sódio, sem glúten e rica em fibras. Na embalagem já vem tudo escrito o modo de preparo, que é muito simples e em dois minutos tá pronto. A massa que eu utilizei foi espaguete, mas olha a variedade de massas que a Konjac tem. Pra fazer é muito rápido e prático. Você só vai jogar a massa em um recipiente e vai passar água. Não precisa cozinhar. Eu já tinha uma carne moída pronta, então eu só joguei o molho vermelho e fiz um molho bolonhesa. A minha dica é: quanto mais tempo você deixar a massa no molho, mais gosto vai pegar. E aí tá pronto, gente, não precisa cozinhar massa, é muito rápido. Por cima eu joguei uma levedura só pra dar um gostinho artificial de queijo. Eu peguei só metade da massa, mas dá pra acreditar que a gente pode comer a panela toda porque tem zero carboidrato?
+
+</details>
+
+### 45. Fettuccine ao molho branco fit em menos de dez minutos
+
+- **id**: `1_7KvkTQprSgKzG0kBj_xMCmR_xGQ_THf`
+- **arquivo**: `adssdasdsd.mp4`
+- **duração**: 54s
+- **tags**: fettuccine, molho branco, low carb
+- **corte citado**: Fettuccine
+
+**Review (texto da página):**
+
+> Fiz um molho branco simples com leite desnatado, amido de milho, cebola dourada e requeijão light. O shirataki da Konjac é zero carboidrato, gordura, açúcar e sódio, e o passo a passo vem na embalagem: lavar em água corrente e misturar ao molho. Servi com dois filés de frango e ficou uma refeição low carb bem saciante.
+
+<details><summary>Transcrição</summary>
+
+E se eu te falar que a massa desse meu fettuccine, na verdade, tem só nove calorias por porção? Esse é o shirataki da Konjac Massas. É um tipo de massa que é zero carboidrato, zero gordura, zero açúcar, zero sódio. E eu vou mostrar como que eu preparei esse meu prato em menos de dez minutos. E na embalagem dele já vem o passo a passo, que é supersimples. Tirou da embalagem, basta lavar em água corrente por alguns segundos, depois misturar com o molho. E como eu faço esse molho branco fit? Basta misturar cento e vinte ml de leite desnatado com uma colher de chá de amido de milho. Eu deixei uma cebola dourando na frigideira, depois adicionei a mistura do leite com amido de milho com uma colher de sopa de requeijão light. Adiciona alguns temperinhos e mexe até ficar nesse ponto. Molho pronto e agora é só adicionar o shirataki da Konjac Massas. Tá pronta a sua refeição superbaixa em calorias e supergostosa. Pra deixar essa refeição completa, eu servi com dois filézinhos de frango e ficou divino. Uma refeição low carb, supergostosa e que vai te dar muita saciedade. A gente tem cupom de desconto no site. Eu vou deixar tanto aqui no vídeo quanto na legenda.
+
+</details>
+
+### 46. Intolerância à lactose e disbiose sem abrir mão de massa
+
+- **id**: `1BC4Uhp5WxuGJbdAAEhsQt15Xg0-sdbRQ`
+- **arquivo**: `029f7aaf-c90a-48a3-acc0-fcd1b5037d52.mp4`
+- **duração**: 54s
+- **tags**: intolerância, disbiose, substituição
+- **corte citado**: Aveia
+
+**Review (texto da página):**
+
+> Descobri intolerância à lactose e depois disbiose, e precisei tirar muitos alimentos que me davam gases e inchaço. Minha estratégia não é deixar de comer, é substituir, e a Konjac entra nisso: recebi a versão de aveia, zero glúten e com nove calorias em cem gramas. Como não posso consumir glúten nem tomate, fiz um molho de beterraba com cenoura e matei a vontade de massa.
+
+<details><summary>Transcrição</summary>
+
+Eu vivia me sentindo inchada, mesmo quando eu comia tudo certinho. Até que comecei a tirar o leite e os seus derivados e descobri a intolerância à lactose, mas depois de um período o inchaço voltou a aparecer e foi aí que veio a disbiose, que é quando a gente passa a ter mais bactérias ruins do que boas no nosso corpo. Com o tratamento, precisei tirar muitos alimentos da minha rotina, qualquer um que me desse gases e inchaço. E aí muita gente passou a me perguntar o que era que eu comia, porque parecia que não sobrava mais nada. Mas uma coisa que eu faço que me ajuda muito é substituir. Então eu não deixo de comer nada, eu só substituo por versões que eu possa consumir. E existem diversas marcas que contribuem pra isso, a Konjac é uma delas. Eles me mandaram esse de aveia, zero glúten e nove calorias em cem gramas. E se tem uma coisa que eu não consigo ficar sem, é uma boa massa. E como agora eu não posso consumir nem glúten, nem tomate, um molho de beterraba e cenoura com essa massa de aveia me salvaram pra matar minha vontade. Vou deixar na legenda mais informações sobre a massa e sobre alguns alimentos que podem dar esse estufamento e você nem sabe. Se você se sente como eu, já fica por aqui que eu te ajudo.
+
+</details>
+
+### 47. Praticidade para quem vive na correria
+
+- **id**: `1kq7e_YnolSEK7xZu58uWdWCYxbdb3oJf`
+- **arquivo**: `13.MOV`
+- **duração**: 53s
+- **tags**: praticidade, rotina, saciedade
+
+**Review (texto da página):**
+
+> Sabemos que ultraprocessados com muito sódio e excesso de glúten atrapalham, mas na correria a gente busca praticidade. Conheci a Konjac Massa, feita com fibra natural, com nove calorias, zero glúten, zero açúcar e zero sódio, e pronta em dois minutos. Combina com molho vermelho, frango, legumes, o que você quiser, e sacia sem culpa.
+
+<details><summary>Transcrição</summary>
+
+Todos nós sabemos que muitos alimentos ultraprocessados, industrializados, por conter muito sódio, excesso de glúten, fazem muito mal para nossa saúde. Porém, mesmo sabendo de tudo isso, às vezes é difícil conseguir equilibrar e manter uma alimentação saudável. Estamos sempre na correria e buscamos por praticidade no dia a dia. Mas recentemente eu conheci a Konjac Massa. Feito com fibra natural, com apenas nove calorias, é zero glúten, zero açúcar, zero sódio. E o melhor, fica pronto em dois minutos. É que ela é prática, rápida de preparar e combina com tudo. Molho vermelho, frango, legumes, o que quiser. E para você que busca perder peso ou simplesmente comer melhor, é uma excelente opção para você comer massa, saciar a sua fome e sem culpa. [música suave]
+
+</details>
+
+### 48. Cremoso de burrata com aspargos transforma o prato
+
+- **id**: `1ppNaWMZ8rLeP_wlHtHYvzaQDmMPjyEbJ`
+- **arquivo**: `8.MOV`
+- **duração**: 52s
+- **tags**: molho gourmet, sabor, receita
+
+**Review (texto da página):**
+
+> Já sou fã do shirataki da Konjac e digo sempre que o segredo está no molho. Dessa vez fiz um cremoso de burrata com aspargos, que fica leve e transforma completamente a refeição. A massa é zero sódio, zero carbo, rica em fibras e tem só nove calorias por cem gramas, então encaixa numa rotina saudável sem abrir mão do sabor.
+
+<details><summary>Transcrição</summary>
+
+Vocês já sabem que eu amo o shirataki da Konjac Massas, né? E o grande segredo pra deixar ele muito gostoso é o molho. Hoje eu vou te ensinar um molho surreal de bom: cremoso de burrata com aspargos. Fica leve, delicioso e transforma completamente a refeição. O passo a passo tá todo na legenda. Já salva esse vídeo porque você vai querer repetir. Ah, e se você ainda não conhece o shirataki da Konjac Massas, ele é zero sódio, zero carbo, rico em fibras e tem só nove calorias por cem gramas. Ou seja, perfeito pra encaixar numa rotina saudável sem abrir mão do sabor. Gente, tá maravilhoso. Façam e me contem aqui o que acharam. [música suave]
+
+</details>
+
+### 49. Entrou no meu tudo que eu como em um dia
+
+- **id**: `1CDe-Sr7YbD3chYeX76ihs43_4YsncGJl`
+- **arquivo**: `fdadfsdf.mov`
+- **duração**: 52s
+- **tags**: rotina alimentar, almoço, volume
+
+**Review (texto da página):**
+
+> Gravei mais um episódio da série de tudo que eu como em um dia e o almoço foi o shirataki da Konjac. Tem zero carboidrato, zero sódio, sem glúten, sem gordura e sem açúcar, com nove calorias a cada cem gramas. É facílimo de preparar, é lavar, colocar na panela e misturar com o acompanhamento, e olha o tamanho do prato que deu.
+
+<details><summary>Transcrição</summary>
+
+Mais um episódio da série de tudo que eu como num dia. Eu sei, fazia tempo que eu não gravava um vídeo desse, mas a minha dieta também continua a mesma. Mas existem alguns dias que eu vou comendo conforme eu tenho vontade. Como eu já tenho bastante noção de alimentos e também conheço bem a minha dieta, eu já sei o que eu posso ou não comer e vou fazendo algumas trocas. Nesse dia comecei com o clássico pão com banana antes do treino. E eu posso, como já tava perto do meio-dia, só fiz um shake de leite. Agora uma pausa super especial pro meu almoço. O escolhido do dia foi o Shirataki do Konjac Mass. Nem possui zero carboidratos, zero sódio, tem glúten, nem gordura ou açúcar. Além disso, é super facinho de preparar. É só lavar, colocar na panela, misturar com seu acompanhamento preferido e tcharam, tá pronto. E o melhor de tudo é que possui apenas nove calorias a cada cem gramas. Juro, olha o tamanho desse prato, até coloquei minha mão pra vocês verem. No meio da tarde fiz uma pausa rápida pra comer uma frutinha. Um arrozinho com frango pro jantar. E eu coloco também um pouquinho sempre de creme de ricota, porque fica uma delícia. E antes de dormir ainda tava com fome, então comi um iogurte com aveia e pasta de amendoim. [som de transição]
+
+</details>
+
+### 50. Comi todos os dias durante o meu processo de emagrecimento
+
+- **id**: `1zTy2DaEmCJjigVPZC1OB6sSOcg0Hm7Dh`
+- **arquivo**: `4368.mp4`
+- **duração**: 52s
+- **tags**: emagrecimento, saciedade, rotina
+
+**Review (texto da página):**
+
+> Incluí a massa shirataki da Konjac todos os dias no meu processo de emagrecimento, junto de uma alimentação saudável no geral. Ela ajuda porque dá muita saciedade, é rica em fibras e entra de forma gostosa, sem passar fome. Para mim, foi o que ajudou a reduzir a ingestão calórica sem sofrimento.
+
+<details><summary>Transcrição</summary>
+
+Te contar como eu sequei e cheguei nesse abdômen comendo massa todo dia, comendo essa massa shirataki da Konjac, que tem só nove calorias. Eu comi ela todos os dias no meu processo de emagrecimento e em poucas semanas eu cheguei nesse resultado, que toda a minha alimentação foi muito saudável, mas essas massas ajudaram demais, porque elas dão muita saciedade, são ricas em fibras e a gente pode incluir de uma forma muito gostosa, sem passar fome na nossa alimentação e vai te ajudar muito a reduzir a tua ingestão calórica. Aqui na legenda tu tem uma receitinha desse espaguete à bolonhesa pra preparar com a tua massa shirataki.
+
+</details>
+
+### 51. Emagreci vinte quilos e confiro tabela nutricional de tudo
+
+- **id**: `10B9o7TdwsHOsLnyWl117TzpWerW9uWCQ`
+- **arquivo**: `Vídeo de Marketing MIT.mp4`
+- **duração**: 52s
+- **tags**: emagrecimento, tabela nutricional, primeira vez
+- **corte citado**: Espaguete
+
+**Review (texto da página):**
+
+> Depois de emagrecer vinte quilos, eu confiro a tabela nutricional de tudo que como, então precisei experimentar quando vi duzentas gramas com apenas dezoito calorias. O shirataki da Konjac é sem glúten, sem lactose, sem açúcar e sem carboidrato, e confesso que fiquei curiosa sobre o sabor. Fiz molho de tomate com frango, subestimei a quantidade porque não coube no prato, e a reação foi de quem comeria todo dia.
+
+<details><summary>Transcrição</summary>
+
+Eu emagreci 20 quilos, então é claro que eu me importo com a tabela nutricional dos alimentos e eu sempre vejo quantas calorias tem tudo aquilo que eu como na minha rotina. Então é claro que quando eu vi que duzentos gramas dessa massa tem apenas dezoito calorias, eu precisei experimentar. Essa massa alimentícia de fibra é o shirataki da Konjac Massas. É sem glúten, sem lactose, sem açúcar e sem carboidrato. Olha, sem tanta coisa, eu confesso que eu fiquei curiosa pelo sabor. Comecei preparando pelo molho. Refoguei alho e cebola, molho de tomate, sal e cheiro verde. Lavei a massa por uns quinze segundos na água corrente. Aí eu escolhi essa aí, tipo espaguete. Coloquei o frango também pra ficar proteico. Sim, tudo isso por dezoito calorias, eu também tô sem acreditar. E eu subestimei a quantidade de massa, hein, porque não coube no prato. E essa foi a minha reação. Muito bom mesmo! Eu comeria todo dia. Uhum. Amei! O cupom que eu consegui pra vocês tá na legenda. Beijo!
+
+</details>
+
+### 52. A estratégia que uso para não passar fome no déficit
+
+- **id**: `1KfsDqVSyjSr-Bh569oT-SqfoGpxrVoq7`
+- **arquivo**: `11.mp4`
+- **duração**: 52s
+- **tags**: déficit calórico, saciedade, estratégia
+- **duplicatas na pasta**: `95346650-b113-4072-b2db-7fc93f8ea4cc.mp4`
+
+**Review (texto da página):**
+
+> Quando a gente reduz calorias, sente fome, e isso é desconfortável, então uso uma estratégia que tem funcionado nos últimos anos. A konjac massa tem nove calorias em uma porção, é riquíssima em fibras e dá muita saciedade. É lavar em água corrente, aquecer, adicionar molho e uma proteína, e a refeição fica completa com baixíssima caloria.
+
+<details><summary>Transcrição</summary>
+
+Chega essa época do ano, tá todo mundo querendo dar aquela secadinha, inclusive eu também. E é normal que logo que a gente reduz um pouco a nossa ingestão de calorias, a gente sente fome e é desconfortável. E eu tenho uma estratégia que eu tenho usado nos últimos anos, que tem me ajudado muito a não passar fome. Com Jack Massa, que tem só nove calorias em uma porção e a gente tem aqui uma massinha que vem pronta. Ela vem dessa forma, riquíssima em fibras e dá muita saciedade. É só lavar ela em água corrente, aquecer, adicionar um molhinho e uma proteína, que tu tem uma refeição super completa, com baixíssima caloria. Então já aproveita e garante a tua com o meu cupom.
+
+</details>
+
+### 53. Praticidade e sabor com molho de atum
+
+- **id**: `1rMZXYCfU2ePX115uqmm8SpvQatzkm8Mx`
+- **arquivo**: `941F6030-1F48-431C-9393-5BAA8A6BAE03.mov`
+- **duração**: 51s
+- **tags**: atum, praticidade, sabor
+
+**Review (texto da página):**
+
+> O que eu mais prezo na dieta é praticidade e sabor, e essa massa tem os dois. Ela não precisa ser cozida, é lavar em água corrente e acrescentar o molho, e quanto mais tempo em contato, mais sabor ela pega. Fiz um molho de atum, comi com bastante salada e ficou pronto em quinze minutinhos.
+
+<details><summary>Transcrição</summary>
+
+As duas coisas que eu mais prezo na minha dieta é praticidade e sabor. E a Konjac Massa tem exatamente o que eu preciso. Uma massa feita totalmente de fibras, que não possui absolutamente nada de carboidrato. Ela é totalmente zero glúten, zero gordura, zero açúcar e sódio. Tem nove calorias o pacote inteirinho e não tem segredo. Ela não precisa ser cozida, você pode apenas lavar ela com água corrente por uns dez minutinhos e acrescentar o molho. Quanto mais ela ficar em contato com o molho, mais sabor ela fica. E eu coloquei no meu molhinho de atum, comi com bastante salada e ficou pronto em quinze minutinhos. Na minha opinião, não existe coisa melhor do que praticidade e sabor e além de tudo, quase zero calorias.
+
+</details>
+
+### 54. Depois dos quarenta a massa impacta diferente
+
+- **id**: `1uaUN5J49MdTcxhVJ5lsVfj7CAAiUJPAZ`
+- **arquivo**: `4aa6151f-d53b-4ee3-9d0d-49cbf9689e1b.mp4`
+- **duração**: 50s
+- **tags**: mulher 40+, glicemia, glucomanano
+
+**Review (texto da página):**
+
+> Depois dos quarenta, a queda de estrogênio altera a sensibilidade à insulina e muda como o corpo responde ao carboidrato. A massa tradicional tem maior carga glicêmica, o que gera pico de glicose e insulina, mais fome em poucas horas e mais tendência de acúmulo abdominal. A massa konjac praticamente não tem carboidrato disponível e é rica em glucomanano, que aumenta a saciedade e reduz o impacto glicêmico da refeição.
+
+<details><summary>Transcrição</summary>
+
+Depois dos 40, a massa impacta diferente no seu corpo. Isso porque existe uma queda de estrogênio que altera a sensibilidade à insulina e muda completamente a forma como o seu organismo responde ao carboidrato. A massa tradicional tem maior carga glicêmica, isso gera um pico maior de glicose e de insulina. Nessa fase da vida, isso pode significar mais fome em poucas horas, mais dificuldade pra emagrecer e também maior tendência de acúmulo de gordura abdominal. Já a massa konjac praticamente não tem carboidrato disponível e é rico em uma fibra chamada glucomanano, que aumenta a saciedade e reduz o impacto glicêmico da refeição. Então não é sobre parar de comer massa e sim sobre entender o impacto metabólico que as suas escolhas precisam fazer depois dos quarenta anos.
+
+</details>
+
+### 55. Feita de tubérculo e fibra solúvel, e a textura não muda
+
+- **id**: `1RhUrm0QelbO3NqLi9K7qceJjM6XLmgSe`
+- **arquivo**: `876568.mp4`
+- **duração**: 50s
+- **tags**: textura, preparo, frango
+
+**Review (texto da página):**
+
+> Muita gente não sabe, mas isso não é macarrão, é um tipo de shirataki feito a partir de um tubérculo e de fibra solúvel. Retirei a água, lavei por quinze segundos e deixei fervendo no molho de tomate com frango para agregar sabor. Não se preocupe com o tempo no molho porque a textura não altera em nada, e quanto mais contato, melhor.
+
+<details><summary>Transcrição</summary>
+
+Você acredita que isso aqui não é um macarrão, e sim, um tipo de shirataki? Que essa massa a cada cem gramas só possui nove calorias. Pra quem não conhece, é feito a partir de um tubérculo e uma fibra solúvel. Não contém carboidrato, glúten, sódio, gordura, açúcar e ainda é rica em fibras, o que vai ajudar muito na saciedade. Então vem comigo fazer uma receitinha com shirataki da Konjac Massas. A massa vem dentro desse saquinho. Você retira toda a água e lava em água corrente por pelo menos quinze segundos. O molho você faz como preferir. Coloquei alho, cebola, tomate e deixei refogando. Depois acrescentei frango como fonte de proteína e adicionei a massa no molho. Deixei fervendo por um tempinho pra agregar mais sabor à massa. Não se preocupe que não altera em nada a textura. Quanto mais tempo em contato com o molho, melhor. E tá pronto. Rápido, fácil, prático e fica uma delícia.
+
+</details>
+
+### 56. Massa com frango e parmesão para a rotina corrida
+
+- **id**: `1keJb3a2wpCEyVTxX1ixoYeUoBwo_bGNB`
+- **arquivo**: `3.mp4`
+- **duração**: 50s
+- **tags**: frango, praticidade, rotina
+
+**Review (texto da página):**
+
+> Queria uma refeição leve e prática, então preparei um molho com frango, cebola, tomate e extrato, com um toque de parmesão. O shirataki da Konjac é zero carboidrato e zero sódio, e o preparo é tirar da embalagem e deixar quinze segundos em água corrente. Depois é só misturar no molho e está pronto para comer.
+
+<details><summary>Transcrição</summary>
+
+Quer uma refeição deliciosa, leve e super prática? Então fique nesse vídeo até o final que eu vou te ensinar como fazer uma massa com frango super deliciosa. E o melhor: é zero carboidrato e zero sódio. Hoje eu vou mostrar pra você sobre o shirataki da Konjac Massas. É muito fácil de preparar, é só tirar da embalagem, deixar por quinze segundos em água corrente. Enquanto isso eu tô preparando o meu molho com frango, cebola, tomate, temperinhos e um bom extrato de tomate. Pra ficar uma massa leve e deliciosa, ainda coloquei um toque de queijo parmesão. Depois do molho pronto é só acrescentar a massa, misturar bem e ela já tá pronta pro consumo. Fala a verdade se isso aqui não é uma salvação na nossa rotina corrida. E se você quer experimentar, eu tenho um presente aqui abaixo na descrição. Agora envie esse vídeo pra sua amiga fitness
+
+</details>
+
+### 57. Dá para comer massa todos os dias na dieta
+
+- **id**: `1AEWMXZcNBpkZ_jHKRcUuyZ3SOEfyIxjp`
+- **arquivo**: `d04aacac-bffb-4a57-a6e0-7112d211efce.mp4`
+- **duração**: 50s
+- **tags**: rotina, variedade, praticidade
+
+**Review (texto da página):**
+
+> A konjac massa encaixa fácil na rotina porque tem várias opções, todas zero carboidrato, zero sódio, ricas em fibras e com nove calorias por porção. Uso sempre que quero algo rápido, prático e que caiba na dieta sem drama. Dá para usar a criatividade e criar várias combinações de molho.
+
+<details><summary>Transcrição</summary>
+
+E se eu te contar que dá pra você comer massa todos os dias na sua dieta? Além de ser muito gostosa, é super baixa em caloria. Isso aqui é konjac massa, uma opção feita de fibras que encaixa super fácil na sua rotina. São várias opções super fáceis e práticas, e todas elas são zero carboidrato, zero sódio, rico em fibras e tem só nove calorias por porção. É muito pouco! Além de que você pode usar a sua criatividade e criar várias combinações. Eu adoro usar a konjac massa quando eu quero comer algo rápido, prático e que encaixe perfeitamente na minha dieta. E eu tenho um cupom de desconto pra você: GABIMARIANA#. Ficou curioso? Vem experimentar, depois você me conta. Beijo.
+
+</details>
+
+### 58. Molho branco com cogumelo em menos de vinte minutos
+
+- **id**: `1gYeKL_1II6m5SSZ2rEcnFp7dtgLwPqP3`
+- **arquivo**: `4.mp4`
+- **duração**: 50s
+- **tags**: molho branco, cogumelo, vegano
+
+**Review (texto da página):**
+
+> Esse é o meu tipo de massa favorita: super leve, com molho branco e cogumelo, pronta em menos de vinte minutos. O shirataki da Konjac é feito com fibras solúveis e duzentas gramas têm apenas dezoito calorias, além de ser sem glúten e vegano. Para quem está em processo de emagrecimento, é um baita aliado.
+
+<details><summary>Transcrição</summary>
+
+Isso é um absurdo de tão gostoso, saudável e perfeito pra encaixar na sua dieta. Mas isso só é possível com o Shirataki da Konjac Massas, que é uma massa feita com fibras solúveis e duzentas gramas tem apenas dezoito calorias. E se você tá em processo de emagrecimento, esse será seu maior aliado. Além de tudo, essa massa é sem glúten e vegana. E aproveita pra testar essa receita que estará completa na legenda. Mas eu já deixo um spoiler que ela fica pronta em menos de vinte minutos. Então chega de desculpas e me falar que fazer dieta é ruim. Na verdade, você que é ruim na cozinha e ainda não testou essa receita deliciosa aqui. Esse é meu tipo de massa favorita. Super leve, com molho branco e cogumelo. Chegou o momento mais aguardado. Eu sei que eu te fiz passar vontade aqui. Indiscutível, perfeito. Testa aí e já me segue pra mais receitas. Beiju, até a próxima.
+
+</details>
+
+### 59. Receita com cara de verão em poucos passos
+
+- **id**: `1O_Z9Rb2ROGfCInglJF0N6I05E0hp2rWg`
+- **arquivo**: `d46c17fe-26e6-4141-8127-31f2aecf1c41.mp4`
+- **duração**: 49s
+- **tags**: verão, receita, leveza
+
+**Review (texto da página):**
+
+> Aprendi uma receita com cara de verão usando a Konjac Massas como base, com nove calorias por porção. O preparo é simples e o resultado é leve, do tipo que combina com dias quentes. Ficou pronta rápido e agora é a minha receita para repetir na estação.
+
+<details><summary>Transcrição</summary>
+
+Aprendi a fazer essa receita com cara de verão, usando como base a Konjac Massas, completamente zero e só com nove calorias por porção. Fica aqui nesse vídeo que eu vou te ensinar. [música eletrônica] A receita tá pronta e agora você também pode dizer: aprendi a fazer essa receita com cara de verão
+
+</details>
+
+### 60. Pappardelle ao molho branco com menos de trezentas calorias
+
+- **id**: `1vqhblpNmCFuZ4f38O7JLFwP6UFIWyWmw`
+- **arquivo**: `1.mp4`
+- **duração**: 49s
+- **tags**: pappardelle, molho branco, micro-ondas
+- **corte citado**: Pappardelle
+
+**Review (texto da página):**
+
+> Fiz um pappardelle ao molho branco com frango refogado, leite, amido de milho, temperos e requeijão light, tudo finalizado em três minutos no micro-ondas. O shirataki da Konjac é zero sódio, zero carboidrato e muito fácil de preparar, é só lavar em água corrente. A pratada inteira ficou com menos de trezentas calorias.
+
+<details><summary>Transcrição</summary>
+
+O papardelle mais gostoso com molho branco saudável que você já comeu na sua vida e a massa tem apenas nove calorias. Esses são os produtos da Konjac. O Shirataki da Konjac é zero sódio, zero carboidrato e muito fácil de preparar. Basta lavar a massa em água corrente por alguns segundos e agora a gente vai preparar o molho. Eu já tinha refogado o frango, coloquei cento e cinquenta ml de leite, um pouquinho de amido de milho, temperinhos e requeijão light. Leva tudo pro micro-ondas por três minutos e tá pronto essa delícia. Gente, toda essa pratada tem menos de trezentas calorias. Eu vou deixar todas as quantidades do molho e do frango que eu preparei na descrição do vídeo, mas eu te garanto que você nunca comeu algo saudável tão gostoso na sua vida. Realmente, se você não conhece os produtos da Konjac, você tá perdendo e não é pouco, não. Eu te convido correndo a conhecer.
+
+</details>
+
+### 61. Uma das cinco dicas para manter o shape no verão
+
+- **id**: `1csuju9xs5XCNX61XVrymAtoHVMv3v-lJ`
+- **arquivo**: `Konjac (1).mov`
+- **duração**: 48s
+- **tags**: dicas, verão, equilíbrio
+
+**Review (texto da página):**
+
+> Entre as minhas dicas de verão está não fazer dieta restritiva, porque não se sustenta a longo prazo, e escolher alimentos que ajudam no processo. A konjac massas é um deles: com um pacotinho você monta um pratão com apenas nove calorias. Não contém glúten, gordura, açúcar nem sódio, e é rica em fibras.
+
+<details><summary>Transcrição</summary>
+
+Cinco dicas que vão te ajudar a manter o shape sequinho igual a gente gosta agora no verão. Um: o famoso gostosas não fulancardio. Dois: sempre andar com uma garrafinha de água do lado, gente. Três: não fazer dieta muito restritiva, porque essas dietas você não consegue manter ela a longo prazo. Quatro: se você tiver vontade de comer alguma coisa, coma. Não fique enrolando, porque se você falar: "hum, tô de dieta, não vou comer". O dia que você for comer, vai sair comendo até a orelha da geladeira. E dica cinco: tem alimentos que vai te ajudar nesse processo. Por exemplo, a konjac massas. Em um pacotinho desse aqui, você vai conseguir fazer um pratão de comida do jeito que a gente gosta, com apenas nove calorias. Não contém glúten, não contém gordura, não contém açúcar, não contém sódio e é rico em fibras. Tá esperando o quê? E a gente tem cupom de desconto, viu?
+
+</details>
+
+### 62. Risone para voltar ao foco depois das festas
+
+- **id**: `1FsZviSPbrHQkmdddSJp2zlecurpj9Hyf`
+- **arquivo**: `IMG_1848.MOV`
+- **duração**: 47s
+- **tags**: risoni, volta ao foco, saciedade
+- **corte citado**: Risoni
+
+**Review (texto da página):**
+
+> Depois das festas entrei em fase de contenção de danos para voltar ao foco e a Konjac Massa foi a solução. Usei o risone, que é o lançamento da marca, feito de fibras solúveis com nove calorias a cada cem gramas, sem glúten e sem sódio. Dá para criar o próprio molho e acrescentar a proteína, então como bem, sinto saciedade e mantenho a dieta.
+
+<details><summary>Transcrição</summary>
+
+Dá pra acreditar que a base desse prato tem apenas nove calorias? Depois das festas eu acabei exagerando bastante, então eu entrei numa fase de contenção de danos pra voltar ao foco. E foi aí que eu descobri uma solução pra isso: a Konjac Massa, que é feita a partir de fibras solúveis com apenas nove calorias a cada cem gramas, ela não tem glúten, não tem sódio e é rica em fibras, que traz muito mais saciedade. Esse é o risone da Konjac Massa, que inclusive é o lançamento da marca. O legal é que você pode criar sua própria receita, fazer seu próprio molho e acrescentar a sua proteína. Assim, consigo comer bem, sentir saciedade e ainda manter a dieta. E se você também tá tentando voltar pro foco sem passar fome, sem dieta maluca, Konjac Massa é a solução.
+
+</details>
+
+### 63. Lendo o rótulo junto com você
+
+- **id**: `1mPZt0Fh4017ItqYJiTsIVAnFgVwr_F2L`
+- **arquivo**: `08012eb1-bed7-449f-b853-b42b101136df.mp4`
+- **duração**: 47s
+- **tags**: rótulo, box, preparo
+
+**Review (texto da página):**
+
+> Li o rótulo em voz alta porque parecia bom demais: nove calorias por porção, sem glúten, sem açúcar, sem gordura, sem sódio, vegano e rico em fibra. No box vêm vários pacotinhos, e o preparo é lavar por quinze segundos em água corrente, sem cozinhar. Misturei no molho de tomate que já estava pronto e o prato inteiro não deve ter nem vinte calorias.
+
+<details><summary>Transcrição</summary>
+
+Vamos ler aqui comigo, ó. Nove, nove calorias por porção, sem glúten, não contém açúcar, não contém gordura, não contém sódio, vegano e rico em fibra. Será a perfeição? E nesse box vem vários, vários pacotinhos. Que que a gente precisa fazer? Lavar por quinze segundos em água corrente e já tá pronto. Não precisa cozinhar. O molho de tomate tá pronto, o macarrão tá lavado e agora é só misturar. Então, tá pronto. Pronto, gente. Isso aqui não deve ter nem vinte calorias. [música animada]
+
+</details>
+
+### 64. Arroz de bacalhau sem arroz tradicional
+
+- **id**: `1Qmy5j4NyeDMuhEevELzPDRJGYvfnG7pN`
+- **arquivo**: `WhatsApp Video 2026-01-26 at 13.34.00.mp4`
+- **duração**: 47s
+- **tags**: formato arroz, chef, intestino
+- **corte citado**: Arroz
+
+**Review (texto da página):**
+
+> Como chef funcional, ensino a escolher melhor os ingredientes, e esse arroz de bacalhau não leva arroz comum. Usei o konjac no formato arroz, que é feito basicamente de fibra, é zero carboidrato, zero sódio e tem nove calorias no pacote inteiro. Ele se comporta diferente no intestino, ajuda no funcionamento, dá saciedade e a gente sai da mesa sem a barriga estufada.
+
+<details><summary>Transcrição</summary>
+
+Sabia que dá pra comer um prato lindo, saboroso e sair da mesa sem a barriga estufada? Esse arroz de bacalhau aqui não leva arroz tradicional. No lugar do arroz comum, eu usei o konjac no formato arroz. O konjac é feito basicamente de fibra, não é massa tradicional. Ele é zero carboidrato, zero sódio, só tem nove calorias o pacote inteiro e ele é rico em fibras e por isso ele se comporta diferente no intestino. Ele ajuda no funcionamento, dá saciedade e reduz a fermentação. Como chef funcional, eu sempre ensino: não é pra parar de comer, é pra escolher melhor os ingredientes que cuidam do intestino. É comida de verdade, sem estufar a barriga
+
+</details>
+
+### 65. Até minha avó experimentou e aprovou
+
+- **id**: `1MhuLGrHZyYHY_gvjG4AHloGEdm7QtOvm`
+- **arquivo**: `uhihu.mp4`
+- **duração**: 46s
+- **tags**: pappardelle, bolonhesa, aprovação familiar
+- **corte citado**: Pappardelle
+
+**Review (texto da página):**
+
+> Escolhi experimentar o pappardelle e fiz um molho bolonhesa com patinho, molho de tomate e uma colher de requeijão light. Lavei em água corrente por pelo menos vinte segundos e deixei cozinhar de dois a três minutos. Até a minha avó provou e a reação dela diz tudo.
+
+<details><summary>Transcrição</summary>
+
+Massas com nove calorias? Vocês conhecem o shirataki da Konjac Massas? A Konjac Massas é um tipo de shirataki zero carboidrato, zero sódio, com apenas nove calorias em cem gramas. E além disso, é rico em fibras. Eu escolhi experimentar o parmadelle, então fiz o molho bolonhesa. Peguei o patinho, o molho de tomate e ainda coloquei uma colherzinha de requeijão light. Quando você abre o shirataki, ele fica desse jeito, gente. Ele vem no saquinho, aí você tem que lavar na água corrente por mínimo vinte segundos. E depois levei pra cozinhar por dois a três minutos. E você ainda falando que fazer dieta é difícil. Até minha avó experimentou e olha a reação dela. E aí, já corre pra adquirir seu konjac e aproveita que nós temos cupom de desconto. E é isso. Beijo!
+
+</details>
+
+### 66. Yakisoba konjac com shoyu e proteína
+
+- **id**: `1Y6_bWG4ZQL9jv0FpLe6qrLm7AKXSEmQN`
+- **arquivo**: `Konjac Massa.mov`
+- **duração**: 45s
+- **tags**: yakisoba, shoyu, volume
+
+**Review (texto da página):**
+
+> Não precisa escolher entre secar e comer massa, e a estratégia aqui é a Konjac Massa. Minha receita favorita é o yakisoba: refogar legumes com frango ou carne moída, cem ml de água, uma colher rasa de shoyu e acrescentar a massa. Sai uma refeição nutritiva, volumosa e sem pesar no carboidrato.
+
+<details><summary>Transcrição</summary>
+
+Abdômen seco não tem segredo, tem estratégia. Pra que escolher entre secar ou comer uma massa se você pode ter os dois? E a estratégia se chama Konjac Massa, uma massa sem carboidratos, sem sódio e com apenas nove calorias. Uma opção que eu amo fazer com a Konjac Massa é o yakisoba konjac. Você vai refogar legumes de sua preferência com a proteína, sendo frango ou carne moída, vai colocar cem ml de água, uma colher rasa de molho shoyu e acrescentar sua massa konjac. E tá pronto, uma refeição nutritiva, volumosa e sem pesar no carboidrato. Ah, e nós temos cupom de desconto, MARESSASANTOS#.
+
+</details>
+
+### 67. Saciedade que age de forma gradual, sem pico
+
+- **id**: `1T-rEz603Z19kgcWbYVNQv6iN6O2seznH`
+- **arquivo**: `Konjac massas.mov`
+- **duração**: 45s
+- **tags**: saciedade, risoni, fibra solúvel
+- **corte citado**: Risoni
+
+**Review (texto da página):**
+
+> O interessante desse alimento é que ele não funciona como as soluções rápidas que dão um pico e depois caem, ele age de forma gradual. Isso acontece porque é feito à base de fibra solúvel, que aumenta a saciedade e facilita escolhas conscientes ao longo do dia. São nove calorias, fica pronto em dois minutos, e o risone entrou fácil no meu dia a dia.
+
+<details><summary>Transcrição</summary>
+
+Você sabia que existe um alimento que é usado há séculos, que ajuda na saciedade sem pesar no corpo? E o mais interessante é que ele não funciona como aquelas soluções rápidas que dão um pico e depois cai. Ele age de forma mais gradual, ajudando o corpo a se manter equilibrado. E isso acontece porque ele é feito à base de fibra solúvel, que aumenta a sensação de saciedade e facilita as escolhas conscientes ao longo do dia. E é exatamente aqui que entram as massas da Konjac, que são feitas à base de fibra solúvel, sem glúten, sem açúcar, sem gordura e sem sódio. Além de ter apenas nove calorias e, ó, fica pronta em apenas dois minutos. E se você também gosta de soluções práticas pra rotina, me conta aqui o que que não pode faltar nas suas refeições. Por aqui, esse risone entrou fácil no meu dia a dia. É muito gostoso, bem simples de preparar e fica pronto rapidinho.
+
+</details>
+
+### 68. Aquela porção pequena que o nutricionista libera
+
+- **id**: `16hFV0c8gEH4J-94Eudeq6v8W3aLK9WIk`
+- **arquivo**: `2de26d76-3d18-41c9-92db-0784b84cdcfb.mp4`
+- **duração**: 45s
+- **tags**: quantidade, comparação, preparo
+
+**Review (texto da página):**
+
+> Sabe quando o nutricionista libera macarrão na dieta, mas a quantidade é minúscula? Com essa massa de nove calorias esse perrengue não acontece, e olha a diferença na quantidade do prato. É à base de fibra solúvel, o preparo é lavar em água corrente e esquentar no molho, e posso dizer que fica idêntico a um macarrão.
+
+<details><summary>Transcrição</summary>
+
+Descobri um macarrão que tem só nove calorias. Sabe quando o seu nutri diz que tudo bem você comer um macarrão numa dieta de emagrecimento, mas ele te passa uma quantidade assim? Já aconteceu com você? Esse perrengue a gente não passa porque a gente tem essa massa de nove calorias. A konjac é uma massa à base de fibra solúvel e pra preparar é muito fácil. É só lavar em água corrente e depois esquentar com o molho de sua preferência, mais os temperos. Eu adicionei um queijo ainda pra incrementar e fica perfeito. Bem melhor essa quantidade, né, gente? E posso falar, fica idêntico a um macarrão. Você pode temperar como quiser e a ideia é complementar essa refeição. Adicionar um frango desfiado, uma carne moída, tudo pra ficar ainda mais nutritivo e perfeito pro seu emagrecimento.
+
+</details>
+
+### 69. Marmita de camarão para a semana
+
+- **id**: `1p5uYna5rFs-7_92fIktZ5bIJpDpcZMUv`
+- **arquivo**: `IMG_3159.mov`
+- **duração**: 44s
+- **tags**: marmita, camarão, meal prep
+
+**Review (texto da página):**
+
+> Montei uma marmita com molho cremoso de camarão usando o konjac como base. São nove calorias em cem gramas, zero carboidrato, zero sódio e rico em fibras, e o preparo é lavar em água corrente e misturar no molho. Depois é só finalizar com cheiro verde ou queijo, pesar e guardar para a semana.
+
+<details><summary>Transcrição</summary>
+
+Opção de marmita nove calorias em cem gramas. Konjac é uma ótima opção pra quem quer comer bem, zero carboidratos, zero sódio e rico em fibras. Tudo isso com apenas nove calorias. Você pode fazer com o molho da sua preferência, mas hoje optei em fazer com camarão pra deixar ele bem cremoso e gostoso. Depois de pronto, você vai lavar em água corrente por cinco segundos ou mais e misturar no seu molho. Depois de misturado, você pode dar seus toques, seja com cheiro verde ou até mesmo com algum queijo de sua preferência da forma que você preferir. Depois somente pesar e o resultado é uma refeição leve e deliciosa pra opção de marmita da sua semana. Foco no shape de verão.
+
+</details>
+
+### 70. Um prato cheio com menos calorias do que uma maçã
+
+- **id**: `19GsrAFKXNyQErb95XH_UK1sLh4NeAitq`
+- **arquivo**: `Konjac .mov`
+- **duração**: 44s
+- **tags**: baixa caloria, impacto glicêmico, praticidade
+- **duplicatas na pasta**: `27.mp4`
+
+**Review (texto da página):**
+
+> Esse prato cheio tem menos calorias do que uma maçã porque o ingrediente principal é a Konjac Massa, feita de fibra natural. São nove calorias por cem gramas, zero carboidrato, zero gordura, sem glúten e com impacto glicêmico muito baixo. Na correria da vida real, comida gostosa e rápida é o que me ajuda a manter o foco.
+
+<details><summary>Transcrição</summary>
+
+Se você quer emagrecer comendo um prato cheio desse, que tem menos calorias do que uma maçã, vem comigo porque o ingrediente principal vai conquistar você. Sem glúten e com impacto glicêmico superbaixo, ele é perfeito pra dietas de baixa caloria e ótimo pra quem quer controlar a fome. Eu estou falando da Konjac Massa, feita de uma fibra natural e tem apenas nove calorias por cem gramas, zero carboidrato e zero gordura. Na correria da vida real, eu escolho assim: comida gostosa e rápida me ajuda a manter o foco e ainda faz bem pro meu corpo. A receita completa desse prato está na descrição desse vídeo. Pare de passar fome na sua dieta e garanta logo a sua Konjac Massa. Ela vai garantir o seu emagrecimento sem sofrimento.
+
+</details>
+
+### 71. Massa de festa com camarão na travessa
+
+- **id**: `1lPVku1bCt1ZKGuUSUE-E3_y6g6YEIpic`
+- **arquivo**: `572439D8-FCB5-4C97-91F8-2B5216C0EC64.mov`
+- **duração**: 44s
+- **tags**: camarão, receita de festa, forno
+- **corte citado**: Espaguete
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Preparei uma travessa de festa com tomate cereja assado, alho, alho poró, cebola roxa e camarão, finalizada com queijo e manjericão. Usei o espaguete da Konjac Massa, que é feito de fibra e vem pronto no pacote, sem cozimento. Ficou um prato de ocasião especial, bonito e leve ao mesmo tempo.
+
+<details><summary>Transcrição</summary>
+
+[música natalina]
+
+</details>
+
+### 72. Bolonhesa comum, só trocando a base
+
+- **id**: `1ZY8UhMXCHPjzJl1aQrry53bfPZiOHcrW`
+- **arquivo**: `IMG_9486.MOV`
+- **duração**: 44s
+- **tags**: bolonhesa, saciedade, intestino
+
+**Review (texto da página):**
+
+> Aqui em casa uso muito as massas da konjac quando quero comer bem e em quantidade sem exagerar nas calorias. Um pacotinho tem dezoito calorias, é zero carboidrato, zero gordura, zero sódio e tem muita fibra, o que dá uma saciedade absurda e ajuda no intestino. Preparo minha bolonhesa normal e só uso a konjac como base, deixando bastante tempo cozinhando para pegar o sabor do molho.
+
+<details><summary>Transcrição</summary>
+
+Sabe aqueles dias que você quer comer bem, quer comer muito, mas sem exagerar nas calorias? Aqui em casa eu uso muito as massas da konjac. Um pacotinho desse aqui são só dezoito calorias, é zero carboidrato, zero gordura, zero sódio e tem muita, muita fibra. Não é um macarrão tradicional, tá? A base dela é fibra, o que dá uma saciedade absurda e ajuda muito no funcionamento do intestino. Aqui eu tô preparando um macarrão à bolonhesa normal, tá? Só tô usando konjac como base. O segredo é você deixar a massa bastante tempo cozinhando pra ela pegar o sabor do molho. Isso facilita muito manter uma alimentação mais leve no dia a dia sem deixar de comer algo gostoso. Pra quem busca praticidade, mais fibras e menos calorias na rotina, funciona demais. [som de vento]
+
+</details>
+
+### 73. Comer menos não significa comer pouco
+
+- **id**: `1KS96lPo8jNAIe_qAG2tcCEe1loEyAICO`
+- **arquivo**: `02e49ad4-22bf-4737-9586-79c9d5482a6e.mp4`
+- **duração**: 44s
+- **tags**: volume, macarronada, frango
+
+**Review (texto da página):**
+
+> A maior dificuldade do emagrecimento é comer menos, mas comer menos não significa comer pouco, e o konjac resolve isso. É uma fibra solúvel e o pacote de cem gramas tem só nove calorias, dando muito volume no prato. Faço tipo uma macarronada com frango, legumes, molho de tomate e requeijão light, e vicia.
+
+<details><summary>Transcrição</summary>
+
+Uma das maiores dificuldades no processo de emagrecimento, se não a maior, é ter que comer menos. Mas comer menos não significa comer pouco. Então vem, que hoje eu vou te contar um dos meus segredos pra consumir um pratão assim e sem exagerar nas calorias. E a grande estrela dessa receita é o konjac. Pra quem não conhece, o konjac é uma fibra solúvel. Num pacotinho todo, que tem cem gramas, só tem nove calorias e dá muito volume no prato. E essa aqui é uma das minhas formas favoritas de preparar ele, tipo uma macarronada, sabe? Com franguinho pra garantir a proteína, claro, e legumes pra ser uma refeição mais rica nutricionalmente. Eu também gosto de adicionar bifum pra ser uma fonte de carboidrato, mas é opcional. E pra finalizar, molho de tomate e requeijão light, dá um toque final especial, sabe? Se você fizer aí, eu tenho certeza que vai viciar também. [música suave]
+
+</details>
+
+### 74. Chegando da academia com vontade de pratão
+
+- **id**: `1H8WCWGbaCnWi784bjhmt7WN1ohDAlCyZ`
+- **arquivo**: `copy_6D7E4769-92D9-43FA-B5C9-F5358FE38F41.MOV`
+- **duração**: 44s
+- **tags**: pós-treino, volume, molho branco
+
+**Review (texto da página):**
+
+> Cheguei da academia querendo um prato bem cheio, com volume, mas sem exagerar nas calorias. Fiz um molho com creme de ricota, leite desnatado e manjericão desidratado, com frango desfiado e milho para completar. A konjac funciona como base e é rica em glucomanano, então dá para comer um pratão e ficar satisfeita.
+
+<details><summary>Transcrição</summary>
+
+Gente, hoje eu cheguei da academia e queria um prato bem cheio, com bastante volume, mas sem exagerar nas calorias. Sabe quando dá aquela vontade de comer bem? E aí eu fui direto no konjac massa, que é feita de fibra, não é massa tradicional, tem zero carboidrato, zero sódio e só nove calorias a cada cem gramas. E aí eu fiz um molhinho com creme de ricota, leite desnatado e alguns temperinhos, tipo manjericão desidratado. E pra deixar mais completo, coloquei frango desfiado com milho. E aí, gente, quem dá o sabor mesmo é o que a gente prepara junto. A konjac massa funciona como uma base, então dá pra adaptar do jeito que você gosta. E além disso, ela é rica em glucomanano, que é uma fibra, né, que vai ajudar na saciedade. Então você consegue comer um pratão e ficar satisfeita
+
+</details>
+
+### 75. Realista: nas festas eu me permito, em casa é foco
+
+- **id**: `1yDvA7I-VCnNSfAjXh9zJiwxs9A7AsuGe`
+- **arquivo**: `18.MOV`
+- **duração**: 42s
+- **tags**: equilíbrio, fim de ano, saciedade
+- **duplicatas na pasta**: `21.mp4`, `WhatsApp Video 2026-01-23 at 15.03.31.mp4`
+
+**Review (texto da página):**
+
+> Meu jeito é realista, nas festas eu me permito e em casa o foco é total, e a Konjac massa tem salvado essa parte. São nove calorias, zero carbo, zero sódio e rica em fibras, e a matéria-prima é fibra, então dá saciedade sem pesar. Uso quando quero controlar melhor as calorias e ainda fazer um prato bem gostoso.
+
+<details><summary>Transcrição</summary>
+
+Fim de ano chegando e eu tô focada, mas sem abrir mão de comer bem, sabe? E uma coisa que tem me salvado muito na dieta é Konjac massa. Ela tem só nove calorias, zero carbo, zero sódio e é rica em fibras. Eu uso muito quando eu quero controlar melhor as calorias, mas ainda assim fazer um prato bem gostoso. E o legal é que a matéria-prima dela é fibra, então ela dá aquela sensação de saciedade sem pesar, sabe? É perfeita pra quando você quer se manter firme na dieta. Pós festa, pós dia corrido. E eu gosto porque é realista, sabe? Eu me permito nas festas, mas quando tô em casa, é foco total com Konjac massa. Ah, e se você quiser testar, eu tenho cupom com dez porcento de desconto nos pacotes avulsos.
+
+</details>
+
+### 76. O produto que está salvando a minha gestação
+
+- **id**: `1kGSLwOZOL4TfV_EV2nIFQNLxpZtAC6Di`
+- **arquivo**: `cdf1344d-8414-4ad4-87af-c9c3f7b200a7.mp4`
+- **duração**: 42s
+- **tags**: gestação, praticidade, versatilidade
+
+**Review (texto da página):**
+
+> Esse produto está salvando a minha gestação porque resolve rápido e é leve. O konjac massa é feito à base de fibras, tem nove calorias por pacotinho, é zero glúten, carboidrato, sódio e gordura, com pouquíssimos ingredientes. Nem precisa cozinhar, é passar na água por cinco segundos, e já fiz com pesto, molho branco e bolonhesa, todos ficam ótimos.
+
+<details><summary>Transcrição</summary>
+
+Esse produto tá salvando a minha gestação. Esse é o konjac massa, feito à base de fibras e cada pacotinho desse tem só nove calorias, é zero glúten, zero carboidrato, zero sódio, zero gordura, com pouquíssimos ingredientes. Você nem precisa cozinhar o konjac massa, ele já vem pré-pronto. É só passar na água por cinco segundos e preparar o seu molho favorito. Aqui eu fiz com tomate pelado. Aí você adiciona o konjac massa e deixa esquentar junto com o molho. Fica super gostoso com molho pesto, molho branco, bolonhesa, eu já fiz de todos os jeitos. É uma maneira saudável de incluir um prato que parece de restaurante italiano no seu dia a dia. Experimenta e me conta.
+
+</details>
+
+### 77. Domingo de reset com fettuccine e tomate cereja
+
+- **id**: `1pDoi9O6JM_9QU5HzmQ8jq5YFJsdW1nu3`
+- **arquivo**: `3134342324.mov`
+- **duração**: 42s
+- **tags**: fettuccine, domingo, tomate cereja
+- **corte citado**: Fettuccine
+
+**Review (texto da página):**
+
+> Domingo é meu dia de reset, começo com cardio e depois quero comida comfort sem exagero. Escolhi o fettuccine da Konjac, uma massa de fibras com nove calorias, zero glúten e zero gordura, e fiz um molho com cebola, alho, tomate cereja, páprica e balsâmico. A massa não precisa ser cozida, só passa vinte segundos na água corrente, e deixei cinco minutos no molho para pegar sabor.
+
+<details><summary>Transcrição</summary>
+
+Domingo é meu dia de reset. Nada de exagero, só um dia leve pra cuidar do corpo e da mente. E eu começo sempre com cardio. Claro que depois do cardio bate aquela fome, mas domingo é dia de comida comfort. Por isso eu escolhi o shirataki da Konjac Massas, que é uma massa de fibras com apenas nove calorias, sendo zero glúten e zero gordura. A escolha foi o fettuccine e a receita é super fácil. Riste a cebola e o alho e assim que dourar, acrescente o tomate cereja. Quando eles começarem a ressecar, acrescente molho de tomate natural, páprica, sal e vinagre balsâmico. A massa não precisa ser cozida, apenas colocada embaixo d'água corrente por vinte segundos e depois é só acrescentar no molho. Eu deixei por cinco minutos pra pegar o sabor e ficar bem gostoso. A melhor parte é poder comer tudo isso sem peso na consciência, porque é delicioso e leve de verdade. Pra experimentar, corre lá no site da Konjac e usa o cupom DURADOMANeguim e ganha dez por cento de desconto pra provar todas essas maravilhas
+
+</details>
+
+### 78. Refeição rápida e nutritiva com nove calorias
+
+- **id**: `1SV8jPe96nv-4XBRXA2EZZrPRrsIGANux`
+- **arquivo**: `IMG_4586.mov`
+- **duração**: 41s
+- **tags**: praticidade, refeição rápida
+- **duplicatas na pasta**: `24.mp4`
+
+**Review (texto da página):**
+
+> Com a konjac massas dá para montar uma refeição rápida e nutritiva com apenas nove calorias vindas da massa. É o tipo de solução que resolve o almoço sem complicar. Prático do começo ao fim.
+
+<details><summary>Transcrição</summary>
+
+E se eu te disser que com konjac massas nós conseguimos uma refeição rápida, nutritiva e o melhor, contendo apenas nove calorias? [música italiana]
+
+</details>
+
+### 79. Linguine com tomate cereja, manjericão e queijo
+
+- **id**: `1JjbKhjmIKVb-Vrsm5nXJ4cyaJ9wx_SaF`
+- **arquivo**: `c39097ea-98e5-4103-9396-53a7694f61a2.mp4`
+- **duração**: 41s
+- **tags**: linguine, tomate cereja, receita
+- **corte citado**: Linguine
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Fiz uma receita simples com o linguine da Konjac: um fio de azeite, tomate cereja com sal e pimenta refogando até murchar, e manjericão. Lavei a massa em água corrente, acrescentei à panela e finalizei com queijo ralado e mais manjericão. É uma receita de poucos passos que fica bonita e saborosa.
+
+<details><summary>Transcrição</summary>
+
+[música eletrônica]
+
+</details>
+
+### 80. Meio quilo de comida com duzentas e sessenta calorias
+
+- **id**: `1YCC1GO0ngbU4ehOCLkkEHkRoducp87KR`
+- **arquivo**: `72e8cb0b-aa03-4ebe-a76b-962381b4231e.mp4`
+- **duração**: 40s
+- **tags**: volume, pesto, almoço
+
+**Review (texto da página):**
+
+> Meu almoço tem mais de meio quilo de comida e duzentas e sessenta calorias no total. A base são folhas, picles e tomate cereja, mais legumes assados como abóbora e cenoura, e a estrela é a massa da Konjac, feita praticamente só de fibra. Servi com frango e molho pesto, e desafio alguém a passar fome com esse prato.
+
+<details><summary>Transcrição</summary>
+
+Meu almoço tem mais de meio quilo de comida e só duzentos e sessenta calorias. Vem ver tudo que eu coloco nesse balde, que fica delicioso e me deixa supersaciada. A base vão ser as folhas e só aí a gente já tem mais de cem gramas e eu tô adorando colocar esse picles, porque dá um toquezinho agridoce e um tomatinho cereja que eu também... Os legumes eu gosto de colocar no forno, que fica superprático, e aí eu coloquei abóbora, moranga e cenoura. E agora a estrela do prato, que é essa massa feita praticamente só de fibra, baixíssima em caloria, da marca Konjac. Eu coloco com frango, molho pesto e olha a quantidade de comida que tem aí. Agora eu duvido você passar fome na sua dieta
+
+</details>
+
+### 81. Carbonara mais leve usando konjac como base
+
+- **id**: `1-i_NvrTsjJNSvCMUnQMhWV0lKmkM1Uh-`
+- **arquivo**: `19.MOV`
+- **duração**: 40s
+- **tags**: carbonara, equilíbrio, saciedade
+- **duplicatas na pasta**: `22.mp4`
+
+**Review (texto da página):**
+
+> Sou da filosofia do equilíbrio, dá para comer bem e manter o shape, e a Konjac Massa virou aliada nos dias de foco. Zero carboidrato, nove calorias a cada cem gramas e rica em fibras, que aumenta bastante a saciedade. Fiz uma carbonara mais leve usando ela como base e, mesmo sendo fibra e não massa tradicional, o sabor ficou sensacional.
+
+<details><summary>Transcrição</summary>
+
+Fim de ano chegando e a galera começa a apertar o ritmo na dieta, mas eu sou da filosofia do equilíbrio, dá pra comer bem e manter o shape. Konjac Massa virou uma boa aliada nesses dias de foco. Zero carboidratos, nove calorias a cada cem gramas. Além de ser rica em fibras, que aumenta bastante a saciedade. Hoje eu fiz uma carbonara mais leve, usando a Konjac Massa como base. É fibra, não é massa tradicional, mas no sabor ficou sensacional. É uma ótima forma de diminuir o impacto das calorias no dia. Dá pra gente fazer várias opções diferentes e a Konjac Massa acaba ajudando bastante nisso. Prática, rápida e fácil de encaixar na dieta porque tem pouca caloria. E se quiser testar, eu tenho um cupom com dez porcento de desconto. E se tu quer mais dicas, segue a Konjac e me segue pra não perder nenhum conteúdo
+
+</details>
+
+### 82. Equilíbrio nos dias de foco, com carbonara
+
+- **id**: `1rs28TGBkhjACVvkMtZg35VzoWwWVNIca`
+- **arquivo**: `IMG_2942.mov`
+- **duração**: 40s
+- **tags**: carbonara, fim de ano, fibra
+
+**Review (texto da página):**
+
+> Fim de ano é quando todo mundo aperta o ritmo, mas eu prefiro equilíbrio a radicalismo. A Konjac Massa ajuda porque tem zero carboidrato, nove calorias a cada cem gramas e muita fibra, que segura a fome. Minha carbonara mais leve ficou sensacional e diminuiu bastante o impacto calórico do dia.
+
+<details><summary>Transcrição</summary>
+
+Fim de ano chegando e a galera começa a apertar o ritmo na dieta, mas eu sou da filosofia do equilíbrio. Dá pra comer bem e manter o shape. Konjac Massa virou uma boa aliada nesses dias de folga. Zero carboidratos, nove calorias a cada cem gramas. Além de ser rica em fibras, que aumenta bastante a saciedade. Hoje eu fiz uma carbonara mais leve, usando a Konjac Massa como base. É fibra, não é massa tradicional, mas no sabor ficou sensacional. É uma ótima forma de diminuir o impacto das calorias no dia. Dá pra gente fazer várias opções diferentes e a Konjac Massa acaba ajudando bastante nisso. Prática, rápida e fácil de encaixar na dieta, porque tem pouca caloria. E se quiser testar, eu tenho um cupom com dez por cento de desconto. E se tu quer mais dicas, segue a Konjac e me segue pra não perder nenhum conteúdo.
+
+</details>
+
+### 83. Nutricionista de MasterChef com espaguete de fibra
+
+- **id**: `16KV2voKWHCXX_Kw-mpzpl9o23RT_Kt4U`
+- **arquivo**: `14.MOV`
+- **duração**: 40s
+- **tags**: espaguete, praticidade, nutrição
+- **corte citado**: Espaguete
+- **duplicatas na pasta**: `IMG_8197.MP4`
+
+**Review (texto da página):**
+
+> Trouxe uma receita rápida, sem carboidrato, sem glúten, sem açúcar e com nove calorias, usando o espaguete da Konjac como base. O melhor é a praticidade: escorrer a água, passar em água corrente e misturar no molho da preferência. Acompanhei com a minha porção de proteína e o prato ficou saboroso e fácil de encaixar na dieta.
+
+<details><summary>Transcrição</summary>
+
+Hoje a Nutry atacou de MasterChef e eu vim trazer uma receita maravilhosa, rápida, sem carboidrato, sem glúten, sem açúcar e só com nove calorias. Nem dá pra acreditar. E claro que como base pra essa receita, eu usei a Konjac massa tipo espaguete. E o melhor de tudo é a praticidade, é só escorrer a água que vem dentro, passar uma água corrente e tá pronto, misturar no molho da sua preferência. Fala sério, né? Versátil, prático e com uma composição impecável. Eu já aproveitei pra acompanhar com a minha porção de proteína e o prato tá perfeito. Saboroso, prático e baixo em caloria, assim fica superfácil de encaixar na dieta. Ah, e se você quiser testar também, já aproveita o cupom da Nutry pra garantir aquele desconto
+
+</details>
+
+### 84. High Protein Dry Noodles com trinta e duas gramas de proteína
+
+- **id**: `1DPdlVdVyuCX0zeuuYuxmiVrPFeAOIohc`
+- **arquivo**: `WhatsApp Video 2026-06-08 at 13.55.05.mp4`
+- **duração**: 40s
+- **tags**: linha proteica, pós-treino, praticidade
+- **corte citado**: High Protein Dry Noodles
+
+**Review (texto da página):**
+
+> Quando chego da academia eu quero algo rápido para bater a meta de proteína, e conheci o High Protein Dry Noodles da Konjac Massa. Ele tem trinta e duas gramas de proteína por porção, é rico em fibras, tem vários sabores e fica pronto em poucos minutos. Outro ponto que gostei é a tecnologia Air Dry, porque ele não é frito em óleo.
+
+<details><summary>Transcrição</summary>
+
+Quando eu chego da academia, eu quero uma refeição rápida, gostosa e prática pra bater a meta de proteína do dia. Foi aí que eu conheci o High Protein Dry Noodles da Konjac Massa. O que eu mais gostei é a praticidade, que em poucos minutos já tem uma refeição pronta. Além disso, ele tem trinta e duas gramas de proteína por porção. E quer saber o que é ainda melhor? Ele é produzido com a tecnologia Air Dry, então ele não é frito em óleo. Além disso, ele é rico em fibras e tem vários sabores disponíveis. Uma opção prática e saudável para aqueles dias corridos em que eu quero uma refeição completa, mas sem complicação. Me alimentar bem nunca foi tão fácil e gostoso. Beiju!
+
+</details>
+
+### 85. Nove calorias equivalem a uma rodela fina de kiwi
+
+- **id**: `1N2VpR8iNDR1aEN1R180L1ZYE9-XebSzv`
+- **arquivo**: `9.mov`
+- **duração**: 39s
+- **tags**: comparação, jantar, composição
+
+**Review (texto da página):**
+
+> É uma massa feita à base de fibras, sem sódio, sem glúten, sem açúcar e sem gordura, com apenas nove calorias. Para dar dimensão, isso equivale a uma rodela fina de kiwi. É a resposta fácil para a pergunta do que jantar hoje.
+
+<details><summary>Transcrição</summary>
+
+Vamos fazer um, um Jackson Glutton? [som de embalagem] Uma massa feita à base de fibras, sem sódio, sem glúten, sem açúcar, sem gordura e o melhor: contendo apenas nove calorias. Já parou pra pensar que isso é equivalente a uma rodela fina de kiwi? O que você vai jantar hoje? [música alegre]
+
+</details>
+
+### 86. Duzentas gramas no prato e dezoito calorias
+
+- **id**: `11nH5ZTbRVx5GF1ZzIZIxby2hIJ1bATPt`
+- **arquivo**: `6.MOV`
+- **duração**: 39s
+- **tags**: sabor neutro, preparo, saciedade
+
+**Review (texto da página):**
+
+> O que mais me chamou atenção, além da parte nutricional, foi a facilidade do preparo: fica pronto em menos de cinco minutos, é só lavar e misturar no molho. A massa não tem gosto nenhum, então o sabor é o que ela absorve do molho, e isso libera a criatividade porque dá até para finalizar com parmesão. Nesse prato usei a embalagem inteira, duzentas gramas, dezoito calorias, e a saciedade é enorme porque é fibra.
+
+<details><summary>Transcrição</summary>
+
+E se eu te dissesse que cem gramas dessa massa tem apenas nove calorias? Pra quem não conhece, essa é a konjac, uma massa feita com a fibra da glucomanan. Ela não tem carboidratos, gorduras e quase não tem caloria. Fora essa questão nutricional, o que me chamou muito a atenção nessa massa é a facilidade na hora do preparo. Gente, isso aqui fica pronto em menos de cinco minutos. É só lavar a massa, colocar no molho da sua preferência e misturar. Simples assim. A massa não tem gosto nenhum. O sabor que ela vai ter é o sabor que ela vai absorver do molho que você utilizar. E agora entra a melhor parte: por ser uma massa baixa em calorias, você pode usar a criatividade na hora do preparo dos molhos e ainda adicionar aquele parmesãozinho pra finalizar, sem sair da dieta. Nesse prato que eu preparei, tem a embalagem inteira, duzentos gramas da massa, dezoito calorias. E gente, isso daqui dá uma saciedade do caramba, porque é fibra, então você não vai ficar com fome logo depois de terminar de almoçar
+
+</details>
+
+### 87. Para matar a vontade de massa o tempo todo
+
+- **id**: `1-Hz3sa5tH7XfguxGkaBoO0dzy4cdTS03`
+- **arquivo**: `78787787.mp4`
+- **duração**: 38s
+- **tags**: vontade de massa, praticidade, rotina
+
+**Review (texto da página):**
+
+> Tenho vontade de comer massa o tempo todo e essas massas da Konjac ajudam a encaixar isso na dieta. São nove calorias, zero carboidrato, sem gordura e sem açúcar. Fica pronta em dois minutinhos, é só ter o molho preparado.
+
+<details><summary>Transcrição</summary>
+
+[som de microondas] A vontade de comer uma massa o tempo todo. É, eu também tenho. E para me ajudar com essa vontade e encaixar na dieta, tenho essas massas aqui da Konjac. Apenas nove calorias. Ela é simplesmente perfeita. Ela é zero carboidrato, ela não tem gordura, não tem açúcar e ela é simplesmente perfeita. Fica pronta em dois minutinhos. Ó, o molho já tá pronto. [som de microondas] Tá, vamos encher agora. Hum.
+
+</details>
+
+### 88. Não é macarrão comum e o pacote inteiro tem nove calorias
+
+- **id**: `1cWAGPhzObZy0SOi5Xl3D5DMC6yla-fgx`
+- **arquivo**: `IMG_3031.mov`
+- **duração**: 38s
+- **tags**: leveza, volume, planejamento
+
+**Review (texto da página):**
+
+> Uso muito no dia a dia quando quero manter o foco sem passar vontade, e faço questão de dizer: isso não é macarrão comum. O pacote inteiro tem nove calorias, é zero carboidrato, sódio, gordura e glúten, e ainda é rico em fibras, porque a matéria-prima é fibra. Consigo montar refeições leves e volumosas sem sair do planejamento.
+
+<details><summary>Transcrição</summary>
+
+Gente, eu quero mostrar pra vocês uma coisa que eu tenho usado muito no meu dia a dia, principalmente quando eu quero manter o foco sem passar vontade. Essa é a Konjac Massa. E não, isso aqui não é um macarrão comum. O pacote inteiro tem apenas nove calorias. É isso mesmo, nove calorias. Ela também é zero carboidrato, zero sódio, zero gordura, zero glúten e ainda é rica em fibras. A matéria-prima dela é fibra e não massa tradicional. Eu gosto muito porque encaixa perfeitamente na minha rotina. Consigo montar refeições leves, volumosas e sem sair do meu planejamento. Então se você quer praticidade, leveza e manter o foco, sem dúvidas, Konjac Massa é a opção perfeita pra você!
+
+</details>
+
+### 89. Molho de tomate com manjericão fresco no dia corrido
+
+- **id**: `1fbybUSQ6TgY_HDyrIKWNd73vk8nIr9R0`
+- **arquivo**: `2860ee23-7122-43be-ac97-97ddb9bdc449.mp4`
+- **duração**: 37s
+- **tags**: dia corrido, molho de tomate, praticidade
+
+**Review (texto da página):**
+
+> Meus dias corridos pedem soluções que ganhem tempo, e a massa Konjac fica pronta em poucos minutos. É zero carboidrato, zero sódio, só nove calorias e ainda é rica em fibra, então você come bem e não pesa no fim do dia. Fiz do jeito mais fácil possível, molho de tomate, manjericão fresco e queijo para finalizar.
+
+<details><summary>Transcrição</summary>
+
+Se tem uma coisa que eu prezo na minha rotina é ganhar tempo. Meus dias corridos pedem soluções inteligentes e olha isso: a massa Konjac fica pronta em poucos minutos e encaixa de uma maneira muito fácil na rotina. E o melhor: zero carboidratos, zero sódio, só nove calorias e ainda é rico em fibra. Ou seja, você come bem, se sente satisfeita e não pesa no final do dia. Hoje eu fiz do jeito mais fácil possível: molho de tomate, manjericão fresco e finalizei com queijo. Simples, fácil e delicioso. É justamente o tipo de coisa que funciona pra quem quer praticidade, leveza e constância, sem abrir mão do prazer de comer. Pra mim, isso é alimentação inteligente, fácil de manter no dia a dia
+
+</details>
+
+### 90. Também não acreditava até experimentar
+
+- **id**: `1Px0vLXCaCuBcuMRxFA0dRPAd9Fi-L-ma`
+- **arquivo**: `Documento de MIT Comunicação.mov`
+- **duração**: 36s
+- **tags**: ceticismo, preparo, sabor
+
+**Review (texto da página):**
+
+> Eu também não acreditava que um prato inteiro de massa podia ter tão pouca caloria até conhecer a Konjac Massa. Não precisa cozinhar, é só enxaguar e aquecer, e em menos de três minutos está pronto. Fica delicioso e combina com qualquer molho que você quiser.
+
+<details><summary>Transcrição</summary>
+
+Você acredita que esse prato de massa todo aqui tem só nove calorias? Pois é, eu também não acreditava até conhecer a Konjac Massa. Isso aqui é uma revolução pra quem ama massa, mas quer manter a alimentação leve. Dá pra comer sem culpa nenhuma. Konjac Massa é prático demais. Não precisa cozinhar, é só enxaguar e aquecer. Em menos de três minutos, tá pronto. Sério, fica delicioso e ainda dá pra combinar com qualquer molho que você quiser também.
+
+</details>
+
+### 91. Frango desfiado com molho de tomate e manjericão
+
+- **id**: `1qUZKJBxl06Ha5tx-S-FEpMsNar_wrIKS`
+- **arquivo**: `986321612.mp4`
+- **duração**: 36s
+- **tags**: frango, vegano, rápido
+
+**Review (texto da página):**
+
+> Naqueles dias com pouco tempo para cozinhar e sem vontade de sair da dieta, o shirataki da Konjac Massa fica pronto em dois minutos. É fibra solúvel, tem nove calorias em cem gramas, zero carboidrato e é cem por cento vegana, então serve para todo mundo. Usei frango desfiado com molho de tomate e manjericão e até a minha gata veio conferir.
+
+<details><summary>Transcrição</summary>
+
+Sabe aquele dia que você tem pouco tempo pra cozinhar e não quer sair da dieta? Eu achei o prato ideal. O Shirataki da Konjak Massa fica pronto em apenas dois minutos. Basta lavar e colocar no molho de sua preferência. E o melhor de tudo: ela é uma fibra solúvel, tem apenas nove calorias em cem gramas, zero carboidratos e é cem por cento vegana, então todo mundo pode utilizar. Na receita de hoje eu utilizei aquele frango desfiado que eu já ensinei a receita aqui. Fiz um molho de tomate vermelho com manjericão seco, mas se você tiver o fresco, fica ainda melhor. E olha, até a Mimi aprovou essa receita, então aproveita que tem dez por cento de desconto com o nosso cupom, eu vou deixar ele linkado aqui embaixo. Corre e aproveita!
+
+</details>
+
+### 92. Fibra solúvel que regula o intestino e sacia
+
+- **id**: `1y1Gi08HVjtmkAtDPOUjZK2kU6xzAujS9`
+- **arquivo**: `ytcyjgvyt.mov`
+- **duração**: 36s
+- **tags**: intestino, saciedade, sabor neutro
+
+**Review (texto da página):**
+
+> Dá para emagrecer comendo massa com o shirataki da Konjac, que tem nove calorias em cem gramas e não contém carboidrato, sódio, glúten, gordura, açúcar nem lactose. É rico em fibras solúveis, que ajudam a regular o intestino e aumentam a saciedade. Como tem sabor neutro, coloquei os temperos que mais gosto e acrescentei uma proteína.
+
+<details><summary>Transcrição</summary>
+
+Emagrecendo comendo massa? Sim, é possível com a konjac massas, que é um tipo de shirataki com apenas nove calorias em cem gramas. Não contém carboidrato, sódio, glúten, gordura, açúcar e nem lactose. Isso porque é rico em fibras solúveis que ajudam a regular o intestino e aumenta a sensação de saciedade. Sem falar na praticidade do preparo, basta lavar a massa em água corrente e preparar o molho de sua preferência. Por ser composta por fibras, tem sabor neutro. Sendo assim, coloquei os temperos que mais gosto. Acrescentei uma proteína, agregando sabor e ficou supernutritivo. Já faz essa maravilha aí também.
+
+</details>
+
+### 93. Do pacote ao prato em um passo a passo simples
+
+- **id**: `1rfYU1zXQNjEVT-xV1B47E7uCaDyVPUU4`
+- **arquivo**: `Konjac.mp4`
+- **duração**: 36s
+- **tags**: passo a passo, bolonhesa, rotina
+- **corte citado**: Espaguete
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Mostrei o caminho completo em casa: a caixa do espaguete Konjac Massa aberta, a massa retirada do saquinho e lavada na peneira sob água corrente. Depois é só juntar ao molho de carne que já estava na panela e deixar apurar. O resultado é um prato de massa comum, prático e do jeito que cabe na rotina.
+
+<details><summary>Transcrição</summary>
+
+[música funk]
+
+</details>
+
+### 94. Prático, leve e do jeito que cabe na rotina
+
+- **id**: `1k3SQM5-K6xDrtVZpRZxcUkeE4zWUdBV9`
+- **arquivo**: `12.mp4`
+- **duração**: 36s
+- **tags**: rotina, praticidade, bolonhesa
+- **corte citado**: Espaguete
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Registrei o preparo do começo ao fim, do molho de carne na panela até a massa lavada entrando na travessa. A Konjac Massa deixa a refeição prática e leve, do jeito que cabe na correria. No fim, sentei e comi um prato de massa de verdade.
+
+<details><summary>Transcrição</summary>
+
+[música animada]
+
+</details>
+
+### 95. Não quebra o foco nem a praticidade
+
+- **id**: `1zHSuFolf8wV9fE7BXBtl8OFefpCXSTZk`
+- **arquivo**: `15.MOV`
+- **duração**: 35s
+- **tags**: foco, versatilidade, rotina
+
+**Review (texto da página):**
+
+> Aquele momento em que você não quer quebrar o foco, mas também não quer abrir mão de praticidade e sabor, é onde a konjac massa entra. É um produto leve, com zero carboidrato, zero sódio e só nove calorias. Rica em fibras e muito versátil, combina desde uma refeição pós-treino até o almoço leve no meio da correria.
+
+<details><summary>Transcrição</summary>
+
+Sabe aquele momento que a gente não quebra a mão do foco, mas também não quebra a mão da praticidade e do sabor? Pois é, é aí que entra a konjac massa. É um produto leve, com zero carboidrato, zero sódio e só nove calorias. Sério, é surreal. E melhor, é que combina com tudo, desde uma refeição rápida pós-treino até aquele almoço leve no meio da correria. Rica em fibras e superversátil, ela virou presença garantida na minha rotina saudável, porque cuidar da alimentação também pode ser simples, gostoso e leve.
+
+</details>
+
+### 96. Risoni misturado com massa tradicional para dar volume
+
+- **id**: `1Xib_bXSemX5MJpLjS2eyA0xA1Bysb3e3`
+- **arquivo**: `WhatsApp Video 2026-01-23 at 11.30.43.mp4`
+- **duração**: 35s
+- **tags**: risoni, volume, mistura
+- **corte citado**: Risoni
+
+**Review (texto da página):**
+
+> O Risoni é o lançamento da Konjac Massa e a base dele é fibra e água, com nove calorias por porção. Por ser rico em fibras, ajuda no funcionamento do intestino e na saciedade, e já vem pronto, o que deixa o preparo muito prático. Gosto de usar com proteína e legumes, e às vezes até misturo com massa tradicional para aumentar o volume do prato sem aumentar as calorias.
+
+<details><summary>Transcrição</summary>
+
+E se eu te falar que a base desse prato é água e fibra e tem nove calorias por porção? O Risoni é o lançamento da Konjac Massa, mas não é massa tradicional. A base é fibra e água e ele já vem pronto, então é super prático de fazer. Por ser rico em fibras, ajuda no funcionamento do intestino e na saciedade. Eu gosto de usar com proteína e legumes ou até misturar com uma massa tradicional pra aumentar o volume do prato sem aumentar as calorias. Opção super prática, versátil e fácil de adaptar na rotina. E a receita desse prato eu deixei na legenda.
+
+</details>
+
+### 97. Comer gostoso não atrapalha a secada do verão
+
+- **id**: `1xHGbEis2fAMQGvzypT1GOwFfKGEY7-zS`
+- **arquivo**: `fabbd66f-285b-4879-a4cb-af92a59d48ff.mp4`
+- **duração**: 34s
+- **tags**: verão, creme de ricota, praticidade
+- **duplicatas na pasta**: `1754b4ec-49e4-49f8-a811-e8dc5ba041b9.mp4`
+
+**Review (texto da página):**
+
+> No fim do ano todo mundo foca na dieta para o verão, mas isso não significa deixar de comer algo gostoso. O Konjac Massas é feito de fibra, zero carboidrato, zero sódio e nove calorias em cem gramas, e já vem praticamente pronto, é passar cinco segundos na água corrente. Fiz um molho com creme de ricota, pimenta e cheiro verde e ficou prático, gostoso e bem reduzido em calorias.
+
+<details><summary>Transcrição</summary>
+
+Chega final do ano eu sei que tá todo mundo focado na dieta pra dar aquela secadinha pro verão. Mas não é por isso que a gente não pode nem deve comer algo gostoso. E é isso que o Konjac Massas tem feito na nossa rotina. Uma massa feita de fibra, zero carboidrato, zero sódio e só nove calorias em cem gramas. E o melhor de tudo, é super fácil de fazer porque ele já vem praticamente pronto. É só passar a sua massa na água corrente por cinco segundos e incorporar no molho da sua preferência. Aqui eu fiz um com creme de ricota, pimenta e cheiro verde. Alimentação saudável não é sinônimo de processo ruim, muito menos de não comer algo gostoso. E é isso que temos com essa receita. Prática, gostosa e super reduzida em calorias. Deixei meu cupom de desconto na legenda pra você já garantir o seu.
+
+</details>
+
+### 98. Vários formatos para variar as refeições
+
+- **id**: `11ZEIl96JVa7NV9DZRXwqfQaSfGX29LPi`
+- **arquivo**: `5325424.mp4`
+- **duração**: 33s
+- **tags**: formatos, praticidade, emagrecimento
+
+**Review (texto da página):**
+
+> Estou emagrecendo comendo massa, e a explicação é que essa é o shirataki da Konjac Massa, feita de fibras solúveis. É rápida e prática, já vem pronta, basta aquecer e misturar com o molho da preferência. Dá para escolher entre diversos formatos, e é livre de gordura, glúten e açúcar, com nove calorias por porção.
+
+<details><summary>Transcrição</summary>
+
+Eu tô emagrecendo comendo massa! Mas calma aí, que esse é o Shirataki da Konjac Massa. É uma massa feita de fibras solúveis. Super rápido e prática de preparar. Ela já vem pronta, basta aquecer e misturar com o molho da sua preferência. Você pode escolher entre diversos formatos, além de ser uma massa livre de gordura, glúten e açúcar. E sem contar na porção que tem apenas nove calorias. Então, venha conhecer as massas da Konjac Massas.
+
+</details>
+
+### 99. Rotina equilibrada, sem radicalizar
+
+- **id**: `1jTdegmnGa4Wpzx9LPgpopXvnEaHH34VK`
+- **arquivo**: `6340c58a-6f1d-430a-876e-cca1863ff8cf.mp4`
+- **duração**: 33s
+- **tags**: equilíbrio, versatilidade, rotina
+
+**Review (texto da página):**
+
+> Tento manter uma rotina equilibrada sem abrir mão de comer bem, e foi assim que conheci a Konjac Massas. Ela é feita de fibra e não de farinha comum, o que muda bastante a proposta: é leve, tem pouquíssimas calorias e quase nada de carboidrato. Dá para comer com qualquer molho que você já faz em casa, é lavar, escorrer e misturar direto.
+
+<details><summary>Transcrição</summary>
+
+Quem me conhece sabe que eu tento manter uma rotina equilibrada, mas sem abrir mão de comer bem, né? E foi assim que eu conheci a Konjac Massas. Ela é uma massa feita de fibra, não de farinha comum, e isso muda bastante a proposta. Ela é bem leve, tem pouquíssimas calorias e quase nada de carboidrato, então acaba sendo uma opção diferente para alguns dias da semana, sem radicalizar. O que eu gosto é que dá pra comer com qualquer molho. Molho branco, molho vermelho, o que você já costuma fazer em casa mesmo. O prato fica uma delícia. Na hora de preparar, lavo, deixo escorrer, misturo direto no molho pronto. É fácil, prático e gostoso. Gosto da Konjac Massas justamente por isso, dá pra encaixar tranquilamente na nossa rotina e ainda tem pouquíssimas calorias, o que pra mim faz muita diferença.
+
+</details>
+
+### 100. Trocar o carboidrato sem passar fome
+
+- **id**: `13npbcXJv5DKjuISEScXQlzoqhSdPxDUa`
+- **arquivo**: `f6fe94ee-9d57-4904-b50f-a43adac9c10f.mp4`
+- **duração**: 32s
+- **tags**: substituição, saciedade, estratégia
+
+**Review (texto da página):**
+
+> Muita gente acha que a estratégia é só tirar o carboidrato, mas melhor do que isso é colocar algo no lugar que dê saciedade. A konjac é uma massa muito pouco calórica, com nove calorias em cem gramas, e ocupa esse espaço no prato. Você faz a troca e não passa fome no processo.
+
+<details><summary>Transcrição</summary>
+
+Tá precisando daquela secada pro carnaval? Cola comigo que eu vou te mostrar a estratégia perfeita. Tá, tá, é só tirar carboidrato que a gente vai dar uma secada. Calma, melhor que isso. Além de você tirar o carboidrato, eu vou te apresentar uma coisa que vai fazer com que você inclua ela no lugar e que ela vai te dar muito mais saciedade. O nome dessa maravilha aqui, ó, konjac. Ela é uma massa muito pouco calórica. Em cem gramas, tem apenas nove calorias. Tem coisa melhor? Então tira arroz e feijão, coloca ela no lugar que cê não vai passar fome e o carnaval, cê vai chegar no shape
+
+</details>
+
+### 101. O kit chegou e o almoço saiu em dois minutos
+
+- **id**: `1I3aacQE5MGi5KoVqvC9X6hg8YV1hCGsM`
+- **arquivo**: `IMG_9322.MOV`
+- **duração**: 31s
+- **tags**: unboxing, praticidade, almoço
+
+**Review (texto da página):**
+
+> Meu kit da Konjac Massa chegou e preparei um almoço gostoso e rápido no mesmo dia. Ela não é massa tradicional, a base é fibra, o que deixa a refeição extremamente leve, além de ser zero carboidrato, zero sódio e rica em fibras, com nove calorias. O preparo é lavar por quinze segundos em água corrente e finalizar como preferir, porque fica pronta em dois minutos.
+
+<details><summary>Transcrição</summary>
+
+Meu kit da Konjac Massa chegou e eu preparei um almoço super gostoso e rápido. A Konjac Massa não é uma massa tradicional. A base dela é fibra, o que deixa a refeição extremamente leve. Então além dela ser zero carboidrato, zero sódio, rico em fibras, ela só tem nove calorias. E o modo de preparo é muito simples. Você só precisa lavar a massa por quinze segundos em água corrente e finalizar ela da forma que preferir, porque ela fica pronta em dois minutos. E vocês ainda têm cupom de desconto exclusivo em compra de pacotes avulsos. Me apaixonei e agora não largo mais! [música animada]
+
+</details>
+
+### 102. Aumentar o volume do prato no emagrecimento
+
+- **id**: `11C82VkzmJLkTn2rALRwT4czumJdvGvn-`
+- **arquivo**: `Video Konjac.MOV`
+- **duração**: 31s
+- **tags**: volume, variedade, preparo
+
+**Review (texto da página):**
+
+> É uma massa alimentícia de fibra solúvel, zero carboidrato e zero sódio, e o preparo é escorrer a água e passar cinco segundos em água corrente. Depois é só misturar no molho da preferência e está pronto. Existem várias opções para variar as refeições e aumentar o volume do prato no processo de emagrecimento.
+
+<details><summary>Transcrição</summary>
+
+E se eu te contar que esse pratão de massa tem apenas nove calorias? É isso mesmo que você ouviu. Konjac Massas veio pra revolucionar o seu processo de emagrecimento. É uma massa alimentícia de fibra solúvel, zero carboidrato e zero sódio. E o preparo é muito simples: é só você escorrer a água da massa e levar em água corrente por cinco segundos. Depois é só misturar no molho da sua preferência e tá pronto. Existem várias opções de massa pra você variar suas refeições no dia a dia e aumentar o volume do seu prato no processo de emagrecimento. Já salva esse vídeo pra garantir a sua massa
+
+</details>
+
+### 103. Penne para voltar à rotina
+
+- **id**: `1Agz7Terver6kpRfO2hmXGzW-zSI7dUD6`
+- **arquivo**: `d162c051-5cd6-4666-9d3d-9ebc156e74a5.mp4`
+- **duração**: 30s
+- **tags**: penne, volta à rotina, praticidade
+- **corte citado**: Penne
+
+**Review (texto da página):**
+
+> Para voltar à rotina depois de um período fora dela, o konjac massa é o aliado que uso. São nove calorias por porção de cem gramas, zero sódio e zero carboidrato, com preparo rápido. Na minha receita usei o penne, mas ele tem inúmeras variedades, o que facilita incluir na dieta de maneira prática.
+
+<details><summary>Transcrição</summary>
+
+E bora voltar pra nossa rotina? Aliado pra voltar tudo ao normal por aqui vai ser konjac massa, que tem apenas nove calorias por porção de cem gramas, além de ser zero sódio e zero carboidrato. É o auxílio que a gente precisa nesse momento. Preparo rápido. Na minha receita eu usei konjac penne, mas ele possui inúmeras variedades, facilitando assim incluir de maneira prática na nosso dia a dia e na dieta, sendo um ótimo auxílio pra buscar aquele balde que a gente chutou. [som de água caindo]
+
+</details>
+
+### 104. Meia hora depois eu não estava com fome
+
+- **id**: `1iocGjj6tYWfVklwSFwaY9Kt200bJSwWM`
+- **arquivo**: `IMG_0497 (2).MOV`
+- **duração**: 28s
+- **tags**: saciedade, comparação, almoço
+
+**Review (texto da página):**
+
+> Preparei o almoço em menos de cinco minutos e o que me faz gostar é que a base é fibra, não é massa tradicional. Isso faz diferença de verdade, porque meia hora depois eu não estou com fome como acontece quando como outro tipo de massa. E ainda são só nove calorias, com preparo de abrir, lavar e adicionar ao molho.
+
+<details><summary>Transcrição</summary>
+
+Vem comigo preparar o almoço de hoje com a Konjac Massas, uma refeição leve, saudável e preparada em menos de cinco minutos. Eu adoro porque a base é fibra, não é uma massa tradicional e isso faz toda a diferença, porque depois de meia hora eu não tô com fome igual acontece quando eu como outro tipo de massa. Isso sem contar que tem só nove calorias, né? E quanto ao modo de preparo, é isso aí que você tá vendo, tá? É só abrir, lavar a massa e adicionar ao molho da sua preferência. É bom sempre ter um pronto no congelador. E quer saber o melhor de tudo? Tem cupom de desconto pra você que assistiu esse vídeo até o final. Então se você quer mais leveza e praticidade na sua dieta, chegou o seu momento. Me agradece depois.
+
+</details>
+
+### 105. Combina com tudo e não pesa na correria
+
+- **id**: `1OJ58osWrYrp6Uwgk167XV22dTrcIdKek`
+- **arquivo**: `IMG_0237.mp4`
+- **duração**: 27s
+- **tags**: rotina, leveza, almoço
+
+**Review (texto da página):**
+
+> Este ano o foco é total e ter opções leves e práticas em casa ajuda muito. Preparei o almoço com a Konjac Massas, feita à base de fibras, que combina com tudo e não pesa. Fica muito gostoso e deixa a rotina bem mais leve.
+
+<details><summary>Transcrição</summary>
+
+2026 e agora o foco é total. E uma coisa que me ajuda muito aqui em casa é ter opções leves e práticas. Hoje eu preparei o meu almoço com Konjac Massas, feita à base de fibras. Combina com tudo e não pesa, principalmente agora nessa correria. Fica muito gostoso e deixa a rotina muito mais leve. E comprando com o meu cupom você tem dez por cento de desconto. Konjac Massas virou parte da minha rotina
+
+</details>
+
+### 106. Massa super leve para quem está emagrecendo
+
+- **id**: `1kxOaOMoGDpTyuYaeau3Uf9rZHY2Apn58`
+- **arquivo**: `2.mp4`
+- **duração**: 26s
+- **tags**: emagrecimento, leveza, descoberta
+- **duplicatas na pasta**: `dddfdsds.mp4`
+
+**Review (texto da página):**
+
+> Descobri uma massa com apenas nove calorias por porção, o shirataki da Konjac Massas. É zero carbo, zero glúten e rico em fibras, uma massa super leve. Para quem está em processo de emagrecimento, é ideal.
+
+<details><summary>Transcrição</summary>
+
+E eu que descobri uma massa incrível com apenas nove calorias por porção. É isso mesmo, gente, são só nove calorias. Eu tô falando do shirataki da Konjac Massas. Ele é zero carbo, zero glúten, rico em fibras, uma massa super leve, ideal pra quem tá no processo de emagrecimento. Usando o meu cupom, EMANUELNETO, você tem 10% de desconto. Já compartilha esse vídeo com aquela amiga que quer emagrecer. [som de transição]
+
+</details>
+
+### 107. Penne da linha low carb e as visitas ao banheiro
+
+- **id**: `1y2RxhfaFdXVytzs_h3L0uh8-MN4mf3J6`
+- **arquivo**: `WhatsApp Video 2026-06-08 at 15.36.26.mp4`
+- **duração**: 24s
+- **tags**: penne, low carb, intestino
+- **corte citado**: Penne
+
+**Review (texto da página):**
+
+> Esse é o penne da linha low carb da Konjac Massa, feito de fibra solúvel, que imita o aspecto visual de uma massa e tem nove calorias por cem gramas. Essa fibra ajuda não só na saciedade, mas também no funcionamento do intestino. O preparo é mais fácil e rápido que o de uma massa comum, é só lavar bem e colocar no molho, que ela absorve todo o sabor.
+
+<details><summary>Transcrição</summary>
+
+Penne com apenas nove calorias por cem gramas. Esse é o penne do Konjac Massa da linha low carb, feito de fibra solúvel, que imita o aspecto visual de uma massa. Essa fibra ajuda não apenas só na saciedade, mas também nas visitas ao troninho. O melhor de tudo é que o preparo é mais fácil e rápido do que uma massa comum. Só lavar muito bem e colocar no teu molho de preferência, que ele vai absorver todo o sabor do molho. Ajuda muito quem tá em processo de emagrecimento e você, que tem dificuldade de comer vegetais. Segue a Missinção e comenta se você comeria esse prato.
+
+</details>
+
+### 108. Do pacote ao prato com peixe e brócolis
+
+- **id**: `1ZJ9tXnj611KG3a_Ek_j-yWNGrHOB9QXm`
+- **arquivo**: `IMG_9296.mov`
+- **duração**: 23s
+- **tags**: penne, peixe, receita
+- **corte citado**: Penne
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Mostrei o preparo inteiro em casa: massa tirada do pacote e lavada, azeite na frigideira, limão espremido e brócolis salteado. Montei o prato com o penne da Konjac Massa MF e um filé de peixe grelhado, finalizando com chips por cima. É uma refeição bonita, leve e rápida de montar.
+
+<details><summary>Transcrição</summary>
+
+(sem narração)
+
+</details>
+
+### 109. O número do dia é o nove
+
+- **id**: `1Bsf9sAS2mTdyNcCZyko4gFy4YeJkcx_j`
+- **arquivo**: `78c08cc3-c5be-4f71-833b-e9e2f70e43d1.mp4`
+- **duração**: 23s
+- **tags**: noodles, micro-ondas, emagrecimento
+- **corte citado**: Noodles
+
+**Review (texto da página):**
+
+> O número de hoje é o nove, porque são nove calorias nesse pacotinho da Konjac Massa. Não tem glúten, gordura, açúcar nem sódio, e é fonte de fibra. Eles continuam comigo e ajudam muito no meu processo de emagrecimento, e o preparo é fácil, esquento de dois a três minutos no micro-ondas e está pronto, sendo o noodles a minha dica.
+
+<details><summary>Transcrição</summary>
+
+O número de hoje é o número nove. Nove calorias nesse pacotinho da Konjac Massa. Não tem glúten, não tem gordura, não tem açúcar, não tem sódio e é fonte de fibra. Eles continuam comigo e me ajudam muito no meu processo de emagrecimento. E além de tudo, ainda é muito fácil de fazer. Eu esquento por dois a três minutos no micro-ondas e tá pronto, meu bem, é só comer. Pega o meu cupom e vai experimentar. Minha dica é o noodles. Beiju!
+
+</details>
+
+### 110. Macarrão de treze e meia calorias com molho de queijo
+
+- **id**: `1dwlaNhCkm8JjCYbFKOdIHevVs1nxn0Rc`
+- **arquivo**: `IMG_9247.mov`
+- **duração**: 22s
+- **tags**: molho de queijo, receita, cremoso
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Fiz um preparo simples direto na frigideira: molho de tomate, um pouco de manteiga, uma fatia de queijo derretida e a massa por cima. Misturei tudo, servi no prato e finalizei com queijo ralado. É o tipo de macarrão que vira aliado da dieta porque tem pouquíssima caloria e fica cremoso do mesmo jeito.
+
+<details><summary>Transcrição</summary>
+
+[música animada]
+
+</details>
+
+### 111. Risoni leve no prato e leve na rotina
+
+- **id**: `1LQyLSroOTR5yz5sFWP6k-4ykytwXe4ie`
+- **arquivo**: `IMG_9207.mov`
+- **duração**: 19s
+- **tags**: risoni, praticidade, leveza
+- **corte citado**: Risoni
+
+**Review (texto da página):**
+
+> Quando você quer massa mas não quer sair da dieta, essa é a escolha, e aqui usei o tipo risoni. Sem glúten, sem açúcar, sem sódio, fonte de fibras e com nove calorias a cada cem gramas. O preparo é rápido e fica pronto em dois minutos, é só finalizar com o molho da sua preferência.
+
+<details><summary>Transcrição</summary>
+
+Quando você quer uma massa, mas não quer sair da dieta, essa é a escolha certa. Com Jack Massa tipo risoni. Sem glúten, sem açúcar, sem sódio e fonte de fibras e apenas nove calorias a cada cem gramas. O preparo é rápido, prático e fica pronto em dois minutos. Finalize com o molho de sua preferência e pronto. Leve no prato, leve na rotina.
+
+</details>
+
+### 112. Preparo mostrado do início ao fim
+
+- **id**: `1v9eTIo03yIbv6t83gl8ZUACo1xFVtDZr`
+- **arquivo**: `c36bef13-5aaa-4053-8a41-d88ffe023a9d.mp4`
+- **duração**: 18s
+- **tags**: passo a passo, praticidade
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Registrei o preparo completo da massa Konjac em casa, do pacote até o prato montado. É o passo a passo simples que mostra como a massa entra na refeição sem cozimento. Fica pronto rápido e sem complicação.
+
+<details><summary>Transcrição</summary>
+
+[música alegre]
+
+</details>
+
+### 113. Jantar com molho vermelho, milho e azeitona
+
+- **id**: `13OVRn-c840F_uGPrm28ztj1vcrw5tjL-`
+- **arquivo**: `ijjuhyygg.mp4`
+- **duração**: 15s
+- **tags**: jantar, molho vermelho, rápido
+
+**Review (texto da página):**
+
+> Precisei apenas do shirataki da konjac para um jantar fácil, rápido e saudável. A massa não contém glúten, gordura nem açúcar e é fonte de fibra. Preparei um molho vermelho com milho e azeitona, adicionei a massa e ficou pronto em menos de dois minutos.
+
+<details><summary>Transcrição</summary>
+
+Opção de jantar fácil, rápido e saudável. Precisei apenas de shirataki da konjac, que massa não contém glúten, não contém gordura, não tem açúcar e ela é fonte de fibra. Preparei o meu molho, preparei o molho vermelho, coloquei milho e azeitona e já adicionei a massa. Ficou pronto em menos de dois minutos e ficou uma delícia
+
+</details>
+
+### 114. Risoto cremoso feito com o arroz de konjac
+
+- **id**: `19v5oQ7HG7l687DfB2dtscdSOPD14qaM_`
+- **arquivo**: `IMG_3582.mp4`
+- **duração**: 0s
+- **tags**: formato arroz, risoto, receita
+- **corte citado**: Arroz
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Fiz um risoto cremoso usando o arroz da Konjac Massa MF como base, refogando com azeite e tomate picado. Fui incorporando creme de leite e mexendo até chegar naquele ponto cremoso de risoto de verdade. Servi com um filé grelhado e o prato ficou com cara de restaurante.
+
+<details><summary>Transcrição</summary>
+
+(sem narração)
+
+</details>
+
+### 115. Cabelo de anjo com legumes e menos de duzentas calorias
+
+- **id**: `1j0J0TI89jfA1lNDsLYCK8pxYsCh87Xzf`
+- **arquivo**: `d3ab5ad2-fcec-4b6f-9e59-87539d928a20.mp4`
+- **duração**: 0s
+- **tags**: cabelo de anjo, legumes, baixa caloria
+- **corte citado**: Cabelo de Anjo
+- **fonte**: visual (vídeo sem narração, lido pelos quadros e legendas)
+
+**Review (texto da página):**
+
+> Queria um pratão de massa sem sair da dieta e montei um com o Cabelo de Anjo da Konjac Massa MF, que tem nove calorias a cada cem gramas e é fonte de fibra. Todo o prato não passou de duzentas calorias, com legumes salteados como cenoura e vagem. É zero glúten, zero açúcar, não contém sódio e é zero gordura.
+
+<details><summary>Transcrição</summary>
+
+(sem narração)
+
+</details>

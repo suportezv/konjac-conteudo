@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <style>
+  body { margin:0; background:#faf7f5; color:#2b2130;
+         font-family:'Inter',system-ui,-apple-system,sans-serif; -webkit-font-smoothing:antialiased; }
+  a { color:#812779; text-decoration:none; } a:hover { color:#5f0923; }
+  h1,h2,h3,h4 { margin:0; font-family:'Barlow Condensed',Impact,sans-serif;
+                text-transform:uppercase; letter-spacing:0.01em; }
+  p { margin:0; }
+  .eyebrow { font-size:11px; letter-spacing:0.2em; text-transform:uppercase;
+             font-weight:600; color:#7d6f80; }
+</style>
+</helmet>
+<div style="width:1000px; box-sizing:border-box; background:#faf7f5; padding:44px 52px 52px; display:flex; flex-direction:column; gap:24px;">
+  <div style="display:flex; flex-direction:column; gap:9px;">
+    <span class="eyebrow">Estrutura para IA e busca</span>
+    <h2 style="font-size:38px; line-height:1;">Como a página é lida por um modelo de linguagem</h2>
+    <p style="font-size:14px; line-height:1.6; color:#4a4050; max-width:76ch;">Modelos leem o HTML, não o vídeo. O texto abaixo de cada depoimento não é acessório, é o produto da página. Esta é a camada de dado estruturado, toda ela sem métrica inventada.</p>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:13px;">
+    <div style="background:#ffffff; border:1px solid #ece4ea; border-radius:11px; padding:14px 16px; display:flex; flex-direction:column; gap:6px;">
+  <code style="font-size:11px; font-family:ui-monospace,Menlo,monospace; color:#812779; font-weight:600;">Organization + Product</code>
+  <strong style="font-size:14px;">Uma vez na página</strong>
+  <span style="font-size:12px; line-height:1.5; color:#5a5062;">Konjac Massa MF com os claims oficiais do rótulo: 9 kcal por 100g, zero carboidratos, 8g de fibras, vegano, selo ANAD.</span>
+</div>
+    <div style="background:#ffffff; border:1px solid #ece4ea; border-radius:11px; padding:14px 16px; display:flex; flex-direction:column; gap:6px;">
+  <code style="font-size:11px; font-family:ui-monospace,Menlo,monospace; color:#812779; font-weight:600;">ItemList</code>
+  <strong style="font-size:14px;">Os 115 reviews</strong>
+  <span style="font-size:12px; line-height:1.5; color:#5a5062;">Na mesma ordem em que aparecem na galeria, cada item apontando para o article correspondente.</span>
+</div>
+    <div style="background:#ffffff; border:1px solid #ece4ea; border-radius:11px; padding:14px 16px; display:flex; flex-direction:column; gap:6px;">
+  <code style="font-size:11px; font-family:ui-monospace,Menlo,monospace; color:#812779; font-weight:600;">VideoObject</code>
+  <strong style="font-size:14px;">Um por vídeo</strong>
+  <span style="font-size:12px; line-height:1.5; color:#5a5062;">name, description, thumbnailUrl, uploadDate, duration em ISO 8601, contentUrl e o transcript completo.</span>
+</div>
+    <div style="background:#ffffff; border:1px solid #ece4ea; border-radius:11px; padding:14px 16px; display:flex; flex-direction:column; gap:6px;">
+  <code style="font-size:11px; font-family:ui-monospace,Menlo,monospace; color:#004c28; font-weight:600;">Review</code>
+  <strong style="font-size:14px;">Um por depoimento</strong>
+  <span style="font-size:12px; line-height:1.5; color:#5a5062;">itemReviewed apontando para o Product e reviewBody igual ao texto visível no card. Sem nota.</span>
+</div>
+    <div style="background:#ffffff; border:1px solid #ece4ea; border-radius:11px; padding:14px 16px; display:flex; flex-direction:column; gap:6px;">
+  <code style="font-size:11px; font-family:ui-monospace,Menlo,monospace; color:#812779; font-weight:600;">FAQPage</code>
+  <strong style="font-size:14px;">Bloco de perguntas</strong>
+  <span style="font-size:12px; line-height:1.5; color:#5a5062;">Sete perguntas extraídas do que se repete nos depoimentos, com resposta objetiva em duas a três frases.</span>
+</div>
+    <div style="background:#ffffff; border:1px solid #ece4ea; border-radius:11px; padding:14px 16px; display:flex; flex-direction:column; gap:6px;">
+  <code style="font-size:11px; font-family:ui-monospace,Menlo,monospace; color:#812779; font-weight:600;">BreadcrumbList</code>
+  <strong style="font-size:14px;">Navegação</strong>
+  <span style="font-size:12px; line-height:1.5; color:#5a5062;">Início, Reviews. Ajuda o modelo a entender onde a página vive dentro do site.</span>
+</div>
+  </div>
+  <div style="display:flex; gap:30px; background:#ffffff; border:1px solid #ece4ea; border-radius:14px; padding:22px 26px;">
+    <div style="display:flex; flex-direction:column; gap:11px; flex-grow:1;">
+      <h3 style="font-size:19px;">Regras que a implementação precisa respeitar</h3>
+      <div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Todo vídeo tem equivalente textual completo. Nenhum card existe só com mídia.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Um h1 na página, h2 por seção, h3 por review e por pergunta. Cada review dentro de article.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Sem reviewRating e sem aggregateRating enquanto não houver nota real coletada.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Transcrição integral presente no HTML desde o carregamento, dentro de details.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Cada bloco começa pela conclusão, no formato que uma IA cita.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Entidades repetidas com naturalidade: Konjac Massa MF, massa de konjac, shirataki, glucomanano.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">Vídeo com preload none e poster leve, para abrir rápido no celular.</span>
+</div><div style="display:flex; gap:9px; align-items:flex-start;">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px; flex-shrink:0;" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>
+  <span style="font-size:13px; line-height:1.5; color:#4a4050;">lang pt-BR, canonical, Open Graph e title orientado à pergunta real do usuário.</span>
+</div>
+    </div>
+    <div style="width:270px; flex-shrink:0; background:#f6f1f5; border-radius:11px; padding:16px 18px; display:flex; flex-direction:column; gap:8px;">
+      <h4 style="font-size:15px;">Perguntas que a página quer responder</h4>
+      <span style="font-size:12px; line-height:1.6; color:#5a5062;">massa de konjac funciona<br>qual o sabor da massa de konjac<br>konjac serve para diabético<br>como preparar massa de konjac<br>quantas calorias tem konjac<br>konjac dá saciedade mesmo</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script data-props='{}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
