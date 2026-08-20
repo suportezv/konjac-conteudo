@@ -19,7 +19,7 @@ Este repositório é o **Konjac Conteúdo Studio**: edição e agendamento de co
 
 ## IDs e contas
 
-- Instagram da marca: **PENDENTE** (handle e demais redes conectadas).
+- Instagram da marca: **@konjacmassa_mf** (informado pelo usuário em 2026-08-20; demais redes conectadas PENDENTE). Site: **konjacmassamf.com.br**. Design system, paleta e assets oficiais (logo, embalagens BOX): `assets/brand/BRAND.md`. Atenção: konjacmassamf.com.br e instagram.com são bloqueados pelo proxy da sessão cloud; a análise da marca veio do Drive (pasta "Konjac Massa") e de uploads do usuário.
 - Metricool: conta da agência. Marca no painel: **PENDENTE conectar (blog_id PENDENTE)**, timezone America/Sao_Paulo. Melhor horário de publicação: medir com getBestTimeToPostByNetwork após conectar. Verificado em 2026-08-18: getBrandSettings funciona, mas o painel ainda não tem marca Konjac (só outras marcas da agência); criar a marca e conectar as redes antes de agendar.
 - **Regra de agendamento (todas as marcas da agência)**: sempre incluir TODOS os canais conectados da marca no post, exceto YouTube horizontal. YouTube entra como **Short** (`youtubeData: {type: "short", title, madeForKids: false}`); Instagram como REEL; Facebook como REEL; TikTok, LinkedIn e Pinterest com networkData padrão. Nunca publicar vídeo vertical como YouTube horizontal comum.
 - Kairogen: conta da agência. Verificado em 2026-08-18: plano **FREE, 0 créditos** (concorrência máx 1). Sem créditos não dá para gerar b-roll; conferir upgrade/recarga antes de planejar b-roll gerado.

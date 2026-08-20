@@ -6,8 +6,11 @@ Estúdio de edição e agendamento para as redes da **Konjac**. Framework compar
 
 ## Persona e voz do perfil
 
-- **PENDENTE**: persona, tom de voz e posicionamento da Konjac (definir no primeiro briefing).
-- CTA padrão: **PENDENTE (CTA padrão da marca)**.
+> Design system completo da marca (paleta, claims, narrativa, pilares): `assets/brand/BRAND.md`.
+
+- Posicionamento (diagnóstico ago/2026): território **saúde e alimentação funcional**; missão de sair de perfil de produto para **marca viva** que as pessoas querem acompanhar. Narrativa da casa: SITUAÇÃO, IDENTIFICAÇÃO, HISTÓRIA, KONJAC MASSA COMO SOLUÇÃO (nunca situação, produto, benefícios).
+- Voz (v1, hipótese aguardando aprovação): próxima e bem-humorada, fala de comida com desejo e sem culpa, explica sem jargão, tem opinião e personalidade; claims sempre exatos da embalagem (9 calorias por 100g, zero carboidratos, 100% vegano, selo ANAD), sem promessa de emagrecimento milagroso.
+- CTA padrão (proposta aguardando aprovação): **"Compre pelo link da bio"** com o site konjacmassamf.com.br na edição. Repertório: "Escolha sua linha.", "Monte seu kit.", "Experimente sua primeira receita.".
 - Quando citar a criadora ou criador: credencial sempre completa, **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
 
 ### REGRAS INEGOCIÁVEIS
@@ -19,14 +22,23 @@ Estúdio de edição e agendamento para as redes da **Konjac**. Framework compar
 
 ## Pilares de conteúdo
 
-**PENDENTE**: definir com o primeiro briefing (tratar como hipóteses iniciais e validar com desempenho).
+v1 (hipóteses, validar com desempenho; detalhe em `assets/brand/BRAND.md`):
+
+1. Vida real (dor da rotina vira história)
+2. Educação Konjac (o que é, preparo, qual linha escolher)
+3. Comparações visuais (massa tradicional × Konjac)
+4. Prova social (depoimentos, teste às cegas, creators)
+5. Receitas com desejo (payoff comercial, fechamento em compra)
+6. Comunidade e bastidores (VIPs, campanhas relâmpago, 31/08 Influencer Day)
+
+Regra de conversão em conteúdo comercial: site na edição, produto identificado (corte e linha), CTA claro, link na bio, link direto nos Stories.
 
 ## Assinaturas de edição
 
 Padrão validado da agência:
 
 - Hook verbal ou visual + título na tela nos **2 primeiros segundos**.
-- Lettering condensado caps branco com sombra dura; acento colorido nas ênfases (cor da marca: **PENDENTE confirmar**; fonte: Helvetica Neue Condensed Black no Mac; Liberation Sans Bold como fallback Linux).
+- Lettering condensado caps branco com sombra dura; acento colorido nas ênfases (cor da marca: **roxo Konjac `#812779`**; em vídeo de um corte da linha BOX, usar a cor do corte, tabela em `assets/brand/BRAND.md`; fonte: Helvetica Neue Condensed Black no Mac; Liberation Sans Bold como fallback Linux).
 - Legendas frase a frase em branco (não karaokê), terço inferior, SEMPRE por último no filter chain.
 - Cortes secos; punch-ins de zoom 1.10 a 1.22x; freeze frames P&B com card para punchlines; cutaways como payoff de piada.
 - Palavrão não corta: **bipa**.
