@@ -1,22 +1,22 @@
 # Konjac Reviews · briefing de conteúdo
 
-Conteúdo completo da página, item a item. **115 vídeos únicos**, 103 minutos de depoimento (1.73 horas), duração média de 54 segundos.
+Conteúdo completo da página, item a item. **115 vídeos únicos**, 103 minutos de depoimento (1h44), duração média de 54 segundos.
 
 ## Como este briefing foi produzido
 
-Todos os 129 arquivos da pasta "Prova Social" do Drive foram baixados e assistidos. 120 tiveram o áudio transcrito integralmente (ElevenLabs Scribe, português). Os 9 sem narração (7 com trilha apenas e 2 sem faixa de áudio) foram analisados quadro a quadro, pela imagem e pelas legendas queimadas; esses estão marcados com `fonte: visual`. A comparação das transcrições revelou 14 arquivos duplicados, listados em cada item, restando **115 vídeos únicos** para a página.
+Todos os 129 arquivos da pasta "Prova Social" do Drive foram baixados e assistidos. 120 tiveram o áudio transcrito integralmente (ElevenLabs Scribe, português). Os 9 sem narração (7 com trilha apenas e 2 sem faixa de áudio) foram analisados quadro a quadro; nesses, o campo `texto na tela` registra as legendas queimadas e o que a imagem mostra, e é a fonte do review. A comparação das transcrições revelou 14 arquivos duplicados, listados em cada item, restando **115 vídeos únicos** para a página.
 
 ## Regras aplicadas em cada review
 
-- Adaptação fiel ao que a pessoa diz no vídeo. Nada foi inventado.
+- Adaptação fiel ao que a pessoa diz ou escreve no vídeo. Nada foi inventado.
 - Primeira pessoa, porque é o depoimento dela, não a marca falando.
 - Sem travessão, sem nota em estrelas, sem nome de criador (autorização pendente).
 - Cupons de desconto citados nos vídeos foram omitidos, porque são individuais e podem expirar.
-- Claims mantidos como a pessoa fala. Quando alguém cita um número diferente do rótulo (por exemplo dezoito calorias no pacote de duzentas gramas, ou treze e meia calorias), o texto preserva a fala dela e a página exibe o claim oficial da marca no bloco de produto.
+- Claims mantidos como a pessoa fala. Os depoimentos citam números diferentes de caloria porque cada pessoa fala do pacote que tem na mão (100g ou 200g); a página exibe o claim oficial de 9 calorias por 100 gramas na barra de produto e explica essa variação nas perguntas frequentes.
 
 ## Campos de cada item
 
-`id` é o identificador do arquivo no Drive (também o nome do poster e do vídeo em produção). `titulo` é o `<h3>` do card. `review` é o texto visível abaixo do vídeo. `transcricao` alimenta o elemento colapsável e o campo `transcript` do VideoObject.
+`id` é o identificador do arquivo no Drive (também o nome do poster e do vídeo em produção). `titulo` é o `<h3>` do card. `review` é o texto visível abaixo do vídeo. `transcricao` alimenta o elemento colapsável e o campo `transcript` do VideoObject; nos itens de fonte visual esse papel é do `texto na tela`.
 
 ---
 
@@ -465,7 +465,7 @@ Não é novidade o efeito rebote após o campeonato, mas digamos que somado às 
 
 **Review (texto da página):**
 
-> Fim de ano com foco na dieta e ainda assim me permitindo, e a konjac ajuda a manter isso equilibrado. Lavei em água corrente, fiquei pronta em menos de dois minutos e usei uma carne que já estava feita para montar um molho à bolonhesa. O pratão saiu com apenas nove calorias vindas da massa.
+> Fim de ano com foco na dieta e ainda assim me permitindo, e a konjac ajuda a manter isso equilibrado. Lavei em água corrente, ficou pronta em menos de dois minutos e usei uma carne que já estava feita para montar um molho à bolonhesa. O pratão saiu com apenas nove calorias vindas da massa.
 
 <details><summary>Transcrição</summary>
 
@@ -900,7 +900,7 @@ Te contar como eu sequei e cheguei nesse abdômen comendo massa todo dia, comend
 
 **Review (texto da página):**
 
-> Depois de emagrecer vinte quilos, eu confiro a tabela nutricional de tudo que como, então precisei experimentar quando vi duzentas gramas com apenas dezoito calorias. O shirataki da Konjac é sem glúten, sem lactose, sem açúcar e sem carboidrato, e confesso que fiquei curiosa sobre o sabor. Fiz molho de tomate com frango, subestimei a quantidade porque não coube no prato, e a reação foi de quem comeria todo dia.
+> Depois de emagrecer vinte quilos, eu confiro a tabela nutricional de tudo que como, então precisei experimentar quando vi duzentos gramas com apenas dezoito calorias. O shirataki da Konjac é sem glúten, sem lactose, sem açúcar e sem carboidrato, e confesso que fiquei curiosa sobre o sabor. Fiz molho de tomate com frango, subestimei a quantidade porque não coube no prato, e a reação foi de quem comeria todo dia.
 
 <details><summary>Transcrição</summary>
 
@@ -1020,7 +1020,7 @@ E se eu te contar que dá pra você comer massa todos os dias na sua dieta? Alé
 
 **Review (texto da página):**
 
-> Esse é o meu tipo de massa favorita: super leve, com molho branco e cogumelo, pronta em menos de vinte minutos. O shirataki da Konjac é feito com fibras solúveis e duzentas gramas têm apenas dezoito calorias, além de ser sem glúten e vegano. Para quem está em processo de emagrecimento, é um baita aliado.
+> Esse é o meu tipo de massa favorita: super leve, com molho branco e cogumelo, pronta em menos de vinte minutos. O shirataki da Konjac é feito com fibras solúveis e duzentos gramas têm apenas dezoito calorias, além de ser sem glúten e vegano. Para quem está em processo de emagrecimento, é um baita aliado.
 
 <details><summary>Transcrição</summary>
 
@@ -1251,6 +1251,10 @@ Se você quer emagrecer comendo um prato cheio desse, que tem menos calorias do 
 
 > Preparei uma travessa de festa com tomate cereja assado, alho, alho poró, cebola roxa e camarão, finalizada com queijo e manjericão. Usei o espaguete da Konjac Massa, que é feito de fibra e vem pronto no pacote, sem cozimento. Ficou um prato de ocasião especial, bonito e leve ao mesmo tempo.
 
+**Texto na tela (fonte do review):**
+
+Sem legenda na tela. Preparo mostrado em imagem: embalagem do espaguete Konjac Massa MF, saquinho da massa, tomate cereja, alho poró, cebola roxa e camarão montados em travessa branca, finalizados com queijo e manjericão.
+
 <details><summary>Transcrição</summary>
 
 [música natalina]
@@ -1392,6 +1396,10 @@ E se eu te disser que com konjac massas nós conseguimos uma refeição rápida,
 
 > Fiz uma receita simples com o linguine da Konjac: um fio de azeite, tomate cereja com sal e pimenta refogando até murchar, e manjericão. Lavei a massa em água corrente, acrescentei à panela e finalizei com queijo ralado e mais manjericão. É uma receita de poucos passos que fica bonita e saborosa.
 
+**Texto na tela (fonte do review):**
+
+Legendas na tela: "Receita de massa usando Konjac", "um fio de azeite", "tomate cereja + sal + pimenta", "deixa refogar", "lava a massa na água corrente", "acrescenta à panela", "acrescenta queijo ralado e manjericão". Embalagem visível: Konjac Massa MF tipo Linguine.
+
 <details><summary>Transcrição</summary>
 
 [música eletrônica]
@@ -1433,7 +1441,7 @@ Fim de ano chegando e a galera começa a apertar o ritmo na dieta, mas eu sou da
 
 </details>
 
-### 82. Equilíbrio nos dias de foco, com carbonara
+### 82. Sem radicalismo no fim de ano, com prato que sacia
 
 - **id**: `1rs28TGBkhjACVvkMtZg35VzoWwWVNIca`
 - **arquivo**: `IMG_2942.mov`
@@ -1442,7 +1450,7 @@ Fim de ano chegando e a galera começa a apertar o ritmo na dieta, mas eu sou da
 
 **Review (texto da página):**
 
-> Fim de ano é quando todo mundo aperta o ritmo, mas eu prefiro equilíbrio a radicalismo. A Konjac Massa ajuda porque tem zero carboidrato, nove calorias a cada cem gramas e muita fibra, que segura a fome. Minha carbonara mais leve ficou sensacional e diminuiu bastante o impacto calórico do dia.
+> Prefiro equilíbrio a radicalismo justamente na época em que todo mundo aperta o ritmo. A Konjac Massa entra como aliada porque tem zero carboidrato, nove calorias a cada cem gramas e muita fibra, que é o que segura a fome no meio da tarde. Uso como base para as receitas que eu já faria de qualquer jeito, e o impacto calórico do dia cai bastante.
 
 <details><summary>Transcrição</summary>
 
@@ -1469,7 +1477,7 @@ Hoje a Nutry atacou de MasterChef e eu vim trazer uma receita maravilhosa, rápi
 
 </details>
 
-### 84. High Protein Dry Noodles com trinta e duas gramas de proteína
+### 84. High Protein Dry Noodles com trinta e dois gramas de proteína
 
 - **id**: `1DPdlVdVyuCX0zeuuYuxmiVrPFeAOIohc`
 - **arquivo**: `WhatsApp Video 2026-06-08 at 13.55.05.mp4`
@@ -1479,7 +1487,7 @@ Hoje a Nutry atacou de MasterChef e eu vim trazer uma receita maravilhosa, rápi
 
 **Review (texto da página):**
 
-> Quando chego da academia eu quero algo rápido para bater a meta de proteína, e conheci o High Protein Dry Noodles da Konjac Massa. Ele tem trinta e duas gramas de proteína por porção, é rico em fibras, tem vários sabores e fica pronto em poucos minutos. Outro ponto que gostei é a tecnologia Air Dry, porque ele não é frito em óleo.
+> Quando chego da academia eu quero algo rápido para bater a meta de proteína, e conheci o High Protein Dry Noodles da Konjac Massa. Ele tem trinta e dois gramas de proteína por porção, é rico em fibras, tem vários sabores e fica pronto em poucos minutos. Outro ponto que gostei é a tecnologia Air Dry, porque ele não é frito em óleo.
 
 <details><summary>Transcrição</summary>
 
@@ -1504,7 +1512,7 @@ Vamos fazer um, um Jackson Glutton? [som de embalagem] Uma massa feita à base d
 
 </details>
 
-### 86. Duzentas gramas no prato e dezoito calorias
+### 86. Duzentos gramas no prato e dezoito calorias
 
 - **id**: `11nH5ZTbRVx5GF1ZzIZIxby2hIJ1bATPt`
 - **arquivo**: `6.MOV`
@@ -1513,7 +1521,7 @@ Vamos fazer um, um Jackson Glutton? [som de embalagem] Uma massa feita à base d
 
 **Review (texto da página):**
 
-> O que mais me chamou atenção, além da parte nutricional, foi a facilidade do preparo: fica pronto em menos de cinco minutos, é só lavar e misturar no molho. A massa não tem gosto nenhum, então o sabor é o que ela absorve do molho, e isso libera a criatividade porque dá até para finalizar com parmesão. Nesse prato usei a embalagem inteira, duzentas gramas, dezoito calorias, e a saciedade é enorme porque é fibra.
+> O que mais me chamou atenção, além da parte nutricional, foi a facilidade do preparo: fica pronto em menos de cinco minutos, é só lavar e misturar no molho. A massa não tem gosto nenhum, então o sabor é o que ela absorve do molho, e isso libera a criatividade porque dá até para finalizar com parmesão. Nesse prato usei a embalagem inteira, duzentos gramas, dezoito calorias, e a saciedade é enorme porque é fibra.
 
 <details><summary>Transcrição</summary>
 
@@ -1636,13 +1644,17 @@ Emagrecendo comendo massa? Sim, é possível com a konjac massas, que é um tipo
 
 > Mostrei o caminho completo em casa: a caixa do espaguete Konjac Massa aberta, a massa retirada do saquinho e lavada na peneira sob água corrente. Depois é só juntar ao molho de carne que já estava na panela e deixar apurar. O resultado é um prato de massa comum, prático e do jeito que cabe na rotina.
 
+**Texto na tela (fonte do review):**
+
+Legenda fixa na tela: "Konjac Massa deixa prático, leve e do jeitinho que cabe na rotina". Imagem: caixa do espaguete Konjac Massa MF com selo 9 CALORIAS, massa lavada na peneira e servida com molho de carne.
+
 <details><summary>Transcrição</summary>
 
 [música funk]
 
 </details>
 
-### 94. Prático, leve e do jeito que cabe na rotina
+### 94. Do molho na panela até sentar e comer
 
 - **id**: `1k3SQM5-K6xDrtVZpRZxcUkeE4zWUdBV9`
 - **arquivo**: `12.mp4`
@@ -1653,7 +1665,11 @@ Emagrecendo comendo massa? Sim, é possível com a konjac massas, que é um tipo
 
 **Review (texto da página):**
 
-> Registrei o preparo do começo ao fim, do molho de carne na panela até a massa lavada entrando na travessa. A Konjac Massa deixa a refeição prática e leve, do jeito que cabe na correria. No fim, sentei e comi um prato de massa de verdade.
+> Mostrei a refeição inteira sendo montada, do molho de carne apurando na panela até o prato servido na mesa. A massa entra no fim, já lavada, e apura junto com o molho. É a prova de que dá para ter massa em uma noite comum sem virar produção.
+
+**Texto na tela (fonte do review):**
+
+Legenda fixa na tela: "Konjac Massa deixa prático, leve e do jeitinho que cabe na rotina". Mesmo preparo registrado do molho de carne até o prato servido.
 
 <details><summary>Transcrição</summary>
 
@@ -1723,7 +1739,7 @@ Chega final do ano eu sei que tá todo mundo focado na dieta pra dar aquela seca
 
 **Review (texto da página):**
 
-> Estou emagrecendo comendo massa, e a explicação é que essa é o shirataki da Konjac Massa, feita de fibras solúveis. É rápida e prática, já vem pronta, basta aquecer e misturar com o molho da preferência. Dá para escolher entre diversos formatos, e é livre de gordura, glúten e açúcar, com nove calorias por porção.
+> Estou emagrecendo comendo massa, e a explicação é que esse é o shirataki da Konjac Massa, feita de fibras solúveis. É rápida e prática, já vem pronta, basta aquecer e misturar com o molho da preferência. Dá para escolher entre diversos formatos, e é livre de gordura, glúten e açúcar, com nove calorias por porção.
 
 <details><summary>Transcrição</summary>
 
@@ -1900,6 +1916,10 @@ Penne com apenas nove calorias por cem gramas. Esse é o penne do Konjac Massa d
 
 > Mostrei o preparo inteiro em casa: massa tirada do pacote e lavada, azeite na frigideira, limão espremido e brócolis salteado. Montei o prato com o penne da Konjac Massa MF e um filé de peixe grelhado, finalizando com chips por cima. É uma refeição bonita, leve e rápida de montar.
 
+**Texto na tela (fonte do review):**
+
+Sem legenda na tela. Preparo mostrado em imagem: embalagem Konjac Massa MF tipo Penne, massa lavada, azeite na frigideira, limão espremido, brócolis salteado e filé de peixe grelhado montados no prato.
+
 <details><summary>Transcrição</summary>
 
 (sem narração)
@@ -1936,6 +1956,10 @@ O número de hoje é o número nove. Nove calorias nesse pacotinho da Konjac Mas
 
 > Fiz um preparo simples direto na frigideira: molho de tomate, um pouco de manteiga, uma fatia de queijo derretida e a massa por cima. Misturei tudo, servi no prato e finalizei com queijo ralado. É o tipo de macarrão que vira aliado da dieta porque tem pouquíssima caloria e fica cremoso do mesmo jeito.
 
+**Texto na tela (fonte do review):**
+
+Legenda fixa na tela: "pov: você achou o seu novo aliado da dieta. macarrão com apenas 13.5 calorias". Preparo: molho de tomate, manteiga, fatia de queijo derretida e a massa, finalizado com queijo ralado.
+
 <details><summary>Transcrição</summary>
 
 [música animada]
@@ -1960,7 +1984,7 @@ Quando você quer uma massa, mas não quer sair da dieta, essa é a escolha cert
 
 </details>
 
-### 112. Preparo mostrado do início ao fim
+### 112. O pacote, a lavagem e o prato pronto
 
 - **id**: `1v9eTIo03yIbv6t83gl8ZUACo1xFVtDZr`
 - **arquivo**: `c36bef13-5aaa-4053-8a41-d88ffe023a9d.mp4`
@@ -1970,7 +1994,11 @@ Quando você quer uma massa, mas não quer sair da dieta, essa é a escolha cert
 
 **Review (texto da página):**
 
-> Registrei o preparo completo da massa Konjac em casa, do pacote até o prato montado. É o passo a passo simples que mostra como a massa entra na refeição sem cozimento. Fica pronto rápido e sem complicação.
+> Registrei os três passos que resolvem o preparo: abrir o pacote, lavar a massa em água corrente e juntar ao molho. Não tem cozimento e não tem espera. É o vídeo para quem nunca preparou e quer ver antes de comprar.
+
+**Texto na tela (fonte do review):**
+
+Sem legenda legível. Preparo da massa Konjac mostrado do pacote ao prato.
 
 <details><summary>Transcrição</summary>
 
@@ -2008,6 +2036,10 @@ Opção de jantar fácil, rápido e saudável. Precisei apenas de shirataki da k
 
 > Fiz um risoto cremoso usando o arroz da Konjac Massa MF como base, refogando com azeite e tomate picado. Fui incorporando creme de leite e mexendo até chegar naquele ponto cremoso de risoto de verdade. Servi com um filé grelhado e o prato ficou com cara de restaurante.
 
+**Texto na tela (fonte do review):**
+
+Sem legenda na tela. Imagem: embalagem Konjac Massa MF tipo Arroz com selo 9 CALORIAS, refogado com azeite e tomate, creme de leite incorporado até o ponto de risoto, servido com filé grelhado.
+
 <details><summary>Transcrição</summary>
 
 (sem narração)
@@ -2026,6 +2058,10 @@ Opção de jantar fácil, rápido e saudável. Precisei apenas de shirataki da k
 **Review (texto da página):**
 
 > Queria um pratão de massa sem sair da dieta e montei um com o Cabelo de Anjo da Konjac Massa MF, que tem nove calorias a cada cem gramas e é fonte de fibra. Todo o prato não passou de duzentas calorias, com legumes salteados como cenoura e vagem. É zero glúten, zero açúcar, não contém sódio e é zero gordura.
+
+**Texto na tela (fonte do review):**
+
+Legendas na tela: "Você está afim de comer um pratão de massa mas sem sair da dieta?", "Todo ele não passa de 200 kcal", "O Konjac não é massa tradicional ele é simplesmente perfeito", "9 kcal a cada 100 g zero tudo e ainda é fonte de fibra", "Escorrer e adicionar no acompanhamento da sua preferência", "Por que ela é zero glúten, zero açúcar, não contém sódio, é zero gordura". Embalagem: Konjac Massa MF tipo Cabelo de Anjo.
 
 <details><summary>Transcrição</summary>
 
