@@ -15,10 +15,20 @@ Estúdio de edição e agendamento para as redes da **Konjac**. Framework compar
 
 ### REGRAS INEGOCIÁVEIS
 
-1. **Nunca usar travessão em texto público.** Reescrever a frase.
-2. Credencial sempre completa: **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
-3. Palavrão em vídeo **se bipa, não se corta** (sine 1000 Hz curto, voz mutada no trecho).
-4. Loudness final: **-14 LUFS**.
+Nomenclatura, vindas do briefing oficial (`assets/brand/BRIEFING-OFICIAL.md`, v2 de 2026-09-16):
+
+1. **Sempre "Konjac Massa®" por extenso**, apresentada como marca e nunca como tipo ou categoria de massa.
+2. **Nunca escrever "massa de konjac".**
+3. **Nunca caracterizar o produto como raiz.** Falar de composição, características e benefícios funcionais.
+4. **Evitar comparação direta com massas tradicionais.** Priorizar os diferenciais próprios.
+5. Diabetes sempre com a ressalva **"sob orientação de profissional de saúde"**.
+
+Produção, herdadas do estúdio:
+
+6. **Nunca usar travessão em texto público.** Reescrever a frase.
+7. Credencial sempre completa: **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
+8. Palavrão em vídeo **se bipa, não se corta** (sine 1000 Hz curto, voz mutada no trecho).
+9. Loudness final: **-14 LUFS**.
 
 ## Pilares de conteúdo
 
@@ -26,7 +36,7 @@ v1 (hipóteses, validar com desempenho; detalhe em `assets/brand/BRAND.md`):
 
 1. Vida real (dor da rotina vira história)
 2. Educação Konjac (o que é, preparo, qual linha escolher)
-3. Comparações visuais (massa tradicional × Konjac)
+3. Ficha funcional (o que cada linha entrega: proteína, fibra, caloria, volume no prato). **Sem comparar com massa tradicional**, por regra do briefing oficial.
 4. Prova social (depoimentos, teste às cegas, creators)
 5. Receitas com desejo (payoff comercial, fechamento em compra)
 6. Comunidade e bastidores (VIPs, campanhas relâmpago, 31/08 Influencer Day)

@@ -6,6 +6,7 @@ Este repositório é o **Konjac Conteúdo Studio**: edição e agendamento de co
 
 ## Regras que valem em qualquer resposta pública
 
+- **Briefing oficial da marca (fonte de verdade de posicionamento e nomenclatura): `assets/brand/BRIEFING-OFICIAL.md`**, transcrito do Doc "BRIEFING - KONJAC MASSA v2" (`https://docs.google.com/document/d/1b6GQ9xqXkrArYeWMAVkT0D9yZb65QN1hYfgNFz0ivUA/edit`, de raphael.padrao@zavi.ag, salvo em 2026-09-16). Onde divergir de material anterior, ele prevalece. Em resumo: sempre **Konjac Massa®** por extenso e apresentada como marca; **nunca "massa de konjac"**; **nunca caracterizar como raiz**; **evitar comparação direta com massas tradicionais**; tom educativo, com foco em funcionalidade, praticidade e conveniência. Duas linhas: **Proteica** (Power Espaguete 47g de proteína, CUP Proteico 32g) e **Low Carb** (zero carboidratos, 9 kcal por 100g, glucomanano).
 - Nunca usar travessão em texto público (caption, lettering, legenda): reescrever a frase.
 - Quando citar a criadora ou criador: sempre a credencial completa **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
 - Palavrão em vídeo **se bipa, não se corta**.

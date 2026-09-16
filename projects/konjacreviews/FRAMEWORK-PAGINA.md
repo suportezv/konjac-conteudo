@@ -94,3 +94,24 @@ Recomendação: hospedar os arquivos no próprio domínio ou em CDN, não em lin
 - Autorização de uso de imagem de cada criador para a página, e definição de crédito (nome ou @) por vídeo. Enquanto não houver, os reviews entram sem identificação nominal.
 - Sistema real de coleta de nota, se a marca quiser exibir avaliação em estrelas no futuro.
 - URL final da página (sugestão: `konjacmassamf.com.br/reviews`).
+
+## 8. Pendência aberta em 2026-09-16: briefing oficial versus nomenclatura desta página
+
+O briefing oficial da marca (`assets/brand/BRIEFING-OFICIAL.md`) chegou depois que esta página foi desenhada e pede para **evitar a expressão "massa de konjac"**, **não caracterizar o produto como raiz** e **evitar comparações diretas com massas tradicionais**. A página, como está, contraria os três pontos em lugares específicos:
+
+| Onde | O que precisa mudar |
+|---|---|
+| `canvas/Perguntas.dc.html` | 4 perguntas usam "massa de konjac" no título, inclusive "A massa de konjac tem gosto?" e "Konjac serve para quem tem diabetes?" |
+| `canvas/EstruturaGEO.dc.html` | A lista de perguntas-alvo de GEO é toda construída sobre o termo genérico |
+| `FRAMEWORK-PAGINA.md`, seção 4, item 6 | Entidades a repetir incluem "massa de konjac" e "shirataki" |
+| `canvas/Galeria.dc.html` e `reviews.json` | Um review descreve a experiência "idêntico a um macarrão" e outro cita tubérculo, ambos citando fala de terceiro |
+
+**Decisão a tomar com o cliente, porque envolve um trade-off real de GEO**: "massa de konjac" e "shirataki" são os termos que o consumidor digita e que a IA usa para casar a pergunta com a resposta. Abandonar os dois no texto da página reduz a chance de a página ser encontrada e citada justamente por quem ainda não conhece a marca. Três caminhos:
+
+1. **Seguir o briefing à risca**: reescrever perguntas e entidades só com "Konjac Massa®". Perde alcance de busca genérica, ganha consistência total de marca.
+2. **Separar os planos**: texto da marca sempre "Konjac Massa®", e o termo genérico aparece apenas nas perguntas frequentes, onde a pergunta é literalmente a que o consumidor faz (ex.: "Konjac Massa® tem gosto?" como título, com a resposta explicando o produto). Mantém parte do alcance sem a marca se autodefinir como categoria.
+3. **Página dupla**: esta página institucional 100% na nomenclatura da marca, e um conteúdo separado de topo de funil que responde às buscas genéricas e leva para cá.
+
+Depoimento é fala de terceiro e, na minha leitura, não deve ser reescrito: adaptar a fala de quem deu o depoimento para caber na nomenclatura da marca descaracteriza a prova social. Confirmar essa leitura com o cliente.
+
+Até a decisão, a página fica como está e nada vai ao ar.

@@ -1,5 +1,7 @@
 # Konjac Massa MF — Design System da marca (v1, 2026-08-20)
 
+> **Atualização 2026-09-16**: o briefing oficial da marca chegou e está em `BRIEFING-OFICIAL.md`. Ele é a fonte de verdade de posicionamento, nomenclatura e dados das linhas Proteica e Low Carb, e prevalece sobre qualquer item desta página que o contrarie. Leia os dois juntos.
+
 Sistema de marca e conteúdo do estúdio, montado a partir de: logotipo oficial e embalagens da linha BOX (enviados pelo cliente em 2026-08-20), diagnóstico "Análise de Comunicação · Parte 1" (Design.pdf / pptx de rebranding, pasta Konjac Massa no Drive), estudo do perfil (doc "Cliente: KONJAC") e reunião de alinhamento estratégico de 2026-08-10. Cores extraídas dos PNGs oficiais; se existir manual de marca com hex oficiais, ele prevalece.
 
 ## 1. Marca
@@ -64,7 +66,7 @@ Cada roteiro precisa carregar pelo menos dois destes elementos: curiosidade, ide
 
 1. **Vida real**: dores da rotina viram história (jantar rápido depois do trabalho, meta de proteína, vontade de massa sem sair da dieta, almoço em minutos).
 2. **Educação Konjac**: o que é konjac, textura, como preparar, qual linha e corte escolher (muita gente ainda não conhece o produto).
-3. **Comparações visuais**: massa tradicional versus Konjac (calorias por prato, carboidratos, proteína, tempo de preparo); bater o olho e entender.
+3. **Ficha funcional**: o que cada linha entrega em números próprios (proteína, fibra, caloria, volume no prato, tempo de preparo), para bater o olho e entender. O briefing oficial pede **evitar comparação direta com massas tradicionais**, então o contraste é com o objetivo do consumidor, não com o concorrente de categoria.
 4. **Prova social**: depoimentos e teste às cegas ("Achei que não teria textura de massa, mas me surpreendeu"), creators e autoridade (mídia, chefs, profissionais de saúde).
 5. **Receitas com desejo**: payoff comercial, produto identificado, fechamento em compra.
 6. **Comunidade e bastidores**: marca viva, códigos internos, grupo VIP e campanhas relâmpago, datas próprias (31/08 Dia do Blogueiro / Influencer Day), recompra e cashback.
