@@ -15,6 +15,8 @@ if [ -n "${HTTPS_PROXY:-}" ]; then
   export npm_config_proxy="$HTTPS_PROXY" npm_config_https_proxy="$HTTPS_PROXY"
   export npm_config_noproxy="" npm_config_cafile="${SSL_CERT_FILE:-/root/.ccr/ca-bundle.crt}"
   export NODE_EXTRA_CA_CERTS="${SSL_CERT_FILE:-/root/.ccr/ca-bundle.crt}"
+  # undici (fetch do Node 22) ignora HTTPS_PROXY sem isto; ver gotcha no CLAUDE.md
+  export NODE_USE_ENV_PROXY=1
 fi
 
 echo "== 1. ffmpeg: subtitles + zscale =="
@@ -95,28 +97,23 @@ else
   fi
 fi
 
-echo "== 6. HyperFrames (render local) =="
-# O CLI quer baixar o chrome-headless-shell de storage.googleapis.com (fora da
-# allowlist); com HYPERFRAMES_BROWSER_PATH ele usa o headless_shell do Playwright.
-# O scaffold carrega o GSAP de cdn.jsdelivr.net (tambem fora), entao o teste
-# vendoriza o GSAP pelo npm, que e o mesmo contorno a usar em projeto real.
-export HYPERFRAMES_BROWSER_PATH="${HYPERFRAMES_BROWSER_PATH:-/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell}"
-if [ ! -x "$HYPERFRAMES_BROWSER_PATH" ]; then
-  echo "AVISO: browser ausente em $HYPERFRAMES_BROWSER_PATH; render local do HyperFrames vai falhar"
+echo "== 6. HyperFrames (render local + registry) =="
+# Prova real: scaffold, render de 10s e uma consulta ao registry. O GSAP vem do
+# CDN (cdn.jsdelivr.net liberado em 18/set/2026); se o CDN cair da allowlist,
+# vendorizar com "npm i gsap" e apontar o <script> para o arquivo local.
+_hf="$(mktemp -d)"
+if (cd "$_hf" && npx --yes hyperframes init smoke >/dev/null 2>&1 \
+    && cd smoke && npx --yes hyperframes render --quality draft --output out.mp4 >/dev/null 2>&1) \
+   && [ -s "$_hf/smoke/out.mp4" ]; then
+  echo "OK (render local funciona)"
 else
-  _hf="$(mktemp -d)"
-  if (cd "$_hf" && npx --yes hyperframes init smoke >/dev/null 2>&1 \
-      && cd smoke \
-      && npm install gsap@3.14.2 --no-audit --no-fund --silent >/dev/null 2>&1 \
-      && cp node_modules/gsap/dist/gsap.min.js ./gsap.min.js \
-      && sed -i 's#https://cdn.jsdelivr.net/npm/gsap@[0-9.]*/dist/gsap.min.js#./gsap.min.js#' index.html \
-      && npx --yes hyperframes render --quality draft --output out.mp4 >/dev/null 2>&1) \
-     && [ -s "$_hf/smoke/out.mp4" ]; then
-    echo "OK (render local funciona; GSAP vendorizado porque cdn.jsdelivr.net está fora da allowlist)"
-  else
-    echo "FALHA: HyperFrames não renderizou; ver gotcha 'HyperFrames neste container' no CLAUDE.md"
-  fi
-  rm -rf "$_hf"
+  echo "FALHA: HyperFrames não renderizou; ver gotcha 'HyperFrames neste container' no CLAUDE.md"
+fi
+rm -rf "$_hf"
+if npx --yes hyperframes catalog 2>/dev/null | grep -q 'block'; then
+  echo "OK (registry responde; hyperframes add disponível)"
+else
+  echo "PENDENTE: registry vazio (hyperframes.heygen.com e raw.githubusercontent.com liberados? NODE_USE_ENV_PROXY=1?)"
 fi
 
 echo "== 7. Skills registradas =="

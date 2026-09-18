@@ -19,6 +19,10 @@ if [ -n "${HTTPS_PROXY:-}" ]; then
   export UV_DEFAULT_INDEX="https://pypi.org/simple"
   export npm_config_proxy="$HTTPS_PROXY" npm_config_https_proxy="$HTTPS_PROXY"
   export npm_config_noproxy="" npm_config_cafile="$SSL_CERT_FILE"
+  # O fetch nativo do Node 22 (undici) NAO le HTTPS_PROXY sozinho: sem isto, CLI
+  # em Node leva 403 em host liberado enquanto o curl passa. Medido em 18/set/2026
+  # com "hyperframes skills update" e o registry.
+  export NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS="$SSL_CERT_FILE"
 fi
 
 echo "== 1/6 ffmpeg =="
@@ -105,13 +109,11 @@ if ! npx --yes hyperframes skills update 2>/dev/null; then
   done
   echo "$n skills do hyperframes registradas a partir de $HYPERFRAMES/skills"
 fi
-# O render local do HyperFrames precisa de um Chrome headless. O CLI baixaria de
-# storage.googleapis.com (fora da allowlist); o headless_shell do Playwright serve,
-# mas a variavel tem que vir do environment: a shell das tool calls nao le .bashrc
-# e este script nao pode gravar em /etc. O validate.sh assume o caminho padrao.
-_hfb="/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell"
-if [ -z "${HYPERFRAMES_BROWSER_PATH:-}" ] && [ -x "$_hfb" ]; then
-  echo "PENDENTE: cadastrar HYPERFRAMES_BROWSER_PATH=$_hfb nas env vars do environment (render local do HyperFrames)"
+# O CLI baixa o proprio chrome-headless-shell de storage.googleapis.com (liberado
+# em 18/set/2026). Se o host estiver fora da allowlist, apontar
+# HYPERFRAMES_BROWSER_PATH para o headless_shell do Playwright resolve.
+if ! npx --yes hyperframes browser ensure >/dev/null 2>&1; then
+  echo "AVISO: hyperframes browser ensure falhou; render local pode exigir HYPERFRAMES_BROWSER_PATH"
 fi
 
 echo "== 4/6 Remotion =="
