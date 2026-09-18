@@ -16,6 +16,8 @@ bash /home/user/konjac-conteudo/scripts/setup.sh   # caminho absoluto: o campo d
 bash scripts/validate.sh                            # tem que ficar verde
 ```
 
+Env vars do environment: `ELEVENLABS_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY` e `HYPERFRAMES_BROWSER_PATH=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell` (render local do HyperFrames sem baixar Chrome). Allowlist medida e contornos no `CLAUDE.md`.
+
 Depois: coloque o bruto no Drive (pasta pública) ou anexe na conversa, escreva o briefing em `projects/<nome>/` e peça a edição.
 
 ## Cinto de ferramentas (`scripts/`)

@@ -105,6 +105,14 @@ if ! npx --yes hyperframes skills update 2>/dev/null; then
   done
   echo "$n skills do hyperframes registradas a partir de $HYPERFRAMES/skills"
 fi
+# O render local do HyperFrames precisa de um Chrome headless. O CLI baixaria de
+# storage.googleapis.com (fora da allowlist); o headless_shell do Playwright serve,
+# mas a variavel tem que vir do environment: a shell das tool calls nao le .bashrc
+# e este script nao pode gravar em /etc. O validate.sh assume o caminho padrao.
+_hfb="/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell"
+if [ -z "${HYPERFRAMES_BROWSER_PATH:-}" ] && [ -x "$_hfb" ]; then
+  echo "PENDENTE: cadastrar HYPERFRAMES_BROWSER_PATH=$_hfb nas env vars do environment (render local do HyperFrames)"
+fi
 
 echo "== 4/6 Remotion =="
 # O Remotion e React; as composicoes ficam versionadas em remotion/ e so as

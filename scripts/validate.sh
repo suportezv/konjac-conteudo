@@ -8,6 +8,14 @@ VIDEO_USE="$TOOLS_DIR/browser-use/video-use"
 [ -d "$VIDEO_USE" ] || VIDEO_USE="$HOME/video-editor/video-use"
 FF_PATH="/opt/homebrew/opt/ffmpeg-full/bin"
 [ -d "$FF_PATH" ] && export PATH="$FF_PATH:$PATH"
+# Mesma rota de rede do setup.sh: registry.npmjs.org vem em no_proxy e, fora do
+# agent proxy, o firewall recusa com 403. Precisa para npx/npm nos passos 5 e 6.
+if [ -n "${HTTPS_PROXY:-}" ]; then
+  export no_proxy="" NO_PROXY="" HTTP_PROXY="$HTTPS_PROXY"
+  export npm_config_proxy="$HTTPS_PROXY" npm_config_https_proxy="$HTTPS_PROXY"
+  export npm_config_noproxy="" npm_config_cafile="${SSL_CERT_FILE:-/root/.ccr/ca-bundle.crt}"
+  export NODE_EXTRA_CA_CERTS="${SSL_CERT_FILE:-/root/.ccr/ca-bundle.crt}"
+fi
 
 echo "== 1. ffmpeg: subtitles + zscale =="
 N=$(ffmpeg -filters 2>/dev/null | grep -cE "subtitles|zscale")
@@ -60,6 +68,10 @@ for D in https://drive.google.com/ https://drive.usercontent.google.com/ https:/
   C=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$D")
   if [ "$C" = "000" ]; then echo "FALHOU $D (000: domínio não liberado)"; else echo "OK $D (HTTP $C)"; fi
 done
+for D in https://api.openai.com/ https://generativelanguage.googleapis.com/; do
+  C=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$D")
+  if [ "$C" = "000" ]; then echo "AVISO $D (000: domínio não liberado; só afeta scripts/gera_imagem.py)"; else echo "OK $D (HTTP $C)"; fi
+done
 
 echo "== 5. Remotion =="
 REMOTION="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/remotion"
@@ -83,11 +95,35 @@ else
   fi
 fi
 
-echo "== 6. Skills registradas =="
+echo "== 6. HyperFrames (render local) =="
+# O CLI quer baixar o chrome-headless-shell de storage.googleapis.com (fora da
+# allowlist); com HYPERFRAMES_BROWSER_PATH ele usa o headless_shell do Playwright.
+# O scaffold carrega o GSAP de cdn.jsdelivr.net (tambem fora), entao o teste
+# vendoriza o GSAP pelo npm, que e o mesmo contorno a usar em projeto real.
+export HYPERFRAMES_BROWSER_PATH="${HYPERFRAMES_BROWSER_PATH:-/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell}"
+if [ ! -x "$HYPERFRAMES_BROWSER_PATH" ]; then
+  echo "AVISO: browser ausente em $HYPERFRAMES_BROWSER_PATH; render local do HyperFrames vai falhar"
+else
+  _hf="$(mktemp -d)"
+  if (cd "$_hf" && npx --yes hyperframes init smoke >/dev/null 2>&1 \
+      && cd smoke \
+      && npm install gsap@3.14.2 --no-audit --no-fund --silent >/dev/null 2>&1 \
+      && cp node_modules/gsap/dist/gsap.min.js ./gsap.min.js \
+      && sed -i 's#https://cdn.jsdelivr.net/npm/gsap@[0-9.]*/dist/gsap.min.js#./gsap.min.js#' index.html \
+      && npx --yes hyperframes render --quality draft --output out.mp4 >/dev/null 2>&1) \
+     && [ -s "$_hf/smoke/out.mp4" ]; then
+    echo "OK (render local funciona; GSAP vendorizado porque cdn.jsdelivr.net está fora da allowlist)"
+  else
+    echo "FALHA: HyperFrames não renderizou; ver gotcha 'HyperFrames neste container' no CLAUDE.md"
+  fi
+  rm -rf "$_hf"
+fi
+
+echo "== 7. Skills registradas =="
 [ -e ~/.claude/skills/video-use/SKILL.md ] && echo "OK video-use" || echo "PENDENTE video-use"
 HF=$(ls -d ~/.claude/skills/*/ 2>/dev/null | while read -r d; do [ -f "$d/SKILL.md" ] && basename "$d"; done | grep -cE 'hyperframes|media-use|motion-graphics|embedded-captions')
 if [ "${HF:-0}" -ge 4 ]; then echo "OK hyperframes ($HF skills com SKILL.md)"; else echo "PENDENTE hyperframes (rode scripts/setup.sh)"; fi
 
-echo "== 7. Na sessão do Claude, validar ainda: =="
+echo "== 8. Na sessão do Claude, validar ainda: =="
 echo " - Metricool: getBrandSettings lista a marca deste estúdio com o blog_id documentado no CLAUDE.md"
 echo " - Kairogen: get_me_context mostra plano e créditos (conta da agência; conferir antes de gerar b-roll)"
