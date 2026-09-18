@@ -109,11 +109,13 @@ if ! npx --yes hyperframes skills update 2>/dev/null; then
   done
   echo "$n skills do hyperframes registradas a partir de $HYPERFRAMES/skills"
 fi
-# O CLI baixa o proprio chrome-headless-shell de storage.googleapis.com (liberado
-# em 18/set/2026). Se o host estiver fora da allowlist, apontar
-# HYPERFRAMES_BROWSER_PATH para o headless_shell do Playwright resolve.
-if ! npx --yes hyperframes browser ensure >/dev/null 2>&1; then
-  echo "AVISO: hyperframes browser ensure falhou; render local pode exigir HYPERFRAMES_BROWSER_PATH"
+# O CLI baixa o proprio chrome-headless-shell (~195 MB) de storage.googleapis.com,
+# liberado em 18/set/2026. SEMPRE com timeout: sem NODE_USE_ENV_PROXY (exportado
+# no topo) o comando nao volta, e em 18/set/2026 ficou 15 min pendurado antes de
+# ser morto. Este script roda no boot de todo container e nenhum passo pode
+# travar. Cache quente responde em ~2 s; download frio cabe nos 10 min.
+if ! timeout 600 npx --yes hyperframes browser ensure >/dev/null 2>&1; then
+  echo "AVISO: hyperframes browser ensure falhou ou estourou o tempo; aponte HYPERFRAMES_BROWSER_PATH para /opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell"
 fi
 
 echo "== 4/6 Remotion =="
