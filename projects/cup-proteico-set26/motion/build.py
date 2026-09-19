@@ -30,7 +30,7 @@ document.querySelectorAll('.faixa .selo').forEach(function(e,i){KJ.pop(tl,e,2.7+
 KJ.fade(tl,'.nota',3.4);
 KJ.float(tl,'#produto',2.1,8); KJ.float(tl,'.frango',2.0,5);
 ''',
-  sfx=[('whoosh-short',0.30,.25),('whoosh',1.05,.22),('pop',1.75,.28),('pop',2.05,.34),('sparkle',2.25,.12),('pop',2.70,.16),('pop',2.84,.16),('pop',2.98,.16),('pop',3.12,.16)]),
+  sfx=[('whoosh-short',0.30,.25),('whoosh',1.05,.22),('pop',1.75,.28),('pop',2.05,.34),('sparkle',2.25,.12),('pop',2.70,.16),('pop',2.84,.16),('pop',2.98,.16)]),
  '02': dict(
   js='''
 KJ.intro(tl);
@@ -67,12 +67,13 @@ KJ.float(tl,'#produto',2.2,8);
   js='''
 KJ.intro(tl);
 KJ.rise(tl,'#produto',1.0,140,1.0);
-KJ.pop(tl,S(0),1.8,true);
-KJ.slide(tl,'.passo',2.1,-30,0.6,0.3);
-document.querySelectorAll('.faixa .selo').forEach(function(e,i){KJ.pop(tl,e,3.1+0.14*i);});
+tl.fromTo('.hero .num',{opacity:0,scale:.5,transformOrigin:'0% 50%'},{opacity:1,scale:1,duration:.8,ease:'back.out(1.6)'},1.2);
+KJ.fade(tl,'.hero .rot',1.75,0.5);
+KJ.pop(tl,S(0),2.2); KJ.pop(tl,S(1),2.45); KJ.pop(tl,S(2),2.7);
+KJ.up(tl,'.apoio',3.1,20,0.6);
 KJ.float(tl,'#produto',2.0,8);
 ''',
-  sfx=[('whoosh-short',0.30,.25),('whoosh',1.0,.22),('pop',1.8,.34),('sparkle',2.00,.12),('pop',2.1,.14),('pop',2.4,.14),('pop',2.7,.14),('pop',3.1,.16),('pop',3.24,.16),('pop',3.38,.16)]),
+  sfx=[('whoosh-short',0.30,.25),('whoosh',1.0,.22),('pop',1.2,.36),('sparkle',1.4,.14),('pop',2.2,.24),('pop',2.45,.24),('pop',2.7,.24)]),
  '06': dict(
   js='''
 KJ.intro(tl);

@@ -27,7 +27,7 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 | 02 | O campeão da proteína. | claro | cogumelo | escada crescente; 6,7 g e 3 min na base do copo |
 | 03 | Não é shake. Não é barrinha. É refeição. | roxo | vegetais | sem CTA de rodapé, nome no topo |
 | 04 | Tudo isso dentro de um copo. | claro | carne | v2: copo menos afunilado, lista contida, sem peso |
-| 05 | Só precisa de água quente. | claro | frango | proposta; o briefing só tinha imagens |
+| 05 | Sua refeição só precisa de água quente. | claro | frango | v4: estrutura do cliente, sem passos |
 | 06 | Entrega 64% do valor diário de proteína. | roxo | frango | 64% no lugar de 55%; v2: nota sem "62 g" |
 | 07 | Para quem é o CUP Proteico? | claro | cogumelo | 8 perfis saindo do copo; caneta com asterisco |
 | 08 | Quanto você precisa comer para chegar a 32 g? | claro | vegetais | v2: selo fora do rótulo, legenda sem "69 g" |
@@ -48,6 +48,13 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 - Nome nas peças: Konjac Massa® CUP High Protein (pendência 1 fechada pelo cliente).
 - 55% do VD nas peças 06 e 07 (pendência 5 fechada pelo cliente contra a tabela, que dá 64%; nota de rodapé reescrita como "percentual de referência informado pela Konjac Massa®").
 - Título da 07 em 84 px para caber em duas linhas com o nome novo.
+
+## Versão 4 (19/set/2026, segundo retorno sobre os selos)
+
+- Um tamanho de selo por peça (200 px; 170 px na 02), texto em negrito, tudo dentro do filete, conferido por `scripts/audita_selos.mjs`.
+- 01: faixa com três selos (6,7g, 3min, AIR DRIED); "Produto vegano" saiu. 06: quatro selos iguais em 2x2. 07: quatro selos iguais, "55%**" com legenda curta.
+- 05 reescrita pelo cliente (título, destaque 32g, três selos ao redor do copo, apoio). 04: selo sobre a borda da tampa, à direita.
+- 08: copo desceu 40 px e o selo ficou só sobre a borda da tampa, sem cobrir o rótulo.
 
 ## Motion
 

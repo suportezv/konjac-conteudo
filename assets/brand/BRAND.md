@@ -135,6 +135,16 @@ Decisões tomadas como referência da marca, a partir do briefing oficial, da ta
 - **Percentual do VD de proteína: 55%**, por decisão do cliente. A tabela nutricional publicada dá 64% (32 g sobre o VD de 50 g); por isso a nota de rodapé passou a dizer "percentual de referência informado pela Konjac Massa®" e não cita mais a tabela. Risco registrado: número que não fecha com o rótulo.
 - **Sem legenda de sabores** em arte (peça 04).
 
+### Revisão v4 (19/set/2026, segundo retorno do cliente sobre os selos)
+
+- **Um tamanho de selo por peça**, o do "32g proteína": 200 px como padrão (170 px na peça 02, que tem seis). Não existe mais selo grande de destaque nem selo pequeno de apoio; hierarquia vem da posição, não do tamanho.
+- **Texto do selo sempre em negrito** (Archivo 700, legenda 22 px, texto de duas linhas 26 px) e **sempre dentro do filete interno**. O estúdio passou a medir isso antes de entregar: `scripts/audita_selos.mjs` carrega cada peça, mede cada selo e reprova texto fora do raio do filete ou tamanhos diferentes na mesma peça. Peça só sai com a auditoria limpa.
+- Selo "tecnologia AIR DRIED (sem óleo)": "tecnologia" pequeno, "AIR" e "DRIED" em duas linhas em negrito caixa alta, "(sem óleo)" pequeno.
+- Selo de percentual: "55%**" com os asteriscos no número e legenda curta ("do VD de proteína"), porque legenda de três linhas não cabe.
+- "Produto vegano" saiu da peça 01 (faixa com três selos).
+- Peça 05 reescrita pelo cliente: título "Sua refeição só precisa de água quente.", destaque principal "32g de proteína" em número grande, três selos ao redor do copo ("6,7g de fibras", "Pronto em 3 minutos", "Zero óleo") e apoio "Tempero, ervas e garfo já vêm no CUP." Os três passos numerados saíram.
+- Peça 04: selo "32g proteína" no canto superior direito, sobre a borda da tampa do produto, onde o cliente marcou.
+
 ### Claims do CUP Proteico (fonte: tabela nutricional publicada no site, porção 62 g, sabor frango)
 
 | Usar | Não usar | Por quê |
