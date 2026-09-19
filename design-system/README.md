@@ -5,7 +5,7 @@ O sistema vive em **dois lugares**, e nenhum deles é este diretório:
 1. **`assets/brand/`** neste repo: a fonte canônica escrita pelo estúdio. `BRIEFING-OFICIAL.md` (briefing v2 do cliente, prevalece sobre tudo), `BRAND.md` (paleta, claims, narrativa, pilares, cor por corte), o logotipo em PNG e vetor, os renders das embalagens e o brand book em artboards (`canvas/`).
 2. **Artifact "Konjac Massa Design System"**: https://claude.ai/artifact/PYtJR5b7YsjzHRBZUAAq9Z, construído a partir de `assets/brand/`. Tem os tokens, os componentes, os specimen cards e os UI kits (loja e social). Artifact irmão, só texto: **Brand Book Konjac Massa MF** (`5RKA3CYnRWLX3K3RxmFqyN`).
 
-Este diretório guarda apenas uma **cópia dos tokens** (`tokens.json`, lida do artifact em 19/set/2026), para que um script ou um render não dependa de rede nem de sessão para saber a paleta.
+Este diretório guarda a **implementação do feed estático** (`feed.css` com tokens, selo, pill e rodapé; `selo.svg`), definida como padrão em 19/set/2026 e documentada na seção 11 do `assets/brand/BRAND.md`, e uma **cópia dos tokens** (`tokens.json`, lida do artifact em 19/set/2026), para que um script ou um render não dependa de rede nem de sessão para saber a paleta.
 
 ## Onde a paleta é consumida
 

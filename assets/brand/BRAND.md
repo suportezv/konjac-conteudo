@@ -102,3 +102,33 @@ Hook verbal ou visual com título na tela nos 2 primeiros segundos; lettering ca
 - Voz ElevenLabs da marca (voice_id, modelo, settings).
 - Pasta oficial de brutos no Drive.
 - Hex oficiais do manual de marca, se existir (os daqui foram extraídos dos PNGs).
+
+## 11. Feed estático: padrão definido em 19/set/2026
+
+Decisões tomadas como referência da marca, a partir do briefing oficial, da tabela nutricional publicada no site e do padrão de selos que a marca já usa no Instagram. Implementação em `design-system/feed.css` (tokens, selo, pill, rodapé) e `design-system/selo.svg`; render com `scripts/render_peca.mjs`.
+
+- **Formato**: 1080x1350 (4:5), margem 64 px. Logotipo oficial no canto superior direito, 200 px.
+- **Fundos**: só dois. Roxo Konjac `#812779` para peças de afirmação e neutro claro `#f6f3f0` para peças de produto e comparação. Menta `#a8dcda` só como acento e superfície secundária. Sem verde-limão, sem coral, sem gradiente.
+- **Tipografia**: título em Barlow Condensed 800 caps; apoio e legendas em Archivo. Números grandes em Barlow Condensed 800. Uma única ênfase por título, em roxo sobre claro ou menta sobre roxo.
+- **Selo** (componente novo): círculo de 12 pontas onduladas, branco, número em Barlow Condensed 800 e legenda em Archivo 600, ambos em roxo, sombra suave. Tamanhos 150, 190 e 230 px. É onde vivem os dados nutricionais, nunca em lista de texto solta. Ortografia: "fibras", sem acento.
+- **Pill**: roxo com texto branco sobre claro, ou branco com texto roxo sobre roxo, Barlow Condensed 700 caps. Serve para atributo sem número (sem fritura, só água quente) e para CTA.
+- **Rodapé** em toda peça comercial: site konjacmassamf.com.br à esquerda e @konjacmassa_mf à direita. Notas legais em Archivo 17 px, muted, acima do rodapé.
+- **Produto**: sempre o recorte oficial da galeria do site (`cup_<sabor>.png`), inteiro e legível, sombra de contato leve. Alternar os quatro sabores ao longo de um conjunto. Nunca recriar, nunca gerar por IA.
+- **Alimentos genéricos** de comparação (ovo, frango, pasta de amendoim) podem ser gerados por IA em fundo transparente. Embalagem e logotipo, nunca.
+- **Sem pessoas** nas peças de produto.
+- **Nome do produto nas peças**: **Konjac Massa® CUP Proteico**, como no briefing oficial e na cópia do site. "High-Protein" é o que está impresso no copo e aparece na foto. Se o cliente preferir "CUP High Protein", é troca de texto.
+
+### Claims do CUP Proteico (fonte: tabela nutricional publicada no site, porção 62 g, sabor frango)
+
+| Usar | Não usar | Por quê |
+|---|---|---|
+| 32 g de proteína vegetal por porção | 55% da proteína do dia | 55% era estimativa para adulto de 70 kg; o rótulo imprime **64% do VD** |
+| 64% do valor diário de proteína* | baixo em calorias | 227 kcal por copo; claim regulado e falso aqui |
+| 6,7 g de fibras (27% VD) | baixo carbo | 21 g de carboidratos por copo; e mistura a promessa da linha Low Carb |
+| pronto em 3 minutos, só água quente | sem glúten | contém glúten de trigo; sem glúten é claim da Low Carb |
+| sem fritura, sem óleo adicionado | "único do Brasil", "campeão" sem base | superlativo sem prova |
+| produto vegano (proteína de ervilha) | depreciar shake, whey ou barrinha | contra a voz da marca e o briefing |
+
+*%VD com base em uma dieta de 2.000 kcal.
+
+Erro a corrigir no site: a imagem da tabela nutricional do sabor frango imprime "0,7 g" de fibras onde o próprio %VD (27%) prova 6,7 g.
