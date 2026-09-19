@@ -125,6 +125,16 @@ Decisões tomadas como referência da marca, a partir do briefing oficial, da ta
 - **Texto sempre dentro da forma que o contém.** Na peça 04 a lista vazava o copo desenhado; o copo passou a afunilar 26 px por lado e a lista ganhou largura fixa que cabe na base. Antes de entregar, conferir cada peça em tamanho real procurando texto fora de caixa e elementos que se tocam.
 - **Selo nunca cobre o rótulo do produto** (peça 08: o selo saiu de cima do "32G" impresso no copo e foi para a borda).
 
+### Revisão v3 (19/set/2026, retorno do cliente com prints dos ícones da marca)
+
+- **Selo oficial redesenhado a partir dos prints do cliente**: círculo de borda ondulada (12 lóbulos arredondados, não pontas), branco, com **filete interno roxo** acompanhando a onda, sombra suave; número em `display` e legenda em `body`, ambos em roxo. Está em `design-system/selo.svg` e inline no `feed.css`/peças. Serve para dado ("32g proteína", "6,7g fibras", "3min só água quente") e para texto ("Rico em Fibras", "Pronto em 3 min", "Refeição completa", "Produto vegano", "tecnologia AIR DRIED (sem óleo)").
+- **Faixa inferior só com selos.** Pill na mesma linha de selos quebra o padrão visual e foi vetada pelo cliente; o que era pill vira selo de texto. Pill fica só para CTA isolado ("Link na bio").
+- **Sem "vegetal"** nos selos e no texto corrido: "32g proteína", mesmo que a embalagem imprima "proteína vegetal".
+- **Nome do produto nas peças: "Konjac Massa® CUP High Protein"** (decisão do cliente; o briefing oficial v2 escrevia "CUP Proteico").
+- **"AIR DRIED (sem óleo)"** no lugar de "Sem óleo adicionado", como selo com "tecnologia" em cima.
+- **Percentual do VD de proteína: 55%**, por decisão do cliente. A tabela nutricional publicada dá 64% (32 g sobre o VD de 50 g); por isso a nota de rodapé passou a dizer "percentual de referência informado pela Konjac Massa®" e não cita mais a tabela. Risco registrado: número que não fecha com o rótulo.
+- **Sem legenda de sabores** em arte (peça 04).
+
 ### Claims do CUP Proteico (fonte: tabela nutricional publicada no site, porção 62 g, sabor frango)
 
 | Usar | Não usar | Por quê |

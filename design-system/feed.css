@@ -31,6 +31,12 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--bg);font-f
 .selo .l{position:relative;font-family:var(--corpo);font-weight:600;font-size:22px;line-height:1.05;margin-top:6px;max-width:130px}
 .selo.sm{width:150px;height:150px}.selo.sm .n{font-size:48px}.selo.sm .l{font-size:18px;max-width:105px}
 .selo.lg{width:230px;height:230px}.selo.lg .n{font-size:78px}.selo.lg .l{font-size:25px;max-width:160px}
+.selo .t{position:relative;font-family:var(--corpo);font-weight:700;font-size:24px;line-height:1.08;max-width:130px}
+.selo.sm .t{font-size:20px;max-width:112px}
+.selo .lbl{position:relative;font-family:var(--corpo);font-weight:600;font-size:17px;line-height:1.1}
+.selo.sm .lbl{font-size:14px}
+.selo .big{position:relative;font-family:var(--display);font-weight:800;font-size:44px;line-height:.95;margin:2px 0;letter-spacing:.01em}
+.selo.sm .big{font-size:33px}
 .pill{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border-radius:999px;background:var(--roxo);color:var(--branco);font-family:var(--display);font-weight:700;font-size:30px;text-transform:uppercase;letter-spacing:.02em}
 .pill.outline{background:transparent;border:3px solid var(--roxo);color:var(--roxo)}
 .roxa .pill{background:var(--branco);color:var(--roxo)}

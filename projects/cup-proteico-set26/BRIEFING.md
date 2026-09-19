@@ -40,6 +40,15 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 - 08: o selo "32 g" cobria o rótulo do copo; foi para a borda superior do painel roxo.
 - Auditoria das 8 em tamanho real depois das mudanças (nota da 01 vazava à direita por `white-space:nowrap`; corrigida).
 
+## Versão 3 (19/set/2026, retorno do cliente com prints dos ícones)
+
+- Selo redesenhado no padrão dos prints: borda ondulada de lóbulos arredondados, filete interno roxo, texto roxo. Vale para dado e para texto.
+- Faixas inferiores só com selos (01, 05, 06, 07): "Sem óleo adicionado" virou selo "tecnologia AIR DRIED (sem óleo)"; "Produto vegano", "Refeição completa", "Rico em Fibras" e "Pronto em 3 min" viraram selos de texto.
+- "vegetal" fora de todos os selos e da lista da 04. Legenda de sabores fora da 04.
+- Nome nas peças: Konjac Massa® CUP High Protein (pendência 1 fechada pelo cliente).
+- 55% do VD nas peças 06 e 07 (pendência 5 fechada pelo cliente contra a tabela, que dá 64%; nota de rodapé reescrita como "percentual de referência informado pela Konjac Massa®").
+- Título da 07 em 84 px para caber em duas linhas com o nome novo.
+
 ## Motion
 
 Oito vídeos 1080x1350 de 8 s (30 fps, H.264 + AAC) em `motion/finais/`, um por peça, gerados por `motion/build.py` a partir dos HTML estáticos e renderizados no HyperFrames. Coreografia, som e loudness estão descritos na seção 11 do `assets/brand/BRAND.md` ("Motion do feed"). Regeneração:
@@ -54,9 +63,9 @@ Antes de rodar: exportar as variáveis de proxy com `NODE_USE_ENV_PROXY=1` (ver 
 
 ## Pendências para o cliente antes de publicar
 
-1. **Fechada em 19/set, conferida no site.** "Cup Proteico" é o nome de marketing (menu "CUP PROTEICO 32G PROTEÍNA", página da Linha Proteica, seções da página de produto); "Konjac Massa® Cup High Protein Dry Noodles" é o nome de catálogo (composição de kits, URLs, título de SKU). Arte de feed usa o registro de marketing: as peças ficam com **Konjac Massa® CUP Proteico**. O design system vivo ainda escreve "Cup High Protein" e deveria alinhar com o menu do site.
+1. **Fechada pelo cliente em 19/set: "CUP High Protein".** Histórico: "Cup Proteico" é o nome de marketing (menu "CUP PROTEICO 32G PROTEÍNA", página da Linha Proteica, seções da página de produto); "Konjac Massa® Cup High Protein Dry Noodles" é o nome de catálogo (composição de kits, URLs, título de SKU). Arte de feed usa o registro de marketing: as peças ficam com **Konjac Massa® CUP Proteico**. O design system vivo ainda escreve "Cup High Protein" e deveria alinhar com o menu do site.
 2. Confirmar a embalagem vigente: as fotos oficiais do site dizem "pronto em 3 minutos"; nas referências antigas aparecia "4 minutos".
 3. Corrigir no site a imagem da tabela nutricional do sabor frango: imprime "0,7 g" de fibras onde o %VD prova 6,7 g.
 4. Decidir se "caneta emagrecedora" fica na peça 07.
-5. Aprovar 64% do VD (rótulo) no lugar de 55% (estimativa) na peça 06.
+5. **Fechada pelo cliente em 19/set: 55%.** A tabela dá 64%; a nota de rodapé deixou de citar a tabela. Risco de auditoria registrado.
 6. O design system vivo (artifact, 19/set) diverge das peças em quatro pontos registrados na seção 11 do BRAND.md: posição do logo, limite de três badges por arte, fundo na cor do produto para a família Proteica, e o nome "Cup High Protein". Nenhum deles é erro de execução; são escolhas a fechar com quem mantém o sistema.

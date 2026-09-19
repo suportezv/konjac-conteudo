@@ -26,11 +26,11 @@ KJ.slide(tl,'.frango',0.95,-90,0.9);
 KJ.rise(tl,'#produto',1.05,140,1.0);
 KJ.pop(tl,S(0),1.75); KJ.pop(tl,S(1),2.05,true);
 KJ.fade(tl,'.leg',2.35,0.5);
-KJ.up(tl,'.faixa > *',2.7,26,0.55,0.12);
-KJ.fade(tl,'.nota',3.2);
+document.querySelectorAll('.faixa .selo').forEach(function(e,i){KJ.pop(tl,e,2.7+0.14*i);});
+KJ.fade(tl,'.nota',3.4);
 KJ.float(tl,'#produto',2.1,8); KJ.float(tl,'.frango',2.0,5);
 ''',
-  sfx=[('whoosh-short',0.30,.25),('whoosh',1.05,.22),('pop',1.75,.28),('pop',2.05,.34),('sparkle',2.25,.12),('pop',2.70,.16),('pop',2.82,.16)]),
+  sfx=[('whoosh-short',0.30,.25),('whoosh',1.05,.22),('pop',1.75,.28),('pop',2.05,.34),('sparkle',2.25,.12),('pop',2.70,.16),('pop',2.84,.16),('pop',2.98,.16),('pop',3.12,.16)]),
  '02': dict(
   js='''
 KJ.intro(tl);
@@ -60,7 +60,6 @@ tl.fromTo('.copo',{opacity:0,y:40,scale:.96,transformOrigin:'50% 0%'},{opacity:1
 KJ.slide(tl,'.lista li',1.4,-28,0.55,0.12);
 KJ.slide(tl,'#produto',1.2,120,0.9);
 KJ.pop(tl,S(0),2.8,true);
-KJ.fade(tl,'.leg',3.05,0.5);
 KJ.float(tl,'#produto',2.2,8);
 ''',
   sfx=[('whoosh-short',0.30,.25),('whoosh',1.2,.2),('pop',2.8,.34),('sparkle',3.00,.12)]),
@@ -70,22 +69,21 @@ KJ.intro(tl);
 KJ.rise(tl,'#produto',1.0,140,1.0);
 KJ.pop(tl,S(0),1.8,true);
 KJ.slide(tl,'.passo',2.1,-30,0.6,0.3);
-KJ.up(tl,'.faixa > *',3.1,26,0.55,0.12);
+document.querySelectorAll('.faixa .selo').forEach(function(e,i){KJ.pop(tl,e,3.1+0.14*i);});
 KJ.float(tl,'#produto',2.0,8);
 ''',
-  sfx=[('whoosh-short',0.30,.25),('whoosh',1.0,.22),('pop',1.8,.34),('sparkle',2.00,.12),('pop',2.1,.14),('pop',2.4,.14),('pop',2.7,.14),('pop',3.1,.16),('pop',3.22,.16)]),
+  sfx=[('whoosh-short',0.30,.25),('whoosh',1.0,.22),('pop',1.8,.34),('sparkle',2.00,.12),('pop',2.1,.14),('pop',2.4,.14),('pop',2.7,.14),('pop',3.1,.16),('pop',3.24,.16),('pop',3.38,.16)]),
  '06': dict(
   js='''
 KJ.intro(tl);
 tl.fromTo('.num',{opacity:0,scale:.5,transformOrigin:'0% 50%'},{opacity:1,scale:1,duration:.8,ease:'back.out(1.6)'},1.15);
 KJ.fade(tl,'.rot',1.7,0.5);
 KJ.rise(tl,'#produto',1.3,140,1.0);
-KJ.pop(tl,F(0),2.3); KJ.pop(tl,F(1),2.55); KJ.pop(tl,F(2),2.8);
-KJ.up(tl,'.faixa .pill',3.0,20,0.5);
+KJ.pop(tl,F(0),2.3); KJ.pop(tl,F(1),2.55); KJ.pop(tl,F(2),2.8); KJ.pop(tl,F(3),3.05);
 KJ.fade(tl,'.nota',3.3);
 KJ.float(tl,'#produto',2.3,8);
 ''',
-  sfx=[('whoosh-short',0.30,.25),('pop',1.15,.36),('sparkle',1.35,.14),('whoosh',1.3,.2),('pop',2.3,.22),('pop',2.55,.22),('pop',2.8,.22)]),
+  sfx=[('whoosh-short',0.30,.25),('pop',1.15,.36),('sparkle',1.35,.14),('whoosh',1.3,.2),('pop',2.3,.22),('pop',2.55,.22),('pop',2.8,.22),('pop',3.05,.22)]),
  '07': dict(
   css_del=['transform:translateX(-50%);'],
   js='''
@@ -93,12 +91,11 @@ KJ.intro(tl);
 KJ.rise(tl,'#produto',0.9,140,1.0,{xPercent:-50});
 KJ.slide(tl,document.querySelectorAll('.item.esq'),1.6,-30,0.6,0.28);
 KJ.slide(tl,document.querySelectorAll('.item.dir'),1.74,30,0.6,0.28);
-KJ.pop(tl,F(0),3.0); KJ.pop(tl,F(1),3.2);
-KJ.up(tl,'.faixa .pill',3.35,20,0.5,0.12);
+KJ.pop(tl,F(0),3.0); KJ.pop(tl,F(1),3.2); KJ.pop(tl,F(2),3.4); KJ.pop(tl,F(3),3.6);
 KJ.fade(tl,'.nota',3.6);
 KJ.float(tl,'#produto',1.9,7,{xPercent:-50});
 ''',
-  sfx=[('whoosh-short',0.30,.25),('whoosh',0.9,.22)]+[('pop',round(1.6+0.14*i,2),.11) for i in range(8)]+[('pop',3.0,.22),('pop',3.2,.22)]),
+  sfx=[('whoosh-short',0.30,.25),('whoosh',0.9,.22)]+[('pop',round(1.6+0.14*i,2),.11) for i in range(8)]+[('pop',3.0,.22),('pop',3.2,.22),('pop',3.4,.22),('pop',3.6,.22)]),
  '08': dict(
   css_del=['transform:translateX(-50%);','transform:translate(-50%,-50%);'],
   js='''
