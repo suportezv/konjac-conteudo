@@ -49,7 +49,7 @@ Tema Shopify com neutros `#232323` (texto) sobre branco; acentos de marca aplica
 
 ## 3. Produto e claims (verdade da embalagem; citar sempre exato)
 
-- Massa alimentícia de fibra solúvel (konjac), linha BOX: **Penne, Noodles, Fettuccine, Linguine, Pappardelle**. Box com 8 embalagens individuais de 190g (150g drenado).
+- Alimento da linha BOX, estruturado a partir da fibra solúvel **glucomanano** (nunca escrever "massa de konjac" nem chamar a marca de fibra), com os cortes: **Penne, Noodles, Fettuccine, Linguine, Pappardelle**. Box com 8 embalagens individuais de 190g (150g drenado).
 - Claims impressos: **9 calorias por 100g**; zero carboidratos; não contém glúten, açúcar, gordura nem sódio; produto 100% vegano; rico em fibras (8g); selo ANAD (Associação Nacional de Atenção ao Diabetes); "Ajuda a controlar e reduzir o consumo calórico diário".
 - Preparo: descartar a água, lavar 5 segundos, aquecer no molho de preferência. **Pronto em 2 minutos.**
 - Arquitetura de linhas (estudo): comunicar **Low Carb** (menos calorias e carboidratos) separada de **Proteica** (mais proteína e saciedade), com capas, cores e selos distintos.
@@ -65,7 +65,7 @@ Cada roteiro precisa carregar pelo menos dois destes elementos: curiosidade, ide
 ## 5. Pilares de conteúdo (v1, hipóteses; validar com desempenho)
 
 1. **Vida real**: dores da rotina viram história (jantar rápido depois do trabalho, meta de proteína, vontade de massa sem sair da dieta, almoço em minutos).
-2. **Educação Konjac**: o que é konjac, textura, como preparar, qual linha e corte escolher (muita gente ainda não conhece o produto).
+2. **Educação Konjac Massa®**: o que é o produto, textura, como preparar, qual linha e corte escolher (muita gente ainda não conhece a marca). Nunca explicar a marca como se fosse um ingrediente: a fibra solúvel chama-se glucomanano.
 3. **Ficha funcional**: o que cada linha entrega em números próprios (proteína, fibra, caloria, volume no prato, tempo de preparo), para bater o olho e entender. O briefing oficial pede **evitar comparação direta com massas tradicionais**, então o contraste é com o objetivo do consumidor, não com o concorrente de categoria.
 4. **Prova social**: depoimentos e teste às cegas ("Achei que não teria textura de massa, mas me surpreendeu"), creators e autoridade (mídia, chefs, profissionais de saúde).
 5. **Receitas com desejo**: payoff comercial, produto identificado, fechamento em compra.

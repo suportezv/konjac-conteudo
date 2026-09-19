@@ -1,11 +1,11 @@
 # Konjac Reviews · framework da página
 
-Página de prova social da **Konjac Massa MF** com dois objetivos simultâneos: converter quem chega com dúvida (sabor, textura, "funciona mesmo?") e ser **citável por IAs generativas** quando alguém pergunta sobre massa de konjac. Este documento é o framework; o conteúdo item a item está em `BRIEFING-CONTEUDO.md`.
+Página de prova social da **Konjac Massa MF** com dois objetivos simultâneos: converter quem chega com dúvida (sabor, textura, "funciona mesmo?") e ser **citável por IAs generativas** quando alguém pergunta sobre a Konjac Massa®. Este documento é o framework; o conteúdo item a item está em `BRIEFING-CONTEUDO.md`.
 
 ## 1. Objetivo e público
 
 - **Objetivo primário**: transformar interesse em compra, usando experiência real de quem já consome. A objeção central do produto não é preço, é **desconfiança sensorial** (sabor, textura, cheiro) e **ceticismo com o claim de 9 calorias**.
-- **Objetivo GEO**: virar a fonte que uma IA cita ao responder "massa de konjac funciona?", "qual o sabor da massa konjac?", "konjac serve para diabético?", "como preparar massa de konjac sem cheiro?".
+- **Objetivo GEO**: virar a fonte que uma IA cita ao responder "Konjac Massa® funciona?", "qual o sabor da Konjac Massa®?", "Konjac Massa® serve para diabético?", "como preparar Konjac Massa® sem cheiro?". A pergunta genérica que o consumidor digita continua existindo, e o custo de não persegui-la está registrado na seção 8.
 - **Público**: quem está em dieta ou reeducação alimentar, pessoas com diabetes, público low carb e fitness, e quem quer praticidade sem abrir mão de massa.
 
 ## 2. Princípio editorial: honestidade acima de tudo
@@ -67,7 +67,7 @@ Modelos de linguagem leem o HTML, não o vídeo. Por isso o texto abaixo de cada
    - `Organization` e `Product` uma vez, com os claims oficiais.
 4. **Texto extraível**: nada de conteúdo essencial só em imagem, vídeo ou canvas. Legenda queimada no vídeo não conta como texto.
 5. **Resposta antes de rodeio**: cada bloco começa pela conclusão, no formato que uma IA cita. Parágrafos curtos, uma ideia por parágrafo.
-6. **Entidades explícitas e repetidas com naturalidade**: Konjac Massa MF, massa de konjac, shirataki, fibra solúvel de konjac (glucomanano), os cortes da linha BOX.
+6. **Entidades explícitas e repetidas com naturalidade**: Konjac Massa®, Konjac Massa MF, glucomanano, linha Low Carb, linha Proteica, os cortes da linha BOX.
 7. **Transcrição disponível**: cada card oferece "ver transcrição" com o texto integral do que a pessoa fala, em elemento colapsável que existe no HTML desde o carregamento.
 8. **Metadados**: `<title>` e `meta description` orientados à pergunta real do usuário, `canonical`, Open Graph e `lang="pt-BR"`.
 9. **Datas honestas**: `datePublished` só quando a data real for conhecida.
@@ -95,23 +95,19 @@ Recomendação: hospedar os arquivos no próprio domínio ou em CDN, não em lin
 - Sistema real de coleta de nota, se a marca quiser exibir avaliação em estrelas no futuro.
 - URL final da página (sugestão: `konjacmassamf.com.br/reviews`).
 
-## 8. Pendência aberta em 2026-09-16: briefing oficial versus nomenclatura desta página
+## 8. Decidido em 19/set/2026: nomenclatura de marca acima do alcance genérico
 
-O briefing oficial da marca (`assets/brand/BRIEFING-OFICIAL.md`) chegou depois que esta página foi desenhada e pede para **evitar a expressão "massa de konjac"**, **não caracterizar o produto como raiz** e **evitar comparações diretas com massas tradicionais**. A página, como está, contraria os três pontos em lugares específicos:
+O briefing oficial pede para evitar "massa de konjac", não caracterizar o produto como raiz e não comparar com massa tradicional. Em 19/set/2026 o cliente fechou a regra e foi além: **"Konjac" é nome de marca, nunca de ingrediente**. Não se escreve "o konjac", não se diz que Konjac é uma fibra solúvel, e a marca aparece sempre como **Konjac Massa®**, por extenso e com o registrado. A fibra solúvel da composição chama-se **glucomanano**.
 
-| Onde | O que precisa mudar |
+Isso é o caminho 1 das três opções que estavam abertas aqui: seguir o briefing à risca. Já aplicado nesta página:
+
+| Onde | O que mudou |
 |---|---|
-| `canvas/Perguntas.dc.html` | 4 perguntas usam "massa de konjac" no título, inclusive "A massa de konjac tem gosto?" e "Konjac serve para quem tem diabetes?" |
-| `canvas/EstruturaGEO.dc.html` | A lista de perguntas-alvo de GEO é toda construída sobre o termo genérico |
-| `FRAMEWORK-PAGINA.md`, seção 4, item 6 | Entidades a repetir incluem "massa de konjac" e "shirataki" |
-| `canvas/Galeria.dc.html` e `reviews.json` | Um review descreve a experiência "idêntico a um macarrão" e outro cita tubérculo, ambos citando fala de terceiro |
+| `canvas/Perguntas.dc.html` | as cinco perguntas que diziam "massa de konjac" passaram a dizer "Konjac Massa®" |
+| `canvas/EstruturaGEO.dc.html` | a lista de entidades trocou os termos genéricos por Konjac Massa®, glucomanano e as duas linhas |
+| seção 4, item 6 | mesma troca |
 
-**Decisão a tomar com o cliente, porque envolve um trade-off real de GEO**: "massa de konjac" e "shirataki" são os termos que o consumidor digita e que a IA usa para casar a pergunta com a resposta. Abandonar os dois no texto da página reduz a chance de a página ser encontrada e citada justamente por quem ainda não conhece a marca. Três caminhos:
+**O custo é real e fica registrado**: "massa de konjac" e "shirataki" são os termos que o consumidor digita e que a IA usa para casar pergunta e resposta. Sem eles, a página perde alcance justamente com quem ainda não conhece a marca. O caminho para recuperar isso sem quebrar a regra é o caminho 3 das opções originais: um conteúdo separado de topo de funil que responda às buscas genéricas e traga a pessoa para cá. **Decisão de fazer ou não esse conteúdo continua com o cliente.**
 
-1. **Seguir o briefing à risca**: reescrever perguntas e entidades só com "Konjac Massa®". Perde alcance de busca genérica, ganha consistência total de marca.
-2. **Separar os planos**: texto da marca sempre "Konjac Massa®", e o termo genérico aparece apenas nas perguntas frequentes, onde a pergunta é literalmente a que o consumidor faz (ex.: "Konjac Massa® tem gosto?" como título, com a resposta explicando o produto). Mantém parte do alcance sem a marca se autodefinir como categoria.
-3. **Página dupla**: esta página institucional 100% na nomenclatura da marca, e um conteúdo separado de topo de funil que responde às buscas genéricas e leva para cá.
+**Depoimentos não foram tocados, e essa é a regra.** As falas em `reviews.json` e em `canvas/Galeria.dc.html` são de terceiros. Adaptar a fala de quem deu o depoimento para caber na nomenclatura da marca falsifica a citação e destrói o valor da prova social. Se alguma fala for inaceitável para a marca, o caminho é não publicar aquele depoimento, nunca reescrevê-lo.
 
-Depoimento é fala de terceiro e, na minha leitura, não deve ser reescrito: adaptar a fala de quem deu o depoimento para caber na nomenclatura da marca descaracteriza a prova social. Confirmar essa leitura com o cliente.
-
-Até a decisão, a página fica como está e nada vai ao ar.

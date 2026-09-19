@@ -6,7 +6,8 @@ Estúdio de edição e agendamento para as redes da **Konjac**. Framework compar
 
 ## Persona e voz do perfil
 
-> Design system completo da marca (paleta, claims, narrativa, pilares): `assets/brand/BRAND.md`.
+> **O design system é o padrão de toda peça deste estúdio**, não uma sugestão: paleta, tipografia, claims, narrativa e nomenclatura vêm dele, e peça fora do sistema não sai.
+> Fonte: `assets/brand/BRAND.md` e o artifact **Konjac Massa Design System** (https://claude.ai/artifact/PYtJR5b7YsjzHRBZUAAq9Z); tokens copiados em `design-system/tokens.json`. Acima dos dois, o briefing oficial.
 
 - Posicionamento (diagnóstico ago/2026): território **saúde e alimentação funcional**; missão de sair de perfil de produto para **marca viva** que as pessoas querem acompanhar. Narrativa da casa: SITUAÇÃO, IDENTIFICAÇÃO, HISTÓRIA, KONJAC MASSA COMO SOLUÇÃO (nunca situação, produto, benefícios).
 - Voz (v1, hipótese aguardando aprovação): próxima e bem-humorada, fala de comida com desejo e sem culpa, explica sem jargão, tem opinião e personalidade; claims sempre exatos da embalagem (9 calorias por 100g, zero carboidratos, 100% vegano, selo ANAD), sem promessa de emagrecimento milagroso.
@@ -19,23 +20,24 @@ Nomenclatura, vindas do briefing oficial (`assets/brand/BRIEFING-OFICIAL.md`, v2
 
 1. **Sempre "Konjac Massa®" por extenso**, apresentada como marca e nunca como tipo ou categoria de massa.
 2. **Nunca escrever "massa de konjac".**
-3. **Nunca caracterizar o produto como raiz.** Falar de composição, características e benefícios funcionais.
-4. **Evitar comparação direta com massas tradicionais.** Priorizar os diferenciais próprios.
-5. Diabetes sempre com a ressalva **"sob orientação de profissional de saúde"**.
+3. **"Konjac" é marca, nunca ingrediente.** Proibido "o konjac", "massa de konjac" e qualquer frase que diga que Konjac é uma fibra solúvel. A marca é **Konjac Massa®**, por extenso e com o registrado. A fibra solúvel da composição chama-se **glucomanano**.
+4. **Nunca caracterizar o produto como raiz.** Falar de composição, características e benefícios funcionais.
+5. **Evitar comparação direta com massas tradicionais.** Priorizar os diferenciais próprios.
+6. Diabetes sempre com a ressalva **"sob orientação de profissional de saúde"**.
 
 Produção, herdadas do estúdio:
 
-6. **Nunca usar travessão em texto público.** Reescrever a frase.
-7. Credencial sempre completa: **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
-8. Palavrão em vídeo **se bipa, não se corta** (sine 1000 Hz curto, voz mutada no trecho).
-9. Loudness final: **-14 LUFS**.
+7. **Nunca usar travessão em texto público.** Reescrever a frase.
+8. Credencial sempre completa: **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
+9. Palavrão em vídeo **se bipa, não se corta** (sine 1000 Hz curto, voz mutada no trecho).
+10. Loudness final: **-14 LUFS**.
 
 ## Pilares de conteúdo
 
 v1 (hipóteses, validar com desempenho; detalhe em `assets/brand/BRAND.md`):
 
 1. Vida real (dor da rotina vira história)
-2. Educação Konjac (o que é, preparo, qual linha escolher)
+2. Educação Konjac Massa® (o que é o produto, preparo, qual linha escolher; a fibra é o glucomanano, a marca não é fibra)
 3. Ficha funcional (o que cada linha entrega: proteína, fibra, caloria, volume no prato). **Sem comparar com massa tradicional**, por regra do briefing oficial.
 4. Prova social (depoimentos, teste às cegas, creators)
 5. Receitas com desejo (payoff comercial, fechamento em compra)
