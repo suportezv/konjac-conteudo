@@ -1,6 +1,6 @@
-# CUP Proteico · 8 posts estáticos de feed (set/2026)
+# CUP Proteico · 8 posts de feed, estático e motion (set/2026)
 
-Framework de motion: nenhum, peças estáticas. Render: HTML + `design-system/feed.css` → PNG 1080x1350 com `scripts/render_peca.mjs` (Chrome headless; `npm i puppeteer-core` uma vez).
+Framework de motion: **HyperFrames** (`motion/`, ver seção "Motion" abaixo). Estáticos: peças em HTML. Render: HTML + `design-system/feed.css` → PNG 1080x1350 com `scripts/render_peca.mjs` (Chrome headless; `npm i puppeteer-core` uma vez).
 
 ```bash
 for n in 01 02 03 04 05 06 07 08; do node scripts/render_peca.mjs projects/cup-proteico-set26/pecas/$n.html projects/cup-proteico-set26/out/$n.png; done
@@ -26,11 +26,31 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 | 01 | Mais proteína que 100 g de frango. | claro | frango | comparação 31 g x 32 g explícita |
 | 02 | O campeão da proteína. | claro | cogumelo | escada crescente; 6,7 g e 3 min na base do copo |
 | 03 | Não é shake. Não é barrinha. É refeição. | roxo | vegetais | sem CTA de rodapé, nome no topo |
-| 04 | Tudo isso dentro de um copo. | claro | carne | proposta sem ver a referência do Doc |
+| 04 | Tudo isso dentro de um copo. | claro | carne | v2: copo menos afunilado, lista contida, sem peso |
 | 05 | Só precisa de água quente. | claro | frango | proposta; o briefing só tinha imagens |
-| 06 | Entrega 64% do valor diário de proteína. | roxo | frango | 64% no lugar de 55%, nota do rótulo |
+| 06 | Entrega 64% do valor diário de proteína. | roxo | frango | 64% no lugar de 55%; v2: nota sem "62 g" |
 | 07 | Para quem é o CUP Proteico? | claro | cogumelo | 8 perfis saindo do copo; caneta com asterisco |
-| 08 | Quanto você precisa comer para chegar a 32 g? | claro | vegetais (69 g) | números derivados da peça 02 do briefing |
+| 08 | Quanto você precisa comer para chegar a 32 g? | claro | vegetais | v2: selo fora do rótulo, legenda sem "69 g" |
+
+## Versão 2 (19/set/2026, retorno do cliente)
+
+- Tirar site e @ do Instagram de todas as peças (rodapé removido).
+- "62 g" lido como proteína: o peso da porção saiu de 01 (legenda e nota), 04 (legenda), 06 (nota) e 08 (legenda "69 g"). Onde precisava nomear a porção, ficou "1 copo (uma porção)".
+- 04 mal diagramada: copo desenhado com afunilamento de 26 px por lado, lista com largura que cabe na base, produto e legenda sem colisão.
+- 08: o selo "32 g" cobria o rótulo do copo; foi para a borda superior do painel roxo.
+- Auditoria das 8 em tamanho real depois das mudanças (nota da 01 vazava à direita por `white-space:nowrap`; corrigida).
+
+## Motion
+
+Oito vídeos 1080x1350 de 8 s (30 fps, H.264 + AAC) em `motion/finais/`, um por peça, gerados por `motion/build.py` a partir dos HTML estáticos e renderizados no HyperFrames. Coreografia, som e loudness estão descritos na seção 11 do `assets/brand/BRAND.md` ("Motion do feed"). Regeneração:
+
+```bash
+cd projects/cup-proteico-set26/motion
+python3 build.py                       # src/01..08.html a partir de ../pecas
+for n in 01 02 03 04 05 06 07 08; do cp src/$n.html index.html; npx hyperframes@0.8.50 lint; npx hyperframes@0.8.50 render --quality high --output renders/$n.mp4; bash finaliza.sh renders/$n.mp4 finais/$n.mp4; done
+```
+
+Antes de rodar: exportar as variáveis de proxy com `NODE_USE_ENV_PROXY=1` (ver `scripts/setup.sh`), copiar `assets/fonts` da raiz, `../img/*.png` e os SFX do media-use para `motion/assets/` (o `.gitignore` do projeto não versiona esses assets; a trilha `assets/audio/bed.mp3` é versionada porque foi gerada e não se regenera igual).
 
 ## Pendências para o cliente antes de publicar
 

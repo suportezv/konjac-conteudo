@@ -118,6 +118,13 @@ Decisões tomadas como referência da marca, a partir do briefing oficial, da ta
 - **Sem pessoas** nas peças de produto.
 - **Nome do produto nas peças**: **Konjac Massa® CUP Proteico**, como no briefing oficial e na cópia do site. "High-Protein" é o que está impresso no copo e aparece na foto. Se o cliente preferir "CUP High Protein", é troca de texto.
 
+### Revisão v2 (19/set/2026, decisão do cliente sobre as 8 peças)
+
+- **Sem rodapé com site e @ do Instagram.** O cliente pediu para tirar de todas as peças; o componente `.rodape` do `feed.css` fica sem uso em arte de feed. O perfil já mostra o @, e o site vai na bio.
+- **Não escrever o peso da porção em gramas na arte** ("62 g", "69 g"). Ao lado de "32 g de proteína" o peso do copo se lê como outro número de proteína. Quando for preciso nomear a porção, escrever "1 copo (uma porção)". O peso segue impresso na foto da embalagem e na tabela nutricional.
+- **Texto sempre dentro da forma que o contém.** Na peça 04 a lista vazava o copo desenhado; o copo passou a afunilar 26 px por lado e a lista ganhou largura fixa que cabe na base. Antes de entregar, conferir cada peça em tamanho real procurando texto fora de caixa e elementos que se tocam.
+- **Selo nunca cobre o rótulo do produto** (peça 08: o selo saiu de cima do "32G" impresso no copo e foi para a borda).
+
 ### Claims do CUP Proteico (fonte: tabela nutricional publicada no site, porção 62 g, sabor frango)
 
 | Usar | Não usar | Por quê |
@@ -139,3 +146,11 @@ O artifact **Konjac Massa Design System** foi reescrito em 19/set com regras mai
 
 - **Acrescenta**: a tabela de claims do CUP tirada da tabela nutricional (227 kcal, 21 g de carboidratos, 64% VD de proteína, 27% VD de fibras), o selo de 12 pontas como variante aceita do badge (é o que a marca publica no Instagram), e a implementação em `design-system/feed.css`.
 - **Diverge, e fica registrado para decisão**: (1) o artifact posiciona o logo no canto superior esquerdo ou inferior direito; as 8 peças do CUP usam superior direito, com o título à esquerda. (2) O artifact limita a três badges por arte e pede uma ideia por arte; o briefing do CUP exige listas (peças 04 e 07) e quatro benefícios (01), então essas peças excedem a regra por pedido do cliente, e a recomendação do próprio sistema é virar carrossel. (3) O artifact prevê fundo na cor do produto para a família Proteica e creme com ondas para Catálogo; as peças usam o neutro do estúdio e o roxo de assinatura. (4) O artifact escreve "Cup High Protein"; as peças seguem o briefing oficial, "CUP Proteico". (5) O artifact diz "pronto em 3 a 5 minutos"; site e embalagem dizem 3.
+
+### Motion do feed (padrão definido em 19/set/2026)
+
+- Formato: **1080x1350, 8 s, 30 fps**, H.264 + AAC. O último frame é o estático correspondente, então a versão motion nunca contradiz a estática e o loop do feed volta para a composição completa.
+- Ordem de entrada, sempre a mesma: logo (0,0 s) e kicker (0,15 s), título palavra a palavra subindo (0,3 s, stagger 55 ms, `back.out`), produto subindo de baixo (1,0 s, `power3.out`), selos estourando (`back.out(2)`, rotação -10° a 0°, um a cada 0,25 s), faixa de pills e legendas (2,7 s), nota (3,2 s). Tudo termina antes de 4 s; do pouso até 8 s só o produto flutua 8 px (`sine.inOut`, ida e volta, terminando em y = 0).
+- Som: trilha própria gerada na ElevenLabs (`sound-generation`, prompt em `projects/cup-proteico-set26/motion/build.py`, 99 bpm, 22 s em loop), fade de 0,4 s na entrada e 0,9 s na saída; SFX da biblioteca do media-use (Pixabay, sem atribuição): `whoosh-short` no título, `whoosh` no produto, `pop` em cada selo, `sparkle` 0,2 s depois do selo principal. SFX sempre sob a trilha; loudness final **-14 LUFS** com limiter em -1,4 dBFS.
+- Ferramenta: HyperFrames (`projects/cup-proteico-set26/motion/`, gerador `build.py` a partir dos HTML estáticos, `finaliza.sh` para a loudness).
+

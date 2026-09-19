@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080, height=1350">
+<title>Konjac Massa CUP Proteico 03</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script src="assets/anim.js"></script>
+<style>
+/* Konjac Massa® · base de peças estáticas de feed (1080x1350). Tokens do design system. */
+@font-face{font-family:"Barlow Condensed";font-weight:600;src:url(assets/fonts/BarlowCondensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;src:url(assets/fonts/BarlowCondensed-700.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:800;src:url(assets/fonts/BarlowCondensed-800.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:400;src:url(assets/fonts/Archivo-400.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:500;src:url(assets/fonts/Archivo-500.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:600;src:url(assets/fonts/Archivo-600.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:700;src:url(assets/fonts/Archivo-700.woff2) format("woff2")}
+:root{
+  --roxo:#812779; --roxo-escuro:#5f0923; --roxo-site:#7f2595; --menta:#a8dcda; --menta-claro:#dff0ef;
+  --branco:#ffffff; --tinta:#2b2130; --muted:#6e6175; --bg:#f6f3f0; --card:#fdfcfa; --borda:#ded5dc;
+  --verde:#004c28; --dourado:#d79b5c; --laranja:#fc9b30;
+  --display:"Barlow Condensed",sans-serif; --corpo:"Archivo",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden;background:var(--bg);font-family:var(--corpo);color:var(--tinta);-webkit-font-smoothing:antialiased}
+.peca{position:relative;width:1080px;height:1350px;overflow:hidden;padding:64px}
+.peca.roxa{background:var(--roxo);color:var(--branco)}
+.peca.menta{background:var(--menta-claro)}
+.logo{position:absolute;top:56px;right:64px;width:200px}
+.display{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.92;letter-spacing:-.005em}
+.kicker{font-family:var(--corpo);font-weight:600;font-size:22px;letter-spacing:3px;text-transform:uppercase;color:var(--muted)}
+.roxa .kicker{color:var(--menta)}
+.corpo{font-family:var(--corpo);font-weight:500;font-size:30px;line-height:1.3}
+/* Selo: número grande + legenda, no padrão dos posts da marca no Instagram */
+.selo{position:relative;width:190px;height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--roxo);filter:drop-shadow(0 6px 10px rgba(43,33,48,.14))}
+.peca > .selo{position:absolute}
+.selo svg{position:absolute;inset:0;width:100%;height:100%}
+.selo .n{position:relative;font-family:var(--display);font-weight:800;font-size:62px;line-height:1;letter-spacing:-.01em}
+.selo .n small{font-size:.62em;font-weight:700}
+.selo .l{position:relative;font-family:var(--corpo);font-weight:600;font-size:22px;line-height:1.05;margin-top:6px;max-width:130px}
+.selo.sm{width:150px;height:150px}.selo.sm .n{font-size:48px}.selo.sm .l{font-size:18px;max-width:105px}
+.selo.lg{width:230px;height:230px}.selo.lg .n{font-size:78px}.selo.lg .l{font-size:25px;max-width:160px}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border-radius:999px;background:var(--roxo);color:var(--branco);font-family:var(--display);font-weight:700;font-size:30px;text-transform:uppercase;letter-spacing:.02em}
+.pill.outline{background:transparent;border:3px solid var(--roxo);color:var(--roxo)}
+.roxa .pill{background:var(--branco);color:var(--roxo)}
+.roxa .selo{filter:drop-shadow(0 8px 14px rgba(0,0,0,.28))}
+.rodape{position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--corpo);font-weight:600;font-size:22px;color:var(--muted);letter-spacing:.5px}
+.roxa .rodape{color:rgba(255,255,255,.72)}
+.nota{font-family:var(--corpo);font-weight:400;font-size:17px;line-height:1.3;color:var(--muted);max-width:640px}
+.roxa .nota{color:rgba(255,255,255,.7)}
+.acento{color:var(--roxo)} .roxa .acento{color:var(--menta)}
+
+#root{width:100%;height:100%;position:relative;overflow:hidden}
+.peca{position:absolute;left:0;top:0}
+.titulo .w{display:inline-block}
+
+.k{position:absolute;left:0;right:0;top:78px;text-align:center}
+.titulo{position:absolute;left:64px;right:64px;top:150px;text-align:center;font-size:120px;line-height:1.0;color:var(--branco)}
+.titulo .acento{color:var(--menta)}
+.cup{position:absolute;left:50%;top:560px;height:560px;filter:drop-shadow(0 26px 26px rgba(0,0,0,.35))}
+.apoio{position:absolute;left:64px;right:64px;top:1150px;text-align:center;color:var(--branco);font-family:var(--corpo)}
+.apoio b{display:block;font-weight:700;font-size:36px;line-height:1.15}
+.apoio span{display:block;font-weight:400;font-size:28px;line-height:1.25;margin-top:8px;color:rgba(255,255,255,.82)}
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="cup03" data-start="0" data-duration="8" data-width="1080" data-height="1350">
+<div id="peca" class="peca roxa">
+<img class="logo" src="assets/img/logo.png" alt="">
+<div class="kicker k">Konjac Massa® CUP Proteico</div>
+<h1 class="display titulo">Não é shake.<br>Não é barrinha.<br><span class="acento">É refeição.</span></h1>
+<img id="produto" class="cup" src="assets/img/cup_vegetais.png" alt="">
+<div class="selo lg" style="left:96px;top:596px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#ffffff" stroke="#e6dce4" stroke-width="1.2" d="M50 2l7.4 6.6 9.6-2.4 4.2 9 9.8 1.4 .6 9.9 8.6 5-3.2 9.4 6.2 7.8-6.2 7.8 3.2 9.4-8.6 5-.6 9.9-9.8 1.4-4.2 9-9.6-2.4L50 98l-7.4-6.6-9.6 2.4-4.2-9-9.8-1.4-.6-9.9-8.6-5 3.2-9.4L6.8 50l6.2-7.8-3.2-9.4 8.6-5 .6-9.9 9.8-1.4 4.2-9 9.6 2.4z"/></svg><div class="n">32<small>g</small></div><div class="l">proteína vegetal</div></div>
+<div class="selo " style="right:110px;top:690px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#ffffff" stroke="#e6dce4" stroke-width="1.2" d="M50 2l7.4 6.6 9.6-2.4 4.2 9 9.8 1.4 .6 9.9 8.6 5-3.2 9.4 6.2 7.8-6.2 7.8 3.2 9.4-8.6 5-.6 9.9-9.8 1.4-4.2 9-9.6-2.4L50 98l-7.4-6.6-9.6 2.4-4.2-9-9.8-1.4-.6-9.9-8.6-5 3.2-9.4L6.8 50l6.2-7.8-3.2-9.4 8.6-5 .6-9.9 9.8-1.4 4.2-9 9.6 2.4z"/></svg><div class="n">6,7<small>g</small></div><div class="l">fibras</div></div>
+<div class="selo " style="left:150px;top:870px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#ffffff" stroke="#e6dce4" stroke-width="1.2" d="M50 2l7.4 6.6 9.6-2.4 4.2 9 9.8 1.4 .6 9.9 8.6 5-3.2 9.4 6.2 7.8-6.2 7.8 3.2 9.4-8.6 5-.6 9.9-9.8 1.4-4.2 9-9.6-2.4L50 98l-7.4-6.6-9.6 2.4-4.2-9-9.8-1.4-.6-9.9-8.6-5 3.2-9.4L6.8 50l6.2-7.8-3.2-9.4 8.6-5 .6-9.9 9.8-1.4 4.2-9 9.6 2.4z"/></svg><div class="n">3<small>min</small></div><div class="l">só água quente</div></div>
+<div class="apoio"><b>Mais volume. Alta saciedade.</b><span>A praticidade ideal para a sua rotina.</span></div>
+</div>
+<audio id="bgm" src="assets/audio/bed.mp3" data-start="0" data-duration="8" data-track-index="1" data-automation='{"version": 1, "lanes": [{"target": "volume", "points": [{"t": 0, "v": 0}, {"t": 0.4, "v": 0.45}, {"t": 7.1, "v": 0.45}, {"t": 8.0, "v": 0}]}]}'></audio>
+<audio id="sfx1" src="assets/sfx/whoosh-short.mp3" data-start="0.3" data-duration="0.58" data-volume="0.25" data-track-index="2"></audio>
+<audio id="sfx2" src="assets/sfx/whoosh.mp3" data-start="1.1" data-duration="0.58" data-volume="0.22" data-track-index="3"></audio>
+<audio id="sfx3" src="assets/sfx/pop.mp3" data-start="1.9" data-duration="0.72" data-volume="0.34" data-track-index="4"></audio>
+<audio id="sfx4" src="assets/sfx/sparkle.mp3" data-start="2.1" data-duration="1.81" data-volume="0.12" data-track-index="5"></audio>
+<audio id="sfx5" src="assets/sfx/pop.mp3" data-start="2.15" data-duration="0.72" data-volume="0.24" data-track-index="6"></audio>
+<audio id="sfx6" src="assets/sfx/pop.mp3" data-start="2.4" data-duration="0.72" data-volume="0.24" data-track-index="7"></audio>
+</div>
+<script>
+(function () {
+  var tl = gsap.timeline({ paused: true });
+  var S = function (i) { return document.querySelectorAll('.peca > .selo')[i]; };
+  var F = function (i) { return document.querySelectorAll('.faixa .selo')[i]; };
+  window.KJ_END = 8;
+KJ.intro(tl,{kickerCentered:true});
+KJ.rise(tl,'#produto',1.1,160,1.0,{xPercent:-50});
+KJ.pop(tl,S(0),1.9,true); KJ.pop(tl,S(1),2.15); KJ.pop(tl,S(2),2.4);
+KJ.up(tl,'.apoio > *',2.8,20,0.6,0.15);
+KJ.float(tl,'#produto',2.1,8,{xPercent:-50});
+  window.__timelines["cup03"] = tl;
+  tl.seek(0);
+})();
+</script>
+</body>
+</html>
