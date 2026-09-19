@@ -8,9 +8,11 @@ fora e passado pronto (variável GOOGLE_OAUTH_TOKEN ou --token).
 
 Como gerar, pelo navegador, em https://developers.google.com/oauthplayground:
   1. engrenagem > "Use your own OAuth credentials" é opcional
-  2. escopo `https://www.googleapis.com/auth/drive.file`
-     (esse escopo só enxerga arquivos criados pelo próprio app: é o mais
-      estreito que serve, e não dá acesso ao resto do seu Drive)
+  2. escopo `https://www.googleapis.com/auth/drive` (acesso ao Drive inteiro,
+     por 1 hora). O escopo estreito `drive.file` só enxerga arquivos e pastas
+     criados pelo próprio app: gravar numa pasta que já existe devolve 404
+     "File not found" na pasta de destino, então ele não serve para o caso
+     comum, que é entregar dentro da pasta do cliente.
   3. "Authorize APIs", depois "Exchange authorization code for tokens"
   4. copiar o `access_token`. Ele vale 1 hora.
 
