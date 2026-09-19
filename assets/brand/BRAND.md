@@ -132,3 +132,10 @@ Decisões tomadas como referência da marca, a partir do briefing oficial, da ta
 *%VD com base em uma dieta de 2.000 kcal.
 
 Erro a corrigir no site: a imagem da tabela nutricional do sabor frango imprime "0,7 g" de fibras onde o próprio %VD (27%) prova 6,7 g.
+
+### Reconciliação com o design system vivo (artifact, versão de 19/set/2026)
+
+O artifact **Konjac Massa Design System** foi reescrito em 19/set com regras mais finas para as artes, e onde ele for mais específico do que esta seção, ele manda. O que esta seção acrescenta e o que diverge:
+
+- **Acrescenta**: a tabela de claims do CUP tirada da tabela nutricional (227 kcal, 21 g de carboidratos, 64% VD de proteína, 27% VD de fibras), o selo de 12 pontas como variante aceita do badge (é o que a marca publica no Instagram), e a implementação em `design-system/feed.css`.
+- **Diverge, e fica registrado para decisão**: (1) o artifact posiciona o logo no canto superior esquerdo ou inferior direito; as 8 peças do CUP usam superior direito, com o título à esquerda. (2) O artifact limita a três badges por arte e pede uma ideia por arte; o briefing do CUP exige listas (peças 04 e 07) e quatro benefícios (01), então essas peças excedem a regra por pedido do cliente, e a recomendação do próprio sistema é virar carrossel. (3) O artifact prevê fundo na cor do produto para a família Proteica e creme com ondas para Catálogo; as peças usam o neutro do estúdio e o roxo de assinatura. (4) O artifact escreve "Cup High Protein"; as peças seguem o briefing oficial, "CUP Proteico". (5) O artifact diz "pronto em 3 a 5 minutos"; site e embalagem dizem 3.

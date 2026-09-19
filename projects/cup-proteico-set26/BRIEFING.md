@@ -39,3 +39,4 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 3. Corrigir no site a imagem da tabela nutricional do sabor frango: imprime "0,7 g" de fibras onde o %VD prova 6,7 g.
 4. Decidir se "caneta emagrecedora" fica na peça 07.
 5. Aprovar 64% do VD (rótulo) no lugar de 55% (estimativa) na peça 06.
+6. O design system vivo (artifact, 19/set) diverge das peças em quatro pontos registrados na seção 11 do BRAND.md: posição do logo, limite de três badges por arte, fundo na cor do produto para a família Proteica, e o nome "Cup High Protein". Nenhum deles é erro de execução; são escolhas a fechar com quem mantém o sistema.
