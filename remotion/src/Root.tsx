@@ -12,9 +12,9 @@ export const RemotionRoot: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{
-        titulo: "Massa com zero carboidratos existe.",
-        destaque: "zero",
-        rodape: "@konjacmassa_mf",
+        titulo: "Zero carboidratos, 9 calorias por 100g.",
+        destaque: "Zero",
+        rodape: "konjacmassamf.com.br",
       }}
     />
     <Composition
@@ -25,9 +25,9 @@ export const RemotionRoot: React.FC = () => (
       width={1080}
       height={1080}
       defaultProps={{
-        titulo: "Massa com zero carboidratos existe.",
-        destaque: "zero",
-        rodape: "@konjacmassa_mf",
+        titulo: "Zero carboidratos, 9 calorias por 100g.",
+        destaque: "Zero",
+        rodape: "konjacmassamf.com.br",
       }}
     />
   </>

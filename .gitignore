@@ -15,3 +15,7 @@ projects/**/*.aac
 # Remotion
 remotion/node_modules/
 remotion/out/
+
+# Páginas geradas a partir dos artboards (o fonte é o canvas)
+assets/brand/canvas/brand-book-konjac-massa-mf.html
+projects/konjacreviews/canvas/konjac-reviews.html

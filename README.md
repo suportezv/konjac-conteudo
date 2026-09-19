@@ -2,6 +2,8 @@
 
 Estúdio de edição e agendamento de conteúdo para as redes da **Konjac Massa®** (Instagram `@konjacmassa_mf`). Infraestrutura compartilhada da agência, com o mesmo cinto de ferramentas dos estúdios irmãos; o posicionamento é o desta marca.
 
+- **`assets/brand/`**: a marca. `BRIEFING-OFICIAL.md` (briefing v2 do cliente, prevalece sobre tudo), `BRAND.md` (paleta, claims, narrativa, pilares, cor por corte), logotipo, embalagens e o brand book em artboards.
+- **`design-system/`**: cópia dos tokens oficiais e o mapa de onde a paleta é consumida. O sistema completo é um artifact, linkado ali.
 - **`FRAMEWORK.md`**: persona, regras, pilares, escolha do framework de motion, assinaturas de edição e fluxo por vídeo.
 - **`CLAUDE.md`**: memória persistente do projeto (IDs, contas, allowlist, gotchas).
 - **`projects/`**: um subdiretório por vídeo (briefing, transcrição, scripts de edição, caption).
