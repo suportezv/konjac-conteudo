@@ -27,15 +27,16 @@ for (const f of process.argv.slice(2)) {
         }
         txt += " " + e.textContent.trim().replace(/\s+/g, " ");
       });
-      const peso = getComputedStyle(s.querySelector(".l,.t,.big") || s).fontWeight;
-      out.push({ w: Math.round(R.width), pior: Math.round(pior), lim: Math.round(lim), peso, txt: txt.trim() });
+      const fams = new Set(); let pesoMin = 999;
+      s.querySelectorAll(".n,.l,.t,.big").forEach((e) => { const cs = getComputedStyle(e); fams.add(cs.fontFamily.split(",")[0].replace(/"/g, "")); pesoMin = Math.min(pesoMin, +cs.fontWeight); });
+      out.push({ w: Math.round(R.width), pior: Math.round(pior), lim: Math.round(lim), peso: pesoMin, fam: [...fams].join("+"), fill: Math.round(100 * pior / lim), txt: txt.trim() });
     });
     return out;
   });
   const tam = [...new Set(r.map((x) => x.w))];
-  const fora = r.filter((x) => x.pior > x.lim);
+  const fora = r.filter((x) => x.pior > x.lim || x.peso < 800 || x.fam !== "Archivo");
   console.log(`${path.basename(f)}: ${r.length} selos, tamanhos ${JSON.stringify(tam)}${tam.length > 1 ? "  <-- TAMANHOS DIFERENTES" : ""}`);
-  for (const x of r) console.log(`   ${x.pior > x.lim ? "FORA " : "ok   "} ${x.w}px  texto ate ${x.pior}px / limite ${x.lim}px  peso ${x.peso}  "${x.txt}"`);
+  for (const x of r) console.log(`   ${x.pior > x.lim ? "FORA " : (x.peso < 800 || x.fam !== "Archivo") ? "FONTE" : "ok   "} ${x.w}px  texto ate ${x.pior}px / limite ${x.lim}px (${x.fill}%)  ${x.fam} ${x.peso}  "${x.txt}"`);
   if (tam.length > 1 || fora.length) falhas++;
   await p.close();
 }

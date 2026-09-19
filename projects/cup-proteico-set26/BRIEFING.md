@@ -56,6 +56,10 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 - 05 reescrita pelo cliente (título, destaque 32g, três selos ao redor do copo, apoio). 04: selo sobre a borda da tampa, à direita.
 - 08: copo desceu 40 px e o selo ficou só sobre a borda da tampa, sem cobrir o rótulo.
 
+## Versão 5 (19/set/2026, terceiro retorno sobre os selos)
+
+- Selo com uma fonte só (Archivo 800), 224 px em todas (170 na 02), AIR DRIED sem "tecnologia", selo sempre na frente do produto (04 corrigida). Auditoria reprova fonte e peso errados.
+
 ## Motion
 
 Oito vídeos 1080x1350 de 8 s (30 fps, H.264 + AAC) em `motion/finais/`, um por peça, gerados por `motion/build.py` a partir dos HTML estáticos e renderizados no HyperFrames. Coreografia, som e loudness estão descritos na seção 11 do `assets/brand/BRAND.md` ("Motion do feed"). Regeneração:

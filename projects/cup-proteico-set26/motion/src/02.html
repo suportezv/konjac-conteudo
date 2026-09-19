@@ -15,6 +15,8 @@
 @font-face{font-family:"Archivo";font-weight:500;src:url(assets/fonts/Archivo-500.woff2) format("woff2")}
 @font-face{font-family:"Archivo";font-weight:600;src:url(assets/fonts/Archivo-600.woff2) format("woff2")}
 @font-face{font-family:"Archivo";font-weight:700;src:url(assets/fonts/Archivo-700.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:800;src:url(assets/fonts/Archivo-800.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:900;src:url(assets/fonts/Archivo-900.woff2) format("woff2")}
 :root{
   --roxo:#812779; --roxo-escuro:#5f0923; --roxo-site:#7f2595; --menta:#a8dcda; --menta-claro:#dff0ef;
   --branco:#ffffff; --tinta:#2b2130; --muted:#6e6175; --bg:#f6f3f0; --card:#fdfcfa; --borda:#ded5dc;
@@ -32,18 +34,17 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--bg);font-f
 .roxa .kicker{color:var(--menta)}
 .corpo{font-family:var(--corpo);font-weight:500;font-size:30px;line-height:1.3}
 /* Selo: número grande + legenda, no padrão dos posts da marca no Instagram */
-.selo{position:relative;width:200px;height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--roxo);filter:drop-shadow(0 6px 10px rgba(43,33,48,.14))}
-.peca > .selo{position:absolute}
+.selo{position:relative;width:224px;height:224px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--roxo);font-family:var(--corpo);filter:drop-shadow(0 6px 10px rgba(43,33,48,.14))}
+.peca > .selo{position:absolute;z-index:2}
 .selo svg{position:absolute;inset:0;width:100%;height:100%}
-.selo .n{position:relative;font-family:var(--display);font-weight:800;font-size:60px;line-height:1;letter-spacing:-.01em}
-.selo .n small{font-size:.6em;font-weight:800}
-.selo .l{position:relative;font-family:var(--corpo);font-weight:700;font-size:22px;line-height:1.05;margin-top:4px;max-width:132px}
-.selo.sm{width:170px;height:170px}.selo.sm .n{font-size:50px}.selo.sm .l{font-size:20px;max-width:112px}
-.selo.lg{width:230px;height:230px}.selo.lg .n{font-size:70px}.selo.lg .l{font-size:26px;max-width:152px}
-.selo .t{position:relative;font-family:var(--corpo);font-weight:700;font-size:26px;line-height:1.08;max-width:140px}
-.selo.sm .t{font-size:22px;max-width:118px}
-.selo .lbl{position:relative;font-family:var(--corpo);font-weight:600;font-size:15px;line-height:1.1}
-.selo .big{position:relative;font-family:var(--corpo);font-weight:700;font-size:30px;line-height:1.02;text-transform:uppercase;margin:3px 0;letter-spacing:.01em}
+.selo .n{position:relative;font-weight:800;font-size:52px;line-height:1;letter-spacing:-.02em}
+.selo .n small{font-size:.75em;font-weight:800}
+.selo .n sup{font-size:.4em;vertical-align:top;position:relative;top:-.1em;letter-spacing:0}
+.selo .l{position:relative;font-weight:800;font-size:25px;line-height:1.05;margin-top:4px;max-width:156px}
+.selo .t{position:relative;font-weight:800;font-size:28px;line-height:1.05;max-width:158px}
+.selo .lbl{position:relative;font-weight:700;font-size:18px;line-height:1.1}
+.selo .big{position:relative;font-weight:800;font-size:32px;line-height:.95;text-transform:uppercase;margin:0 0 2px}
+.selo.sm{width:170px;height:170px}.selo.sm .n{font-size:40px}.selo.sm .l{font-size:19px;max-width:118px;margin-top:3px}.selo.sm .t{font-size:21px;max-width:120px}.selo.sm .lbl{font-size:14px}.selo.sm .big{font-size:26px}
 .pill{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border-radius:999px;background:var(--roxo);color:var(--branco);font-family:var(--display);font-weight:700;font-size:30px;text-transform:uppercase;letter-spacing:.02em}
 .pill.outline{background:transparent;border:3px solid var(--roxo);color:var(--roxo)}
 .roxa .pill{background:var(--branco);color:var(--roxo)}

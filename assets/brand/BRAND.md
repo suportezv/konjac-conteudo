@@ -145,6 +145,15 @@ Decisões tomadas como referência da marca, a partir do briefing oficial, da ta
 - Peça 05 reescrita pelo cliente: título "Sua refeição só precisa de água quente.", destaque principal "32g de proteína" em número grande, três selos ao redor do copo ("6,7g de fibras", "Pronto em 3 minutos", "Zero óleo") e apoio "Tempero, ervas e garfo já vêm no CUP." Os três passos numerados saíram.
 - Peça 04: selo "32g proteína" no canto superior direito, sobre a borda da tampa do produto, onde o cliente marcou.
 
+### Revisão v5 (19/set/2026, terceiro retorno do cliente sobre os selos: harmonia)
+
+- **Uma fonte só dentro do selo: Archivo 800**, para número, unidade, legenda e texto. A condensada (Barlow) fica para título e número-herói da arte, nunca dentro do selo. O número tem 52 px, a unidade 75% do número, a legenda 25 px, texto de duas linhas 28 px; no selo de 170 px, 40/19/21 px. Tudo negrito, tudo roxo, tudo dentro do filete interno.
+- **Um tamanho por peça, 224 px** (170 px na peça 02, com seis selos). Sem selo de destaque maior.
+- **Selo AIR DRIED em duas partes**: "AIR" e "DRIED" empilhados (32 px, caixa alta) e "(sem óleo)" como legenda. Sem a linha "tecnologia", que ninguém pediu.
+- **Selo sempre na frente do produto**, nunca atrás (peça 04: selo no canto superior direito, sobre a borda da tampa, depois do produto na ordem do DOM e com `z-index`).
+- Auditoria `scripts/audita_selos.mjs` passou a reprovar também fonte diferente de Archivo ou peso abaixo de 800 dentro do selo, e imprime o preenchimento (texto até X% do raio do filete) para calibrar tamanho.
+- Fontes Archivo 800 e 900 adicionadas em `assets/fonts/`.
+
 ### Claims do CUP Proteico (fonte: tabela nutricional publicada no site, porção 62 g, sabor frango)
 
 | Usar | Não usar | Por quê |
