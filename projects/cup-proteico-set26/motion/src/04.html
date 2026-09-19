@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080, height=1350">
+<title>Konjac Massa CUP Proteico 04</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script src="assets/anim.js"></script>
+<style>
+/* Konjac Massa® · base de peças estáticas de feed (1080x1350). Tokens do design system. */
+@font-face{font-family:"Barlow Condensed";font-weight:600;src:url(assets/fonts/BarlowCondensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;src:url(assets/fonts/BarlowCondensed-700.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:800;src:url(assets/fonts/BarlowCondensed-800.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:400;src:url(assets/fonts/Archivo-400.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:500;src:url(assets/fonts/Archivo-500.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:600;src:url(assets/fonts/Archivo-600.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:700;src:url(assets/fonts/Archivo-700.woff2) format("woff2")}
+:root{
+  --roxo:#812779; --roxo-escuro:#5f0923; --roxo-site:#7f2595; --menta:#a8dcda; --menta-claro:#dff0ef;
+  --branco:#ffffff; --tinta:#2b2130; --muted:#6e6175; --bg:#f6f3f0; --card:#fdfcfa; --borda:#ded5dc;
+  --verde:#004c28; --dourado:#d79b5c; --laranja:#fc9b30;
+  --display:"Barlow Condensed",sans-serif; --corpo:"Archivo",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden;background:var(--bg);font-family:var(--corpo);color:var(--tinta);-webkit-font-smoothing:antialiased}
+.peca{position:relative;width:1080px;height:1350px;overflow:hidden;padding:64px}
+.peca.roxa{background:var(--roxo);color:var(--branco)}
+.peca.menta{background:var(--menta-claro)}
+.logo{position:absolute;top:56px;right:64px;width:200px}
+.display{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.92;letter-spacing:-.005em}
+.kicker{font-family:var(--corpo);font-weight:600;font-size:22px;letter-spacing:3px;text-transform:uppercase;color:var(--muted)}
+.roxa .kicker{color:var(--menta)}
+.corpo{font-family:var(--corpo);font-weight:500;font-size:30px;line-height:1.3}
+/* Selo: número grande + legenda, no padrão dos posts da marca no Instagram */
+.selo{position:relative;width:190px;height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--roxo);filter:drop-shadow(0 6px 10px rgba(43,33,48,.14))}
+.peca > .selo{position:absolute}
+.selo svg{position:absolute;inset:0;width:100%;height:100%}
+.selo .n{position:relative;font-family:var(--display);font-weight:800;font-size:62px;line-height:1;letter-spacing:-.01em}
+.selo .n small{font-size:.62em;font-weight:700}
+.selo .l{position:relative;font-family:var(--corpo);font-weight:600;font-size:22px;line-height:1.05;margin-top:6px;max-width:130px}
+.selo.sm{width:150px;height:150px}.selo.sm .n{font-size:48px}.selo.sm .l{font-size:18px;max-width:105px}
+.selo.lg{width:230px;height:230px}.selo.lg .n{font-size:78px}.selo.lg .l{font-size:25px;max-width:160px}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border-radius:999px;background:var(--roxo);color:var(--branco);font-family:var(--display);font-weight:700;font-size:30px;text-transform:uppercase;letter-spacing:.02em}
+.pill.outline{background:transparent;border:3px solid var(--roxo);color:var(--roxo)}
+.roxa .pill{background:var(--branco);color:var(--roxo)}
+.roxa .selo{filter:drop-shadow(0 8px 14px rgba(0,0,0,.28))}
+.rodape{position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--corpo);font-weight:600;font-size:22px;color:var(--muted);letter-spacing:.5px}
+.roxa .rodape{color:rgba(255,255,255,.72)}
+.nota{font-family:var(--corpo);font-weight:400;font-size:17px;line-height:1.3;color:var(--muted);max-width:640px}
+.roxa .nota{color:rgba(255,255,255,.7)}
+.acento{color:var(--roxo)} .roxa .acento{color:var(--menta)}
+
+#root{width:100%;height:100%;position:relative;overflow:hidden}
+.peca{position:absolute;left:0;top:0}
+.titulo .w{display:inline-block}
+
+.k{position:absolute;left:64px;top:72px}
+.titulo{position:absolute;left:64px;top:112px;width:720px;font-size:112px}
+.copo{position:absolute;left:64px;top:452px;width:560px;height:800px}
+.copo svg{position:absolute;inset:0;width:100%;height:100%}
+.lista{position:absolute;left:64px;top:534px;width:560px;padding:0 62px 0 66px;margin:0;color:var(--branco);font-family:var(--corpo)}
+.lista li{list-style:none;display:flex;gap:16px;align-items:flex-start;font-weight:600;font-size:26px;line-height:1.2;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.18)}
+.lista li:last-child{border-bottom:0}
+.lista li::before{content:"";flex:0 0 14px;width:14px;height:14px;border-radius:50%;background:var(--menta);margin-top:8px}
+.cup{position:absolute;right:60px;top:600px;height:520px;filter:drop-shadow(0 22px 22px rgba(43,33,48,.22))}
+.leg{position:absolute;right:56px;width:520px;top:1150px;text-align:center;font-family:var(--corpo);font-weight:600;font-size:23px;line-height:1.3;color:var(--tinta)}
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="cup04" data-start="0" data-duration="8" data-width="1080" data-height="1350">
+<div id="peca" class="peca">
+<img class="logo" src="assets/img/logo.png" alt="">
+<div class="kicker k">Konjac Massa® CUP Proteico</div>
+<h1 class="display titulo">Tudo isso dentro de <span class="acento">um copo.</span></h1>
+<div class="copo"><svg viewBox="0 0 560 800" aria-hidden="true"><rect x="0" y="0" width="560" height="54" rx="27" fill="#5f0923"/><path d="M26 44 H534 L512 758 Q510 800 468 800 H92 Q50 800 48 758 Z" fill="#812779"/></svg></div>
+<ul class="lista">
+  <li>32 g de proteína vegetal por porção</li>
+  <li>6,7 g de fibras</li>
+  <li>Proteína de ervilha e fibra glucomanano</li>
+  <li>Tecnologia Air Dried: sem fritura, sem óleo adicionado</li>
+  <li>Pronto em 3 minutos, só com água quente</li>
+  <li>Acompanha garfo e sachês de tempero e ervas</li>
+  <li>Produto vegano</li>
+</ul>
+<div class="selo lg" style="left:500px;top:372px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#ffffff" stroke="#e6dce4" stroke-width="1.2" d="M50 2l7.4 6.6 9.6-2.4 4.2 9 9.8 1.4 .6 9.9 8.6 5-3.2 9.4 6.2 7.8-6.2 7.8 3.2 9.4-8.6 5-.6 9.9-9.8 1.4-4.2 9-9.6-2.4L50 98l-7.4-6.6-9.6 2.4-4.2-9-9.8-1.4-.6-9.9-8.6-5 3.2-9.4L6.8 50l6.2-7.8-3.2-9.4 8.6-5 .6-9.9 9.8-1.4 4.2-9 9.6 2.4z"/></svg><div class="n">32<small>g</small></div><div class="l">proteína vegetal</div></div>
+<img id="produto" class="cup" src="assets/img/cup_carne.png" alt="">
+<div class="leg">Sabor carne. Também em frango, cogumelo e tomate com vegetais.</div>
+</div>
+<audio id="bgm" src="assets/audio/bed.mp3" data-start="0" data-duration="8" data-track-index="1" data-automation='{"version": 1, "lanes": [{"target": "volume", "points": [{"t": 0, "v": 0}, {"t": 0.4, "v": 0.45}, {"t": 7.1, "v": 0.45}, {"t": 8.0, "v": 0}]}]}'></audio>
+<audio id="sfx1" src="assets/sfx/whoosh-short.mp3" data-start="0.3" data-duration="0.58" data-volume="0.25" data-track-index="2"></audio>
+<audio id="sfx2" src="assets/sfx/whoosh.mp3" data-start="1.2" data-duration="0.58" data-volume="0.2" data-track-index="3"></audio>
+<audio id="sfx3" src="assets/sfx/pop.mp3" data-start="2.8" data-duration="0.72" data-volume="0.34" data-track-index="4"></audio>
+<audio id="sfx4" src="assets/sfx/sparkle.mp3" data-start="3" data-duration="1.81" data-volume="0.12" data-track-index="5"></audio>
+</div>
+<script>
+(function () {
+  var tl = gsap.timeline({ paused: true });
+  var S = function (i) { return document.querySelectorAll('.peca > .selo')[i]; };
+  var F = function (i) { return document.querySelectorAll('.faixa .selo')[i]; };
+  window.KJ_END = 8;
+KJ.intro(tl);
+tl.fromTo('.copo',{opacity:0,y:40,scale:.96,transformOrigin:'50% 0%'},{opacity:1,y:0,scale:1,duration:.8,ease:'power3.out'},0.9);
+KJ.slide(tl,'.lista li',1.4,-28,0.55,0.12);
+KJ.slide(tl,'#produto',1.2,120,0.9);
+KJ.pop(tl,S(0),2.8,true);
+KJ.fade(tl,'.leg',3.05,0.5);
+KJ.float(tl,'#produto',2.2,8);
+  window.__timelines["cup04"] = tl;
+  tl.seek(0);
+})();
+</script>
+</body>
+</html>

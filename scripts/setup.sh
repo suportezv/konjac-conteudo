@@ -19,6 +19,10 @@ if [ -n "${HTTPS_PROXY:-}" ]; then
   export UV_DEFAULT_INDEX="https://pypi.org/simple"
   export npm_config_proxy="$HTTPS_PROXY" npm_config_https_proxy="$HTTPS_PROXY"
   export npm_config_noproxy="" npm_config_cafile="$SSL_CERT_FILE"
+  # O fetch nativo do Node 22 (undici) NAO le HTTPS_PROXY sozinho: sem isto, CLI
+  # em Node leva 403 em host liberado enquanto o curl passa. Medido em 18/set/2026
+  # com "hyperframes skills update" e o registry.
+  export NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS="$SSL_CERT_FILE"
 fi
 
 echo "== 1/6 ffmpeg =="
@@ -105,6 +109,14 @@ if ! npx --yes hyperframes skills update 2>/dev/null; then
   done
   echo "$n skills do hyperframes registradas a partir de $HYPERFRAMES/skills"
 fi
+# O CLI baixa o proprio chrome-headless-shell (~195 MB) de storage.googleapis.com,
+# liberado em 18/set/2026. SEMPRE com timeout: sem NODE_USE_ENV_PROXY (exportado
+# no topo) o comando nao volta, e em 18/set/2026 ficou 15 min pendurado antes de
+# ser morto. Este script roda no boot de todo container e nenhum passo pode
+# travar. Cache quente responde em ~2 s; download frio cabe nos 10 min.
+if ! timeout 600 npx --yes hyperframes browser ensure >/dev/null 2>&1; then
+  echo "AVISO: hyperframes browser ensure falhou ou estourou o tempo; aponte HYPERFRAMES_BROWSER_PATH para /opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell"
+fi
 
 echo "== 4/6 Remotion =="
 # O Remotion e React; as composicoes ficam versionadas em remotion/ e so as
@@ -120,9 +132,10 @@ else
   echo "remotion/package.json ausente; passo pulado"
 fi
 
-echo "== 5/6 Python (PIL para overlays, numpy para batidas) =="
+echo "== 5/6 Python (PIL para overlays, numpy para batidas, colour-science para LUT) =="
 python3 -c 'import PIL' 2>/dev/null || pip3 install pillow || echo "AVISO: pillow não instalado (pypi bloqueado). Lettering/overlays indisponíveis."
 python3 -c 'import numpy' 2>/dev/null || pip3 install numpy || echo "AVISO: numpy não instalado (pypi bloqueado). Detecção de batidas indisponível."
+python3 -c 'import colour' 2>/dev/null || pip3 install -q colour-science || echo "AVISO: colour-science não instalado (pypi bloqueado). LUT S-Log2 (scripts/gera_lut_slog2.py) indisponível."
 
 echo "== 6/6 estúdio =="
 STUDIO_NAME="$(basename "$REPO_ROOT")"

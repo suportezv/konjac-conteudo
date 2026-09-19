@@ -2,31 +2,72 @@
 
 Estúdio de edição e agendamento para as redes da **Konjac**. Framework compartilhado da agência, adaptado para esta marca.
 
-> Os blocos marcados **PENDENTE** dependem do briefing de posicionamento da marca e serão preenchidos e commitados quando confirmados.
+> Fontes de verdade da marca, nesta ordem: `assets/brand/BRIEFING-OFICIAL.md` (v2, oficial do cliente) prevalece sobre `assets/brand/BRAND.md` (v1 do estúdio), que prevalece sobre o resto. O que continua **PENDENTE** depende de aprovação do cliente e não se inventa.
 
 ## Persona e voz do perfil
 
-- **PENDENTE**: persona, tom de voz e posicionamento da Konjac (definir no primeiro briefing).
-- CTA padrão: **PENDENTE (CTA padrão da marca)**.
+> **O design system é o padrão de toda peça deste estúdio**, não uma sugestão: paleta, tipografia, claims, narrativa e nomenclatura vêm dele, e peça fora do sistema não sai.
+> Fonte: `assets/brand/BRAND.md` e o artifact **Konjac Massa Design System** (https://claude.ai/artifact/PYtJR5b7YsjzHRBZUAAq9Z); tokens copiados em `design-system/tokens.json`. Acima dos dois, o briefing oficial.
+
+- Posicionamento (diagnóstico ago/2026): território **saúde e alimentação funcional**; missão de sair de perfil de produto para **marca viva** que as pessoas querem acompanhar. Narrativa da casa: SITUAÇÃO, IDENTIFICAÇÃO, HISTÓRIA, KONJAC MASSA COMO SOLUÇÃO (nunca situação, produto, benefícios).
+- Voz (v1, hipótese aguardando aprovação): próxima e bem-humorada, fala de comida com desejo e sem culpa, explica sem jargão, tem opinião e personalidade; claims sempre exatos da embalagem (9 calorias por 100g, zero carboidratos, 100% vegano, selo ANAD), sem promessa de emagrecimento milagroso.
+- CTA padrão (proposta aguardando aprovação): **"Compre pelo link da bio"** com o site konjacmassamf.com.br na edição. Repertório: "Escolha sua linha.", "Monte seu kit.", "Experimente sua primeira receita.".
 - Quando citar a criadora ou criador: credencial sempre completa, **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
 
 ### REGRAS INEGOCIÁVEIS
 
-1. **Nunca usar travessão em texto público.** Reescrever a frase.
-2. Credencial sempre completa: **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
-3. Palavrão em vídeo **se bipa, não se corta** (sine 1000 Hz curto, voz mutada no trecho).
-4. Loudness final: **-14 LUFS**.
+Nomenclatura, vindas do briefing oficial (`assets/brand/BRIEFING-OFICIAL.md`, v2 de 2026-09-16):
+
+1. **Sempre "Konjac Massa®" por extenso**, apresentada como marca e nunca como tipo ou categoria de massa.
+2. **Nunca escrever "massa de konjac".**
+3. **"Konjac" é marca, nunca ingrediente.** Proibido "o konjac", "massa de konjac" e qualquer frase que diga que Konjac é uma fibra solúvel. A marca é **Konjac Massa®**, por extenso e com o registrado. A fibra solúvel da composição chama-se **glucomanano**.
+4. **Nunca caracterizar o produto como raiz.** Falar de composição, características e benefícios funcionais.
+5. **Evitar comparação direta com massas tradicionais.** Priorizar os diferenciais próprios.
+6. Diabetes sempre com a ressalva **"sob orientação de profissional de saúde"**.
+
+Produção, herdadas do estúdio:
+
+7. **Nunca usar travessão em texto público.** Reescrever a frase.
+8. Credencial sempre completa: **"PENDENTE (credencial completa de quem cria, para citação em texto público)"**.
+9. Palavrão em vídeo **se bipa, não se corta** (sine 1000 Hz curto, voz mutada no trecho).
+10. Loudness final: **-14 LUFS**.
 
 ## Pilares de conteúdo
 
-**PENDENTE**: definir com o primeiro briefing (tratar como hipóteses iniciais e validar com desempenho).
+v1 (hipóteses, validar com desempenho; detalhe em `assets/brand/BRAND.md`):
+
+1. Vida real (dor da rotina vira história)
+2. Educação Konjac Massa® (o que é o produto, preparo, qual linha escolher; a fibra é o glucomanano, a marca não é fibra)
+3. Ficha funcional (o que cada linha entrega: proteína, fibra, caloria, volume no prato). **Sem comparar com massa tradicional**, por regra do briefing oficial.
+4. Prova social (depoimentos, teste às cegas, creators)
+5. Receitas com desejo (payoff comercial, fechamento em compra)
+6. Comunidade e bastidores (VIPs, campanhas relâmpago, 31/08 Influencer Day)
+
+Regra de conversão em conteúdo comercial: site na edição, produto identificado (corte e linha), CTA claro, link na bio, link direto nos Stories.
+
+## Escolha do framework de motion: HyperFrames ou Remotion
+
+O estúdio mantém os dois, e a escolha **não é preferência do momento**: cada peça declara o seu no `BRIEFING.md`, na primeira linha. Sem isso, quem pegar o projeto depois não sabe onde mexer.
+
+**O que decide**: a ponte entre os dois só existe num sentido. Há a skill `remotion-to-hyperframes`; **não existe o inverso**. Então peça feita em HyperFrames é definitiva, e peça feita em Remotion ainda pode migrar. Na dúvida, Remotion é a aposta reversível.
+
+| Use **HyperFrames** quando | Use **Remotion** quando |
+|---|---|
+| É peça da série recorrente, na gramática já documentada | A peça é exceção, fora do padrão da série |
+| Você quer o fluxo pronto: brief, storyboard, registry de ~400 blocos, legendas, áudio, render em nuvem | A composição precisa de lógica de programação, dados ou parametrização |
+| O visual pedido já existe no registry (scanlines, glitch, gráfico, janela de terminal) | Você vai gerar **N variações** da mesma peça mudando nome, cupom, idioma ou número |
+| Ninguém vai reprocessar a peça em outro framework | Há chance real de a peça mudar de destino depois |
+
+**Padrão declarado: HyperFrames.** Ele é o que está integrado ao fluxo do estúdio e o que tem as 20 skills. O Remotion entra por decisão consciente, não por inércia.
+
+**Custo de manter os dois, para vigiar**: dois `node_modules`, dois caminhos de render e dois lugares onde a paleta pode divergir. O terceiro está mitigado, porque os tokens do Remotion vivem em `remotion/src/marca.ts`, mas **se a paleta da marca mudar, atualizar os dois lados**. Se em alguns meses o Remotion não tiver sido usado em nada, ele vira peso morto e se corta; o inverso não vale, porque o HyperFrames é o que sustenta o fluxo.
 
 ## Assinaturas de edição
 
 Padrão validado da agência:
 
 - Hook verbal ou visual + título na tela nos **2 primeiros segundos**.
-- Lettering condensado caps branco com sombra dura; acento colorido nas ênfases (cor da marca: **PENDENTE confirmar**; fonte: Helvetica Neue Condensed Black no Mac; Liberation Sans Bold como fallback Linux).
+- Lettering condensado caps branco com sombra dura; acento colorido nas ênfases (cor da marca: **roxo Konjac `#812779`**; em vídeo de um corte da linha BOX, usar a cor do corte, tabela em `assets/brand/BRAND.md`; fonte: Helvetica Neue Condensed Black no Mac; Liberation Sans Bold como fallback Linux).
 - Legendas frase a frase em branco (não karaokê), terço inferior, SEMPRE por último no filter chain.
 - Cortes secos; punch-ins de zoom 1.10 a 1.22x; freeze frames P&B com card para punchlines; cutaways como payoff de piada.
 - Palavrão não corta: **bipa**.
@@ -37,7 +78,7 @@ Padrão validado da agência:
 
 1. Hook em 1 linha (dor ou cena concreta, sem travessão)
 2. 2 a 3 parágrafos curtos
-3. CTA: **PENDENTE (CTA padrão da marca)**
+3. CTA: **"Compre pelo link da bio"** com o site konjacmassamf.com.br na edição (proposta aguardando aprovação do cliente). Repertório aprovado no estudo: "Escolha sua linha.", "Monte seu kit.", "Experimente sua primeira receita."
 4. Pergunta de engajamento
 
 ## Fluxo por vídeo

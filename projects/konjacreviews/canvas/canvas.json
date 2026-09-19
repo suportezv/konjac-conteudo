@@ -1,0 +1,71 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1200,
+      "h": 760,
+      "title": "Hero"
+    },
+    {
+      "file": "Card.dc.html",
+      "x": 1280,
+      "y": 0,
+      "w": 940,
+      "h": 700,
+      "title": "Anatomia do card"
+    },
+    {
+      "file": "Mobile.dc.html",
+      "x": 2280,
+      "y": 0,
+      "w": 390,
+      "h": 1750,
+      "title": "Mobile"
+    },
+    {
+      "file": "Galeria.dc.html",
+      "x": 0,
+      "y": 840,
+      "w": 1200,
+      "h": 9400,
+      "title": "Galeria completa (115)"
+    },
+    {
+      "file": "Perguntas.dc.html",
+      "x": 1280,
+      "y": 840,
+      "w": 940,
+      "h": 1180,
+      "title": "Perguntas e CTA"
+    },
+    {
+      "file": "EstruturaGEO.dc.html",
+      "x": 1280,
+      "y": 2100,
+      "w": 1000,
+      "h": 830,
+      "title": "Estrutura para IA"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "nota-fonte",
+      "x": 0,
+      "y": -150,
+      "w": 420,
+      "text": "Konjac Reviews\n115 vídeos únicos da pasta Prova Social, todos assistidos e transcritos.\nO conteúdo item a item está em BRIEFING-CONTEUDO.md."
+    },
+    {
+      "id": "nota-video",
+      "x": 2740,
+      "y": 0,
+      "w": 330,
+      "text": "Os vídeos aparecem como capa estática no canvas porque o mockup não carrega mídia externa. Em produção, cada card recebe a tag video com poster e preload none."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
