@@ -34,7 +34,7 @@ Briefing "Letícia - Konjac CUP 17/09" (Google Doc `1kJIZRggGVRdrI1TKvQXfmDU1uU2
 
 ## Pendências para o cliente antes de publicar
 
-1. Confirmar o nome do produto nas artes: "CUP Proteico" (briefing oficial e site) ou "CUP High Protein" (briefing da agência).
+1. **Fechada em 19/set, conferida no site.** "Cup Proteico" é o nome de marketing (menu "CUP PROTEICO 32G PROTEÍNA", página da Linha Proteica, seções da página de produto); "Konjac Massa® Cup High Protein Dry Noodles" é o nome de catálogo (composição de kits, URLs, título de SKU). Arte de feed usa o registro de marketing: as peças ficam com **Konjac Massa® CUP Proteico**. O design system vivo ainda escreve "Cup High Protein" e deveria alinhar com o menu do site.
 2. Confirmar a embalagem vigente: as fotos oficiais do site dizem "pronto em 3 minutos"; nas referências antigas aparecia "4 minutos".
 3. Corrigir no site a imagem da tabela nutricional do sabor frango: imprime "0,7 g" de fibras onde o %VD prova 6,7 g.
 4. Decidir se "caneta emagrecedora" fica na peça 07.
