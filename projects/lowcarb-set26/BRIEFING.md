@@ -58,3 +58,13 @@ Lição registrada no `CLAUDE.md`: pasta compartilhada por link aparece vazia no
 2. Prints dos 3 posts de Instagram citados como inspiração (05).
 3. Decisão: "Fonte de fibras" (oficial) ou "Rico em fibras" (briefing).
 4. Decisão: "Troque a massa tradicional" (briefing) ou contraste pelo objetivo (briefing oficial).
+
+## Versão 2 (20/set/2026): selos refeitos no padrão dos prints do cliente
+
+Retorno do cliente sobre a 07.2: "vc sempre comete os mesmos erros, já te mandei imagens como devem ser". Causa: tamanhos de tipo por selo para caber "carboidratos" e "por 100 g". Correção em todas as peças com faixa (01, 02, 03, 04, 05.7, 06.2, 07.2):
+
+- Selos agora são "9 / Kcal", "0 / Carb", "4g / Fibras", "Sem / Glúten" (por 100 g) e, na 06.2, "18 / Kcal", "0 / Carb", "8g / Fibras", "Sem / Glúten" (200 g). Tipo fixo 76/36/40 px em todos.
+- "Fonte de fibras" saiu; entrou o número "4g Fibras" (tabela: 8 g em 200 g). A decisão "fonte" versus "rico" só volta se o cliente quiser selo de texto.
+- Nota "Valores por 100 g de Konjac Massa® Low Carb." na base das peças com selos de 100 g. A 06.2 não precisa: o título já diz 200 g.
+- Peças sem faixa (05.1 a 05.6, 06.1, 06.3, 07.1) não mudaram.
+- Auditoria nova (tipo misto e selo vazio) limpa nas 7 peças.

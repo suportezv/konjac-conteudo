@@ -154,6 +154,18 @@ Decisões tomadas como referência da marca, a partir do briefing oficial, da ta
 - Auditoria `scripts/audita_selos.mjs` passou a reprovar também fonte diferente de Archivo ou peso abaixo de 800 dentro do selo, e imprime o preenchimento (texto até X% do raio do filete) para calibrar tamanho.
 - Fontes Archivo 800 e 900 adicionadas em `assets/fonts/`.
 
+### Revisão v6 (20/set/2026, quarto retorno do cliente: "vc sempre comete os mesmos erros")
+
+O cliente mandou o print da faixa de selos da peça 07.2 da Low Carb ("Zero carboidratos", "9kcal por 100 g", "Fonte de fibras", "Sem glúten") e repetiu que está fora do padrão dos prints que ele já tinha mandado. Ele tinha razão, e a causa foi o estúdio: para caber texto comprido dentro do selo ("carboidratos", "por 100 g"), o gerador da Low Carb criou tamanhos por selo (46/20 px num, 52/25 noutro, 28 no de texto), e a auditoria só media o tamanho do selo, a fonte e o peso, não o tipo dentro dele. Resultado: quatro selos na mesma linha com quatro massas de texto diferentes. O padrão certo é o dos prints da marca, e a regra passa a ser esta:
+
+- **Estrutura fixa, copiada dos prints**: selo de dado é **número grande em uma linha** e **rótulo curto em uma linha** ("9 / Kcal", "0 / Carb", "4g / Fibras", "18 / Kcal", "8g / Fibras", "32g / proteína", "6,7g / fibra"); selo de texto é **duas linhas grandes com a mesma massa** ("Sem / Glúten", "Rico em / Fibras"). Nada de terceira linha, unidade colada no número ou legenda longa.
+- **Três tamanhos de tipo por família, fixos, sem exceção por selo**: no selo de 224 px, número 76 px, rótulo 36 px, texto 40 px (Archivo 800, roxo). Se o texto não cabe, **encurta o texto**, nunca o tipo. Medidas tiradas dos prints: número com altura de caixa entre 22% e 26% do diâmetro, rótulo 11% a 12%, linha de texto 12% a 14%, bloco de texto ocupando de 36% a 47% da altura do selo.
+- **Rótulos em caixa inicial maiúscula** como nos prints ("Kcal", "Carb", "Fibras", "Sem Glúten").
+- **Base do valor fora do selo**: "por 100 g" vira nota discreta na base da arte ("Valores por 100 g de Konjac Massa® Low Carb."), como a marca já faz nos posts dela ("9 Kcal" sem base dentro do selo).
+- **"Fonte de fibras" virou "4g Fibras"** na Low Carb: número da tabela (8 g em 200 g), mesmo padrão de "6,7g fibra" que a marca usa no CUP, e elimina a disputa "fonte" versus "rico" (que continua registrada como decisão do cliente, se ele quiser texto).
+- **Família congelada do CUP (v5)**: as 8 peças entregues em 19/set ficam como estão, com a classe `selo v5` no HTML (número 52, rótulo 25, texto 28 px), porque os números do CUP são mais longos ("32g", "6,7g", "55%") e porque o cliente já recebeu e arquivou. Render conferido pixel a pixel depois da mudança: idêntico. Se o cliente quiser o CUP na proporção nova, é trocar a classe e encurtar dois rótulos.
+- **Auditoria**: `scripts/audita_selos.mjs` passou a reprovar **tipo misto** (a mesma classe `.n`, `.l`, `.t` ou `.big` com tamanhos diferentes na mesma peça) e **selo vazio** (bloco de texto abaixo de 34% da altura do selo), além de texto fora do filete, fonte ou peso errado e tamanho de selo misto. Selos `v5` são reportados como legado e não entram nas duas regras novas.
+
 ### Claims do CUP Proteico (fonte: tabela nutricional publicada no site, porção 62 g, sabor frango)
 
 | Usar | Não usar | Por quê |
