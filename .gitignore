@@ -9,6 +9,8 @@ projects/**/*.wav
 projects/**/*.m4a
 projects/**/*.MOV
 projects/**/*.png
+projects/**/*.jpg
+projects/**/*.jpeg
 projects/**/*.mp3
 projects/**/*.aac
 
