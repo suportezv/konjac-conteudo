@@ -28,16 +28,16 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--bg);font-f
 .selo{position:relative;width:224px;height:224px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--roxo);font-family:var(--corpo);filter:drop-shadow(0 6px 10px rgba(43,33,48,.14))}
 .peca > .selo{position:absolute;z-index:2}
 .selo svg{position:absolute;inset:0;width:100%;height:100%}
-/* Padrão v6 (20/set/2026, prints do cliente): numero grande em uma linha + rotulo em uma linha, ou texto em duas linhas com a mesma massa. Tres tamanhos fixos por selo de 224 px: numero 76, rotulo 36, texto 40. Nunca ajustar por selo: se nao cabe, encurta o texto. */
+/* Padrão v6 (20/set/2026, prints do cliente): numero grande em uma linha + rotulo em uma linha, ou texto em duas linhas com a mesma massa. Tres tamanhos fixos por selo de 224 px: numero 76, rotulo 36, texto 36. Nunca ajustar por selo: se nao cabe, encurta o texto. */
 .selo .n{position:relative;font-weight:800;font-size:76px;line-height:.88;letter-spacing:-.02em}
 .selo .n small{font-size:1em;font-weight:800}
 .selo .n sup{font-size:.4em;vertical-align:top;position:relative;top:-.1em;letter-spacing:0}
 .selo .l{position:relative;font-weight:800;font-size:36px;line-height:1;margin-top:2px}
-.selo .t{position:relative;font-weight:800;font-size:40px;line-height:1}
+.selo .t{position:relative;font-weight:800;font-size:36px;line-height:1.05}
 .selo .lbl{position:relative;font-weight:700;font-size:18px;line-height:1.1}
-.selo .big{position:relative;font-weight:800;font-size:40px;line-height:1;text-transform:uppercase}
-.selo.md{width:210px;height:210px}.selo.md .n{font-size:71px}.selo.md .l{font-size:34px}.selo.md .t{font-size:37px}.selo.md .big{font-size:37px}
-.selo.sm{width:170px;height:170px}.selo.sm .n{font-size:58px}.selo.sm .l{font-size:27px}.selo.sm .t{font-size:30px}.selo.sm .lbl{font-size:14px}.selo.sm .big{font-size:30px}
+.selo .big{position:relative;font-weight:800;font-size:36px;line-height:1.05;text-transform:uppercase}
+.selo.md{width:210px;height:210px}.selo.md .n{font-size:71px}.selo.md .l{font-size:34px}.selo.md .t{font-size:34px}.selo.md .big{font-size:34px}
+.selo.sm{width:170px;height:170px}.selo.sm .n{font-size:58px}.selo.sm .l{font-size:27px}.selo.sm .t{font-size:27px}.selo.sm .lbl{font-size:14px}.selo.sm .big{font-size:27px}
 /* Familia v5 (CUP High Protein, entregue em 19/set/2026): numeros longos ("32g", "6,7g", "55%") pedem numero menor. Congelado para as 8 pecas do CUP; peca nova usa o padrao acima. */
 .selo.v5 .n{font-size:52px;line-height:1}.selo.v5 .n small{font-size:.75em}.selo.v5 .l{font-size:25px;line-height:1.05;margin-top:4px;max-width:156px}.selo.v5 .t{font-size:28px;line-height:1.05;max-width:158px}.selo.v5 .big{font-size:32px;line-height:.95;margin:0 0 2px}
 .selo.sm.v5 .n{font-size:40px}.selo.sm.v5 .l{font-size:19px;max-width:118px;margin-top:3px}.selo.sm.v5 .t{font-size:21px;max-width:120px}.selo.sm.v5 .big{font-size:26px}

@@ -14,7 +14,7 @@ def selo(inner, cls='', style=''):
 # Selos no padrao dos prints do cliente (v6): numero grande + rotulo curto, ou duas linhas de texto. Sem tamanho por selo.
 S_KCAL = '<div class="n">9</div><div class="l">Kcal</div>'
 S_CARBO = '<div class="n">0</div><div class="l">Carb</div>'
-S_FIBRA = '<div class="n">4g</div><div class="l">Fibras</div>'
+S_FIBRA = '<div class="t">Rico em<br>Fibras</div>'  # texto por decisao do cliente (20/set); "rico" exige 6 g/100 g e a linha tem 4 g, risco registrado no BRIEFING
 S_GLUTEN = '<div class="t">Sem<br>Glúten</div>'
 NOTA100 = '<div class="nota nota100">Valores por 100 g de Konjac Massa® Low Carb.</div>\n'
 def faixa4(top=1066, left=48, gap=29, itens=(S_KCAL,S_CARBO,S_FIBRA,S_GLUTEN)):
@@ -97,7 +97,7 @@ slide_foto('05-7','carbonara-6.jpg','50% 62%', K+'<h1 class="display titulo">Nã
 # ---------- 06: carrossel, 3 slides ----------
 slide_foto('06-1','bolognesa-189-2.jpg','50% 55%', K+'<h1 class="display titulo">Essa macarronada tem <span class="acento">zero carboidratos</span> na massa.</h1>\n<div class="apoio" style="position:absolute;left:64px;top:486px;width:800px;font-size:36px;line-height:1.2">Não é truque. É Konjac Massa® Low Carb.</div>\n<div class="pill passe">Passe para o lado</div>\n'+cont(1,3), extra_css='.titulo{font-size:96px}')
 S_18='<div class="n">18</div><div class="l">Kcal</div>'
-S_8='<div class="n">8g</div><div class="l">Fibras</div>'
+S_8='<div class="n">8g</div><div class="l">Fibra</div>'  # singular como no print da marca ("6,7g fibra"); "Fibras" encosta no filete
 slide_foto('06-2','bolognesa-189-4.jpg','50% 58%', K+'<h1 class="display titulo"><span class="acento">200<span style="text-transform:none">g</span></span> de massa</h1>\n<div class="apoio" style="position:absolute;left:64px;top:262px;width:860px;font-size:34px;line-height:1.2">Uma porção generosa de Konjac Massa® Low Carb tem:</div>\n'+faixa4(itens=(S_18,S_CARBO,S_8,S_GLUTEN))+cont(2,3), extra_css='.titulo{font-size:128px}.contador{bottom:auto;top:1020px}')
 css063='''.k{position:absolute;left:64px;top:72px}
 .titulo{position:absolute;left:64px;top:112px;width:900px;font-size:100px;color:var(--branco)}

@@ -13,7 +13,7 @@ Nomenclatura, do briefing oficial (`assets/brand/BRIEFING-OFICIAL.md`):
 - **"Konjac" é nome de marca, nunca de ingrediente.** Não existe "o konjac", "massa de konjac" nem "Konjac é uma fibra solúvel". A marca é **Konjac Massa®**, sempre por extenso e com o registrado. Quando for preciso nomear a composição, o ingrediente é o **glucomanano** (fibra solúvel), nunca "konjac".
 - **Evitar comparação direta com massas tradicionais**: o contraste é com o objetivo do consumidor.
 - Diabetes sempre com **"sob orientação de profissional de saúde"**.
-- Claims só os oficiais, exatos, com a linha e o produto nomeados. Low Carb: zero carboidratos, 9 kcal por 100 g, fonte de fibras (glucomanano), sem glúten, vegano. Proteica: Power Espaguete 47 g de proteína e 13 g de fibras por 100 g, CUP Proteico 32 g de proteína e 6,7 g de fibras. Nunca misturar as promessas das duas linhas. Nunca prometer emagrecimento milagroso.
+- Claims só os oficiais, exatos, com a linha e o produto nomeados. Low Carb: zero carboidratos, 9 kcal por 100 g, fonte de fibras (glucomanano), sem glúten, vegano. Proteica: Power Espaguete 47 g de proteína e 13 g de fibras por 100 g, CUP Proteico 32 g de proteína e 6,7 g de fibras. Nunca misturar as promessas das duas linhas. Nunca prometer emagrecimento milagroso. Exceção decidida pelo cliente em 20/set/2026: selo **"Rico em Fibras"** nas artes da Low Carb, mesmo com 4 g/100 g (a norma pede 6 g para "rico"; o texto coberto é "Fonte de fibras"); risco registrado em `projects/lowcarb-set26/BRIEFING.md`, não reabrir sem ele pedir.
 
 Produção, herdadas do estúdio:
 
