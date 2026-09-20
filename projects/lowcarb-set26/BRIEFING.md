@@ -36,6 +36,10 @@ Lição registrada no `CLAUDE.md`: pasta compartilhada por link aparece vazia no
 - **06 slide 2**: 200 g = 18 kcal, zero carboidratos, 8 g de fibras, sem glúten. Fecha com a tabela (9 kcal/100 g; 8 g de fibras em 200 g).
 - **07 "lasanha"**: existe o corte Lasanha na Low Carb (mockup e cor no BRAND.md).
 
+## Entrega v1 (20/set/2026)
+
+16 PNG em `out/`: 01 a 04 (estáticos), 05-1 a 05-7, 06-1 a 06-3, 07-1 e 07-2 (slides dos carrosséis). Fotos usadas: 01 mockups oficiais (Espaguete, Penne, Fettuccine, Linguine, Pappardelle); 02 Carbonara-5; 03 Pappardelle-3; 04 Fettuccine-6; 05 humanizadas 6650, 6764, 6612, 6598 + Pappardelle-5 + MF40 + Carbonara-6; 06 Bolognesa-2 e -4 + slide roxo com mockups; 07 MF21 e MF45. Selos: 224 px, Archivo 800, auditoria limpa em todas.
+
 ## Peça a peça (plano)
 
 | # | Formato | Título | Foto | Selos |
