@@ -2,7 +2,7 @@
 
 Este repositório é o **Konjac Conteúdo Studio**: edição e agendamento de conteúdo para as redes da **Konjac**. Estúdio da agência com infraestrutura compartilhada; o posicionamento é o desta marca.
 
-**Antes de editar qualquer vídeo ou escrever qualquer caption, leia nesta ordem:** `assets/brand/BRIEFING-OFICIAL.md` (briefing v2 do cliente, fonte de verdade de posicionamento e nomenclatura), `assets/brand/BRAND.md` (design system da marca: paleta, claims, narrativa, pilares, assets) e `FRAMEWORK.md` (como o estúdio aplica isso). Onde houver divergência, o briefing oficial prevalece.
+**Antes de editar qualquer vídeo ou escrever qualquer caption, leia nesta ordem:** `assets/brand/MANUAL-KONJAC-MASSA-PARA-IA.md` (manual consolidado para IA, 21/set/2026: nomenclatura, claims exatos, sistema de arte, selo, checklist e decisões do cliente; é o que se entrega ao GPT ou a qualquer outro modelo), `assets/brand/BRIEFING-OFICIAL.md` (briefing v2 do cliente, fonte de verdade de posicionamento e nomenclatura), `assets/brand/BRAND.md` (design system da marca: paleta, claims, narrativa, pilares, assets) e `FRAMEWORK.md` (como o estúdio aplica isso). Onde houver divergência, o briefing oficial prevalece.
 
 ## Regras que valem em qualquer resposta pública
 
