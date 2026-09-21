@@ -1,0 +1,63 @@
+/* Konjac Massa® · base de peças estáticas de feed (1080x1350). Tokens do design system. */
+@font-face{font-family:"Barlow Condensed";font-weight:600;src:url(../assets/fonts/BarlowCondensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;src:url(../assets/fonts/BarlowCondensed-700.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:800;src:url(../assets/fonts/BarlowCondensed-800.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:400;src:url(../assets/fonts/Archivo-400.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:500;src:url(../assets/fonts/Archivo-500.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:600;src:url(../assets/fonts/Archivo-600.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:700;src:url(../assets/fonts/Archivo-700.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:800;src:url(../assets/fonts/Archivo-800.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-weight:900;src:url(../assets/fonts/Archivo-900.woff2) format("woff2")}
+:root{
+  --roxo:#812779; --roxo-escuro:#5f0923; --roxo-site:#7f2595; --menta:#a8dcda; --menta-claro:#dff0ef;
+  --branco:#ffffff; --tinta:#2b2130; --muted:#6e6175; --bg:#f6f3f0; --card:#fdfcfa; --borda:#ded5dc;
+  --verde:#004c28; --dourado:#d79b5c; --laranja:#fc9b30;
+  --display:"Barlow Condensed",sans-serif; --corpo:"Archivo",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden;background:var(--bg);font-family:var(--corpo);color:var(--tinta);-webkit-font-smoothing:antialiased}
+.peca{position:relative;width:1080px;height:1350px;overflow:hidden;padding:64px}
+.peca.roxa{background:var(--roxo);color:var(--branco)}
+.peca.menta{background:var(--menta-claro)}
+.logo{position:absolute;top:56px;right:64px;width:200px}
+.display{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.92;letter-spacing:-.005em}
+.kicker{font-family:var(--corpo);font-weight:600;font-size:22px;letter-spacing:3px;text-transform:uppercase;color:var(--muted)}
+.roxa .kicker{color:var(--menta)}
+.corpo{font-family:var(--corpo);font-weight:500;font-size:30px;line-height:1.3}
+/* Selo: número grande + legenda, no padrão dos posts da marca no Instagram */
+.selo{position:relative;width:224px;height:224px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--roxo);font-family:var(--corpo);filter:drop-shadow(0 6px 10px rgba(43,33,48,.14))}
+.peca > .selo{position:absolute;z-index:2}
+.selo svg{position:absolute;inset:0;width:100%;height:100%}
+/* Padrão v6 (20/set/2026, prints do cliente): numero grande em uma linha + rotulo em uma linha, ou texto em duas linhas com a mesma massa. Tres tamanhos fixos por selo de 224 px: numero 76, rotulo 36, texto 36. Nunca ajustar por selo: se nao cabe, encurta o texto. */
+.selo .n{position:relative;font-weight:800;font-size:76px;line-height:.88;letter-spacing:-.02em}
+.selo .n small{font-size:1em;font-weight:800}
+.selo .n sup{font-size:.4em;vertical-align:top;position:relative;top:-.1em;letter-spacing:0}
+.selo .l{position:relative;font-weight:800;font-size:36px;line-height:1;margin-top:2px}
+.selo .t{position:relative;font-weight:800;font-size:36px;line-height:1.05}
+.selo .lbl{position:relative;font-weight:700;font-size:18px;line-height:1.1}
+.selo .big{position:relative;font-weight:800;font-size:36px;line-height:1.05;text-transform:uppercase}
+.selo.md{width:210px;height:210px}.selo.md .n{font-size:71px}.selo.md .l{font-size:34px}.selo.md .t{font-size:34px}.selo.md .big{font-size:34px}
+.selo.sm{width:170px;height:170px}.selo.sm .n{font-size:58px}.selo.sm .l{font-size:27px}.selo.sm .t{font-size:27px}.selo.sm .lbl{font-size:14px}.selo.sm .big{font-size:27px}
+/* Familia v5 (CUP High Protein, entregue em 19/set/2026): numeros longos ("32g", "6,7g", "55%") pedem numero menor. Congelado para as 8 pecas do CUP; peca nova usa o padrao acima. */
+.selo.v5 .n{font-size:52px;line-height:1}.selo.v5 .n small{font-size:.75em}.selo.v5 .l{font-size:25px;line-height:1.05;margin-top:4px;max-width:156px}.selo.v5 .t{font-size:28px;line-height:1.05;max-width:158px}.selo.v5 .big{font-size:32px;line-height:.95;margin:0 0 2px}
+.selo.sm.v5 .n{font-size:40px}.selo.sm.v5 .l{font-size:19px;max-width:118px;margin-top:3px}.selo.sm.v5 .t{font-size:21px;max-width:120px}.selo.sm.v5 .big{font-size:26px}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border-radius:999px;background:var(--roxo);color:var(--branco);font-family:var(--display);font-weight:700;font-size:30px;text-transform:uppercase;letter-spacing:.02em}
+.pill.outline{background:transparent;border:3px solid var(--roxo);color:var(--roxo)}
+.roxa .pill{background:var(--branco);color:var(--roxo)}
+.roxa .selo{filter:drop-shadow(0 8px 14px rgba(0,0,0,.28))}
+.rodape{position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--corpo);font-weight:600;font-size:22px;color:var(--muted);letter-spacing:.5px}
+.roxa .rodape{color:rgba(255,255,255,.72)}
+.nota{font-family:var(--corpo);font-weight:400;font-size:17px;line-height:1.3;color:var(--muted);max-width:640px}
+.roxa .nota{color:rgba(255,255,255,.7)}
+.acento{color:var(--roxo)} .roxa .acento{color:var(--menta)}
+/* Família Editorial: fotografia real em sangria, lettering branco, selos na base */
+.peca.foto{background:var(--tinta);color:var(--branco)}
+.peca.foto .fundo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.peca.foto .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(64,12,60,.92) 0%,rgba(64,12,60,.62) 26%,rgba(64,12,60,0) 50%)}
+.peca.foto .base{position:absolute;left:0;right:0;bottom:0;height:420px;background:linear-gradient(180deg,rgba(64,12,60,0) 0%,rgba(64,12,60,.78) 100%)}
+.peca.foto .kicker{color:rgba(255,255,255,.88)}
+.peca.foto .titulo{color:var(--branco);text-shadow:0 3px 16px rgba(0,0,0,.35)}
+.peca.foto .acento{color:var(--menta)}
+.peca.foto .apoio{font-family:var(--corpo);font-weight:600;color:var(--branco);text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.peca.foto .selo{filter:drop-shadow(0 8px 14px rgba(0,0,0,.32))}
+.peca.foto .nota{color:rgba(255,255,255,.78)}
