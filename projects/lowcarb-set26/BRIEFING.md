@@ -68,3 +68,12 @@ Retorno do cliente sobre a 07.2: "vc sempre comete os mesmos erros, já te mande
 - Nota "Valores por 100 g de Konjac Massa® Low Carb." na base das peças com selos de 100 g. A 06.2 não precisa: o título já diz 200 g.
 - Peças sem faixa (05.1 a 05.6, 06.1, 06.3, 07.1) não mudaram.
 - Auditoria nova (tipo misto e selo vazio) limpa nas 7 peças.
+
+## Versão 4 (21/set/2026): carrossel 06 refeito; o resto foi corrigido pelo GPT no Drive
+
+Retorno do cliente sobre a 06.1: "ocultou a embalagem", "não soube trabalhar hierarquia da imagem", "Konjac Massa Low Carb no início do post sem necessidade", "a frase importante 'não é truque' sem hierarquia de fonte", "longe de qualquer referência". Todas procedentes: o título e o escurecimento cobriam a embalagem, a frase-chave era apoio pequeno, e o kicker repetia o que o logo já diz.
+
+- **06.1 refeita**: foto de cima (Bolognesa 189-4) com a embalagem inteira e legível embaixo à esquerda e a tigela à direita; texto no alto em três níveis: setup "Essa macarronada tem zero carboidratos na massa." (Archivo 600, 34 px), herói **"Não é truque."** (Barlow 800, 120 px, menta) e fecho "É Konjac Massa® Low Carb." (Archivo 700, 36 px). Sem kicker. Escurecimento só no topo, nunca sobre a embalagem.
+- **06.2**: tigela em close (Bolognesa 189-1), título "200g de massa", selos da porção. **06.3**: sem kicker, apoio subiu.
+- **Regra nova da família foto**: embalagem nunca fica sob texto, escurecimento ou selo; o escurecimento é local (elipse atrás do texto, `blob()` no gerador) mais uma base atrás da faixa de selos. Kicker retirado de todas as peças da Low Carb.
+- **Peças 01 a 05 e 07**: o cliente corrigiu com o GPT direto na pasta "LowCarb" do Drive (subpastas Post 01 a 04, Carrossel 01 e Carrossel - 02; a linguagem é a mesma do estúdio, com a embalagem ampliada e nítida em cena). **As versões válidas dessas peças são as do Drive**, não as do repo. O repo mantém a versão do estúdio sem kicker e com a embalagem livre, só como base de código.

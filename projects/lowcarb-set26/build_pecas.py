@@ -20,16 +20,23 @@ NOTA100 = '<div class="nota nota100">Valores por 100 g de Konjac Massa® Low Car
 def faixa4(top=1066, left=48, gap=29, itens=(S_KCAL,S_CARBO,S_FIBRA,S_GLUTEN)):
     return f'<div class="faixa" style="top:{top}px;left:{left}px;gap:{gap}px">' + ''.join(selo(i) for i in itens) + '</div>\n'
 
-def foto(n, img, pos, kicker, titulo, extra_css='', extra_html='', faixa=None):
-    css=f'''.k{{position:absolute;left:64px;top:72px}}
-.titulo{{position:absolute;left:64px;top:112px;width:800px;font-size:100px}}
+def blob(x,y,w,h,cx=35,cy=35,a=.92):
+    """Escurecimento local atras do texto: elipse suave, nao cobre a embalagem."""
+    return f'.peca.foto .scrim{{inset:auto;left:{x}px;top:{y}px;width:{w}px;height:{h}px;background:radial-gradient(ellipse at {cx}% {cy}%,rgba(64,12,60,{a}) 0%,rgba(64,12,60,{a*.8:.2f}) 38%,rgba(64,12,60,0) 72%)}}'
+BASE='.base{position:absolute;left:0;right:0;bottom:0;height:420px;background:linear-gradient(180deg,rgba(64,12,60,0) 0%,rgba(64,12,60,.78) 100%)}'
+def foto(n, img, pos, titulo, lado='esq', titulo_css='', extra_css='', extra_html='', faixa=None, scrim=None, logo_css=''):
+    x = '64px' if lado=='esq' else 'auto'
+    css=f'''.titulo{{position:absolute;top:84px;font-size:92px;{'left:64px;width:470px' if lado=='esq' else 'right:64px;left:500px;top:236px'};{titulo_css}}}
 .fundo{{object-position:{pos}}}
+{scrim or ''}
+{BASE}
 .faixa{{position:absolute;display:flex;align-items:center}}
 .nota100{{position:absolute;left:64px;top:1302px;max-width:900px}}
+.logo{{{logo_css}}}
 {extra_css}'''
     html=HEAD.format(css=css,cls=' foto')
-    html+=f'<img class="fundo" src="../img/{img}" alt="">\n<div class="scrim"></div>\n'+LOGO
-    html+=f'<div class="kicker k">{kicker}</div>\n<h1 class="display titulo">{titulo}</h1>\n'+extra_html+(faixa or faixa4())+NOTA100+FOOT
+    html+=f'<img class="fundo" src="../img/{img}" alt="">\n<div class="scrim"></div>\n<div class="base"></div>\n'+LOGO
+    html+=f'<h1 class="display titulo">{titulo}</h1>\n'+extra_html+(faixa or faixa4())+NOTA100+FOOT
     open(os.path.join(AQUI,'pecas',f'{n}.html'),'w',encoding='utf-8').write(html)
 
 # ---------- 01: linha, recortes oficiais em leque ----------
@@ -40,34 +47,37 @@ for idx in ordem:
     nome,rot,dx,dy=cortes[idx]
     pouches+=f'<img class="pouch" src="../img/mockup_{nome}.png" alt="" style="transform:translate({-dx}px,{dy}px) rotate({rot}deg)">\n'
 css01='''.k{position:absolute;left:64px;top:72px}
-.titulo{position:absolute;left:64px;top:112px;width:900px;font-size:100px}
+.titulo{position:absolute;left:64px;top:84px;width:900px;font-size:100px}
 .leque{position:absolute;left:0;right:0;top:400px;height:600px}
 .pouch{position:absolute;left:50%;top:0;width:300px;margin-left:-150px;transform-origin:50% 110%;filter:drop-shadow(0 18px 18px rgba(43,33,48,.22))}
 .apoio{position:absolute;left:64px;right:64px;top:986px;text-align:center;font-family:var(--corpo);font-weight:700;font-size:34px;color:var(--tinta)}
 .faixa{position:absolute;display:flex;align-items:center}
 .nota100{position:absolute;left:64px;top:1302px;max-width:900px}'''
 h=HEAD.format(css=css01,cls='')+LOGO
-h+='<div class="kicker k">Linha Low Carb Konjac Massa®</div>\n'
 h+='<h1 class="display titulo">Massa com <span class="acento">zero carboidratos</span> existe.</h1>\n'
 h+='<div class="leque">\n'+pouches+'</div>\n'
 h+='<div class="apoio">Escolha seu corte favorito.</div>\n'
 h+=f'<div class="faixa" style="top:1066px;left:164px;gap:40px">{selo(S_KCAL)}{selo(S_FIBRA)}{selo(S_GLUTEN)}</div>\n'+NOTA100+FOOT
 open(os.path.join(AQUI,'pecas','01.html'),'w',encoding='utf-8').write(h)
 
-# ---------- 02, 03, 04: foto ----------
-foto('02','carbonara-5.jpg','50% 62%','Konjac Massa® Low Carb','Macarronada <span class="acento">sem sair da dieta.</span>')
-foto('03','pappardelle-3.jpg','50% 58%','Konjac Massa® Low Carb','Quem disse que <span class="acento">macarronada</span> não cabe no emagrecimento?',
-     extra_css='.titulo{font-size:88px;width:840px}')
-foto('04','fettuccine-6.jpg','50% 60%','Konjac Massa® Low Carb','Quer macarronada <span class="acento">na dieta?</span>',
-     extra_css='.apoio{position:absolute;left:64px;top:372px;width:900px;font-size:34px;line-height:1.2}',
+# ---------- 02, 03, 04: foto, embalagem sempre livre ----------
+# 02: embalagem no alto a direita (foto descida ao maximo), titulo a esquerda; logo um pouco menor e mais alto para nao tocar a embalagem
+foto('02','carbonara-5.jpg','50% 0%','Macarronada <span class="acento">sem sair da dieta.</span>', lado='esq',
+     titulo_css='width:460px', scrim=blob(-160,-120,820,600,45,40), logo_css='width:180px;top:44px')
+# 03: embalagem (desfocada) a esquerda, titulo a direita sob o logo
+foto('03','pappardelle-5.jpg','50% 0%','Quem disse que <span class="acento">macarronada</span> não cabe no emagrecimento?', lado='dir',
+     titulo_css='font-size:76px;left:520px', scrim=blob(380,120,760,560,62,42))
+# 04: embalagem a esquerda, titulo e apoio a direita
+foto('04','fettuccine-6.jpg','50% 0%','Quer macarronada <span class="acento">na dieta?</span>', lado='dir',
+     titulo_css='font-size:88px;top:224px', scrim=blob(360,110,780,560,62,40),
+     extra_css='.apoio{position:absolute;left:500px;right:64px;top:484px;font-size:31px;line-height:1.25}',
      extra_html='<div class="apoio">A massa da sua dieta é Konjac Massa® Low Carb.</div>\n')
 print('pecas 01-04 geradas')
 
 # ================= CARROSSÉIS =================
-CSS_SLIDE_FOTO='''.k{position:absolute;left:64px;top:72px}
-.titulo{position:absolute;left:64px;top:112px;width:860px;font-size:100px}
+CSS_SLIDE_FOTO='''.titulo{position:absolute;left:64px;top:84px;width:860px;font-size:100px}
 .faixa{position:absolute;display:flex;align-items:center}
-.perfil{position:absolute;left:64px;right:64px;top:160px;display:flex;flex-direction:column;gap:56px}
+.perfil{position:absolute;left:64px;right:64px;top:120px;display:flex;flex-direction:column;gap:56px}
 .perfil .item{display:flex;gap:26px;align-items:flex-start}
 .perfil .item i{flex:0 0 14px;width:14px;height:92px;border-radius:7px;background:var(--menta);margin-top:8px}
 .perfil .item b{font-family:var(--display);font-weight:800;font-size:92px;line-height:.94;text-transform:uppercase;color:var(--branco);text-shadow:0 3px 16px rgba(0,0,0,.35)}
@@ -76,13 +86,13 @@ CSS_SLIDE_FOTO='''.k{position:absolute;left:64px;top:72px}
 .nota{position:absolute;left:64px;right:64px;bottom:64px}
 .nota100{position:absolute;left:64px;right:auto;bottom:auto;top:1302px;max-width:900px}
 '''
-def slide_foto(nome, img, pos, corpo, extra_css='', scrim_full=False):
-    css=CSS_SLIDE_FOTO+('.scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.7) 45%,rgba(64,12,60,.45) 100%)}' if scrim_full else '')+extra_css
-    html=HEAD.format(css=css,cls=' foto')+f'<img class="fundo" src="../img/{img}" alt="">\n<div class="scrim"></div>\n'+LOGO+corpo+FOOT
+def slide_foto(nome, img, pos, corpo, extra_css='', scrim_full=False, scrim=None, base=False):
+    css=CSS_SLIDE_FOTO+('.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.7) 45%,rgba(64,12,60,.45) 100%)}' if scrim_full else '')+(scrim or '')+(BASE if base else '')+extra_css
+    html=HEAD.format(css=css,cls=' foto')+f'<img class="fundo" src="../img/{img}" alt="">\n<div class="scrim"></div>\n'+('<div class="base"></div>\n' if base else '')+LOGO+corpo+FOOT
     open(os.path.join(AQUI,'pecas',f'{nome}.html'),'w',encoding='utf-8').write(html)
 def perfis(*itens):
     return '<div class="perfil">'+''.join(f'<div class="item"><i></i><b>{t}</b></div>' for t in itens)+'</div>\n'
-K='<div class="kicker k">Konjac Massa® Low Carb</div>\n'
+K=''  # kicker retirado a pedido do cliente (21/set): o logo ja identifica a marca
 def cont(i,n): return f'<div class="contador">{i} / {n}</div>\n'
 
 # ---------- 05: carrossel, 7 slides ----------
@@ -92,21 +102,27 @@ slide_foto('05-3','hum-6612.jpg','50% 35%', K+perfis('Quer controlar as calorias
 slide_foto('05-4','hum-6598.jpg','50% 50%', K+perfis('Tem diabetes*','Tem doença celíaca')+'<div class="nota">*Sob orientação de profissional de saúde.</div>\n'+cont(4,7), scrim_full=True, extra_css='.contador{bottom:112px}')
 slide_foto('05-5','pappardelle-5.jpg','50% 55%', K+perfis('É vegano ou vegetariano')+cont(5,7), scrim_full=True)
 slide_foto('05-6','MF40.jpg','50% 50%', K+perfis('É atleta','Precisa de praticidade')+cont(6,7), scrim_full=True)
-slide_foto('05-7','carbonara-6.jpg','50% 62%', K+'<h1 class="display titulo">Não abre mão de comer uma <span class="acento">massa deliciosa.</span></h1>\n<div class="apoio" style="position:absolute;left:64px;top:490px;font-size:36px">Conheça a linha Low Carb.</div>\n'+faixa4()+NOTA100+cont(7,7), extra_css='.titulo{font-size:96px}.contador{bottom:auto;top:1020px}')
+slide_foto('05-7','carbonara-6.jpg','34% 62%', K+'<h1 class="display titulo">Não abre mão de comer uma <span class="acento">massa deliciosa.</span></h1>\n<div class="apoio" style="position:absolute;left:64px;top:470px;font-size:34px">Conheça a linha Low Carb.</div>\n'+faixa4()+NOTA100+cont(7,7), extra_css='.titulo{font-size:84px;width:470px}.contador{bottom:auto;top:1020px}', scrim=blob(-160,-120,820,700,45,40), base=True)
 
 # ---------- 06: carrossel, 3 slides ----------
-slide_foto('06-1','bolognesa-189-2.jpg','50% 55%', K+'<h1 class="display titulo">Essa macarronada tem <span class="acento">zero carboidratos</span> na massa.</h1>\n<div class="apoio" style="position:absolute;left:64px;top:486px;width:800px;font-size:36px;line-height:1.2">Não é truque. É Konjac Massa® Low Carb.</div>\n<div class="pill passe">Passe para o lado</div>\n'+cont(1,3), extra_css='.titulo{font-size:96px}')
+css061='''.setup{position:absolute;left:64px;width:600px;top:84px;font-family:var(--corpo);font-weight:600;font-size:34px;line-height:1.2;color:var(--branco);text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.heroi{position:absolute;left:64px;width:760px;top:174px;font-family:var(--display);font-weight:800;font-size:120px;line-height:.92;text-transform:uppercase;color:var(--menta);text-shadow:0 3px 16px rgba(0,0,0,.35);white-space:nowrap}
+.fecho{position:absolute;left:64px;width:760px;top:300px;font-family:var(--corpo);font-weight:700;font-size:36px;line-height:1.2;color:var(--branco);text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.passe{right:64px;bottom:64px}
+.contador{left:auto;right:64px;bottom:150px;text-align:right}'''
+# 06.1: foto de cima (embalagem inteira e legivel embaixo a esquerda, tigela a direita), texto no alto com a frase-chave como heroi
+slide_foto('06-1','bolognesa-189-4.jpg','50% 22%', '<div class="setup">Essa macarronada tem zero carboidratos na massa.</div>\n<div class="heroi">Não é truque.</div>\n<div class="fecho">É Konjac Massa® Low Carb.</div>\n<div class="pill passe">Passe para o lado</div>\n'+cont(1,3), extra_css=css061, scrim='.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.62) 22%,rgba(64,12,60,0) 34%)}')
 S_18='<div class="n">18</div><div class="l">Kcal</div>'
 S_8='<div class="n">8g</div><div class="l">Fibra</div>'  # singular como no print da marca ("6,7g fibra"); "Fibras" encosta no filete
-slide_foto('06-2','bolognesa-189-4.jpg','50% 58%', K+'<h1 class="display titulo"><span class="acento">200<span style="text-transform:none">g</span></span> de massa</h1>\n<div class="apoio" style="position:absolute;left:64px;top:262px;width:860px;font-size:34px;line-height:1.2">Uma porção generosa de Konjac Massa® Low Carb tem:</div>\n'+faixa4(itens=(S_18,S_CARBO,S_8,S_GLUTEN))+cont(2,3), extra_css='.titulo{font-size:128px}.contador{bottom:auto;top:1020px}')
+slide_foto('06-2','bolognesa-189-1.jpg','50% 40%', K+'<h1 class="display titulo"><span class="acento">200<span style="text-transform:none">g</span></span> de massa</h1>\n<div class="apoio" style="position:absolute;left:64px;top:230px;width:860px;font-size:34px;line-height:1.2">Uma porção generosa de Konjac Massa® Low Carb tem:</div>\n'+faixa4(itens=(S_18,S_CARBO,S_8,S_GLUTEN))+cont(2,3), extra_css='.titulo{font-size:128px}.contador{bottom:auto;top:1020px}', scrim_full=False, scrim='.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.6) 30%,rgba(64,12,60,0) 50%)}', base=True)
 css063='''.k{position:absolute;left:64px;top:72px}
-.titulo{position:absolute;left:64px;top:112px;width:900px;font-size:100px;color:var(--branco)}
-.apoio{position:absolute;left:64px;top:560px;width:820px;font-family:var(--corpo);font-weight:600;font-size:38px;line-height:1.25;color:var(--branco)}
+.titulo{position:absolute;left:64px;top:84px;width:900px;font-size:100px;color:var(--branco)}
+.apoio{position:absolute;left:64px;top:400px;width:820px;font-family:var(--corpo);font-weight:600;font-size:38px;line-height:1.25;color:var(--branco)}
 .leque{position:absolute;left:0;right:0;top:700px;height:520px}
 .pouch{position:absolute;left:50%;top:0;width:280px;margin-left:-140px;transform-origin:50% 110%;filter:drop-shadow(0 18px 18px rgba(0,0,0,.35))}
 .cta{position:absolute;left:64px;top:1214px}
 .contador{position:absolute;right:64px;bottom:72px;font-family:var(--corpo);font-weight:700;font-size:22px;letter-spacing:2px;color:rgba(255,255,255,.85)}'''
-h=HEAD.format(css=css063,cls=' roxa')+LOGO+'<div class="kicker k">Konjac Massa® Low Carb</div>\n'
+h=HEAD.format(css=css063,cls=' roxa')+LOGO
 h+='<h1 class="display titulo">Não abra mão de comer uma <span class="acento">massa deliciosa.</span></h1>\n'
 h+='<div class="apoio">Escolha uma massa que combina com a sua estratégia.</div>\n<div class="leque">\n'
 for nome,rot,dx,dy in [('pappardelle',-12,150,40),('linguine',12,-150,40),('espaguete',0,0,0)]:
@@ -115,6 +131,6 @@ h+='</div>\n<div class="pill cta">Conheça a linha Low Carb no site</div>\n<div 
 open(os.path.join(AQUI,'pecas','06-3.html'),'w',encoding='utf-8').write(h)
 
 # ---------- 07: 2 slides ----------
-slide_foto('07-1','MF21.jpg','50% 60%', K+'<h1 class="display titulo">Low carb não precisa ser omelete e salada todo dia.</h1>\n<div class="apoio" style="position:absolute;left:64px;top:520px;width:860px;font-family:var(--display);font-weight:800;font-size:76px;line-height:.96;text-transform:uppercase;color:var(--menta)">Pode ser uma deliciosa lasanha.</div>\n<div class="pill passe">Passe para o lado</div>\n'+cont(1,2), extra_css='.titulo{font-size:92px;width:900px}')
-slide_foto('07-2','MF45.jpg','50% 45%', K+'<h1 class="display titulo">Mais variedade no cardápio. <span class="acento">Sem sair da sua estratégia.</span></h1>\n'+faixa4(itens=(S_KCAL,S_CARBO,S_FIBRA,S_GLUTEN))+NOTA100+cont(2,2), extra_css='.titulo{font-size:92px;width:900px}.contador{bottom:auto;top:1020px}')
+slide_foto('07-1','MF21.jpg','50% 60%', K+'<h1 class="display titulo">Low carb não precisa ser omelete e salada todo dia.</h1>\n<div class="apoio" style="position:absolute;left:64px;top:520px;width:860px;font-family:var(--display);font-weight:800;font-size:76px;line-height:.96;text-transform:uppercase;color:var(--menta)">Pode ser uma deliciosa lasanha.</div>\n<div class="pill passe">Passe para o lado</div>\n'+cont(1,2), extra_css='.titulo{font-size:92px;width:900px}', scrim='.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.65) 40%,rgba(64,12,60,0) 62%)}')
+slide_foto('07-2','MF45.jpg','50% 45%', K+'<h1 class="display titulo">Mais variedade no cardápio. <span class="acento">Sem sair da sua estratégia.</span></h1>\n'+faixa4(itens=(S_KCAL,S_CARBO,S_FIBRA,S_GLUTEN))+NOTA100+cont(2,2), extra_css='.titulo{font-size:92px;width:900px}.contador{bottom:auto;top:1020px}', scrim_full=False, scrim='.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.85) 0%,rgba(64,12,60,.5) 28%,rgba(64,12,60,0) 46%)}', base=True)
 print('carrosseis gerados')
