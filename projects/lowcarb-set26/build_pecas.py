@@ -86,9 +86,9 @@ CSS_SLIDE_FOTO='''.titulo{position:absolute;left:64px;top:84px;width:860px;font-
 .nota{position:absolute;left:64px;right:64px;bottom:64px}
 .nota100{position:absolute;left:64px;right:auto;bottom:auto;top:1302px;max-width:900px}
 '''
-def slide_foto(nome, img, pos, corpo, extra_css='', scrim_full=False, scrim=None, base=False):
+def slide_foto(nome, img, pos, corpo, extra_css='', scrim_full=False, scrim=None, base=False, logo=True):
     css=CSS_SLIDE_FOTO+('.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.7) 45%,rgba(64,12,60,.45) 100%)}' if scrim_full else '')+(scrim or '')+(BASE if base else '')+extra_css
-    html=HEAD.format(css=css,cls=' foto')+f'<img class="fundo" src="../img/{img}" alt="">\n<div class="scrim"></div>\n'+('<div class="base"></div>\n' if base else '')+LOGO+corpo+FOOT
+    html=HEAD.format(css=css,cls=' foto')+f'<img class="fundo" src="../img/{img}" alt="">\n<div class="scrim"></div>\n'+('<div class="base"></div>\n' if base else '')+(LOGO if logo else '')+corpo+FOOT
     open(os.path.join(AQUI,'pecas',f'{nome}.html'),'w',encoding='utf-8').write(html)
 def perfis(*itens):
     return '<div class="perfil">'+''.join(f'<div class="item"><i></i><b>{t}</b></div>' for t in itens)+'</div>\n'
@@ -105,14 +105,32 @@ slide_foto('05-6','MF40.jpg','50% 50%', K+perfis('É atleta','Precisa de pratici
 slide_foto('05-7','carbonara-6.jpg','34% 62%', K+'<h1 class="display titulo">Não abre mão de comer uma <span class="acento">massa deliciosa.</span></h1>\n<div class="apoio" style="position:absolute;left:64px;top:470px;font-size:34px">Conheça a linha Low Carb.</div>\n'+faixa4()+NOTA100+cont(7,7), extra_css='.titulo{font-size:84px;width:470px}.contador{bottom:auto;top:1020px}', scrim=blob(-160,-120,820,700,45,40), base=True)
 
 # ---------- 06: carrossel, 3 slides ----------
-css061='''.fundo{width:115%;height:115%;left:0;top:0;object-position:0 0}
-.titulo{position:absolute;left:520px;right:64px;width:auto;top:196px;font-size:78px;line-height:.94}
-.sub{position:absolute;left:520px;right:64px;top:596px;font-family:var(--corpo);font-weight:800;font-size:38px;line-height:1.2;color:var(--menta);text-shadow:0 2px 10px rgba(0,0,0,.4)}
-.sub small{display:block;font-size:31px;font-weight:600;color:var(--branco);margin-top:6px}
-.contador{bottom:auto;top:1020px;left:auto;right:64px}'''
-# 06.1: mesma composicao que o cliente aprovou no GPT (embalagem em pe e grande, tigela em primeiro plano, texto em coluna),
-# com a foto real (Bolognesa 189-2 ampliada), selos da marca e logo. Sem kcal nos selos para nao brigar com os 18 Kcal da porcao no 06.2.
-slide_foto('06-1','bolognesa-189-2.jpg','0 0', '<h1 class="display titulo">Essa macarronada tem <span class="acento">zero carboidratos</span> na massa.</h1>\n<div class="sub">Não é truque.<small>É Konjac Massa® Low Carb.</small></div>\n'+faixa4(top=1066,left=164,gap=40,itens=(S_CARBO,S_FIBRA,S_GLUTEN))+cont(1,3), extra_css=css061, scrim=blob(380,80,760,720,62,44,.95), base=True)
+ICONE_KCAL='<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="#fff" stroke-width="3"/><text x="50" y="66" text-anchor="middle" font-family="Barlow Condensed" font-weight="700" font-size="52" fill="#fff">9</text></svg>'
+ICONE_FIBRA='<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="#fff" stroke-width="3"/><path d="M30 70c0-24 16-40 42-40 0 26-14 40-38 40" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"/><path d="M32 70c8-14 18-24 30-32" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>'
+ICONE_GLUTEN='<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="#fff" stroke-width="3"/><path d="M50 30v42M50 42c-6-2-10-8-10-14 6 0 10 5 10 14zm0 0c6-2 10-8 10-14-6 0-10 5-10 14zm0 12c-6-2-10-8-10-14 6 0 10 5 10 14zm0 0c6-2 10-8 10-14-6 0-10 5-10 14z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M28 72L72 28" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></svg>'
+def icone(svg,rotulo): return f'<div class="ic">{svg}<span>{rotulo}</span></div>'
+css061='''.fundo{width:115%;height:115%;left:-15%;top:0;object-position:100% 0}
+.pouch{position:absolute;left:606px;top:-56px;width:436px;filter:drop-shadow(-14px 22px 22px rgba(30,10,30,.45)) sepia(.18) saturate(1.05) brightness(.97)}
+.titulo{position:absolute;left:64px;top:76px;width:560px;font-size:64px;line-height:.98}
+.titulo b{font-weight:800;font-size:96px;line-height:.92;display:block}
+.titulo i{font-style:normal;color:var(--menta)}
+.regra{position:absolute;left:64px;top:404px;width:56px;height:5px;background:var(--menta);border-radius:3px}
+.caixa{position:absolute;left:36px;top:432px;padding:20px 30px 22px 28px;border-radius:0 26px 26px 0;background:rgba(58,10,54,.9);font-family:var(--corpo);text-transform:uppercase;letter-spacing:.02em}
+.caixa .l1{font-weight:500;font-size:30px;line-height:1.25;color:var(--branco)}
+.caixa .l2{font-weight:800;font-size:31px;line-height:1.25;color:var(--menta)}
+.icones{position:absolute;left:64px;right:64px;top:1130px;display:flex;align-items:center;justify-content:space-between}
+.ic{display:flex;flex-direction:column;align-items:center;gap:10px;flex:1}
+.ic svg{width:96px;height:96px}
+.ic span{font-family:var(--corpo);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase;color:var(--branco);text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.sep{width:2px;height:130px;background:rgba(255,255,255,.55)}
+.base{height:520px}'''
+# 06.1: composicao aprovada pelo cliente na versao do GPT (texto a esquerda com hierarquia interna, caixa de destaque, embalagem em pe a direita, tigela embaixo, icones de linha no rodape).
+# Foto espelhada para trazer a tigela para a esquerda; a embalagem espelhada fica coberta pelo mockup oficial (rotulo correto, nunca gerado por IA).
+corpo061=('<img class="pouch" src="../img/mockup_linguine.png" alt="">\n'
+ '<h1 class="display titulo">Essa macarronada <b>tem <i>zero</i></b><i>carboidratos</i> na <b>massa.</b></h1>\n<div class="regra"></div>\n'
+ '<div class="caixa"><div class="l1">Não é truque.</div><div class="l2">É Konjac Massa® Low Carb.</div></div>\n'
+ '<div class="icones">'+icone(ICONE_KCAL,'9 kcal')+'<div class="sep"></div>'+icone(ICONE_FIBRA,'Rico em fibras')+'<div class="sep"></div>'+icone(ICONE_GLUTEN,'Sem glúten')+'</div>\n')
+slide_foto('06-1','bolognesa-189-2-esp.jpg','100% 0', corpo061, extra_css=css061, scrim='.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.88) 0%,rgba(64,12,60,.55) 30%,rgba(64,12,60,0) 52%)}', base=True, logo=False)
 S_18='<div class="n">18</div><div class="l">Kcal</div>'
 S_8='<div class="n">8g</div><div class="l">Fibra</div>'  # singular como no print da marca ("6,7g fibra"); "Fibras" encosta no filete
 slide_foto('06-2','bolognesa-189-1.jpg','50% 40%', K+'<h1 class="display titulo"><span class="acento">200<span style="text-transform:none">g</span></span> de massa</h1>\n<div class="apoio" style="position:absolute;left:64px;top:230px;width:860px;font-size:34px;line-height:1.2">Uma porção generosa de Konjac Massa® Low Carb tem:</div>\n'+faixa4(itens=(S_18,S_CARBO,S_8,S_GLUTEN))+cont(2,3), extra_css='.titulo{font-size:128px}.contador{bottom:auto;top:1020px}', scrim_full=False, scrim='.peca.foto .scrim{background:linear-gradient(180deg,rgba(64,12,60,.9) 0%,rgba(64,12,60,.6) 30%,rgba(64,12,60,0) 50%)}', base=True)

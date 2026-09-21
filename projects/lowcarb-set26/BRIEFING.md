@@ -77,3 +77,14 @@ Retorno do cliente sobre a 06.1: "ocultou a embalagem", "não soube trabalhar hi
 - **06.2**: tigela em close (Bolognesa 189-1), título "200g de massa", selos da porção. **06.3**: sem kicker, apoio subiu.
 - **Regra nova da família foto**: embalagem nunca fica sob texto, escurecimento ou selo; o escurecimento é local (elipse atrás do texto, `blob()` no gerador) mais uma base atrás da faixa de selos. Kicker retirado de todas as peças da Low Carb.
 - **Peças 01 a 05 e 07**: o cliente corrigiu com o GPT direto na pasta "LowCarb" do Drive (subpastas Post 01 a 04, Carrossel 01 e Carrossel - 02; a linguagem é a mesma do estúdio, com a embalagem ampliada e nítida em cena). **As versões válidas dessas peças são as do Drive**, não as do repo. O repo mantém a versão do estúdio sem kicker e com a embalagem livre, só como base de código.
+
+## Versão 5 da 06.1 (21/set/2026): copiar a composição aprovada, sem defender a própria
+
+Cliente: "pq vc nunca consegue entregar um resultado tão bom quanto o gpt? sua falta de padronização e harmonia, e claramente vc não sabe o que é hierarquia de texto". A causa, dita sem rodeio:
+
+1. O estúdio vinha resolvendo **regras** (auditoria de selo, nada sobre a embalagem, componentes da marca) em vez de **compor**. Cada rodada consertava a reclamação anterior e quebrava a composição. O GPT partiu da composição.
+2. O estúdio se recusou a mexer na foto por princípio ("embalagem nunca gerada por IA"). O GPT espelhou a cena e repintou a embalagem, e foi isso que fez a peça funcionar. O caminho do meio, que deveria ter sido o primeiro: **espelhar a foto e cobrir a embalagem espelhada com o mockup oficial** (`mockup_linguine.png`, rótulo real). Feito agora: `bolognesa-189-2-esp.jpg` + `.pouch` com tinta quente (`sepia(.18)`) e sombra para assentar na cena.
+3. Hierarquia: o estúdio usava um tamanho de título e só a cor como ênfase. O GPT usa **degraus de tamanho dentro do próprio título** ("ESSA MACARRONADA" 64 px, "TEM ZERO" 96 px, "CARBOIDRATOS NA" 64 px em menta, "MASSA." 96 px), um filete menta e uma **caixa de destaque** roxa para a segunda mensagem ("Não é truque." regular branco, "É Konjac Massa® Low Carb." menta negrito). Aplicado.
+4. Rodapé com **ícones de linha** (9 kcal, Rico em fibras, Sem glúten, SVG inline) em vez dos selos brancos, porque foi essa a versão que o cliente aprovou para esta peça; os selos seguem nas outras. Sem logo nesta peça: a embalagem em pé ocupa o canto e já carrega a marca.
+
+Regra que fica: **quando o cliente aprova uma composição de terceiro, reproduzir a composição fielmente e só então melhorar o que for verificável (rótulo real, tipografia da marca). Nunca trocar a composição aprovada por uma "mais correta".**
